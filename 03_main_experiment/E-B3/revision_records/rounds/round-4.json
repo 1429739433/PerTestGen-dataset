@@ -1,0 +1,107 @@
+{
+  "round": 4,
+  "status": "completed",
+  "parent_ids": [
+    "r3-p0-c0"
+  ],
+  "candidate_ids": [
+    "r4-p0-c0"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 5,
+    "remaining_question_slots": 12,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q9",
+      "q20",
+      "q16",
+      "q11",
+      "q1",
+      "q22"
+    ],
+    "contributions": {
+      "q9": 3.0,
+      "q11": 9.25,
+      "q16": 6.5,
+      "q22": 3.0,
+      "q12": 1.5,
+      "q1": 7.0,
+      "q20": 0.5
+    },
+    "selected_mass": 0.9512195121951219,
+    "weighted_penalty_total": 30.75,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q1",
+      "q11",
+      "q16",
+      "q22",
+      "q9"
+    ],
+    "authorized_issue_ids": [
+      "q1-science",
+      "q1-specification",
+      "q1-science-veto",
+      "q9-science",
+      "q9-science-veto",
+      "q11-science",
+      "q11-skills",
+      "q11-specification",
+      "q11-science-veto",
+      "q16-science",
+      "q16-skills",
+      "q16-difficulty_cognition",
+      "q16-specification",
+      "q20-specification",
+      "q22-science"
+    ],
+    "priority_dimensions": [
+      "science",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": [
+      "q12"
+    ],
+    "stalled_question_attempts": {
+      "q11": 1,
+      "q3": 1,
+      "q16": 1,
+      "q13": 1,
+      "q2": 1,
+      "q1": 1
+    },
+    "repair_dimension_candidates": {
+      "science": [
+        "q1",
+        "q9",
+        "q11",
+        "q12",
+        "q16",
+        "q22"
+      ],
+      "skills": [
+        "q11",
+        "q16"
+      ],
+      "specification": [
+        "q1",
+        "q11",
+        "q16",
+        "q20"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r4-p0-c0"
+  ]
+}

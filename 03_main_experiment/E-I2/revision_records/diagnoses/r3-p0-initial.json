@@ -1,0 +1,215 @@
+{
+  "D": [
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干条件自洽缺陷：第一步为“足量”稀盐酸，碳酸钠应完全消耗且溶液甲含过量HCl并显酸性，再滴加氢氧化钙应先中和过量盐酸，不会立即出现“产生白色沉淀”，流程图现象与“足量”限定矛盾；且按题面条件D项所述反应在溶液甲中无从发生（无Na₂CO₃剩余）。另“足量稀盐酸”与后续“产生白色沉淀”表述矛盾，影响读题。",
+      "suggestion": "将第一步改为“滴加适量稀盐酸至恰好不再产生气泡”，使溶液甲中碳酸钠耗尽、盐酸不过量，则后续滴加氢氧化钙产生白色沉淀成立；同步核对D项“钠离子数目减少”仍为错误项（Na⁺由Na₂CO₃转入NaOH，数目不变），保持B唯一正确。评分要点中C项“含过量盐酸”的排除理由须随题干修改同步调整。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "第(5)问采分点示例“步骤2加入的氯化钙溶液过量较多，使清液中碱性过弱”在初中化学框架下不成立：过量CaCl₂不消耗NaOH，溶液碱性不会因此显著减弱，该条不应作为与“不变红”一致的合理原因给分。因该采分点注明“合理即可”且另列未静置取清液、酚酞过少或失效等正确原因，仅示例有误，不阻断其他正确作答得分。",
+      "suggestion": "删除“氯化钙过量较多使碱性过弱”这一错误示例，保留“未静置取清液/混有沉淀/未混匀”“酚酞滴加量过少或失效”等正确原因；可在答案中补充“步骤2氯化钙不足导致碳酸钠残留”作为与“变红”方向相反的干扰说明，避免与第(5)问方向混淆。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "scoring_points共5分：第(3)问含三个空，但“若改为加入氢氧化钙溶液会造成干扰的原因”一空无对应采分点；第(2)问采分点只覆盖“不能证明不含碳酸钠”，未覆盖参考答案中“不能确定稀盐酸恰好完全反应（盐酸可能过量）”这一采分内容。答案与评分要点不完整对应。",
+      "suggestion": "在5分总额内重新分配采分点：明确(1)NaCl 1分、HCl 1分；(2)判断不严谨并说明碳酸钠显碱性干扰1分；(3)选氯化钙1分、说明除尽碳酸钠排除干扰1分；将“氢氧化钙生成NaOH引入OH⁻”一空改为不单独计分的补充说明，或在题干中删去该空以保持分值与采分点一一对应。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "answer对象键编号“(1)/(2)/(3)”与题干编号错位：题干(1)含两个空（应分别为Na⁺和CO₃²⁻），(2)才是OH⁻；answer键值结构与题干空位不对应，阅卷时须依scoring_points而非answer键名。",
+      "suggestion": "将answer改为与题干空位一一对应的结构，如{\"(1)第一空\":\"Na⁺\",\"(1)第二空\":\"CO₃²⁻\",\"(2)\":\"OH⁻\"}，并保持scoring_points三项各2分共6分不变。"
+    },
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "science",
+        "difficulty_cognition"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干将“红色恰好褪去”与pH=7对应，而酚酞褪色范围约在pH8.2—10，褪色先于pH=7出现，“恰好褪去”与pH由9.0降至7.0的对应表述略欠精确；另等级4干扰排除任务标注easy偏轻，学生须理解“①无气泡不等于不含碳酸钠”。",
+      "suggestion": "将③阶段表述改为“溶液红色褪去后继续滴加，pH由9.0降至7.0，气泡产生停止”，使褪色与pH=7不再强行对应；C项结论依据改为“pH=7且气泡停止”判定两者完全反应。难度标注可在冻结字段外由上游复核，A6不改难度标签。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_condition",
+      "cause": "“足量稀盐酸”使碳酸钠完全消耗且溶液甲含过量HCl，与后续“产生白色沉淀”矛盾，D项所述反应在溶液甲中无从发生。",
+      "acceptance_criteria": "第一步改为“滴加适量稀盐酸至恰好不再产生气泡”；溶液甲中碳酸钠耗尽、盐酸不过量，滴加氢氧化钙产生白色沉淀成立；B项仍为唯一正确（配平正确），A未配平、C漏过量盐酸判断改为“溶液甲含NaCl”，D钠离子数目不变仍为错误项；评分要点逐项排除理由与修改后题干一致。",
+      "issue_ids": [
+        "q9-science",
+        "q9-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "fix_scoring_point",
+      "cause": "第(5)问采分点示例“氯化钙过量较多使碱性过弱”在初中化学框架下不成立。",
+      "acceptance_criteria": "删除该错误示例；保留未静置取清液、酚酞过少或失效等正确原因；采分点仍为2分且注明“合理即可，须与不变红方向一致”；答案与采分点方向一致，不再出现与“不变红”矛盾的示例。",
+      "issue_ids": [
+        "q22-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "fix_scoring_point",
+      "cause": "第(3)问氢氧化钙干扰原因一空无采分点，第(2)问未覆盖“盐酸可能过量”采分内容，答案与评分要点不完整对应。",
+      "acceptance_criteria": "5分采分点与题干空位一一对应：(1)NaCl 1分、HCl 1分；(2)判断不严谨并说明碳酸钠显碱性干扰1分；(3)选氯化钙1分、说明除尽碳酸钠排除干扰1分；氢氧化钙干扰原因改为不单独计分的补充说明或在题干中删去该空；总分仍为5分。",
+      "issue_ids": [
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC6",
+      "operator": "fix_answer_structure",
+      "cause": "answer键编号与题干空位错位，题干(1)两空、(2)一空，answer却按(1)(2)(3)排列。",
+      "acceptance_criteria": "answer结构与题干空位一一对应（(1)第一空Na⁺、(1)第二空CO₃²⁻、(2)OH⁻）；scoring_points三项各2分共6分不变；阅卷依scoring_points可无歧义判分。",
+      "issue_ids": [
+        "q19-science",
+        "q19-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_condition",
+      "cause": "“红色恰好褪去”与pH=7强行对应，酚酞褪色先于pH=7出现，表述欠精确。",
+      "acceptance_criteria": "③阶段改为“溶液红色褪去后继续滴加，pH由9.0降至7.0，气泡产生停止”；C项依据“pH=7且气泡停止”判定两者完全反应；A、B、D排除理由不变，答案唯一性保持；难度标签不改。",
+      "issue_ids": [
+        "q2-science",
+        "q2-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0ce071b1a4eb800c8c0e34f69b5203ff9f254473d49a31cbe8bdf438818f0670"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "7e9097ba3ceff5280b5e523da741a9da35a46f7dbe62173c4e8a07c85a8a907b"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "216cf129dfa159419ffcb06b94cab72574aa0ab0043c8d3b6ca1079b69f2d363"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "e608abc9744de5b406b731e322a6893e5bcefc2754f01db4c26bdac1cd278e2a"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "d6fbf31403fbd9ef20810d1dd1305085bb5330740e7756af92d224d5e714d98c"
+    }
+  }
+}

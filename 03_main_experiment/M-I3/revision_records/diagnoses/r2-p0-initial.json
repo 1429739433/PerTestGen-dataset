@@ -1,0 +1,308 @@
+{
+  "D": [
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification",
+        "difficulty_cognition"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干表格与文字自述模型矛盾（40.0 g处表格为0.44 g而文字称无气体），答案(2)5.3 g与总气体1.10 g不符（应为2.65 g），答案(3)10.4%对应NaCl约18.6 g超出样品钠元素上限14.625 g；题干混入大量命题草稿元叙述，情境前后不一致。",
+      "suggestion": "重写整题：清理全部元叙述，统一情境为部分变质NaOH样品；使表格数据与所采用反应模型线性自洽（如0-40 g无气体、40-80 g每20 g产气相等），并同步修正答案与评分点，使Na₂CO₃质量、溶质质量分数可由题给数据唯一核验。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC7",
+      "root_cause_detail": "正确项C的原因表述“潮解吸收的水分在溶解时蒸发吸热抵消溶解放热”为科学错误（吸水成为溶剂，室温不蒸发吸热），温升不明显的真实原因是单位质量样品中NaOH质量分数降低；第2采分点基于该错误机理；题干未说明等量取样致质量比较基准不清。",
+      "suggestion": "重写选项与评分点：将C的原因改为“吸水后样品中NaOH质量分数降低，单位质量样品放热减少”，干扰项改为明确错误表述；题干明确“各取等质量少量固体”，评分点按现象与原因各1分重设。"
+    },
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "science",
+        "specification",
+        "coverage",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "root_cause_detail": "由5.0 g CaCO₃推得CO₂ 2.2 g、Na₂CO₃ 5.3 g、Ca(OH)₂ 3.7 g，故A、B、C三项均正确，单选不唯一；评分点内含自我修正草稿并承认A、C正确，给分规则失效；题干直接给出两步方程式，学生未书写方程式，目标知识点“方程式书写”未落实。",
+      "suggestion": "重写选项与评分点：保留唯一正确项（如仅B正确，A改为10.6 g、C改为100%、D改为10.0 g），删除评分点内草稿文字；题干不直接给出方程式，改为要求先写出两步方程式再判断，以落实书写子内容。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "skills"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干(2)把酚酞由红变无断言为“恰好完全反应”，酚酞变色范围约pH8.2~10，褪色仅表明碱性显著减弱，不能精确断定恰好中和；设问(3)属溶液酸碱性与pH关系（N1范畴）的前置知识延伸。",
+      "suggestion": "将(2)设问改为“说明氢氧化钠与稀盐酸发生了反应”，评分点相应调整；保留(1)(3)及分值，无需改动答案数值。"
+    },
+    {
+      "question_id": "q5",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 5,
+      "root_cause": "RC4",
+      "root_cause_detail": "蓝图knowledge_topic为“除去氢氧化钠溶液中碳酸钠杂质的试剂选择”，实际任务为“检验是否含碳酸钠”，与q9、q14重复考查检验主题，而“除去杂质”条目在本卷无题落实。",
+      "suggestion": "在冻结蓝图内将本题任务改为除杂试剂选择与判断（如选出能除去碳酸钠且不引入新杂质的试剂并说明依据），与q9、q14的检验任务区分，落实“除去杂质”知识点。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "root_cause_detail": "N1二级任务条件要求“依据给出的关键关系或步骤提示”，题干未给出潮解与溶解放热的提示，学生需自行回忆；判断仍为easy级直接对应，不影响作答。",
+      "suggestion": "在题干中补入“氢氧化钠易潮解、溶于水放热”的提示信息，使任务条件与N1二级一致，选项与答案不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_item",
+      "cause": "题干表格与文字模型矛盾、答案与数据不符、答案超出元素守恒上限、题面混入命题草稿元叙述，需整体重写。",
+      "acceptance_criteria": "1) 题干无任何命题内部草稿或元叙述，情境统一为部分变质NaOH样品；2) 表格数据与所采用反应模型线性自洽，且与文字描述一致；3) 由题给数据可唯一算出Na₂CO₃质量与溶质质量分数，答案与评分点逐项对应且经复算成立；4) 保持题号、题型、10分、知识点、N3、综合、medium不变。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification",
+        "q23-difficulty_cognition",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_scoring",
+      "cause": "正确项原因表述为科学错误，采分点基于该错误机理，质量比较基准不清。",
+      "acceptance_criteria": "1) 正确项原因改为“吸水后样品中NaOH质量分数降低，单位质量样品放热减少”，无蒸发吸热错误机理；2) 干扰项均为明确错误表述，逐项可排除，单选唯一；3) 题干明确等质量取样；4) 评分点与3分对应且不含错误机理；5) 保持题型、分值、知识点、N1、识记、easy不变。",
+      "issue_ids": [
+        "q8-science",
+        "q8-specification",
+        "q8-skills",
+        "q8-difficulty_cognition",
+        "q8-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_scoring",
+      "cause": "A、B、C三项均正确致单选不唯一，评分点含草稿并承认多真，题干直接给出方程式致书写子内容未落实。",
+      "acceptance_criteria": "1) 四个选项中仅一项正确，其余三项数值或表述明确错误；2) 评分点无自我修正文字，与3分及唯一正确项对应；3) 题干不直接给出两步方程式，学生须先书写再判断；4) 保持题型、分值、知识点、N3、应用、medium不变。",
+      "issue_ids": [
+        "q15-science",
+        "q15-specification",
+        "q15-coverage",
+        "q15-skills",
+        "q15-difficulty_cognition",
+        "q15-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "revise_stem_and_scoring",
+      "cause": "设问(2)把酚酞褪色断言为恰好完全反应，属科学表述不精确。",
+      "acceptance_criteria": "1) (2)设问改为“说明氢氧化钠与稀盐酸发生了反应”，不再断言恰好中和；2) 评分点相应调整，1+2+2=5分不变；3) 答案“红；无”“减小”不变；4) 保持题型、分值、知识点、N5、理解、easy不变。",
+      "issue_ids": [
+        "q21-science",
+        "q21-skills",
+        "q21-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "root_cause": "RC4",
+      "operator": "rewrite_task",
+      "cause": "实际任务为检验碳酸钠，与q9、q14重复，而“除去杂质”知识点无题落实。",
+      "acceptance_criteria": "1) 任务改为除杂试剂选择与判断，学生须选出能除去碳酸钠且不引入新杂质的试剂并说明依据；2) 与q9、q14的检验任务明确区分；3) 保持题型、分值、知识点、N5、理解、easy不变。",
+      "issue_ids": [
+        "q5-coverage"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC3",
+      "operator": "revise_stem",
+      "cause": "题干缺少N1二级要求的潮解与溶解放热提示信息。",
+      "acceptance_criteria": "1) 题干补入“氢氧化钠易潮解、溶于水放热”的提示；2) 选项与答案B不变；3) 保持题型、分值、知识点、N1、识记、easy不变。",
+      "issue_ids": [
+        "q1-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6eb51b3a38a14b3b27722531fb7dd148cdf6aa52f759d539f6c70192ffb4d262"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "4ba457f9a69c1f2b2a2e72267902a034b2aef93a05357610f61ea5314cebc6e8"
+    },
+    "q5": {
+      "question_id": "q5",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "75b3163e7caee88f563ff4883f09db35f21a3ec816815f5fa7d7f9ccb67f989f"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.answer",
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "14593e9a8eb8e1283428c003241524b952120a985cdf57c22086eec8d1d5dbac"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a13b86edad26a193d8ff9a540ab145183c9824fb0c00d5bfb6a495080c27a6c4"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "skills.dimension",
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "8993202c77942110f94be35bf024c144e653f9419993c2b757bc6dfcd8fa5f2a"
+    }
+  }
+}

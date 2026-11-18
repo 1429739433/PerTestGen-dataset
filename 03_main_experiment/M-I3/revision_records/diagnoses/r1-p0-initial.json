@@ -1,0 +1,296 @@
+{
+  "D": [
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification",
+        "difficulty_cognition"
+      ],
+      "penalty": 50,
+      "root_cause": "RC7",
+      "suggestion": "重写整题：统一反应模型与数据。建议采用初中标准模型（NaOH先中和、Na₂CO₃再与盐酸反应产气），给出盐酸溶质质量分数，使各段产气量与样品组成自洽；删除题干中全部命题草稿与自我修正文字，只保留一个情境；同步重算答案(2)(3)与评分点，确保NaCl质量不超过样品钠元素上限。"
+    },
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "science",
+        "specification",
+        "coverage",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 50,
+      "root_cause": "RC7",
+      "suggestion": "重写选项使唯一正确：保留B为正确项，将A改为错误数值（如10.6 g）、C改为错误分数（如100%）、D改为错误质量（如10.0 g）；清理scoring_points中的自我修正文字，改为按B的推导链给分；在设问中要求先写出①②两步方程式再判断，以落实'方程式书写'子内容。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC7",
+      "suggestion": "重写选项C的原因表述：温升不明显的合理原因是敞口样品中NaOH质量分数降低（吸水稀释），删除'水分蒸发吸热抵消溶解放热'的错误机制；同步修正第2、3采分点；其余选项保持与题干已知（NaOH溶解放热）不冲突。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "skills"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "suggestion": "将(2)设问由'说明氢氧化钠与稀盐酸恰好完全反应'改为'说明两者发生了反应'（与同卷q16表述一致）；评分点2的判分理由随之调整，颜色填空'红→无'不变。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "在题干中给出物质类别（酸、碱、盐）及名称，要求先依据类别和化合价写出化学式，再判断所给配对正误并指出错误之处；选项保留现有四个配对，使选出C需完成自主书写环节，落实N3三级行为。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "将答案(3)与评分点3的'酚酞不变红说明无氢氧化钠'改述为'清液不呈碱性，在初中定性检验精度内可认为不含氢氧化钠'，或在题干已知信息中补充该精度限定；结论'全部变质'不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_item",
+      "cause": "题干自述分步模型与表格数据矛盾（40-60g与60-80g各耗20g盐酸产气0.44g与0.66g不等），答案(2)5.3g与总气体1.10g不符（应为2.65g），答案(3)10.4%对应NaCl约18.6g超过样品钠元素上限14.625g；题干混入大量命题草稿文字，情境前后不一致。",
+      "acceptance_criteria": "1) 题干只保留一个自洽情境，无任何命题草稿或自我修正文字；2) 给出稀盐酸溶质质量分数，表格各段产气量与所选反应模型严格线性自洽；3) 由表中总气体量按方程式算出的Na₂CO₃质量与答案一致；4) 答案(3)的NaCl质量不超过样品钠元素全部转化为NaCl的上限，且溶液质量计算口径明确；5) 评分点与答案逐项对应、合计10分。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification",
+        "q23-difficulty_cognition",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "root_cause": "RC7",
+      "operator": "rewrite_item",
+      "cause": "由5.0g沉淀推得CO₂ 2.2g、Na₂CO₃ 5.3g、质量分数50%，A、B、C三项均正确，单选无唯一答案；scoring_points含自我修正文字并承认A、C正确；题干直接给出两步方程式，学生无需书写，'方程式书写'子内容未落实。",
+      "acceptance_criteria": "1) 四个选项中仅一个数值正确，其余三项数值经独立核算均错误；2) 参考答案与唯一正确项一致；3) 评分点无草稿文字，按正确项的推导链给分，合计3分；4) 设问要求先写出①②两步化学方程式再作判断，使'书写方程式'成为必答任务。",
+      "issue_ids": [
+        "q15-science",
+        "q15-specification",
+        "q15-coverage",
+        "q15-skills",
+        "q15-difficulty_cognition",
+        "q15-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC7",
+      "operator": "rewrite_item",
+      "cause": "正确选项C的原因表述'潮解吸收的水分在溶解时蒸发吸热，抵消部分溶解放热'是科学错误：被吸收的水在加水溶解时成为溶剂，室温下不会蒸发吸热；温升不明显的实际原因是单位质量样品中NaOH减少。第2、3采分点据此错误机理给分。",
+      "acceptance_criteria": "1) 正确选项的原因表述改为'敞口样品吸水后NaOH质量分数降低，单位质量放热减少'，不再出现蒸发吸热抵消的机制；2) 其余三个选项均与题干已知'NaOH溶解放热'不冲突且可判错；3) 三个采分点各1分、合计3分，判分理由与修正后的正确选项一致。",
+      "issue_ids": [
+        "q8-science",
+        "q8-skills",
+        "q8-difficulty_cognition",
+        "q8-specification",
+        "q8-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "patch_stem",
+      "cause": "设问(2)把酚酞由红变无断言为'恰好完全反应'；酚酞变色范围约pH8.2~10，褪色只表明碱性显著减弱，不能精确断定恰好中和。",
+      "acceptance_criteria": "1) 设问(2)改为'说明两者发生了反应'或等效表述，不再出现'恰好完全反应'的精确断定；2) 颜色填空'红→无'与答案不变；3) 评分点1+2+2=5分与分值对应，判分理由与修改后设问一致。",
+      "issue_ids": [
+        "q21-science",
+        "q21-skills",
+        "q21-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC1",
+      "operator": "patch_stem",
+      "cause": "题干仅要求判断名称与化学式配对正误，学生直接核验即可选出C，无需依据类别和化合价自主书写化学式，N3三级行为未落实。",
+      "acceptance_criteria": "1) 题干给出物质类别（酸、碱、盐）及名称，明确要求先依据类别和化合价写出化学式，再判断所给配对正误并指出错误之处；2) 四个选项保持现有配对，选出C必须经过自主书写环节；3) 答案C与3分采分点不变。",
+      "issue_ids": [
+        "q10-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "patch_answer",
+      "cause": "答案(3)与评分点3由酚酞不变红直接断言'样品中不含氢氧化钠'，超出指示剂定性精度，无独立pH或定量证据支持。",
+      "acceptance_criteria": "1) 答案(3)与评分点3改述为'清液不呈碱性，在初中定性检验精度内可认为不含氢氧化钠'，或在题干已知信息中补充该精度限定；2) 结论'全部变质'与2+4+4=10分的分值结构不变；3) 设问(2)的推理链不受影响。",
+      "issue_ids": [
+        "q22-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6eb51b3a38a14b3b27722531fb7dd148cdf6aa52f759d539f6c70192ffb4d262"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "a3ae6e6ac199944a980ac94949d95ad0a5b00c5cb469dec49d9b1fa7e53a1780"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "213afb2ac2dab9bd792ed5dbc98d77d68e993f503826843c49adbd64bb8c3dda"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.answer",
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "14593e9a8eb8e1283428c003241524b952120a985cdf57c22086eec8d1d5dbac"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a13b86edad26a193d8ff9a540ab145183c9824fb0c00d5bfb6a495080c27a6c4"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "skills.dimension",
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "8993202c77942110f94be35bf024c144e653f9419993c2b757bc6dfcd8fa5f2a"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "D": [
+    {
+      "question_id": "q7",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "重写选项使唯一正确：保留C为正确项；将A改为存在明确书写错误的方程式（如未配平或化学式错误），B修正为合法化学式但保留沉淀符号缺失等可判错误，D保持未配平；同时按蓝图二级行为在题干中要求先归纳盐与酸、碱反应通性再判断，评分点改为'选出唯一正确项C得3分'并核对选项唯一性。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "suggestion": "将(2)设问与答案改为不宣称精确等当点的表述，如'当观察到溶液由红色恰好变为无色时，说明此时酸与碱已发生反应、溶液碱性消失'，或补充pH计读数证据；评分点相应改为描述褪色现象并说明其为操作终点而非pH=7判据，保持5分结构与N5二级行为。"
+    },
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC7",
+      "suggestion": "修正参考答案(2)为约9.2%（12.72375/137.8），并清理评分点中内嵌草稿、将分值重新分配为合计10分；同时修正数据表中间点：将60 g对应产气改为约1.46 g，或删除60 g列、改为只给终点'产生气体总质量2.2 g'，使表格与方程式、样品组成及80 g恰好完全反应条件自洽；保留知识点、题型、分值与N3二级计算行为。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q7",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_task",
+      "cause": "选项A与C均为书写完全正确的方程式，题面不能确定唯一正确项；且归纳结论已在题干给出，学生实际只做正误辨认，未落实N3二级'归纳通性并写出代表性方程式'行为。",
+      "acceptance_criteria": "四个选项中仅C正确；A、B、D各含至少一处可独立判定的明确错误（化学式、配平或沉淀/气体符号）；题干要求学生先归纳盐与酸、碱反应通性再判断；评分点与3分一致且答案唯一。",
+      "issue_ids": [
+        "q7-science",
+        "q7-difficulty_cognition",
+        "q7-specification",
+        "q7-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "revise_stem_answer_and_scoring",
+      "cause": "(2)把酚酞由红色变为无色当作恰好完全反应（pH=7）的精确判据，而褪色时溶液pH仍可高于8.2，证据不足；该问2分且评分点固化了不严谨结论。",
+      "acceptance_criteria": "(2)设问与答案不再宣称仅凭褪色即可断定恰好完全中和，改为描述褪色作为操作终点或补充独立pH证据；其余(1)(3)(4)答案与评分点保持正确；总分仍为5分，符合N5二级'在提示下完成简单检验并得出结论'。",
+      "issue_ids": [
+        "q21-science",
+        "q21-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "correct_answer_table_and_scoring",
+      "cause": "参考答案(2)10.4%与独立核算9.2%矛盾；数据表60 g/1.1 g与题给方程式、样品组成及80 g恰好完全反应条件不能同时成立；评分点合计11分且内嵌草稿。",
+      "acceptance_criteria": "答案(2)为约9.2%（12.72375/137.8）；数据表各点与方程式及80 g恰好完全反应自洽（60 g点约1.46 g或删除该列）；评分点合计恰为10分、无草稿文字；保留题型、知识点、分值与N3二级计算行为。",
+      "issue_ids": [
+        "q23-science",
+        "q23-difficulty_cognition",
+        "q23-specification",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "numeric_models": [],
+  "edit_scopes": {
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "d6d3fa8be868dc220351e99cd604bbb1d57d0b515f75378f68b97cff905ef314"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6c6a7d0f11ead7348bd0c90f46d423bea1a28490d322b4027700c20f023f07ad"
+    },
+    "q7": {
+      "question_id": "q7",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "51e192d6aa560baa2219ecfe1b91946b4822969e18c54c43425a252dc310d640"
+    }
+  }
+}

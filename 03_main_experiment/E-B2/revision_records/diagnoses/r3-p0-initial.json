@@ -1,0 +1,286 @@
+{
+  "D": [
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC7",
+      "suggestion": "重写第(2)问的粒子示意图与答案：使过程图明确显示OH⁻多于H⁺（如○ ○ ◇ ◇ ◆ ●，并说明Cl⁻随盐酸带入），或改为给出已反应量与剩余量信息；同步修正参考答案与采分点计数，使'碱'性判断及依据可由题面唯一推出。第(1)(3)问保留。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "suggestion": "在保持单选、3分、N5、easy与'应用'不变的前提下，将干扰项由教材显性规范改为需两步评估的情境（如湿润试纸对酸性/碱性测定偏差方向不同、浓硫酸稀释错误操作的具体后果判断），提高多步筛选强度以贴合N5 level 4。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "重写题干条件与设问：将'过量铁粉'改为'加入一定量铁粉'或明确滤液甲中仍含盐酸与CuCl₂，使(2)的'先…后…'两空有确定对象；将'可能混入氯化铜'改为确定混入或删去Cu相关设问，使(1)'一定含有'与(3)滤渣成分可唯一推出；同步修正答案与采分点。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "skills"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "suggestion": "修改第(3)问导电性设问：或补充'忽略加入盐酸带入的Cl⁻'等必要假设并给出离子浓度信息，或将设问改为可由'OH⁻减少、Na⁺不变'直接推出的结论（如溶液中离子总数变化趋势），并相应调整2分采分点；同时增加干扰信息以贴合'综合'层级。"
+    },
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "在保持单选、3分、N4、medium与'综合'不变的前提下，将任务改为混合体系中反应进程与产物推理（如向含NaOH和Na₂CO₃的混合液滴加稀盐酸，依据分步条件推理各阶段溶质），替换现有以证据充分性评估为主的选项设计。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "suggestion": "精简scoring_points为逐项一句话排除理由，删去'酸碱恰好中和（或接近中性）'等与指示剂终点边界条件冲突的表述；在C项说明中明确'只含有'的绝对化依据（酚酞亦为溶质、pH记录精度不足以断定无盐酸过量），避免自相矛盾的草稿式推理。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q16",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "第(2)问过程图'○ ○ ◇ ◆ ●'中OH⁻与H⁺各1个，无法读出'OH⁻多于H⁺'，而参考答案称'OH⁻为2个、H⁺为1个'，答案与题面矛盾，该小问2分采分依据不可由题面推出。",
+      "acceptance_criteria": "修改后的过程图明确显示OH⁻数目多于H⁺（或给出已反应量信息），学生仅凭图示即可唯一判断溶液呈碱性；参考答案与采分点计数与图示一致；第(1)(3)问答案不变；总分仍为6分，采分点合计6分。",
+      "issue_ids": [
+        "q16-science",
+        "q16-science-veto",
+        "q16-specification",
+        "q16-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC3",
+      "operator": "revise_options",
+      "cause": "错误选项的判断规则（试纸湿润、酸入水）均为教材显性规范，学生可直接对照识记规则排除，多步推理强度低于N5 level 4'自主筛选条件、整合多条关系'的要求。",
+      "acceptance_criteria": "修改后至少两个干扰项需学生整合两条以上关系（如湿润试纸对酸/碱测定偏差方向、错误稀释操作的具体后果）才能排除；仍为单选、3分、N5、easy、应用层级；正确项唯一且与参考答案一致。",
+      "issue_ids": [
+        "q6-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "步骤①加入'过量铁粉'必然耗尽盐酸，滤液甲只含FeCl₂，而(2)设问预设'先与氯化铜、后与稀盐酸反应'两个对象均不存在；'可能混入氯化铜'使(1)'一定含有Cu'与(3)滤渣含Cu无法成立，答案与题面矛盾。",
+      "acceptance_criteria": "修改后滤液甲成分确定且与(2)两空对象一致；'一定含有'类设问的答案可由题面条件唯一推出；参考答案与采分点逐空对应，总分仍为6分；仍为填空、N4、medium、综合层级。",
+      "issue_ids": [
+        "q20-science",
+        "q20-science-veto",
+        "q20-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC7",
+      "operator": "revise_stem_and_answer",
+      "cause": "第(3)问仅给出'OH⁻减少、Na⁺不变'，但加入盐酸同时带入等量Cl⁻，由所给条件推不出'导电性先减弱至pH=7最弱'，该2分采分结论依赖题面未给的迁移率假设。",
+      "acceptance_criteria": "修改后导电性结论可由题面给出的离子信息与必要假设唯一推出，或设问改为可由'OH⁻减少、Na⁺不变'直接推出的结论；采分点与设问对应，总分仍为6分；仍为填空、N2、easy。",
+      "issue_ids": [
+        "q19-science",
+        "q19-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "root_cause": "RC1",
+      "operator": "rewrite_task_requirement",
+      "cause": "题干实际要求评估'CO₂与NaOH是否反应'实验证据的充分性并辨析检验方案，对应N5实验探究行为，而非N4'在复杂混合体系中综合多种反应条件推理反应进程及产物'。",
+      "acceptance_criteria": "修改后学生必答任务为混合体系中反应进程与产物推理（如依据分步条件推理各阶段溶质变化），与N4 level 4行为一致；仍为单选、3分、medium、综合层级；正确项唯一且与参考答案一致。",
+      "issue_ids": [
+        "q15-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC7",
+      "operator": "revise_scoring_points",
+      "cause": "scoring_points中排除C的说明含自相矛盾的草稿式推理，且'酸碱恰好中和（或接近中性）'的表述与指示剂终点边界条件冲突，会误导阅卷教师。",
+      "acceptance_criteria": "scoring_points精简为逐项一句话排除理由，不含'恰好完全中和'等与指示剂终点冲突的断言；C项排除依据明确为'只含有'绝对化（酚酞亦为溶质、pH记录精度不足）；参考答案D与3分不变。",
+      "issue_ids": [
+        "q1-science",
+        "q1-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "3e60566bbb7a74742e0c1f95abff051de789c88b0f0d29601a728bc3d7951642"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "333bd5d59b44fe8de1863b356f823c13403caa9766489f49d879c192fb7bc6df"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7a0d2c5e86381a75214da803c93f085cf592728c9a5d3a8192275f458260ba1b"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "5d700e4c85aa864c75934778f2aabc7685258f05d146eda1c021c06e80b4202f"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "5fe8c3a0630ea627353cb2e7b2ccf6baac94e4dc0da55189d526cdfb85d7aff5"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2dac78847f1aff9e065ae370f93b086c95e902e916e8cb952badb35af02914e6"
+    }
+  }
+}

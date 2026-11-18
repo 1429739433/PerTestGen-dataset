@@ -1,0 +1,294 @@
+{
+  "D": [
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 50,
+      "root_cause": "RC7",
+      "suggestion": "重写题干约束与选项：将'不引入新杂质'明确为'不残留所加试剂带来的新离子（反应生成的可溶性盐不计为新杂质）'，并给出区分BaCl₂与CaCl₂的判据（如限定'所加试剂须为钡盐'或'生成沉淀的溶解度/后续检验要求'），使唯一正确项成立；同步修正评分点中'氯化钠是原溶液成分'的事实错误，改为'NaCl为反应生成的可溶性盐，按题干定义不计为新杂质'。"
+    },
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "消除A项歧义：将A改为明确的过程性错误表述（如'反应开始前溶液中只含Na⁺和CO₃²⁻，反应过程中离子种类不再变化'），或在题干中明确'只判断反应过程中发生变化的离子'，使B成为唯一正确项；评分点保持对B的微观过程描述。"
+    },
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "coverage",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 30,
+      "root_cause": "RC4",
+      "suggestion": "按蓝图task_requirement补入盐酸与氢氧化钠反应的微观粒子示意图（标注Na⁺、OH⁻、H⁺、Cl⁻及水分子），并增设需整合示意图信息与pH=7终点条件的两步分析（如判断反应前后各离子数目变化趋势并排除'只存在两种离子''H⁺持续增加'等干扰），使任务达到N2四级'信息较多、含干扰、多步分析'并匹配'综合'认知与medium难度。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 15,
+      "root_cause": "RC1",
+      "suggestion": "在保持填空题型与6分不变的前提下，将题干改为给出反应过程中微粒数目变化数据或微观示意图，要求先判断哪一阶段对应中和反应实质、再写出减少的离子与生成的微粒，并增设需排除干扰（如'Na⁺、Cl⁻数目不变'与'水分子数增多'的辨析）的设问，落实N2四级多步分析行为与'应用'认知。"
+    },
+    {
+      "question_id": "q17",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC6",
+      "suggestion": "将(1)设问改为'此时主要发生的是______（填反应类别，如中和反应/复分解反应）'或直接限定'填复分解反应'，并同步将参考答案与评分点统一为仅'复分解反应'给分，删除'中和'给分口径，消除设问限定与判分标准冲突。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "重写(1)(3)：滤液溶质答案改为FeCl₂和FeSO₄（铁粉过量、盐酸与硫酸铜均耗尽）；删除与'过量铁粉'矛盾的'产生蓝色沉淀'现象，改为'向滤液中滴加氢氧化钠溶液，观察到生成白色沉淀（渐变灰绿色）'，设问改为判断该反应能否发生并说明依据（Fe²⁺与OH⁻结合生成Fe(OH)₂沉淀）；同步修正评分点第2条自相矛盾表述，统一采分口径。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q2",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_options_and_scoring",
+      "cause": "题干'不引入新杂质'与'最合理'设问冲突，四个选项在给定约束下均不成立；评分点'氯化钠是原溶液成分'为事实错误，导致无唯一正确项、无法判分。",
+      "acceptance_criteria": "1) 题干明确'不引入新杂质'的操作性定义（不残留所加试剂带来的新离子，反应生成的可溶性盐不计为新杂质）；2) 四个选项中恰有一项同时满足'除去碳酸钠''不消耗氢氧化钠''不残留所加试剂离子'，其余三项各因明确原因被排除；3) 评分点不再出现'NaCl是原溶液成分'表述，改为'NaCl为反应生成的可溶性盐，按题干定义不计为新杂质'；4) 3分单选选对得全分，逐项排除理由与选项一一对应。",
+      "issue_ids": [
+        "q2-science",
+        "q2-skills",
+        "q2-specification",
+        "q2-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_A",
+      "cause": "A项'反应开始前溶液中存在的离子只有Na⁺和CO₃²⁻'在初中不计水的电离前提下可判为正确，与答案B的唯一性冲突，题干未写明是否排除非过程性描述。",
+      "acceptance_criteria": "1) 修改后A项为明确错误表述（如加入'反应过程中离子种类不再变化'或'只含Na⁺和CO₃²⁻且无其他微粒'等可判错限定）；2) 逐项独立验证恰有B为唯一正确项；3) 评分点仍准确描述第一步CO₃²⁻+H⁺→HCO₃⁻、CO₃²⁻减少HCO₃⁻增加的微观过程；4) 3分单选选对得全分。",
+      "issue_ids": [
+        "q9-science",
+        "q9-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "root_cause": "RC4",
+      "operator": "rewrite_task_with_micro_diagram",
+      "cause": "蓝图task_requirement要求给出微观粒子示意图，实际题干仅以文字给出离子信息；任务为熟悉情境下单步判断H⁺与OH⁻结合，未落实N2四级多步分析与'综合'认知。",
+      "acceptance_criteria": "1) 题干包含盐酸与氢氧化钠反应的微观粒子示意图（标注Na⁺、OH⁻、H⁺、Cl⁻及水分子）；2) 学生须整合示意图信息与pH=7终点条件完成至少两步分析（如判断反应前后各离子数目变化趋势并排除干扰项）；3) 四个选项中恰有一项正确，干扰项分别对应'Cl⁻数目不变''只存在两种离子''H⁺持续增加'等典型错误；4) 3分单选选对得全分，评分点与正确项一致。",
+      "issue_ids": [
+        "q13-coverage",
+        "q13-skills",
+        "q13-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_to_multi_step",
+      "cause": "题干已给出反应前后全部微粒信息，三问均为直接对应填写，实际行为接近N2等级2，未落实等级4'信息较多或含干扰情境中自主筛选、多步分析'的任务条件，认知未达'应用'。",
+      "acceptance_criteria": "1) 题干提供反应过程中微粒数目变化数据或微观示意图，学生须先判断哪一阶段对应中和反应实质再作答；2) 至少一空需排除干扰（如辨析'Na⁺、Cl⁻数目不变'与'水分子数增多'）；3) 各空答案唯一，采分点合计6分与分值一致；4) 任务需整合两条以上信息方可完成，符合N2四级行为条件。",
+      "issue_ids": [
+        "q16-skills",
+        "q16-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "root_cause": "RC6",
+      "operator": "revise_blank_wording_and_scoring",
+      "cause": "(1)设问限定'填基本反应类型'，但参考答案与评分点接受'中和'给分，而中和反应不属初中四大基本反应类型，设问限定与判分标准冲突。",
+      "acceptance_criteria": "1) (1)设问改为'此时主要发生的是______（填反应类别）'或明确限定'填复分解反应'；2) 参考答案与评分点统一为仅'复分解反应'给分，删除'中和'给分口径；3) 采分点合计6分与分值一致；4) 其余各空答案与题面条件自洽。",
+      "issue_ids": [
+        "q17-science",
+        "q17-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "options",
+        "scoring_points",
+        "stem",
+        "subquestions"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC7",
+      "operator": "rewrite_answers_and_scoring",
+      "cause": "铁粉过量时盐酸与硫酸铜均耗尽，滤液溶质应为FeCl₂和FeSO₄，答案漏FeCl₂；题干(3)'产生蓝色沉淀'与过量铁粉条件矛盾（滤液不含Cu²⁺），参考答案'能；滤液含Cu²⁺'自相矛盾。",
+      "acceptance_criteria": "1) (1)滤液溶质答案改为FeCl₂和FeSO₄，并说明铁粉过量使盐酸与硫酸铜均耗尽；2) (3)删除'产生蓝色沉淀'，改为'向滤液中滴加氢氧化钠溶液，观察到生成白色沉淀（渐变灰绿色）'，设问为判断该反应能否发生并说明依据（Fe²⁺与OH⁻结合生成Fe(OH)₂沉淀）；3) 评分点第2条删除自相矛盾表述，统一采分口径；4) 各空答案与题干'过量铁粉、充分反应后过滤'条件自洽，采分点合计6分与分值一致。",
+      "issue_ids": [
+        "q19-science",
+        "q19-specification",
+        "q19-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "fe02084a747aa6830b80306edd81ca29dcefecca30ed81f800eb8f5551c60f6d"
+    },
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2db992ccb7eff4e37e3e0bbab1dcedbefc99c3cb95e99b54540a6c72e86bbf50"
+    },
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "c01ef75c92fcdc83f17b66443ca082de72ddfd0892b6f6ac355a4aebd1bf1f64"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "49b054e855165eaf79b789dd38331f99768fea7d930ea908b157f2ff75d428d2"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "53baa082bba336ed9edfa178a6371729cfb3f0cc351a432926640fd4c1fdc40d"
+    },
+    "q17": {
+      "question_id": "q17",
+      "allowed_fields": [
+        "answer",
+        "options",
+        "scoring_points",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "689172661c81837cb729ba90bf4c801e9b4053f909c22ce3a855ac5ad1b4e9da"
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "D": [
+    {
+      "question_id": "q3",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "root_cause_detail": "参考答案D与化学事实矛盾：铜在①中已被过滤除去、未进入滤液B，滤渣C不含铜；逐项核验唯一成立项为C（滤渣C一定含锌、滤液D不含Zn²⁺），而答案标D，且评分依据自述“铜未进入滤液B，故滤渣C不含铜”却仍判D得分，答案与采分点自相矛盾，单选唯一性被破坏。",
+      "suggestion": "在冻结字段（单选、3分、N4、easy、知识点“金属与稀盐酸能否反应的判断”、应用）不变前提下重写选项与答案：将正确项设为“滤渣C中一定含有锌，滤液D中一定不含锌离子”，其余三项分别设置可判错缺陷（如A漏过量HCl、B误判滤渣A含锌、D误判滤渣C含铜）；答案改为该正确项字母，评分点改为“选对得3分，选错不得分”并附逐项排除依据，删除与答案矛盾的表述。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "答案(3)与采分点4写“红色褪去时pH已降至8.2以下，终点滞后于等当点”，方向表述不严谨：按加酸方向褪色可发生在pH 7~8.2之间即等当点之前，操作者据此提前停加；而本题实验二测得pH=5.0又表明实际已加酸过量，原句与本实验数据不对应，以该原句为准确标准可能误判方向表述正确但措辞不同的学生。",
+      "suggestion": "将答案(3)与采分点4改为方向中性的表述：酚酞变色范围宽（8.2~10.0），红色褪去仅表明pH<8.2，不能指示pH=7，终点判断存在偏差且依赖主观颜色判断；pH计法需校准、电极响应滞后、滴速与搅拌影响读数。删除“终点滞后于等当点”的绝对方向断言，采分点4改为“指出酚酞法变色范围宽/主观性之一与pH计法校准/响应滞后/滴速搅拌之一即可得分”。"
+    },
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "coverage",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC4",
+      "root_cause_detail": "蓝图知识点为“盐酸在水溶液中电离出的离子种类”，但该内容仅作题干已知信息给出，学生实际必答任务是解释CO₃²⁻、HCO₃⁻与H⁺的分步结合，直接考查“复分解反应前后离子种类的变化”，实际考查内容与蓝图知识点名称不一致；另scoring_points按三个1分过程点描述，与单选“选对得全分、过程不单独计分”的提交规则不一致。",
+      "suggestion": "在冻结字段（单选、3分、N2、easy、应用）不变前提下，使作答必须以“盐酸电离出H⁺和Cl⁻”为判断核心：可在选项中设置对盐酸电离离子种类的不同判断（如误判含HCl分子、含H₂、含OH⁻）作为排除依据，使选出正确项必须先用该电离信息；scoring_points改为单一采分点“选对得3分，选错不得分”，并附正确项说明，不再分步给分。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q3",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_answer_key",
+      "cause": "参考答案D断言“滤渣C中一定含有锌和铜”，但铜在步骤①已被过滤除去、未进入滤液B，滤渣C不含铜；逐项核验唯一成立项为C，答案与评分依据自相矛盾，单选唯一性被破坏。",
+      "acceptance_criteria": "1) 四个选项逐项独立核验后仅一项成立，且该成立项与参考答案字母一致；2) 正确项须同时正确表述滤渣C成分（含锌、不含铜）与滤液D中Zn²⁺已被完全置换；3) 其余三项各含一处可判错的化学错误（漏过量HCl、误判滤渣A含锌、误判滤渣C含铜）；4) 评分点改为“选对得3分，选错不得分”，其排除依据与答案一致、无自相矛盾；5) 题号、题型、分值3分、知识点“金属与稀盐酸能否反应的判断”、N4、easy、应用均不变。",
+      "issue_ids": [
+        "q3-science",
+        "q3-specification",
+        "q3-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "revise_answer_and_scoring_wording",
+      "cause": "答案(3)与采分点4“红色褪去时pH已降至8.2以下，终点滞后于等当点”方向表述不严谨，与本实验pH=5.0（已加酸过量）不对应，可能误判方向表述正确但措辞不同的学生。",
+      "acceptance_criteria": "1) 答案(3)与采分点4不再出现“终点滞后于等当点”的绝对方向断言；2) 改为“红色褪去仅表明pH<8.2，不能指示pH=7，终点判断存在偏差且依赖主观颜色判断”；3) 采分点4明确“酚酞法变色范围宽或主观性之一 + pH计法校准、响应滞后或滴速搅拌之一”即可得分；4) 采分点合计仍为2+1+1+1=5分，与points=5一致；5) 题干实验步骤、资料、设问及题型、分值、N5、hard、综合均不变。",
+      "issue_ids": [
+        "q21-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "root_cause": "RC4",
+      "operator": "rewrite_options_to_require_ionization_judgement",
+      "cause": "蓝图知识点“盐酸在水溶液中电离出的离子种类”仅作题干已知信息，学生实际必答任务为解释CO₃²⁻、HCO₃⁻与H⁺的分步结合，考查内容与蓝图知识点名称不一致；scoring_points按三个1分过程点描述，与单选“选对得全分”规则不一致。",
+      "acceptance_criteria": "1) 四个选项中至少两项对“盐酸中大量存在的离子”作出不同判断（如误含HCl分子、H₂、OH⁻或SO₄²⁻），使选出正确项必须先依据电离信息确认H⁺和Cl⁻；2) 正确项同时正确表述第一阶段CO₃²⁻+H⁺→HCO₃⁻、第二阶段HCO₃⁻+H⁺→H₂O+CO₂；3) 逐项核验仅一项成立且与参考答案一致；4) scoring_points改为单一采分点“选对得3分，选错不得分”并附正确项说明；5) 题号、题型、分值3分、知识点名称、N2、easy、应用均不变。",
+      "issue_ids": [
+        "q2-coverage",
+        "q2-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "32a0735fb4650d7f3eed0c7fcd951c194e4058dee335c0bae9ca5e468e32ed99"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "82cbb288cc437a49e3f776051a17e99fc3d0c774d103d57742dd0bc13325e724"
+    },
+    "q3": {
+      "question_id": "q3",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "d3977bca9b48e1a919ef1d39abc33e96f535610046209d5c6530773e5152a041"
+    }
+  }
+}

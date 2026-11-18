@@ -1,0 +1,54 @@
+{
+  "D": [
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_detail": "选项B CaCO3+H2SO4=CaSO4+H2O+CO2↑化学式与配平均正确，产物类型也符合题干归纳的“碳酸盐+酸→盐+水+二氧化碳”通性；题干与材料未给出“生成微溶硫酸钙覆盖表面使反应难以持续”这一排除依据，导致A、B两项在题面条件下均可成立，单选唯一性依赖未说明的隐含假设，属科学性/可解性缺陷。",
+      "suggestion": "在保持题号、题型、分值、知识点（常见盐与酸、碱反应的化学方程式书写）、技能N3、等级2、认知“理解”、难度easy不变的前提下，修改选项使唯一正确项可由题面条件推出：可将B改为存在明确书写错误或明确不属于碳酸盐与酸反应的方程式（如改为碳酸盐与碱反应、或配平/化学式有误的方程式），或将B改为与题干实例③重复的稀硫酸反应但保留可判别的错误；同时保持A为唯一正确项，并在评分点中明确“选出A得3分”。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "rewrite_options",
+      "cause": "选项B CaCO3+H2SO4=CaSO4+H2O+CO2↑本身化学式与配平正确、产物类型符合“碳酸盐+酸→盐+水+二氧化碳”通性，题面未提供排除依据，造成A、B双成立、单选无唯一答案（issue q9-science、q9-science-veto）。",
+      "acceptance_criteria": "1）逐项独立验证后仅有一个选项同时满足“属于碳酸盐与酸反应”和“化学式与配平正确”两个限定；2）其余三个选项各自存在可明确指出的不满足点（非碳酸盐与酸反应、无酸参与、化学式或配平错误等），且不依赖题干未给出的隐含知识；3）参考答案与评分点“选出该唯一正确项得3分”一致；4）题干仍给出多个碳酸盐与酸反应实例并要求归纳通性，学生须完成归纳与方程式正误判断，认知保持“理解”、难度保持easy、技能N3二级不变；5）不得通过修改知识点、技能、等级、认知或难度标签掩盖缺陷。",
+      "issue_ids": [
+        "q9-science",
+        "q9-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6fa3326e8341cc4ed76a93a724cf92073f669cfc817f86b46a4fefbc7b5c25ca"
+    }
+  }
+}

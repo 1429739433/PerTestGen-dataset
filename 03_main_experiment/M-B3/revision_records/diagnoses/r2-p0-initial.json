@@ -1,0 +1,302 @@
+{
+  "D": [
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "specification",
+        "difficulty_cognition"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "root_cause_detail": "现象表'C与D产生白色沉淀'与事实矛盾（C=氯化钙、D=氢氧化钠，CaCl₂与NaOH不生成白色沉淀）；参考答案(1)把'C与D'列为能发生复分解且有明显现象的组别，答案(4)把'H⁺+OH⁻=H₂O'对应到B与C（稀盐酸与氯化钙不反应），题面、答案、评分点三处互相矛盾。",
+      "suggestion": "重写现象表与设问：删除或改正'C与D产生白色沉淀'一行，使六组现象与四种物质（稀盐酸、氢氧化钠、碳酸钠、氯化钙）的真实反应一致；第(1)问限定为'能发生复分解反应且有明显现象的组别'，答案改为'A与B、A与D'；第(4)问改为'B与D混合无明显现象但仍发生复分解反应'，实质答H⁺+OH⁻=H₂O；同步修订评分点(1)(4)的组别与对象，保持6分结构不变。"
+    },
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 25,
+      "root_cause": "RC2",
+      "root_cause_detail": "题干只要求'选出对应正确的一项'，未要求学生归纳对应规则或陈述依据，实际为识记匹配，低于N3等级2'归纳通性并作直接说明'；评分点按1+2分列，第2采分点的文字理由不在单选提交范围内。",
+      "suggestion": "在题干中明确要求学生先依据组成元素与化合价归纳'俗称—化学式对应'的判断规则，再据此判断选项（可在题干给出归纳提示与正确实例作脚手架）；评分点改为单选选对得3分全分，删除不可提交的文字理由采分点；保持题号、题型、3分、知识点、N3、等级2、easy不变。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "题干把'元素符号正确、原子个数由化合价确定、正负化合价代数和为零'规则原句完整给出，学生只需按已给规则逐项辨认，未执行归纳，实际为等级1辨认行为，低于N3等级2的归纳与说明要求。",
+      "suggestion": "删除题干中直接给出的规则原句，改为给出若干正确与错误化学式实例，要求学生先归纳书写规则再判断哪一组完全正确；或增设要求说明正确选项成立依据的设问（在单选提交规则下以选项承载该推理）。保持3分、N3、等级2、easy不变。"
+    },
+    {
+      "question_id": "q7",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "任务为单一熟悉溶液（NaOH）的微粒辨认与两步性质联系，属等级2—3行为；未落实N2等级4要求的含干扰情境中整合多条关系、多步分析复杂体系离子变化并检查结论成立条件。",
+      "suggestion": "将情境改为含干扰的复杂体系（如碳酸钠与稀盐酸分步反应，或氯化钡鉴别硫酸钠与碳酸钠），要求分步解释离子变化并说明结论成立条件；保留NaOH微粒知识作为其中一步。保持3分、N2、等级4、应用、easy不变。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "root_cause_detail": "实验二中稀盐酸与稀硫酸'等体积等浓度'，酸的种类与pH（1与2）同时不同，气泡速率差异既可归因'酸的种类'也可归因'pH大小'，第(3)问第二空在题干条件下不唯一，参考答案锁定'酸的种类'缺乏唯一性依据。",
+      "suggestion": "修改实验二条件使变量唯一：如取等体积、pH相同的稀盐酸和稀硫酸（或明确说明两酸pH相同），再加入等质量同颗粒碳酸钠，则速率差异只能归因酸的种类；或把第(3)问改为开放说明并给出可接受答案范围。同步修订答案与评分点，保持6分、N1、等级3、应用、medium不变。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 15,
+      "root_cause": "RC1",
+      "root_cause_detail": "题干直接给出复分解发生条件，学生仅需对四组成对物质逐一作单步规则判断，属等级2行为；未落实N4等级3'在多物质体系中推理特定反应能否发生或共存'。",
+      "suggestion": "改为多物质体系情境（如含稀盐酸和氯化铜的混合溶液中加入铁粉，给出分步加料条件，推理反应进程与最终溶液成分；或判断某组离子能否大量共存），要求学生自主选择适用关系并说明依据。保持3分、N4、等级3、理解、easy不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q16",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "现象表'C与D产生白色沉淀'与CaCl₂+NaOH不生成沉淀的事实矛盾；答案(1)误列C与D为有明显现象组别，答案(4)把H⁺+OH⁻=H₂O错配到B与C（稀盐酸与氯化钙不反应），题面、答案、评分点三处互斥。",
+      "acceptance_criteria": "1) 现象表六组现象与稀盐酸、氢氧化钠、碳酸钠、氯化钙两两混合的真实结果完全一致，不再出现'C与D产生白色沉淀'；2) 由现象表可唯一推断A=碳酸钠、B=稀盐酸、C=氯化钙、D=氢氧化钠；3) 第(1)问限定'能发生复分解反应且有明显现象'，答案仅为'A与B、A与D'，依据为生成CO₂气体和CaCO₃沉淀；4) 第(4)问对象为B与D（稀盐酸与氢氧化钠），实质答H⁺+OH⁻=H₂O；5) 评分点(1)(4)与修订后答案逐项对应，总分仍为6分，题号、题型、知识点、N4、等级3、easy不变。",
+      "issue_ids": [
+        "q16-science",
+        "q16-specification",
+        "q16-science-veto",
+        "q16-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "root_cause": "RC2",
+      "operator": "rewrite_stem_and_scoring",
+      "cause": "题干仅要求选出对应正确项，未要求归纳规则或说明依据，实际为识记匹配，低于N3等级2的归纳与直接说明行为；评分点含不可提交的文字理由采分点。",
+      "acceptance_criteria": "1) 题干明确要求学生先依据组成元素与化合价归纳'俗称—化学式对应'的判断规则，再据此判断选项，并给出归纳提示或正确实例作脚手架；2) 学生选出正确项必须实际执行归纳与规则迁移，不能仅凭记忆对照；3) 评分点改为单选选对得3分全分，删除文字理由采分点；4) 题号、题型、3分、知识点、N3、等级2、理解、easy不变。",
+      "issue_ids": [
+        "q9-skills",
+        "q9-difficulty_cognition",
+        "q9-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem",
+      "cause": "题干把化学式书写规则原句完整给出，学生无需归纳，实际为等级1逐项辨认，低于N3等级2的归纳与说明要求。",
+      "acceptance_criteria": "1) 题干不再直接给出'元素符号正确、原子个数由化合价确定、正负化合价代数和为零'的完整规则原句；2) 改为给出若干正确与错误化学式实例，要求学生先归纳书写规则再判断哪一组完全正确，或增设要求说明正确选项成立依据的设问；3) 选出正确项必须依赖归纳所得规则，不能仅凭记忆；4) 题号、题型、3分、知识点、N3、等级2、理解、easy不变。",
+      "issue_ids": [
+        "q1-skills",
+        "q1-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q7",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_options",
+      "cause": "任务为单一熟悉NaOH溶液的微粒辨认与两步性质联系，属等级2—3行为，未落实N2等级4的含干扰情境多步离子变化分析与结论条件检查。",
+      "acceptance_criteria": "1) 情境改为含干扰的复杂体系（如碳酸钠与稀盐酸分步反应，或氯化钡鉴别硫酸钠与碳酸钠），要求分步解释离子变化；2) 学生须整合多条关系、排除干扰并说明结论成立条件，达到N2等级4行为；3) 保留NaOH溶液微粒知识作为其中一步；4) 题号、题型、3分、N2、等级4、应用、easy不变。",
+      "issue_ids": [
+        "q7-skills",
+        "q7-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "实验二中两酸种类与pH同时不同，气泡速率差异可归因'酸的种类'也可归因'pH大小'，第(3)问第二空在题干条件下不唯一，参考答案锁定'酸的种类'缺乏唯一性依据。",
+      "acceptance_criteria": "1) 实验二条件使变量唯一：取等体积、pH相同的稀盐酸和稀硫酸（或明确说明两酸pH相同），加入等质量同颗粒碳酸钠，速率差异只能归因酸的种类；2) 第(3)问第二空答案唯一且与题干条件一致；3) 答案与评分点同步修订，各空均有对应采分点，总分仍为6分；4) 题号、题型、知识点、N1、等级3、应用、medium不变。",
+      "issue_ids": [
+        "q20-science",
+        "q20-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题干直接给出复分解发生条件，学生仅对四组成对物质作单步规则判断，属等级2行为，未落实N4等级3的多物质体系反应进程或共存推理。",
+      "acceptance_criteria": "1) 情境改为多物质体系（如含稀盐酸和氯化铜的混合溶液中加入铁粉，给出分步加料条件，推理反应进程与最终溶液成分；或判断某组离子能否大量共存）；2) 学生须自主选择适用关系并连接两个相关步骤、说明结论依据，达到N4等级3行为；3) 选项与设问一一对应，答案唯一；4) 题号、题型、3分、N4、等级3、理解、easy不变。",
+      "issue_ids": [
+        "q8-skills",
+        "q8-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "cbbd496cb19a34f5105f784ad6f30e2e23e50b53515066b43190e27287015c44"
+    },
+    "q7": {
+      "question_id": "q7",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "b9765bd57e6be810a748932ac71d0954ccb453580ae2b34e8ffc46af6cb260dd"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "983d857c7a11aca934c32efd0e4249b6640b346feab3cb47a069b47ae3ea4e2b"
+    },
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0a8d4c267849bc077950d5cf0662bc93b713abb4f59c1674a646a24d48bbd531"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "d95fb94e74c9ad81c6424ef8453fa939767a9dc324b6796910e9a00afd05de2e"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "fd55e58fc0986625ce5c35f1685d8fb6a91c74bb3c1dc936bf1749d5f43a3114"
+    }
+  }
+}

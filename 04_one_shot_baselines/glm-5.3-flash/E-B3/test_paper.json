@@ -1,0 +1,492 @@
+{
+  "items": [
+    {
+      "question_id": "q1",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "将紫色石蕊溶液滴入下列液体中，能使石蕊变红的是（　）",
+      "options": {
+        "A": "蒸馏水",
+        "B": "石灰水",
+        "C": "食盐水",
+        "D": "白醋"
+      },
+      "subquestions": null,
+      "answer": "D",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q2",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "某溶液的pH=3，下列说法正确的是（　）",
+      "options": {
+        "A": "该溶液呈酸性",
+        "B": "该溶液呈碱性",
+        "C": "该溶液呈中性",
+        "D": "向其中滴加酚酞溶液变红"
+      },
+      "subquestions": null,
+      "answer": "A",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q3",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "关于固体氢氧化钠的说法正确的是（　）",
+      "options": {
+        "A": "暴露在空气中会潮解且溶解放热，需密封保存",
+        "B": "暴露在空气中会风化",
+        "C": "溶解时明显吸热",
+        "D": "可以露置于空气中长期保存"
+      },
+      "subquestions": null,
+      "answer": "A",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q4",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "盐酸溶液中大量存在的离子是（　）",
+      "options": {
+        "A": "H⁺和Cl⁻",
+        "B": "Na⁺和Cl⁻",
+        "C": "H⁺和OH⁻",
+        "D": "只有H⁺"
+      },
+      "subquestions": null,
+      "answer": "A",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q5",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "氢氧化钠溶液中大量存在的微粒是（　）",
+      "options": {
+        "A": "Na⁺、OH⁻和H₂O",
+        "B": "NaOH分子",
+        "C": "只有Na⁺",
+        "D": "H⁺和OH⁻"
+      },
+      "subquestions": null,
+      "answer": "A",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q6",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "盐酸与氢氧化钠溶液反应的微观实质是（　）",
+      "options": {
+        "A": "H⁺与OH⁻结合生成水",
+        "B": "Na⁺与Cl⁻结合生成NaCl",
+        "C": "H₂O分解为H⁺和OH⁻",
+        "D": "NaOH分子与HCl分子反应"
+      },
+      "subquestions": null,
+      "answer": "A",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q7",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "碳酸钠溶液能够导电，是因为溶液中存在（　）",
+      "options": {
+        "A": "自由移动的Na⁺和CO₃²⁻",
+        "B": "碳酸钠分子",
+        "C": "电子",
+        "D": "CO₃²⁻分子"
+      },
+      "subquestions": null,
+      "answer": "A",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q8",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "氢氧化钠溶液与稀盐酸混合前后，溶液中离子种类的变化是（　）",
+      "options": {
+        "A": "H⁺和OH⁻减少，生成水",
+        "B": "Na⁺减少",
+        "C": "Cl⁻减少",
+        "D": "离子种类完全不变"
+      },
+      "subquestions": null,
+      "answer": "A",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q9",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "下列物质的化学式书写正确的是（　）",
+      "options": {
+        "A": "碳酸钠 NaCO₃",
+        "B": "氢氧化钙 CaOH",
+        "C": "氯化钠 NaCl",
+        "D": "硫酸 HSO₄"
+      },
+      "subquestions": null,
+      "answer": "C",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q10",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "下列反应能发生的是（　）",
+      "options": {
+        "A": "氯化钠溶液与硝酸钾溶液混合",
+        "B": "碳酸钙与稀盐酸",
+        "C": "氢氧化铜与氯化钠溶液",
+        "D": "硝酸钠溶液与氯化钾溶液"
+      },
+      "subquestions": null,
+      "answer": "B",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q11",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "下列金属不能与稀盐酸反应放出氢气的是（　）",
+      "options": {
+        "A": "镁",
+        "B": "锌",
+        "C": "铜",
+        "D": "铁"
+      },
+      "subquestions": null,
+      "answer": "C",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q12",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "下列实验操作正确的是（　）",
+      "options": {
+        "A": "用pH试纸测定溶液pH时，先用水润湿试纸",
+        "B": "稀释浓硫酸时，将水倒入浓硫酸中",
+        "C": "用玻璃棒蘸取待测液滴在pH试纸上，与标准比色卡对照",
+        "D": "将浓硫酸沿量筒内壁缓缓倒入水中稀释"
+      },
+      "subquestions": null,
+      "answer": "C",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q13",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "下列各组物质混合后，能发生反应且生成白色沉淀的是（　）",
+      "options": {
+        "A": "稀盐酸与碳酸钠溶液",
+        "B": "氯化钡溶液与稀硫酸",
+        "C": "氢氧化钠溶液与稀盐酸",
+        "D": "铁与硫酸铜溶液"
+      },
+      "subquestions": null,
+      "answer": "B",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q14",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "要除去氢氧化钠溶液中混有的少量碳酸钠，应选用的试剂是（　）",
+      "options": {
+        "A": "稀盐酸",
+        "B": "氯化钡溶液",
+        "C": "适量氢氧化钙溶液",
+        "D": "氯化钠溶液"
+      },
+      "subquestions": null,
+      "answer": "C",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q15",
+      "question_type": "single_choice",
+      "points": 3,
+      "stem": "要检验敞口放置的氢氧化钠溶液是否变质，应选用的试剂是（　）",
+      "options": {
+        "A": "酚酞溶液",
+        "B": "稀盐酸",
+        "C": "石蕊溶液",
+        "D": "硝酸钾溶液"
+      },
+      "subquestions": null,
+      "answer": "B",
+      "scoring_points": null
+    },
+    {
+      "question_id": "q16",
+      "question_type": "fill_blank",
+      "points": 6,
+      "stem": "将紫色石蕊溶液和 无色酚酞溶液分别滴入氢氧化钠溶液、稀盐酸和蒸馏水中，观察到的现象是：",
+      "options": null,
+      "subquestions": [
+        {
+          "sub_id": "q16-1",
+          "stem": "石蕊溶液在氢氧化钠溶液中显____色；"
+        },
+        {
+          "sub_id": "q16-2",
+          "stem": "石蕊溶液在稀盐酸中显____色；"
+        },
+        {
+          "sub_id": "q16-3",
+          "stem": "酚酞溶液在蒸馏水中显____色。"
+        }
+      ],
+      "answer": "蓝；红；无色",
+      "scoring_points": [
+        {
+          "description": "答出石蕊遇碱变蓝",
+          "points": 2
+        },
+        {
+          "description": "答出石蕊遇酸变红",
+          "points": 2
+        },
+        {
+          "description": "答出酚酞在中性溶液中不变色（无色）",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question_id": "q17",
+      "question_type": "fill_blank",
+      "points": 6,
+      "stem": "稀盐酸与氢氧化钠溶液发生中和反应时，盐酸中的____离子和氢氧化钠溶液中的____离子结合生成____，而Na⁺和Cl⁻仍留在溶液中，这就是中和反应的微观实质。",
+      "options": null,
+      "subquestions": null,
+      "answer": "氢（H⁺）；氢氧根（OH⁻）；水",
+      "scoring_points": [
+        {
+          "description": "答出H⁺",
+          "points": 2
+        },
+        {
+          "description": "答出OH⁻",
+          "points": 2
+        },
+        {
+          "description": "答出生成水",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question_id": "q18",
+      "question_type": "fill_blank",
+      "points": 6,
+      "stem": "写出下列反应的化学方程式：",
+      "options": null,
+      "subquestions": [
+        {
+          "sub_id": "q18-1",
+          "stem": "碳酸钠与稀盐酸反应：____________；"
+        },
+        {
+          "sub_id": "q18-2",
+          "stem": "碳酸钠与氢氧化钙溶液反应：____________。"
+        }
+      ],
+      "answer": "Na₂CO₃+2HCl=2NaCl+H₂O+CO₂↑；Na₂CO₃+Ca(OH)₂=CaCO₃↓+2NaOH",
+      "scoring_points": [
+        {
+          "description": "方程式正确且配平，标气体符号",
+          "points": 3
+        },
+        {
+          "description": "方程式正确且配平，标沉淀符号",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "question_id": "q19",
+      "question_type": "fill_blank",
+      "points": 6,
+      "stem": "根据复分解反应发生的条件（生成物中有沉淀、气体或水），判断下列反应：",
+      "options": null,
+      "subquestions": [
+        {
+          "sub_id": "q19-1",
+          "stem": "氢氧化钾与稀硝酸反应的产物是____和____（填化学式）；"
+        },
+        {
+          "sub_id": "q19-2",
+          "stem": "硝酸银溶液与氯化钠溶液反应生成的沉淀是____（填化学式）。"
+        }
+      ],
+      "answer": "KNO₃和H₂O；AgCl",
+      "scoring_points": [
+        {
+          "description": "答出KNO₃",
+          "points": 2
+        },
+        {
+          "description": "答出H₂O",
+          "points": 2
+        },
+        {
+          "description": "答出AgCl",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question_id": "q20",
+      "question_type": "fill_blank",
+      "points": 6,
+      "stem": "向盛有氢氧化钠溶液的试管中通入过量二氧化碳气体，",
+      "options": null,
+      "subquestions": [
+        {
+          "sub_id": "q20-1",
+          "stem": "反应的化学方程式为____________；"
+        },
+        {
+          "sub_id": "q20-2",
+          "stem": "说明该反应发生的一个证据：将反应后所得溶液加入过量稀盐酸，观察到有____产生，说明溶液中含碳酸盐。"
+        }
+      ],
+      "answer": "2NaOH+CO₂=Na₂CO₃+H₂O；气泡",
+      "scoring_points": [
+        {
+          "description": "化学方程式正确且配平",
+          "points": 4
+        },
+        {
+          "description": "答出产生气泡",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question_id": "q21",
+      "question_type": "experiment",
+      "points": 5,
+      "stem": "在氢氧化钠溶液中滴加几滴酚酞溶液，溶液变红；再逐滴加入稀盐酸并振荡，当滴至溶液恰好变为无色时停止。",
+      "options": null,
+      "subquestions": [
+        {
+          "sub_id": "q21-1",
+          "stem": "滴加酚酞后溶液变红说明原溶液呈____性；"
+        },
+        {
+          "sub_id": "q21-2",
+          "stem": "红色褪去说明____与____发生了反应（填物质名称）；"
+        },
+        {
+          "sub_id": "q21-3",
+          "stem": "该反应的化学方程式为____________。"
+        }
+      ],
+      "answer": "碱；氢氧化钠、盐酸；NaOH+HCl=NaCl+H₂O",
+      "scoring_points": [
+        {
+          "description": "答出碱性",
+          "points": 1
+        },
+        {
+          "description": "答出氢氧化钠与盐酸发生反应",
+          "points": 2
+        },
+        {
+          "description": "化学方程式书写正确且配平",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "question_id": "q22",
+      "question_type": "experiment",
+      "points": 10,
+      "stem": "实验室有一瓶敞口放置的氢氧化钠固体，某小组探究其变质程度。",
+      "options": null,
+      "subquestions": [
+        {
+          "sub_id": "q22-1",
+          "stem": "【提出猜想】猜想一：未变质；猜想二：部分变质；猜想三：全部变质为碳酸钠。氢氧化钠变质的原因（用化学方程式表示）：____________；"
+        },
+        {
+          "sub_id": "q22-2",
+          "stem": "【设计方案】取样溶于水，先加入过量____溶液（填一种试剂名称），产生白色沉淀，证明已变质；静置后取上层清液滴加酚酞溶液，若溶液变红，则说明猜想____成立；"
+        },
+        {
+          "sub_id": "q22-3",
+          "stem": "【实验反思】加入的过量试剂的作用是____，排除其对后续检验氢氧化钠的干扰；检验碳酸钠不能用酚酞溶液直接判断是否含氢氧化钠，原因是____。"
+        }
+      ],
+      "answer": "2NaOH+CO₂=Na₂CO₃+H₂O；氯化钙（或氯化钡）；二；完全除去碳酸钠；碳酸钠溶液也显碱性，能使酚酞变红",
+      "scoring_points": [
+        {
+          "description": "变质原因方程式正确且配平",
+          "points": 3
+        },
+        {
+          "description": "选用足量氯化钙（或氯化钡）溶液检验并除尽碳酸钠",
+          "points": 3
+        },
+        {
+          "description": "判断为部分变质（猜想二）",
+          "points": 2
+        },
+        {
+          "description": "说明过量试剂用于完全除去碳酸钠",
+          "points": 1
+        },
+        {
+          "description": "说明碳酸钠溶液显碱性干扰酚酞检验",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "question_id": "q23",
+      "question_type": "calculation",
+      "points": 10,
+      "stem": "取20 g某氢氧化钠溶液于烧杯中，逐滴加入稀硫酸至恰好完全反应，共消耗溶质质量分数为9.8%的稀硫酸50 g。计算：",
+      "options": null,
+      "subquestions": [
+        {
+          "sub_id": "q23-1",
+          "stem": "反应消耗的纯硫酸的质量；"
+        },
+        {
+          "sub_id": "q23-2",
+          "stem": "原氢氧化钠溶液中溶质的质量分数（结果保留一位小数）。"
+        }
+      ],
+      "answer": "4.9 g；10%",
+      "scoring_points": [
+        {
+          "description": "正确写出化学方程式 2NaOH+H₂SO₄=Na₂SO₄+2H₂O",
+          "points": 2
+        },
+        {
+          "description": "硫酸质量：50 g×9.8%=4.9 g",
+          "points": 2
+        },
+        {
+          "description": "根据方程式正确求出NaOH质量为8 g（设未知数、比例式正确）",
+          "points": 4
+        },
+        {
+          "description": "质量分数：8 g/20 g×100%=10%",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

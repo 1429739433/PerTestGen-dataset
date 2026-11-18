@@ -1,0 +1,20 @@
+[
+  {
+    "question_id": "q8",
+    "root_cause": [
+      "重复考查"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 3,
+    "accepted": true
+  },
+  {
+    "question_id": "q13",
+    "root_cause": [
+      "重复考查"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 3,
+    "accepted": true
+  }
+]

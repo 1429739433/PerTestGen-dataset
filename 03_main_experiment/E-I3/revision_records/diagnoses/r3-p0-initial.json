@@ -1,0 +1,301 @@
+{
+  "D": [
+    {
+      "question_id": "q12",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "重写题干假设空间与选项：明确“只可能是NaOH或Na₂CO₃中的一种，不考虑混合”，并逐项使仅一个选项在两分支下均成立。例如保留足量CaCl₂沉淀CO₃²⁻后清液加酚酞不变色→Na₂CO₃为正确项；将A改为“足量稀盐酸产生气泡→Na₂CO₃”（两分支下均成立，需再改），B改为“足量CaCl₂无沉淀→NaOH”并检查其是否也成立，C改为BaCO₃微溶导致清液变红不能确证混合。同步修订答案与评分点，确保单选唯一。"
+    },
+    {
+      "question_id": "q12",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC4",
+      "suggestion": "将必答任务改为以指示剂变色为核心判据：如给出酚酞在NaOH溶液与沉淀CO₃²⁻后中性清液中的变色对照，要求学生依据变色现象判断溶液成分，使“酸碱指示剂遇酸碱的颜色变化”成为直接考查内容，而非仅作情境工具。"
+    },
+    {
+      "question_id": "q12",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "suggestion": "降低多步推理量或调整难度标注：可减少需逐项分析“少量/足量”差异的选项数量，或将难度标注调整为medium，使实际推理步数与标注一致。"
+    },
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "suggestion": "重写选项使选出正确答案必须运用“湿润试纸使酸性溶液测得pH偏大”规则：如将B改为需先由该规则推断X真实pH<9才能判断的结论，并删除可由标签矛盾或选项内部矛盾直接排除的C、D；或将C、D改为不运用该规则无法排除的干扰项，确保N1等级4的干扰筛选行为被强制执行。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "修正第(1)问：Cl⁻随盐酸滴加持续增加，不能称“数量基本不变”；可将设问改为“始终存在且未参与反应的离子是Na⁺”，或改为“反应前后数量不变的离子是Na⁺”。同时补充微观粒子记录表（各阶段pH与大量存在微粒），并增设需整合多组数据、检查结论成立条件的设问，以落实N2等级4与“综合”认知。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "删去答案(4)中“硫酸铜溶液本身呈酸性”“碱式碳酸铜沉淀”等超出初中范围且与评分点无关的冗余表述，仅保留与评分点一致的简明理由：BaCl₂可行（生成中性NaCl，不干扰OH⁻检验）；CuSO₄不可行（CO₃²⁻也能与Cu²⁺生成沉淀，干扰对OH⁻的确证）。"
+    },
+    {
+      "question_id": "q3",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC4",
+      "suggestion": "修正蓝图知识点标注：将knowledge_topic改为“中和反应的微观实质”，或重写题干使盐酸电离出的离子种类成为学生必答推断内容（如不直接给出盐酸含H⁺、Cl⁻，而由阶段变化反推），使实际考查内容与标注一致。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q12",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题干“可能是氢氧化钠溶液或碳酸钠溶液”与选项C“混合溶液”所依赖的假设空间不一致；A、B在字面二元假设下也成立，导致正确项不唯一，单选无法判分。",
+      "acceptance_criteria": "题干明确限定“只可能是NaOH或Na₂CO₃中的一种，不考虑混合”；逐项独立验证后恰有一个选项在两分支下均成立且与参考答案一致；评分点仅论证该唯一正确项；A、B、C、D均不再出现两个选项同时满足设问的情况。",
+      "issue_ids": [
+        "q12-science",
+        "q12-specification",
+        "q12-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "root_cause": "RC4",
+      "operator": "rewrite_task_requirement",
+      "cause": "蓝图知识点为“酸碱指示剂遇酸碱的颜色变化”，但实际必答任务核心是碳酸盐检验方案评估，酚酞变色仅作情境工具。",
+      "acceptance_criteria": "学生选出正确项必须直接依据酚酞在不同溶液（碱性NaOH与沉淀CO₃²⁻后的中性清液）中的变色现象作出判断；解析中明确写出指示剂变色与溶液酸碱性的对应关系，而非仅作为背景提及。",
+      "issue_ids": [
+        "q12-coverage"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "root_cause": "RC3",
+      "operator": "adjust_difficulty_or_reduce_steps",
+      "cause": "标注easy，但四个选项均需逐项分析试剂足量与否、沉淀与清液检验的逻辑关系，多步推理量高于同卷其他easy题。",
+      "acceptance_criteria": "减少需逐项分析“少量/足量”差异的选项数量，或将难度标注调整为medium；修订后实际推理步数与标注难度一致，且不改变N1等级4的干扰筛选要求。",
+      "issue_ids": [
+        "q12-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "root_cause": "RC1",
+      "operator": "rewrite_options",
+      "cause": "选出B只需将pH=7与中性、pH=11与碱性直接对应；C可由“酸性”标签与“呈碱性”直接矛盾排除，D由“pH>9呈酸性”内部矛盾排除，均不需运用“湿润试纸使酸性pH偏大”规则，N1等级4的干扰筛选行为未被强制执行。",
+      "acceptance_criteria": "删除可由标签矛盾或选项内部矛盾直接排除的C、D；改写后选出唯一正确项必须运用“湿润试纸使酸性溶液测得pH偏大”规则推断X真实pH<9；评分点描述该推断路径；实际认知达到“应用”层级。",
+      "issue_ids": [
+        "q2-skills",
+        "q2-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "第(1)问参考答案“Cl⁻数量基本不变”与事实矛盾：开始加料前烧杯中不含Cl⁻，逐滴加入稀盐酸时Cl⁻持续增加，直至pH=7时与Na⁺等量。",
+      "acceptance_criteria": "第(1)问设问与答案一致：改为“始终存在且未参与反应的离子是Na⁺”或“反应前后数量不变的离子是Na⁺”；评分点相应修订，不再出现“Cl⁻数量基本不变”的表述；学生依据题干数据可唯一得出答案。",
+      "issue_ids": [
+        "q19-science",
+        "q19-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC1",
+      "operator": "rewrite_task_requirement",
+      "cause": "蓝图task_requirement要求给出微观粒子示意图与微粒记录以支撑等级4多条件整合，实际题干未提供任何微观示意图或微粒记录，学生仅凭三段pH描述即可作答，任务落在N2等级2—3。",
+      "acceptance_criteria": "题干补充各阶段pH与大量存在微粒的记录表（含Na⁺、OH⁻、Cl⁻、H⁺、H₂O）；增设需整合多组数据、检查结论成立条件的设问（如评价“pH=7时溶液中只有水分子”的说法）；实际思维达到“综合”层级。",
+      "issue_ids": [
+        "q19-skills",
+        "q19-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "revise_answer_text",
+      "cause": "答案(4)后段罗列“硫酸铜溶液本身呈酸性”“碱式碳酸铜沉淀”等超出初中范围且与评分点无关的冗余表述，可能误导阅卷尺度。",
+      "acceptance_criteria": "答案(4)仅保留与评分点一致的简明理由：BaCl₂可行（生成中性NaCl，不干扰OH⁻检验）；CuSO₄不可行（CO₃²⁻也能与Cu²⁺生成沉淀，干扰对OH⁻的确证）；删除“硫酸铜溶液本身呈酸性”“碱式碳酸铜沉淀”等表述。",
+      "issue_ids": [
+        "q22-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q3",
+      "root_cause": "RC4",
+      "operator": "revise_knowledge_topic_label",
+      "cause": "蓝图knowledge_topic为“盐酸在水溶液中电离出的离子种类”，但题干已将盐酸含H⁺、Cl⁻作为已知条件直接给出，学生必答任务实为依据三阶段离子变化判断反应实质，考查“中和反应的微观实质”。",
+      "acceptance_criteria": "将knowledge_topic改为“中和反应的微观实质”，或重写题干使盐酸电离出的离子种类成为学生必答推断内容（如不直接给出盐酸含H⁺、Cl⁻，而由阶段变化反推）；修订后蓝图标注与实际考查内容一致。",
+      "issue_ids": [
+        "q3-coverage"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q3": {
+      "question_id": "q3",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "d50a6ec9f5e90bf677db46722aea33257392cf0613adfbd45fbd12739d37f891"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "f41c7a4bee0699a15d940b42a16bf34c2f38ddb9fc140bdb716a1a7413bb2e97"
+    },
+    "q12": {
+      "question_id": "q12",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "difficulty_cognition.difficulty",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "f10a09925d695c4391066e323e8b6163b9dcfb2f7fe0d2be5e4b9b85ededd2f8"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7bc5f512c53cbfb4aca7aff613e272d07cf5fac28d80053f4f7bad3e50b46cce"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7fa37778592c296e00ba46154fa6a13b385bbdf62bc34153df71ea0c3b686eb2"
+    }
+  }
+}

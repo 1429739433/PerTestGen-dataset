@@ -1,0 +1,38 @@
+[
+  {
+    "question_id": "q6",
+    "root_cause": [
+      "科学性错误"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 2,
+    "accepted": true
+  },
+  {
+    "question_id": "q2",
+    "root_cause": [
+      "维度错配"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 2,
+    "accepted": true
+  },
+  {
+    "question_id": "q13",
+    "root_cause": [
+      "科学性错误"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 1,
+    "accepted": true
+  },
+  {
+    "question_id": "q14",
+    "root_cause": [
+      "维度错配"
+    ],
+    "modification_level": "local_rewrite",
+    "attempt_count": 1,
+    "accepted": true
+  }
+]

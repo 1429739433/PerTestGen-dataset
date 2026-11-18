@@ -1,0 +1,258 @@
+{
+  "D": [
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "答案(4)末句“若不变红则说明不含氢氧化钠”与答案(1)自身承认的酚酞变色范围（pH约8.2以下褪色）尺度不一致：极弱碱性（pH 7—8.2，含极少量NaOH）同样不变红，不能据此断定不含NaOH。",
+      "suggestion": "将(4)答案与评分点限定为“确认溶液不显酸性后滴加酚酞，若不变红，则在酚酞检验灵敏度范围内不残留氢氧化钠”；评分点(4)仍保留“评价不严密+先排除酸性干扰+再检验”的核心采分，不改变题号、题型、分值、知识点、技能与认知难度。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "(4)设问“写出一种即可”且评分点接受单一数据，但仅“沉淀质量”或仅“样品总质量”之一均不足以计算碳酸钠质量分数（需样品质量与沉淀质量两者），答案与设问/评分点对应性不一致；答案文本还残留“*修正后的标准答案*”“注：标准答案侧重于…”等命题过程性文字。",
+      "suggestion": "将(4)设问改为“需补充的关键定量数据（写出所需的一组数据）”，答案与评分点改为“样品总质量与步骤Ⅰ生成沉淀的质量（两者缺一不可）”；清理答案中的过程性文字，保留(1)(2)(3)答案与评分点不变，总分10分与各小问分值不变。"
+    },
+    {
+      "question_id": "q7",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC7",
+      "root_cause_detail": "C项断言方案“不可行”偏绝对：常规用量下红/蓝/紫三色通常可区分，局限主要在蓝色与紫色接近时的视觉判断风险；作为“可行性及局限性”的选优判断仍唯一可答，但表述需收敛。",
+      "suggestion": "将C项改为“方案在常规用量下基本可行，但氯化钠溶液呈中性时石蕊显紫色或蓝紫色，与氢氧化钠溶液的蓝色接近，存在视觉判断误差的局限”，并同步调整评分点表述；保持单选唯一正确项为C、3分与N1五级评估方案的行为不变。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "root_cause_detail": "选项C（氯化钾与硝酸钠混合）与N4等级1示例行为几乎相同，实际难度略低于目标等级2“依据规则判断并作直接说明”。",
+      "suggestion": "保留“不能发生复分解反应”的设问与答案唯一性，替换或增加一组需检索溶解性表才能判断的组合（如碳酸钠与氢氧化钡、硫酸钠与氯化钡等），使判断需依据规则作直接说明，匹配N4等级2；题号、题型、3分、知识点与识记认知不变。"
+    },
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "root_cause_detail": "C项为task_requirement示例中的典型反应，任务处于等级2较低端，对N4等级2学生偏易。",
+      "suggestion": "保留“能发生复分解反应且生成沉淀”的设问与唯一答案，将选项组合调整为需略检索溶解性表才能确认沉淀的组合（如碳酸钠与氯化钡、硫酸铜与氢氧化钡等），提升至等级2要求；题号、题型、3分、知识点与识记认知不变。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 15,
+      "root_cause": "RC1",
+      "root_cause_detail": "N3等级3要求“不给出完整步骤，自主判断并书写复分解反应的方程式”；本题四个选项已给出完整方程式，学生只需辨认B未配平、C缺↓、D不属题述过程，属书写能力的前置低阶辨认，目标行为未落实；实际推理步骤少于等级3要求。",
+      "suggestion": "保留“碳酸钠与稀盐酸制CO₂并通入澄清石灰水”情境与3分单选，将设问改为要求自主判断产物并书写方程式：可给出若干反应组合，要求选出“生成物判断正确且方程式书写（含配平与↑↓）正确”的选项，或设置需先判断产物再核对配平与状态符号的选项；确保答案唯一、评分点与3分对应，认知维持“理解”。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "rewrite_answer_and_scoring_point",
+      "cause": "答案(4)以“酚酞不变红即不含NaOH”作结，与(1)承认的酚酞变色范围（pH约8.2以下褪色）尺度不一致，极弱碱性溶液同样不变红。",
+      "acceptance_criteria": "(4)答案与评分点明确：先确认溶液不显酸性（如pH试纸测定），再滴加酚酞；若不变红，结论限定为“在酚酞检验灵敏度范围内不残留氢氧化钠”，不得表述为绝对不含NaOH；评分点仍为1分，覆盖“评价不严密+排除酸性干扰+再检验”三要点；总分5分与四小问结构不变。",
+      "issue_ids": [
+        "q21-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "rewrite_stem_subquestion_and_answer",
+      "cause": "(4)设问“写出一种即可”与评分点接受单一数据，但计算碳酸钠质量分数需样品质量与沉淀质量两者，答案与设问/评分点不对应；答案含命题过程性文字。",
+      "acceptance_criteria": "(4)设问改为要求写出所需的一组关键定量数据；答案与评分点明确“样品总质量与步骤Ⅰ生成沉淀的质量（两者缺一不可）”，2分对应；答案文本删除“*修正后的标准答案*”“注：标准答案侧重于…”等过程性文字；(1)(2)(3)答案与评分点不变，总分10分不变。",
+      "issue_ids": [
+        "q22-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q7",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_and_scoring_point",
+      "cause": "C项“方案不可行”表述偏绝对，常规用量下三色通常可区分，局限主要在蓝色与紫色接近时的视觉判断风险。",
+      "acceptance_criteria": "C项改为“方案在常规用量下基本可行，但中性氯化钠溶液中石蕊显紫色或蓝紫色，与氢氧化钠溶液的蓝色接近，存在视觉判断误差的局限”；评分点同步表述该局限；四个选项中仍仅C满足设问，答案C唯一，3分与N1五级“评估方案并预判局限”的行为不变。",
+      "issue_ids": [
+        "q7-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC3",
+      "operator": "rewrite_options",
+      "cause": "选项C与N4等级1示例行为几乎相同，实际难度低于目标等级2“依据规则判断并作直接说明”。",
+      "acceptance_criteria": "保留“不能发生复分解反应”的设问与答案唯一性；替换或增加一组需检索溶解性表才能判断的组合，使作答需依据复分解条件作直接说明；题号、题型、3分、知识点“酸碱盐反应条件及产物判断”、N4、识记认知与easy难度不变。",
+      "issue_ids": [
+        "q1-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "root_cause": "RC3",
+      "operator": "rewrite_options",
+      "cause": "C项为task_requirement示例中的典型反应，任务处于等级2较低端，对N4等级2学生偏易。",
+      "acceptance_criteria": "保留“能发生复分解反应且生成沉淀”的设问与唯一答案；选项组合调整为需略检索溶解性表才能确认沉淀的组合；题号、题型、3分、知识点“根据复分解条件判断反应产物”、N4、识记认知与easy难度不变。",
+      "issue_ids": [
+        "q2-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_options",
+      "cause": "四个选项已给出完整方程式，学生仅需辨认未配平、缺↓、不属题述过程，未落实N3等级3“自主判断并书写方程式”的行为，实际推理步骤少于等级3要求。",
+      "acceptance_criteria": "保留“碳酸钠与稀盐酸制CO₂并通入澄清石灰水”情境与3分单选；设问改为要求自主判断产物并书写方程式（如选出“生成物判断正确且方程式配平、↑↓标注正确”的选项，或设置需先判断产物再核对配平与状态符号的选项）；答案唯一，评分点与3分对应，认知维持“理解”，题号、题型、知识点“常见盐与酸、碱反应的化学方程式书写”、N3与easy难度不变。",
+      "issue_ids": [
+        "q6-skills",
+        "q6-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "2aea7445228c1dee1d5be6673968f8d366a50e8f03e36d603f52c7b9487544e7"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "dde25d7c2caded9e0c22d372e1a78f026a33906cf7ea30e5f0dd2fb8ab3f9916"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "dc15c554ff9e6eadc3dd61cb2b933e47a41fed21ca0c1abdda02263e53b97abb"
+    },
+    "q7": {
+      "question_id": "q7",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "d91a5764e503f0575a3321a7cfc503646de8dab157e13a32fc8c8f5d7deae553"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "5e07b0c4d24a48f22d1199601064e14ce76ef8e308bec5ca0c48b460df4abf72"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "cd1dcb33bc4aeeff35962497fc017da7ded4b05e03abff9d50ec914b2c3db27b"
+    }
+  }
+}

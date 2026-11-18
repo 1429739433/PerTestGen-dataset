@@ -1,0 +1,294 @@
+{
+  "D": [
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "suggestion": "保持题号、题型、分值、知识点、技能与等级不变，改写实验2情境：将“恰好完全反应时灯泡明显变暗（接近熄灭）”改为与离子浓度判据自洽的现象，例如“滴加过程中灯泡逐渐变暗，至恰好完全反应时仍明显发光但比初始暗”，或改用等浓度对照说明离子总浓度变化；同步修改选项D中“离子浓度减小故变暗”的表述，使结论可由题给条件推出。"
+    },
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "suggestion": "保持N1等级4与“应用”目标，删除题干中X“真实pH=3”的直接披露，只保留“湿润试纸测得pH=4”与题内“湿润试纸使酸性溶液测得pH偏大”的规则，令学生自行推断真实pH<4并排除C、D；选项B保留pH=7中性、pH=11碱性的判断，使干扰筛选环节实际发生。"
+    },
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "保持知识点与N2等级4不变，统一离子计数口径：在题干明确“统计溶液中实际存在的离子（含滴加盐酸带入的Cl⁻）”，并将选项B改为“第一阶段H⁺与CO₃²⁻结合生成HCO₃⁻，Na⁺数目不变，Cl⁻数目随滴加持续增大”，选项D改为“Cl⁻未参与反应但数目随滴加增大”；同步修订评分点，删除“Cl⁻数目不变”的错误采分依据。"
+    },
+    {
+      "question_id": "q12",
+      "dimensions": [
+        "science",
+        "coverage",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "suggestion": "保持N1等级4与指示剂变色知识点，重写选项使唯一正确：题干明确“只可能是氢氧化钠或碳酸钠中的一种，不考虑混合”，将A改为“滴加少量稀盐酸，若立即产生气泡则一定是碳酸钠溶液”（因Na₂CO₃先转化为NaHCO₃不立即产气，该分支不成立），将B改为“滴加少量氯化钙溶液，若无沉淀则一定是氢氧化钠溶液”（少量试剂不能保证完全沉淀，结论不可靠），保留D为足量CaCl₂沉淀后清液滴酚酞不变色→碳酸钠溶液；同时把设问中“判断酸碱性并说明理由”改为题干已给事实，避免单选无法承载说理任务；评分点仅对应唯一正确项。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "保持填空6分与中和微观实质知识点，将第(1)问改为“从开始滴加到恰好完全反应，溶液中始终存在且未参与反应、数量不因反应而减少的离子是______”（答案Na⁺），或改为“反应后溶液中除水分子外仍大量存在的两种离子是______和______”（答案Na⁺、Cl⁻），避免“Cl⁻数量基本不变”的错误表述；同步修订评分点1的答案与判分依据。为落实等级4，可在题干补充分步微粒记录或干扰信息，要求学生整合多条关系作答。"
+    },
+    {
+      "question_id": "q14",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "保持N4等级2与识记目标，删除题干中“铜片无明显变化、锌片产生大量气泡、铁片产生少量气泡”的直接现象描述，只给出三种金属与稀盐酸接触的实验设置和金属活动性顺序，要求学生依据顺序判断能否反应；或将设问改为“下列判断及依据均正确的是”，使选项必须包含活动性顺序推理而非现象匹配。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q6",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_option",
+      "cause": "实验2以“恰好完全反应时灯泡明显变暗（接近熄灭）”为前提，但按题干自设判据（离子浓度越大越亮），NaOH被等量NaCl替代后自由离子总浓度近似不变，现象与化学事实相悖；选项D“离子浓度减小故变暗”的结论不能由已知条件推出。",
+      "acceptance_criteria": "改写后实验2现象与离子浓度判据自洽（如“恰好完全反应时灯泡仍明显发光但比初始暗”或给出等浓度对照说明）；选项D的解释可由题给条件逐步推出；单选仍唯一正确；题号、题型、3分、知识点“氢氧化钠溶液中大量存在的微粒”、N2等级4与easy难度不变。",
+      "issue_ids": [
+        "q6-science",
+        "q6-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题干直接披露X真实pH=3并明示“偏大”，选项C、D据题面直接比对即可排除，干扰筛选环节未实际执行；选项B仅为pH数值与酸碱性的单步对应，未落实N1等级4“含干扰情境中自主筛选条件、排除干扰”的行为，认知低于“应用”。",
+      "acceptance_criteria": "题干不再直接给出X的真实pH，仅给出湿润试纸测得值与“湿润试纸使酸性溶液测得pH偏大”的规则；学生须自行推断真实pH<4并据此排除C、D；选项B保留pH=7中性、pH=11碱性的判断；单选唯一正确；题号、题型、3分、知识点、N1等级4与easy难度不变。",
+      "issue_ids": [
+        "q2-skills",
+        "q2-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_scoring",
+      "cause": "题干为“逐滴加入稀盐酸”，Cl⁻随每滴盐酸持续进入溶液；选项B、D均断言“Cl⁻数目不变/始终不变”，选项C断言Na⁺减少，四项均不成立，答案不唯一；评分点“钠离子和氯离子作为旁观离子数目不变”延续同一错误。",
+      "acceptance_criteria": "题干明确离子计数口径（统计溶液中实际存在的离子，含滴加带入的Cl⁻）；选项B改为“H⁺与CO₃²⁻结合生成HCO₃⁻，Na⁺数目不变，Cl⁻数目随滴加持续增大”，选项D改为“Cl⁻未参与反应但数目随滴加增大”；恰好一个选项成立；评分点与正确项一致，删除“Cl⁻数目不变”的采分依据；题号、题型、3分、知识点、N2等级4与medium难度不变。",
+      "issue_ids": [
+        "q13-science",
+        "q13-specification",
+        "q13-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_stem",
+      "cause": "题干限定“只可能是氢氧化钠或碳酸钠中的一种，不考虑混合”，但A（足量稀盐酸产气）与C（足量BaCl₂沉淀后清液滴酚酞）两分支均能唯一确定成分，单选答案不唯一；设问前半“判断酸碱性并说明理由”在单选形式下无法呈现，评分点仅论证C，未识别A的可鉴别性。",
+      "acceptance_criteria": "题干明确“只可能是氢氧化钠或碳酸钠中的一种，不考虑混合”；A改为“滴加少量稀盐酸，若立即产生气泡则一定是碳酸钠溶液”（因Na₂CO₃先转化为NaHCO₃不立即产气，该分支不成立），B改为“滴加少量氯化钙溶液，若无沉淀则一定是氢氧化钠溶液”（少量试剂不能保证完全沉淀，结论不可靠），D保留足量CaCl₂沉淀后清液滴酚酞不变色→碳酸钠溶液；恰好一个选项成立；设问改为单选可承载的方案选择，评分点仅对应唯一正确项；题号、题型、3分、知识点、N1等级4与easy难度不变。",
+      "issue_ids": [
+        "q12-science",
+        "q12-coverage",
+        "q12-difficulty_cognition",
+        "q12-specification",
+        "q12-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC7",
+      "operator": "rewrite_subquestion_and_scoring",
+      "cause": "第(1)问要求填“始终大量存在且数量基本不变”的两种离子，参考答案为Na⁺和Cl⁻；但Cl⁻从零开始随盐酸滴加持续增加，至pH=7时方与Na⁺等量，“数量基本不变”对Cl⁻不成立，评分点1的判分依据与题面事实冲突。",
+      "acceptance_criteria": "第(1)问改为“从开始滴加到恰好完全反应，溶液中始终存在且未参与反应、数量不因反应而减少的离子是______”（答案Na⁺），或改为“反应后溶液中除水分子外仍大量存在的两种离子是______和______”（答案Na⁺、Cl⁻）；评分点1的答案与判分依据同步修订；各空答案唯一、逐空计分合计6分；题号、题型、6分、知识点、N2等级4与easy难度不变。",
+      "issue_ids": [
+        "q19-science",
+        "q19-skills",
+        "q19-difficulty_cognition",
+        "q19-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem",
+      "cause": "题干已完整给出铜、锌、铁与稀盐酸的作用现象，学生不经活动性顺序推理、仅匹配现象即可选出C，N4等级2“依据反应条件规则判断”未真正落实。",
+      "acceptance_criteria": "删除题干中三种金属与稀盐酸的直接现象描述，只给出实验设置与金属活动性顺序，要求学生依据顺序判断能否反应；或将设问改为“下列判断及依据均正确的是”，使选项必须包含活动性顺序推理；单选唯一正确；题号、题型、3分、知识点、N4等级2与easy难度不变。",
+      "issue_ids": [
+        "q14-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q14": {
+      "question_id": "q14",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "152d1a4ab6f002e871bda976377631e69f09b1f9ad15d38ac2071787d5e3e35f"
+    },
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "ce33af1b3c6f645cf6277b8fa4b6e8e6f5135f731b4d6787af9e1410785ffe6a"
+    },
+    "q12": {
+      "question_id": "q12",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "coverage.redundancy",
+        "difficulty_cognition.difficulty",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "f10a09925d695c4391066e323e8b6163b9dcfb2f7fe0d2be5e4b9b85ededd2f8"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "804cf2a5a7799c212739fd5b2eb5ad74d98255b5328bcd4cc5f472da7a3d8579"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7fa37778592c296e00ba46154fa6a13b385bbdf62bc34153df71ea0c3b686eb2"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "21166afd64a263c3bf8243234441ec65489d62095d4f7225cd4a471a15463498"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "question_id": "q21",
+    "root_cause": [
+      "规范缺陷"
+    ],
+    "modification_level": "field",
+    "attempt_count": 3,
+    "accepted": true
+  }
+]

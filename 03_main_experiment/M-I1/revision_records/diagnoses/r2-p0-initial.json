@@ -1,0 +1,148 @@
+{
+  "D": [
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "root_cause_detail": "评分要点与选项判定存在学科错误：'适量'Ca(OH)₂按Ca(OH)₂+Na₂CO₃→CaCO₃↓+2NaOH恰好与Na₂CO₃完全反应，滤液为NaOH溶液且不引入新杂质，B项成立；评分要点却以'滤液中会含Ca(OH)₂、引入新杂质'否定B，导致A、B同时成立、答案不唯一，正确作答B者被判0分。",
+      "suggestion": "在保持题号、题型、分值3分、知识点'除去氢氧化钠溶液中碳酸钠杂质的试剂选择'、技能N5、等级2、认知'理解'、难度easy不变的前提下重写选项与评分点：将B改为明确引入新杂质的错误操作（如'加入适量稀盐酸后蒸发'或'加入过量氢氧化钙溶液后过滤'），使A为唯一正确项；同步修正评分点中对B、D的论证，删除'适量Ca(OH)₂仍引入Ca(OH)₂'的错误表述，D项保留'加入过量氢氧化钙'才可判'一定含氢氧化钙'。"
+    },
+    {
+      "question_id": "q17",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "题干已给出全部步骤与现象，第(1)问写方程式属N3、第(2)问仅由已给沉淀现象直接说明原因（对应N4等级2）、第(3)问识别沉淀与反应类型属N1/N3，学生无需自主推理反应能否发生，未落实N4等级3'在多物质体系中推理特定反应能否发生或共存'及'不给出完整步骤、自主连接两个相关步骤'的要求；实际认知以识记再现为主，低于蓝图'理解'。",
+      "suggestion": "保持题号、题型、分值6分、知识点'复分解反应发生条件的判断'、技能N4、等级3、认知'理解'、难度easy不变，重写必答任务：给出含两种待检离子的混合溶液（如Na₂CO₃与NaOH混合液，或Na₂CO₃与Na₂SO₄混合液）及分步加料条件，要求学生自主判断加入某试剂后哪种离子先被除去、能否共存、最终溶液中还剩哪些离子，并写出判断依据；评分点按'判断结论+依据'分档，删除仅需照抄已给现象的设问。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "root_cause_detail": "蓝图task_requirement要求给出微观粒子示意图并'说明判断依据'，实际题干无示意图、四问均只填符号或化学式，未设依据表述空，与蓝图任务描述存在偏离；但题面完整可答、认知层级与N2等级3相符，属需修订提示的轻微差异。",
+      "suggestion": "保持题号、题型、分值6分、知识点'中和反应的微观实质'、技能N2、等级3、认知'理解'、难度easy不变，在题干中补入两个反应的微观粒子示意图（或明确以文字给出反应前后微粒种类），并增设一问要求学生说明'两反应实质相同而旁观离子不同'的判断依据；评分点相应增加依据表述的采分点并保持总分6分。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q15",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_scoring",
+      "cause": "B项按化学计量成立，与参考答案A构成多正确项；评分点以错误的'适量Ca(OH)₂引入新杂质'论证否定B，导致正确作答被判0分。",
+      "acceptance_criteria": "1) 逐项独立验证后仅A成立，B、C、D均不成立；2) B项改为确实引入新杂质的操作（如加适量稀盐酸后蒸发，或加过量氢氧化钙后过滤），D项保留'过量氢氧化钙'才可判'一定含氢氧化钙'；3) 评分点删除'适量Ca(OH)₂仍含Ca(OH)₂'的错误论证，改为按实际反应方程式说明；4) 题号、题型single_choice、分值3、知识点、技能N5、等级2、认知'理解'、难度easy不变；5) 选对得3分、选错不得分的规则保留。",
+      "issue_ids": [
+        "q15-science",
+        "q15-specification",
+        "q15-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "root_cause": "RC1",
+      "operator": "rewrite_task_requirement",
+      "cause": "题干给出全部步骤与现象，学生无需自主推理反应能否发生，实际落实N4等级2及前置技能，未达等级3；认知以识记再现为主，低于'理解'。",
+      "acceptance_criteria": "1) 题干不给出完整步骤，改为给出混合溶液与分步加料条件，要求学生自主判断某反应能否发生、离子能否共存及最终溶液成分；2) 学生必答任务须包含'判断结论+判断依据'，不能仅照抄已给现象；3) 评分点按结论与依据分档，总分6分不变；4) 题号、题型fill_blank、分值6、知识点'复分解反应发生条件的判断'、技能N4、等级3、认知'理解'、难度easy不变。",
+      "issue_ids": [
+        "q17-skills",
+        "q17-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC3",
+      "operator": "supplement_stem_and_scoring",
+      "cause": "蓝图要求给出微观粒子示意图并说明判断依据，实际题干无示意图、无依据表述空，与蓝图任务描述偏离。",
+      "acceptance_criteria": "1) 题干补入两个中和反应的微观粒子示意图或以文字明确给出反应前后微粒种类；2) 增设一问要求说明'实质相同而旁观离子不同'的判断依据；3) 评分点增加依据表述采分点，总分仍为6分；4) 题号、题型fill_blank、分值6、知识点'中和反应的微观实质'、技能N2、等级3、认知'理解'、难度easy不变。",
+      "issue_ids": [
+        "q16-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "9dbf6c0f78a340a454e154df809a56d0a604eae3a1d824a0f93cf5c067768fcc"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "35d39ac9889569897f39a7bec34813d5e14f329904aeb08049741fa36cc8b280"
+    },
+    "q17": {
+      "question_id": "q17",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a8882f495e9ce705b14207e8046f702428c1a71f294cb5b1d87542692c625c54"
+    }
+  }
+}

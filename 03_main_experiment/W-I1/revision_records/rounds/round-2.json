@@ -1,0 +1,94 @@
+{
+  "round": 2,
+  "status": "completed",
+  "parent_ids": [
+    "r1-p0-c0"
+  ],
+  "candidate_ids": [
+    "r2-p0-c0",
+    "r2-p0-c1"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 3,
+    "remaining_question_slots": 24,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q8",
+      "q21",
+      "q13",
+      "q7",
+      "q10",
+      "q5"
+    ],
+    "contributions": {
+      "q7": 1.5,
+      "q8": 1.5,
+      "q14": 0.5,
+      "q13": 1.5,
+      "q5": 0.5,
+      "q10": 0.75,
+      "q21": 4.0
+    },
+    "selected_mass": 0.9512195121951219,
+    "weighted_penalty_total": 10.25,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q13",
+      "q21",
+      "q8"
+    ],
+    "authorized_issue_ids": [
+      "q5-specification",
+      "q7-science",
+      "q8-coverage",
+      "q10-coverage",
+      "q13-coverage",
+      "q21-science",
+      "q21-specification",
+      "q21-science-veto",
+      "missing-常见酸碱盐的化学式书写判断",
+      "missing-pH试纸与浓硫酸稀释的实验操作"
+    ],
+    "priority_dimensions": [
+      "coverage",
+      "science",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": [
+      "q14"
+    ],
+    "stalled_question_attempts": {
+      "q21": 2,
+      "q16": 3,
+      "q13": 2
+    },
+    "repair_dimension_candidates": {
+      "coverage": [
+        "q8",
+        "q10",
+        "q13"
+      ],
+      "science": [
+        "q7",
+        "q21"
+      ],
+      "specification": [
+        "q5",
+        "q14",
+        "q21"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r2-p0-c1"
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "round": 1,
+  "status": "completed",
+  "parent_ids": [
+    "initial"
+  ],
+  "candidate_ids": [
+    "r1-p0-c0"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 8,
+    "remaining_question_slots": 30,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q21",
+      "q17",
+      "q23",
+      "q8",
+      "q22",
+      "q15"
+    ],
+    "contributions": {
+      "q11": 2.25,
+      "q8": 4.5,
+      "q16": 1.0,
+      "q22": 2.75,
+      "q1": 1.25,
+      "q19": 2.5,
+      "q21": 1.5,
+      "q23": 9.0,
+      "q20": 1.0,
+      "q15": 2.5,
+      "q17": 15.75
+    },
+    "selected_mass": 0.8181818181818182,
+    "weighted_penalty_total": 44.0,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q15",
+      "q17",
+      "q21",
+      "q22",
+      "q23",
+      "q8"
+    ],
+    "authorized_issue_ids": [
+      "q8-science",
+      "q8-skills",
+      "q8-specification",
+      "q15-skills",
+      "q17-science",
+      "q17-coverage",
+      "q17-skills",
+      "q17-difficulty_cognition",
+      "q17-specification",
+      "q17-science-veto",
+      "q21-coverage",
+      "q22-coverage",
+      "q22-difficulty_cognition",
+      "q23-science",
+      "q23-difficulty_cognition",
+      "q23-specification",
+      "q23-science-veto",
+      "missing-酸碱中和反应的实验操作与现象分析"
+    ],
+    "priority_dimensions": [
+      "coverage",
+      "difficulty_cognition",
+      "science",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "deferred_question_ids": [
+      "q1",
+      "q11",
+      "q16",
+      "q19",
+      "q20"
+    ],
+    "all_major_question_ids": [
+      "q15",
+      "q16",
+      "q17",
+      "q19",
+      "q21",
+      "q22",
+      "q23",
+      "q8"
+    ],
+    "per_round_question_limit": 6,
+    "notice": "贡献度覆盖达到目标或达到本轮题数上限后停止选题；未选问题继续保留到下一轮，不修改评分或达标条件。",
+    "backlog_ages": {
+      "q17": 0,
+      "q23": 0,
+      "q8": 0,
+      "q22": 0,
+      "q21": 0,
+      "q15": 0,
+      "q16": 0,
+      "q19": 0
+    },
+    "fairness_rule": "已确认关键否决优先，其余持续未排到的重大问题优先；再兼顾失败维度与贡献度。",
+    "stalled_question_attempts": {},
+    "repair_dimension_candidates": {
+      "coverage": [
+        "q17",
+        "q21",
+        "q22"
+      ],
+      "difficulty_cognition": [
+        "q11",
+        "q17",
+        "q20",
+        "q22",
+        "q23"
+      ],
+      "science": [
+        "q8",
+        "q17",
+        "q23"
+      ],
+      "skills": [
+        "q1",
+        "q8",
+        "q11",
+        "q15",
+        "q17",
+        "q19"
+      ],
+      "specification": [
+        "q8",
+        "q16",
+        "q17",
+        "q23"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r1-p0-c0"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "D": [
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "suggestion": "保持题号、题型、分值、知识点与N5不变，将设问从“评价结论是否严密/评估替代方案”下调为等级3的“依据现象判断变质程度并说明依据”：第(3)问改为“若上层清液不变红，说明样品中氢氧化钠已基本不存在，请说明判断依据”，第(4)问改为“说明稀盐酸不能代替氯化钙溶液的一条理由”，使必答行为落在“自主选择试剂、完成两步以上鉴别并说明结论依据”的等级3范围内，不再要求等级4的证据强度评价与方案评估。"
+    },
+    {
+      "question_id": "q14",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "保持单选、3分、知识点与N3等级2不变，将题干设问改为“选出方程式正确且与现象一致的选项，并归纳盐与酸、盐与盐反应方程式书写的通性要点（配平、产物符号、现象与产物对应），据此说明该选项成立的理由”，使归纳表征行为成为必答任务；若维持纯单选提交字母，则须将目标等级下调为N3等级1并在蓝图中同步，不得以单选形式宣称落实等级2归纳行为。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "suggestion": "保持实验题、5分、知识点与N5等级3不变，统一题干与答案、评分点：题干(3)已限定“酚酞溶液除外”，则参考答案示例一、二、三的第二步一律改用紫色石蕊溶液（变蓝说明氢氧化钠剩余，呈紫色说明已完全反应），删除示例三中“第一步呈紫色后第二步再滴石蕊变蓝”的无效路径；评分点(3)第二步改为“选用紫色石蕊溶液（不使用酚酞）检验氢氧化钠是否剩余，写出操作、现象与结论得1分”，并删除题干中混入的生成过程注释文字，确保学生可见题文干净。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "保持填空、6分、知识点与N1等级3不变，将(4)由“请填写上述空格中的内容”改为在实验三段落内直接设空并编号，如“【实验三】……因为浓硫酸具有强烈的______性，会破坏pH试纸。(4) 填写该空”，使小问编号与空格位置一一对应，消除指向不清。"
+    },
+    {
+      "question_id": "q7",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "保持单选、3分、知识点“氢氧化钠溶液中大量存在的微粒”与N2等级4不变，将题干改为含干扰信息的多关系整合情境：给出NaOH溶液与稀盐酸反应过程中溶液始终澄清、始终导电的观察记录，要求选出同时正确解释“微粒组成—OH⁻决定碱性—自由移动离子导电—仅凭导电不能判断恰好中和”的选项，并设置“NaOH分子大量存在”“Na⁺使溶液呈碱性”“溶液中无水分子”等干扰项，使必答行为达到等级4的多条关系整合与结论条件检查，而非单一溶液微粒辨认。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 10,
+      "root_cause": "RC3",
+      "suggestion": "保持单选、3分、知识点“根据复分解条件判断反应产物”与N4等级3不变，将题干改为轻度变化的多物质体系推理：给出含Na⁺、CO₃²⁻、Cl⁻的溶液逐滴加入稀盐酸的体积—气体体积关系（初期无气体、随后气体增多、最后不再增加），要求依据复分解条件判断各阶段离子变化与最终溶液主要成分，并说明结论依据；避免仅对四组溶液逐一作单步“能否反应”判断。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q22",
+      "root_cause": "RC3",
+      "operator": "下调设问评价要求至等级3行为",
+      "cause": "题干已给出完整两步方案，第(3)(4)问要求评价结论严密性与替代方案可行性，实际行为接近N5等级4（排除干扰的复杂检验与方案评估），高于target_level 3与学生N5=3，难度偏移。",
+      "acceptance_criteria": "第(3)问只要求依据“上层清液不变红”说明样品中氢氧化钠已基本不存在并给出判断依据，不要求讨论酚酞检出限与证据强度；第(4)问只要求说明稀盐酸不能代替氯化钙溶液的一条理由；全题仍为两步以上检验的现象—结论推断，分值2+2+3+3=10不变，答案与评分点逐问对应。",
+      "issue_ids": [
+        "q22-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "root_cause": "RC1",
+      "operator": "将归纳表征行为写入必答任务",
+      "cause": "蓝图task_requirement要求归纳方程式书写通性要点并据此说明正确选项，但题干仅设“选出正确项”，单选只提交字母，N3等级2的归纳表征行为未落实，目标技能仅以前置知识形式被考查。",
+      "acceptance_criteria": "题干明确要求学生在选出正确选项的同时归纳“配平、产物符号正确、现象与产物对应”的通性要点，并用该要点说明A项成立、B/C/D项不成立；评分点保留“选A得1分”“A项理由1分”“排除其余选项1分”，合计3分，且归纳要点在评分点中有对应表述。",
+      "issue_ids": [
+        "q14-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "统一题干排除条件与答案、评分点",
+      "cause": "题干(3)限定“酚酞溶液除外”，但参考答案三个示例的第二步均使用无色酚酞，评分点亦要求“正确选择无色酚酞溶液”，遵守题干的学生按此评分将失分。",
+      "acceptance_criteria": "参考答案(3)各示例第二步一律使用紫色石蕊溶液并给出“变蓝说明氢氧化钠剩余、呈紫色说明已完全反应”的现象与结论；删除示例三中第一步呈紫色后第二步再滴石蕊变蓝的无效路径；评分点(3)第二步改为“选用紫色石蕊溶液（不使用酚酞）检验氢氧化钠是否剩余，写出操作、现象与结论得1分”；题干与答案中不出现酚酞作为第二步试剂，分值1+2+1+1=5不变。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC6",
+      "operator": "修正小问编号与空格位置的对应",
+      "cause": "(4)“请填写上述空格中的内容”与实验三空格的实际位置脱节，学生可能混淆应填哪些空。",
+      "acceptance_criteria": "实验三的空格在段落内直接编号为(4)，或(4)明确指向“浓硫酸具有强烈的______性”这一空；六个评分点各1分合计6分不变，答案“腐蚀（或脱水）”仍唯一可判。",
+      "issue_ids": [
+        "q20-specification"
+      ],
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ]
+    },
+    {
+      "question_id": "q7",
+      "root_cause": "RC1",
+      "operator": "将单一微粒辨认改写为含干扰的多关系整合任务",
+      "cause": "实际任务为单一熟悉溶液的微粒辨认与两步联系，属level 2—3行为，未落实N2等级4“含干扰情境中整合多条关系、多步分析并检查结论成立条件”的行为，认知亦低于蓝图“应用”。",
+      "acceptance_criteria": "题干给出NaOH溶液与稀盐酸反应过程中溶液始终澄清、始终导电的观察记录；四个选项分别涉及微粒组成、碱性归因、导电归因与“仅凭导电不能判断恰好中和”，其中仅一项同时正确；学生须排除“NaOH分子大量存在”“Na⁺使溶液呈碱性”“溶液中无水分子”等干扰；答案唯一，评分点“选对得3分”不变。",
+      "issue_ids": [
+        "q7-skills",
+        "q7-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC3",
+      "operator": "将单步成对判断改写为多物质体系分步推理",
+      "cause": "本题仅需按题干明示条件对四组溶液逐一作单步“能否反应”判断，属level 2行为，未落实N4等级3“在多物质体系中推理特定反应能否发生或共存”的要求。",
+      "acceptance_criteria": "题干给出含Na⁺、CO₃²⁻、Cl⁻的溶液逐滴加入稀盐酸的体积—气体体积关系（初期无气体、随后气体增多、最后不再增加）；设问要求判断各阶段发生的反应、气体停止后溶液的主要成分，并说明依据；四个选项中仅一项正确，评分点“选对得3分”不变。",
+      "issue_ids": [
+        "q8-skills",
+        "q8-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q14": {
+      "question_id": "q14",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "9dcdafddd1f50ff3069bfeeb012e54e1320e69f5b3491b249fc042f3c454c526"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6f5f149031dde9573deedfed0f69709da0497ab41c32f28688b802ed3a698dc9"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "983d857c7a11aca934c32efd0e4249b6640b346feab3cb47a069b47ae3ea4e2b"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "c9af4d8d56ab12545e5ed652328f100b343f5bd92229447d76bfa22f5bdaf716"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "eec0725a3ef8631fad18484b26478de29f50f3205ee3aaf1a965fec39162f88f"
+    },
+    "q7": {
+      "question_id": "q7",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "b9765bd57e6be810a748932ac71d0954ccb453580ae2b34e8ffc46af6cb260dd"
+    }
+  }
+}

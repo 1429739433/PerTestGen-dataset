@@ -1,0 +1,247 @@
+{
+  "D": [
+    {
+      "question_id": "q5",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7（科学性错误）为主因：单选题出现B、C两个成立项，答案不唯一；同时实际认知操作（辨析“变瘪能否作为反应发生的证据”）高于蓝图标注的“识记”，属RC2/RC3次因。",
+      "suggestion": "保持题型、分值、知识点、技能N4、等级2、难度easy不变，重写题干与选项：将情境改为“向氢氧化钠溶液中通入CO₂无明显现象，判断二者能否反应并选解释”，使正确项唯一（如C：生成碳酸钠和水，属碱与非金属氧化物反应，无沉淀气体但能发生），干扰项分别设为“无现象即不反应”“因CO₂溶于水故不能与NaOH反应”“因水减少溶液变浓”等明确错误表述；避免出现“变瘪只能说明CO₂减少”这类同样成立的选项。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 15,
+      "root_cause": "RC1",
+      "root_cause_detail": "RC1（维度错配）为主因：N3等级3要求“不给出完整步骤，自主判断并书写复分解方程式”，而原题四个选项已给出完整方程式，学生仅比对配平与状态符号，属低阶辨认；难度亦低于目标（RC3次因）。",
+      "suggestion": "保持题型、分值、知识点、技能N3、等级3、难度easy不变，将选项改为文字描述生成物与守恒关系的表述（如“生成氯化钠、水和二氧化碳，反应前后各元素原子数目相等”），不直接给出完整方程式，迫使学生自主判断产物并核对质量守恒；干扰项分别漏写水、误称碳酸钙可溶、声称原子数目不守恒。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 25,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7（科学性错误）为主因：“足量稀盐酸”未界定是恰好完全反应还是过量，若按过量理解则A（Na⁺、Cl⁻、H⁺）同样成立，单选唯一性被破坏；题干条件缺失属RC6次因。",
+      "suggestion": "保持题型、分值、知识点、技能N2、等级2、难度easy不变，将题干改为“向氢氧化钠溶液中滴加稀盐酸至溶液恰好呈中性（氢氧化钠恰好完全反应）”，或明确“盐酸过量”，使正确项唯一；选项保留Na⁺、Cl⁻、H⁺、OH⁻的合理组合，确保仅C成立。"
+    },
+    {
+      "question_id": "q11",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7（科学性错误）为主因：题干已限定A、B、C为三种给定溶液之一，此时仅凭pH即可三选一确定成分，选项A“仅凭pH数据即可完全确定成分”字面可读作成立，与D形成歧义；选项C表述冗长含混属RC6次因。",
+      "suggestion": "保持题型、分值、知识点、技能N1、等级5、难度medium不变，重写设问与选项：明确评价对象为“仅凭pH和指示剂颜色能否确定溶液的具体物质身份（而非在三选一中排除）”，将A改为“pH数据可区分所有中性溶液，故仅凭pH即可确定丙的具体成分”等明确错误表述，C精简为清晰陈述句，确保D唯一成立。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7（科学性错误）为主因：第(4)问题干先声明“恰好完全反应，得到只含NaCl的溶液乙”，又要求“检验是否残留氢氧化钠”，前提与设问自相矛盾，答案中“若含盐酸”的干扰讨论亦与“只含NaCl”冲突；设问自洽性缺陷属RC6次因。",
+      "suggestion": "保持题型、分值、知识点、技能N5、等级4、难度medium不变，将(4)改为“另取一份氢氧化钠溶液，滴入酚酞后逐滴加入稀盐酸至红色恰好褪去，得到溶液乙。请设计实验检验溶液乙中是否还残留氢氧化钠，写出操作、现象和结论，并说明需排除的干扰因素”，删除“恰好完全反应、只含NaCl”的断言，使设问与前提自洽。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q5",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_options",
+      "cause": "单选题B、C两项均成立，答案不唯一；且实际认知操作高于蓝图“识记”标注。",
+      "acceptance_criteria": "题干情境改为“向氢氧化钠溶液中通入CO₂无明显现象，判断二者能否反应并选解释”；逐项独立核验后恰有一个成立项且与参考答案一致；正确项须体现“生成碳酸钠和水、属碱与非金属氧化物反应、无沉淀气体但能发生”；干扰项均为明确错误表述；题型single_choice、3分、知识点“碱与非金属氧化物反应及证据分析”、技能N4、等级2、难度easy不变。",
+      "issue_ids": [
+        "q5-science",
+        "q5-skills",
+        "q5-difficulty_cognition",
+        "q5-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC1",
+      "operator": "rewrite_options",
+      "cause": "选项已给出完整方程式，学生仅比对配平与状态符号，未落实N3等级3“自主判断并书写方程式”的行为。",
+      "acceptance_criteria": "选项改为文字描述生成物与守恒关系的表述，不直接给出完整方程式；学生须自主判断碳酸钠与盐酸的产物并核对质量守恒方可作答；逐项核验恰有一个成立项且与参考答案一致；题型single_choice、3分、知识点“常见盐与酸、碱反应的化学方程式书写”、技能N3、等级3、难度easy不变。",
+      "issue_ids": [
+        "q6-skills",
+        "q6-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_condition",
+      "cause": "“足量稀盐酸”未界定恰好完全反应还是过量，若按过量理解则A项同样成立，单选唯一性被破坏。",
+      "acceptance_criteria": "题干明确“恰好呈中性（氢氧化钠恰好完全反应）”或明确“盐酸过量”，消除用量歧义；逐项核验后恰有一个成立项且与参考答案一致；题型single_choice、3分、知识点“复分解反应前后离子种类的变化”、技能N2、等级2、难度easy不变。",
+      "issue_ids": [
+        "q8-science",
+        "q8-specification",
+        "q8-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题干已限定三种候选溶液，仅凭pH即可三选一确定成分，A项字面可读作成立，与D形成歧义；C项表述冗长含混。",
+      "acceptance_criteria": "设问明确评价对象为“仅凭pH和指示剂颜色能否确定溶液的具体物质身份（而非在三选一中排除）”；A项改为明确错误表述，C项精简为清晰陈述句；逐项核验后恰有一个成立项且与参考答案一致；题型single_choice、3分、知识点“溶液酸碱性与pH的关系判断”、技能N1、等级5、难度medium不变。",
+      "issue_ids": [
+        "q11-science",
+        "q11-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "rewrite_subquestion_4",
+      "cause": "第(4)问题干先声明“恰好完全反应，得到只含NaCl的溶液乙”，又要求检验是否残留氢氧化钠，前提与设问自相矛盾。",
+      "acceptance_criteria": "(4)改为“逐滴加入稀盐酸至红色恰好褪去，得到溶液乙”，删除“恰好完全反应、只含NaCl”的断言；设问与前提自洽，学生可据题干条件作答；评分点1+2+1+1=5分与points一致且逐点对应(1)—(4)；题型experiment、5分、知识点“酸碱中和反应的实验操作与现象分析”、技能N5、等级4、难度medium不变。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0035ffca848f0878b4b1209c468da530ddb18e215c8307ccc25a90c3c4433e16"
+    },
+    "q11": {
+      "question_id": "q11",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "43582ff73dd020e36d01bf3314d8e71da586008284086b31c660f2cb3e93b9d0"
+    },
+    "q5": {
+      "question_id": "q5",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "bd80e80d2050097ec57ba59b2f4a8cf2002e7f4696dde53cc4b86e4bb796ee1e"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "dc15c554ff9e6eadc3dd61cb2b933e47a41fed21ca0c1abdda02263e53b97abb"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "77b761ea2b978aa3f212d2626001efe17f266421ea575a8e321cf710ccff291e"
+    }
+  }
+}

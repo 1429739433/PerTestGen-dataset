@@ -1,0 +1,231 @@
+{
+  "D": [
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "重写选项与设问：明确“完全正确”含化学式、配平、必要↑↓符号；将唯一正确项设为符号齐全且配平正确者（如BaCl2+H2SO4=BaSO4↓+2HCl），其余选项分别设置漏↑、漏↓、不配平或不能发生等单一缺陷，确保逐项独立验证后唯一。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "删除“在中和反应的微观示意图中”的图件指称或补附示意图；保持题干文字已给出的离子信息与三空设问不变。"
+    },
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC6",
+      "suggestion": "补齐归纳四空的给分规则并重排总分：六格颜色与四空规律共10空，按每空0.5分计5分，另设1分独立赋分点（如指定某一空），使评分点合计6分且逐空可判。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "skills"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "改写(1)：不把酚酞褪色直接等同于恰好完全反应，改为提供独立pH记录（如褪色时pH约8、继续滴加至pH约7）并要求学生判断能否仅凭褪色断定恰好中和；同时把必答任务落到N5等级2的检验/鉴别操作与结论（如依据现象与pH数据判断反应进程并说明依据），保留(2)(3)。"
+    },
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification",
+        "difficulty_cognition"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "suggestion": "统一题干数据与答案：若保留剩余总质量88.4 g，则CO2为1.6 g、Na2CO3约3.85 g、质量分数约7.7%；若保留10.6%，则剩余总质量改为87.8 g、CO2改为2.2 g。同步重写答案与全部评分点，删除混入的命题草稿文本，使各采分点与设问一一对应。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q10",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_stem",
+      "cause": "设问未界定“书写完全正确”是否含↑↓符号，A与D在宽松标准下同为正确、严格标准下均缺符号，答案不唯一；选项缺陷类型混杂。",
+      "acceptance_criteria": "题干明确“完全正确”含化学式、配平、必要↑↓符号；四个选项逐项独立验证后仅一项满足全部标准，其余各含单一可指认缺陷；参考答案与评分点判断依据覆盖全部选项。",
+      "issue_ids": [
+        "q10-science",
+        "q10-specification",
+        "q10-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC6",
+      "operator": "fix_stem_reference",
+      "cause": "题干指称“中和反应的微观示意图”但未附图，题文与图件不对应。",
+      "acceptance_criteria": "删除图件指称或补附示意图；题干文字仍完整给出两溶液离子组成与反应关系，三空设问与2+2+2评分点不变。",
+      "issue_ids": [
+        "q16-specification"
+      ],
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC6",
+      "operator": "complete_scoring_points",
+      "cause": "题干共10个作答空，评分点仅覆盖六格颜色，归纳四空无分值分配，无法据评分点判分。",
+      "acceptance_criteria": "评分点覆盖全部10空并给出每空赋分规则，合计6分；答案与各空一一对应，酚酞遇酸答“不变色”或“无色”均可得分。",
+      "issue_ids": [
+        "q18-science",
+        "q18-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "rewrite_subquestion_and_task",
+      "cause": "(1)以酚酞褪色精确断定恰好完全反应，超出指示剂终点可判范围；且必答任务仅为现象填空与方程式书写，未落实N5等级2的检验/鉴别操作与结论。",
+      "acceptance_criteria": "(1)提供独立pH记录并要求判断“仅凭褪色能否断定恰好中和”，答案指出不能并引用pH数据说明；必答任务含依据现象与数据得出检验结论的环节；评分点与设问逐项对应、合计5分。",
+      "issue_ids": [
+        "q21-science",
+        "q21-skills",
+        "q21-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "align_data_answer_and_scoring",
+      "cause": "题干剩余总质量88.4 g对应CO2 1.6 g、Na2CO3约3.85 g、质量分数约7.7%，与答案10.6%矛盾；评分点混入草稿文本且自相矛盾。",
+      "acceptance_criteria": "题干数据、答案与评分点三者一致：CO2质量、Na2CO3质量、质量分数按同一组数据推出且数值自洽；评分点逐条对应设问、合计10分，无草稿残留文本。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification",
+        "q23-difficulty_cognition",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "41eb1713afd03255ef170d34f1a44415a8995246e1cf8344704badbb22a32347"
+    },
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "6eaeaed8e8f3e2f212865ce2f5d460dfbb561ce59710af877df14666ac441b30"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "eff6633ed0e86553550ceb7509f1040f8aa0a111943dba9bc4c6b7561fe89ca8"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.answer",
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "ae654535fcc78dd0a6d0e7ba80c3d664d030df3930cddf07dc228f32833c4245"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "ab5ebf9b34d7110a09a3be5c7f4db22e36f8384caed923932b960abc5bc27ba8"
+    }
+  }
+}

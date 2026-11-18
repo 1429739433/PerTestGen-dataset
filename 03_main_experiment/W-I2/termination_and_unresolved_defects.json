@@ -1,0 +1,54 @@
+{
+  "运行编号": "web-a180d9f3a0a1",
+  "终止状态": "quality_met",
+  "采用版本": "r1-p0-c1",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q7-coverage",
+      "question_ids": [
+        "q7"
+      ],
+      "dimension": "coverage",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC4",
+      "evidence": "content：题干设问为'分别正确指出反应前稀盐酸中的阳离子和氢氧化钠溶液中的阴离子'（H⁺和OH⁻），仅辨认反应前两种溶液的离子，未比较反应前后离子种类的增减变化；实际还涉及'盐酸在水溶液中电离出的离子种类'与'氢氧化钠溶液中大量存在的微粒'两个子内容。planning_reason已声明有意收缩为直接辨认以落实N2等级1，故判轻微偏差而非目标错位；redundancy：与q11、q16的答题内容（盐酸中阳离子H⁺、氢氧化钠溶液中阴离子OH⁻）高度相似，但q7承担的知识点'复分解反应前后离子种类的变化'（3分）、q11承担'从离子角度描述中和反应过程'（3分）、q16承担'中和反应的微观实质'（6分）各自分值均已达最低要求，且q17另承担'盐酸电离离子种类'（6分）；confirmed_topic_points显示无任何必考知识低于最低分值，故不能认定重复挤占了必要知识内容。"
+    },
+    {
+      "issue_id": "q21-science",
+      "question_ids": [
+        "q21"
+      ],
+      "dimension": "science",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "facts：酚酞遇碱变红、在酸中不变色；Na2CO3与稀盐酸产生气泡、与NaOH不反应；石蕊酸红碱蓝，题给三种试剂的化学事实均正确；solvability：三种试剂均可区分两溶液（酚酞、石蕊靠颜色，碳酸钠靠气泡），题干'选择一种最合适的试剂'有可比基准，条件自洽可作答；answer：参考答案酚酞方案科学正确；但答案正文混入命题式评论（'此处以酚酞为例最为标准''亦给满分'）而非纯参考答案文本，虽不影响判分实质，答案表述不够规范"
+    },
+    {
+      "issue_id": "q21-specification",
+      "question_ids": [
+        "q21"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干'两步实验'与'选择一种试剂'搭配略含糊：一种试剂的两步可理解为对两份样品各滴加一次（与参考答案一致），但学生可能理解为需两个不同操作步骤；建议明确'对两份样品分别进行实验'以免歧义；scoring：评分点1+1+2+1=5分与题分值5分对应，覆盖试剂选择、步骤、现象、结论依据四个设问要素，无遗漏"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 91.413044,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0",
+        "r1-p0-c1"
+      ]
+    }
+  ]
+}

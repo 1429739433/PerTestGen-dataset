@@ -1,0 +1,322 @@
+{
+  "D": [
+    {
+      "question_id": "q3",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "重写题干与选项：将设问明确为“下列各组物质混合后，能发生复分解反应且化学方程式书写（含配平与状态符号）完全正确的是”，并把C项改为配平正确或改为不反应组合，确保唯一正确项为A；同时把任务改为要求学生自主判断能否反应并核对生成物与配平，落实N3三级“自主判断并书写复分解反应方程式”的行为。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 60,
+      "root_cause": "RC7",
+      "suggestion": "重写题干限定设问为“产生气体并使石灰水变浑浊这一关键步骤的化学方程式”，并重设选项使仅A正确（B、D改为书写错误或与设问步骤不符，C补沉淀符号或改为错误项）；彻底重写scoring_points，删除命题过程性文字，使评分点合计3分且与唯一答案对应；任务改为要求学生自主书写该步方程式并核对配平与状态符号，落实N3三级行为。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC7",
+      "suggestion": "修正C项使其成为错误项（如改为NaHCO3+HCl=NaCl+H2O+CO2未标↑或生成物写错），确保唯一正确项为B；同时把设问改为要求自主判断生成物并书写方程式（如给出反应物要求写出并选出正确方程式），落实N3三级“自主判断并书写”的行为，避免仅作正误辨认。"
+    },
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "重写题干证据链与选项：补充能区分“只含Na2CO3”与“含Na2CO3和NaOH”的实验（如先加过量BaCl2沉淀碳酸根后测清液碱性），使成分判断有唯一依据；或把设问改为“一定含Na2CO3、可能含NaOH”的表述并据此重设选项，确保唯一正确项；同步重写评分点，删除“成分可能为纯碳酸钠或混合物却判D正确”的自相矛盾表述；任务中增加一步定量计算以落实N3三级行为。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "suggestion": "重写第(4)问：删除与(3)问pH=6前提冲突的“确证不含HCl”设问，改为“若测得pH=7，如何进一步确证恰好完全反应并排除酚酞无法区分中性与酸性的干扰”，空项改为填试剂名称而非离子符号；第(2)问明确限定“现象最明显且能排除其他可能”的唯一方案并统一答案与评分点；删除答案与评分点中的自我修正和命题过程性文字，使5分评分点稳定可判。"
+    },
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "将参考答案栏的“约9.3%”改为与评分点及独立计算一致的“约11.8%”（NaCl总质量12.72 g÷107.8 g），并统一评分点第5条6.87 g的舍入表述；题干与设问保持不变，仅修正答案与评分点数值一致性。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q3",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_options",
+      "cause": "设问“生成物化学式书写正确”与选项呈现的完整方程式不对应，C项方程式未配平但化学式正确，导致真值不确定、答案不唯一；且任务仅要求辨认，未落实N3三级自主书写行为。",
+      "acceptance_criteria": "题干明确要求判断“能否发生复分解反应且化学方程式书写（含配平与状态符号）完全正确”；四个选项中仅A项同时满足能反应且方程式完全正确，B、D为不反应组合，C项改为配平正确但设为不反应或改为配平错误项；逐项独立验证唯一正确项为A；任务要求学生自主判断反应能否发生并核对生成物与配平，体现N3三级行为。",
+      "issue_ids": [
+        "q3-science",
+        "q3-skills",
+        "q3-difficulty_cognition",
+        "q3-specification",
+        "q3-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_options_and_scoring",
+      "cause": "题干“该过程中发生的化学反应”范围过宽，B、D字面也正确导致答案不唯一；C项缺沉淀符号；scoring_points第二要点为0分且嵌入命题过程性文字，合计仅1分与3分不符。",
+      "acceptance_criteria": "题干限定为“产生气体并使石灰水变浑浊这一关键步骤”的化学方程式；重设选项使仅A正确（B、D改为书写错误或与设问步骤不符，C补沉淀符号或改为错误项），逐项验证唯一正确项为A；scoring_points重写为合计3分、无命题过程性文字、与唯一答案对应；任务要求学生自主书写该步方程式并核对配平与状态符号，落实N3三级行为。",
+      "issue_ids": [
+        "q6-science",
+        "q6-skills",
+        "q6-difficulty_cognition",
+        "q6-specification",
+        "q6-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_and_stem",
+      "cause": "C项NaHCO3+HCl=NaCl+H2O+CO2↑经独立核验完全正确，与B项并列，导致答案不唯一；任务仅作正误辨认，未落实N3三级自主书写行为。",
+      "acceptance_criteria": "修正C项使其成为错误项（如漏标↑或生成物写错），逐项验证唯一正确项为B；设问改为要求自主判断生成物并书写方程式（如给出反应物要求写出并选出正确方程式），体现N3三级“自主判断并书写”行为；评分点与唯一答案对应。",
+      "issue_ids": [
+        "q10-science",
+        "q10-skills",
+        "q10-specification",
+        "q10-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_options_and_scoring",
+      "cause": "题干两个现象均只能证明含Na2CO3，不能确定是否含NaOH，D项“含Na2CO3和NaOH”与A项“只含Na2CO3”均无法由证据唯一支持，答案依赖出题意图假设；评分点3自相矛盾。",
+      "acceptance_criteria": "补充能区分“只含Na2CO3”与“含Na2CO3和NaOH”的实验证据（如先加过量BaCl2沉淀碳酸根后测清液碱性），使成分判断有唯一依据；或把设问改为“一定含Na2CO3、可能含NaOH”并据此重设选项，逐项验证唯一正确项；评分点重写，删除自相矛盾表述；任务中增加一步定量计算以落实N3三级行为。",
+      "issue_ids": [
+        "q15-science",
+        "q15-skills",
+        "q15-specification",
+        "q15-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "rewrite_subquestion_and_scoring",
+      "cause": "第(4)问以“确证不含HCl”与第(3)问pH=6（含H+）前提直接矛盾，且要求填离子符号而正确干扰物为酚酞（非离子），按题干字面不可解；第(2)问答案B与评分点“B或C”不一致，评分标准不确定。",
+      "acceptance_criteria": "第(4)问改为“若测得pH=7，如何进一步确证恰好完全反应并排除酚酞无法区分中性与酸性的干扰”，空项改为填试剂名称而非离子符号；第(2)问明确限定唯一方案并统一答案与评分点；删除答案与评分点中的自我修正和命题过程性文字，5分评分点稳定可判、与答案一致。",
+      "issue_ids": [
+        "q21-science",
+        "q21-skills",
+        "q21-difficulty_cognition",
+        "q21-specification",
+        "q21-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "correct_answer_and_scoring",
+      "cause": "参考答案栏“约9.3%”与评分点及独立计算（NaCl总质量12.72 g÷107.8 g≈11.8%）矛盾，为已证实的答案数值错误。",
+      "acceptance_criteria": "参考答案栏改为“约11.8%”，与评分点第6条及独立计算一致；评分点第5条6.87 g舍入表述统一；题干与设问不变，仅修正答案与评分点数值一致性。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "244d1c04b0448936616b7c8b7523f647eac988e40d463a3f16ec4a752eb3c316"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "d7fc6d8e88f8b70a9e3f1f33d1a4f0e966236d29274a516946b9d172f839360d"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "22511bdc0028ef249809424540aa2fb3de93d602b2e8b04334db8b0227c924ff"
+    },
+    "q3": {
+      "question_id": "q3",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "difficulty_cognition.difficulty",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "86147796ea12c35085181c1a700e2b359cbfb8c24daab2d4704aac913d06f795"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "37cb432ab12c3043d228f915b1a2c4f7b1c7b6f8e7ba43ddb24c65b44b50cbff"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a6adcb2ae3592673997d2ad4207f4f70b2e591349ee06b99e6956868dc0763a7"
+    }
+  }
+}

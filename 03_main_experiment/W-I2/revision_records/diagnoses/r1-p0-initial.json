@@ -1,0 +1,271 @@
+{
+  "D": [
+    {
+      "question_id": "q12",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "root_cause_detail": "题面设问要求选出“操作、现象及结论均正确且符合两步以上鉴别”的方案，但C（锌粒挑出盐酸，再用硫酸铜区分NaOH与NaCl）与D（碳酸钠挑出盐酸，再用酚酞区分NaOH与NaCl）经逐项核验同样满足全部限定，正确解不唯一，参考答案B与评分点“选出B得3分”无法成立。",
+      "suggestion": "保持题号、题型、分值3分、知识点“pH试纸与浓硫酸稀释的实验操作”、技能N5等级3、难度easy不变，重写题干限定与选项：可在题干中明确“只提供酚酞试液和pH试纸（含标准比色卡），先用其中一种方法单独鉴别出一种溶液，再用另一种方法区分剩余两种”，使仅B（或仅一个选项）满足；同时把C、D改为违反试剂限定或现象/结论有误的干扰项，并同步修订答案与评分点，确保逐项独立验证后恰有一个正确项。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "题干“选择一种最合适的试剂，设计一个两步实验”与“若选择其他试剂，需说明其不足”搭配含糊：一种试剂对两份样品各滴加一次是否算“两步”未界定；参考答案正文混入“此处以酚酞为例最为标准”“亦给满分”等命题评论，且以“指示剂法更基础常用”“石蕊颜色对比度不如无色变红直观”作为选剂依据属主观偏好而非化学依据。",
+      "suggestion": "保持题号、题型、分值5分、知识点“酸碱中和反应的实验操作与现象分析”、技能N5等级3、难度medium不变，将题干改为明确“对两份待测溶液分别取样，各滴加同一种试剂，观察并对比现象”，删去“两步实验”的歧义表述；参考答案清理为纯答案文本，选剂依据改为化学依据（如酚酞在碱性溶液中变红、在酸性溶液中不变色，现象对比明确；碳酸钠与盐酸产生气泡、与氢氧化钠不反应），并保留碳酸钠方案同样得分的说明；评分点维持1+1+2+1=5分并逐条对应设问要素。"
+    },
+    {
+      "question_id": "q5",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干称“常用碳酸钠溶液与稀盐酸反应制取二氧化碳”，与教材实验室制法（常用石灰石/大理石与稀盐酸）不符，碳酸钠与稀盐酸反应速率过快，不是常用制法；反应本身属实，不影响选项判断，属情境表述的科学性瑕疵。",
+      "suggestion": "保持题号、题型、分值3分、知识点“常见盐与酸、碱反应的化学方程式书写”、技能N3等级1、难度easy不变，将题干情境改为“碳酸钠溶液与稀盐酸反应可生成二氧化碳，碳酸钠溶液与氢氧化钙溶液反应可生成碳酸钙沉淀”，删去“常用……制取”的制法表述；选项A、B、C、D与答案A、评分点“选出选项A得3分”保持不变。"
+    },
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "answer字段混入大段自我修正文字（先答“不能”，再注“应为能”“请检查蓝图逻辑”），最终结论（1）CaCO₃、（2）能、（3）滤液含剩余CaCl₂与Na₂CO₃生成CaCO₃沉淀虽科学正确且与评分点一致，但答案文本混乱，直接用于阅卷参考会引起歧义。",
+      "suggestion": "保持题号、题型、分值6分、知识点“复分解反应发生条件的判断”、技能N4等级3、难度easy及题干、评分点不变，仅清理answer字段为修正后的标准答案：（1）CaCO₃；（2）能；（3）第一步加入过量氯化钙，滤液含生成的NaCl和剩余的CaCl₂，加入Na₂CO₃后CaCl₂与Na₂CO₃发生复分解反应生成CaCO₃沉淀，符合生成沉淀的条件，故能观察到白色沉淀。"
+    },
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "本题为单选3分，按规则选对得全分，但scoring_points按1+1+1分列三个过程性采分点，与单选全对全错的给分方式不完全对应，可能给阅卷带来表述混淆；各点内容本身正确，合计分值与总分一致。",
+      "suggestion": "保持题号、题型、分值3分、知识点“碱与非金属氧化物反应及证据分析”、技能N4等级3、难度medium及题干、选项、答案C不变，将scoring_points合并为一条“选出选项C得3分”，其判断依据可写为：CO₂与NaOH反应生成碳酸钠（无明显现象），碳酸钠再与盐酸反应产生气泡，是间接证明前一步反应发生的证据；A、B、D的推断或论据均有误。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC3",
+      "root_cause_detail": "题干（2）已给出“加入过量的______溶液”的步骤框架，（3）直接点明“氯化钡溶液”，使步骤一试剂选择与干扰分析可由题面直接提取，自主设计成分弱于N5等级3“不给出完整步骤，自主选择试剂”的要求；实际思维以理解和应用为主，未达到蓝图“综合”层级与hard难度；另（2）要求“说明选择试剂的依据”但只留试剂与现象两空，未给依据的作答位置。",
+      "suggestion": "保持题号、题型、分值10分、知识点“氢氧化钠变质程度的多证据推断”、技能N5等级3、难度hard不变，重写设问以恢复自主设计：（1）改为“请从所给四种试剂中自主选择一种，设计操作检验样品中是否含碳酸钠并将其除尽，写出所选试剂、操作、预期现象和结论”，不预留“______溶液”框架；（3）改为“请说明步骤一和步骤二选择上述试剂的依据（各写一条）”，删去“氯化钡溶液”的直接点名，改为“步骤一所选试剂”；（2）增设“依据：______”作答横线或删去“说明依据”字样。评分点相应调整为覆盖试剂选择、操作、现象、分支结论与两条依据，合计仍为10分。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q12",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_options",
+      "cause": "C、D与B同样满足“操作、现象及结论均正确且符合两步以上鉴别”，正确解不唯一，参考答案B与评分点失效（引用q12-science、q12-science-veto、q12-specification）。",
+      "acceptance_criteria": "保持题号、题型single_choice、分值3分、知识点“pH试纸与浓硫酸稀释的实验操作”、技能N5等级3、难度easy不变；题干明确限定试剂范围与两步顺序（先用一种方法单独鉴别出一种，再用另一种方法区分剩余两种）；逐项独立验证后恰有一个选项满足全部限定，且该选项与answer、scoring_points一致；C、D改为违反试剂限定或现象/结论有误的干扰项；评分点为“选出正确项得3分”。",
+      "issue_ids": [
+        "q12-science",
+        "q12-science-veto",
+        "q12-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "clarify_stem_and_clean_answer",
+      "cause": "“一种试剂的两步实验”表述含糊，参考答案混入命题评论且选剂依据为主观偏好而非化学依据（引用q21-science、q21-specification）。",
+      "acceptance_criteria": "保持题号、题型experiment、分值5分、知识点“酸碱中和反应的实验操作与现象分析”、技能N5等级3、难度medium不变；题干明确“对两份待测溶液分别取样，各滴加同一种试剂，观察并对比现象”；参考答案为纯答案文本，选剂依据为化学依据（酚酞在碱性溶液中变红、在酸性溶液中不变色；碳酸钠与盐酸产生气泡、与氢氧化钠不反应）；评分点1+1+2+1=5分，逐条对应试剂选择、步骤、现象、结论依据。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "options",
+        "scoring_points",
+        "stem",
+        "subquestions"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "root_cause": "RC7",
+      "operator": "revise_stem_context",
+      "cause": "题干“常用碳酸钠溶液与稀盐酸反应制取二氧化碳”与教材实验室制法不符，属情境表述的科学性瑕疵（引用q5-science）。",
+      "acceptance_criteria": "保持题号、题型single_choice、分值3分、知识点“常见盐与酸、碱反应的化学方程式书写”、技能N3等级1、难度easy不变；题干删去“常用……制取”的制法表述，改为“碳酸钠溶液与稀盐酸反应可生成二氧化碳，碳酸钠溶液与氢氧化钙溶液反应可生成碳酸钙沉淀”；选项A、B、C、D、答案A与评分点“选出选项A得3分”不变；逐项验证仍恰有A正确。",
+      "issue_ids": [
+        "q5-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC6",
+      "operator": "clean_answer_field",
+      "cause": "answer字段混入自我修正文字，最终结论虽正确但文本混乱，易造成阅卷歧义（引用q18-science）。",
+      "acceptance_criteria": "保持题号、题型fill_blank、分值6分、知识点“复分解反应发生条件的判断”、技能N4等级3、难度easy及题干、评分点不变；answer字段仅保留修正后标准答案：（1）CaCO₃；（2）能；（3）第一步加入过量氯化钙，滤液含NaCl和剩余CaCl₂，加入Na₂CO₃后CaCl₂与Na₂CO₃发生复分解反应生成CaCO₃沉淀，符合生成沉淀的条件，故能观察到白色沉淀；答案与三个评分点逐条对应。",
+      "issue_ids": [
+        "q18-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "root_cause": "RC6",
+      "operator": "merge_scoring_points",
+      "cause": "单选3分却按1+1+1分列三个过程性采分点，与单选全对全错的给分方式不完全对应（引用q13-specification）。",
+      "acceptance_criteria": "保持题号、题型single_choice、分值3分、知识点“碱与非金属氧化物反应及证据分析”、技能N4等级3、难度medium及题干、选项、答案C不变；scoring_points合并为一条“选出选项C得3分”，判断依据写明CO₂与NaOH反应生成碳酸钠（无明显现象）、碳酸钠再与盐酸反应产生气泡是间接证据，A、B、D推断或论据有误。",
+      "issue_ids": [
+        "q13-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC3",
+      "operator": "rewrite_subquestions",
+      "cause": "（2）预留“______溶液”框架、（3）直接点名“氯化钡溶液”，使自主设计成分被提示消解，实际认知与难度低于蓝图“综合”与hard；且（2）要求说明依据却无作答位置（引用q22-skills、q22-difficulty_cognition、q22-specification）。",
+      "acceptance_criteria": "保持题号、题型experiment、分值10分、知识点“氢氧化钠变质程度的多证据推断”、技能N5等级3、难度hard不变；（1）改为自主选择试剂并写出试剂、操作、现象、结论，不预留“______溶液”框架；（3）改为“说明步骤一和步骤二选择上述试剂的依据（各写一条）”，不直接点名氯化钡；（2）增设“依据：______”作答横线或删去“说明依据”字样；评分点覆盖试剂选择、操作、现象、分支结论与两条依据，合计10分；学生须自主排除稀盐酸与澄清石灰水并连接两步推理方可作答。",
+      "issue_ids": [
+        "q22-skills",
+        "q22-difficulty_cognition",
+        "q22-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "8bf9722a9fc90141aef2ab03c1d2d1808c5c8df92839fcd237cb8fdb7a89cdd1"
+    },
+    "q5": {
+      "question_id": "q5",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "3a2bcebf74621e0a7a57549a4ababa574bb5274e818f2a1d5a4f1ce600368d58"
+    },
+    "q12": {
+      "question_id": "q12",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "b7bd6f8fc01d8bd09486ca60fa95833adb3798748a9590bc7a5d98e8ff322ce2"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "options",
+        "scoring_points",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "fc14556f172292f7c40cecea92311fc33ff6aa95cca8217ec046290b5c7b6eb1"
+    },
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "ada60bc068f16b97144acd54f58b23abb7866d5d9979232ee932b8cf8aa4246c"
+    },
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "3574484d8893884623e2eb704468f02e22231cdead1247ffcff8c8bbe756dde4"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "运行编号": "web-eca42862dbe7",
+  "终止状态": "quality_met",
+  "采用版本": "r3-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q8-science",
+      "question_ids": [
+        "q8"
+      ],
+      "dimension": "science",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "facts：独立验证：C项酚酞使NaOH变红、与盐酸混合发生中和褪色、NaCl不变色均符合化学事实；D项浓硫酸稀释'酸入水'、pH试纸不润湿均正确；solvability：题干条件充分，选项A-D中经逐项独立验证仅C满足'两步以上'限定，答案唯一；answer：参考答案C正确，与全部设问对应，判分结果正确（A/B/D均不得分无误）。但评分点A项理由中'仅凭pH也无法把三种溶液可靠地一步区分'表述不准确：pH试纸不润湿时酸性（pH<7）、中性（pH=7）、碱性（pH>7）三种溶液pH不同，足以一步区分；A项错误的核心仅在于'润湿试纸'这一操作不规范。该理由瑕疵不影响选C的判分结论，属轻微表述缺陷。"
+    },
+    {
+      "issue_id": "q16-specification",
+      "question_ids": [
+        "q16"
+      ],
+      "dimension": "specification",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC6",
+      "evidence": "clarity：三小问填空指向明确，均注明'填离子符号'，第(3)问句式'H⁺与OH⁻结合生成水分子'与答案衔接无歧义；scoring：本题points=6，但评分要点分值为2+1+2+1+1=7分，合计与总分不符；阅卷按7分采分点分配6分会产生歧义，须修改评分要点（如第(2)问离子降为1分或另作调整）使总分一致"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 67.630435,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 84.478261,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0",
+        "r2-p0-c1"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 91.891304,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0"
+      ]
+    }
+  ]
+}

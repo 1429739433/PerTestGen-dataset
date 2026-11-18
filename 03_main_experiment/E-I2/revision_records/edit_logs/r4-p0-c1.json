@@ -1,0 +1,11 @@
+[
+  {
+    "question_id": "q2",
+    "root_cause": [
+      "科学性错误"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 2,
+    "accepted": true
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "question_id": "q11",
+    "root_cause": [
+      "科学性错误"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 4,
+    "accepted": true
+  },
+  {
+    "question_id": "q12",
+    "root_cause": [
+      "科学性错误"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 1,
+    "accepted": true
+  },
+  {
+    "question_id": "q22",
+    "root_cause": [
+      "规范缺陷"
+    ],
+    "modification_level": "field",
+    "attempt_count": 3,
+    "accepted": true
+  }
+]

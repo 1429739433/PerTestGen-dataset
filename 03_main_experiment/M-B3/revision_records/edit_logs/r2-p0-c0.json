@@ -1,0 +1,56 @@
+[
+  {
+    "question_id": "q16",
+    "root_cause": [
+      "科学性错误"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 2,
+    "accepted": false
+  },
+  {
+    "question_id": "q9",
+    "root_cause": [
+      "认知偏低"
+    ],
+    "modification_level": "local_rewrite",
+    "attempt_count": 1,
+    "accepted": false
+  },
+  {
+    "question_id": "q1",
+    "root_cause": [
+      "维度错配"
+    ],
+    "modification_level": "local_rewrite",
+    "attempt_count": 1,
+    "accepted": false
+  },
+  {
+    "question_id": "q7",
+    "root_cause": [
+      "维度错配"
+    ],
+    "modification_level": "local_rewrite",
+    "attempt_count": 1,
+    "accepted": false
+  },
+  {
+    "question_id": "q20",
+    "root_cause": [
+      "科学性错误"
+    ],
+    "modification_level": "replacement",
+    "attempt_count": 2,
+    "accepted": false
+  },
+  {
+    "question_id": "q8",
+    "root_cause": [
+      "维度错配"
+    ],
+    "modification_level": "local_rewrite",
+    "attempt_count": 1,
+    "accepted": false
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "D": [
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干流程条件自相矛盾：第一步为“足量稀盐酸”，碳酸钠应完全耗尽且溶液甲含过量HCl，但后续又记录“滴加氢氧化钙溶液产生白色沉淀”，该现象要求溶液甲中仍含Na₂CO₃；同时D项所述Na₂CO₃+Ca(OH)₂反应在“足量盐酸”条件下无从发生。答案B本身正确且唯一，但流程叙述与现象不自洽，属科学性条件缺陷。",
+      "suggestion": "保持题号、题型、分值、知识点、技能N3、等级4、认知“理解”、难度easy不变，修改题干流程条件：将第一步改为“滴加适量稀盐酸至恰好不再产生气泡”，并删去或改写第二步“产生白色沉淀”现象（如改为“滴加适量氢氧化钙溶液，无明显现象”），使溶液甲溶质为NaCl、无剩余Na₂CO₃；同步调整C、D选项表述与评分要点排除依据，确保仅B项成立。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "(1)答案键与题干编号已对应（第一空Na⁺、第二空CO₃²⁻），但(2)问“碳酸钠溶液显碱性，是因为溶液中含有______”参考答案为OH⁻，初中阶段未学盐类水解，学生依据已有知识只能合理答出CO₃²⁻，答案唯一性在目标学段内不成立；且题干未注明“填离子符号”，与同卷q17、q18同类填空标注不一致，影响阅卷口径。",
+      "suggestion": "保持题号、题型、分值6分、知识点、技能N2、等级2、认知“理解”、难度easy不变，修改(2)设问为“碳酸钠溶液显碱性，是因为溶液中含有较多的______（填离子符号，提示：碱溶液共有的离子）”，或在题干补充“CO₃²⁻能与水作用产生OH⁻”的资料；同时在(1)(2)空后统一注明“填离子符号”，并同步修订评分要点与答案键。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "评分要点共5分，但第(3)问含三个空，“若改为加入氢氧化钙溶液会造成干扰的原因”一空无对应采分点；第(2)问采分点仅覆盖“不能证明不含碳酸钠”，未覆盖参考答案中“不能确定稀盐酸恰好完全反应（盐酸可能过量）”的采分内容，答案与评分要点不完整对应。",
+      "suggestion": "保持题号、题型、分值5分、知识点、技能N5、等级4、认知“综合”、难度medium不变，补充评分要点：为第(3)问“氢氧化钙干扰原因”增设采分点（如“氢氧化钙与碳酸钠反应生成NaOH，引入新的OH⁻，干扰对原溶液中氢氧化钠的检验和中和终点的判断”），为第(2)问补充“盐酸可能过量、不能确定恰好完全反应”的采分说明；重新分配5分至各采分点，确保覆盖全部设问。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_conditions",
+      "cause": "题干“足量稀盐酸”与后续“产生白色沉淀”现象矛盾，溶液甲成分与第二步反应不自洽，导致C、D项判断条件不一致。",
+      "acceptance_criteria": "修改后题干第一步为“滴加适量稀盐酸至恰好不再产生气泡”，第二步现象与溶液甲成分自洽（无剩余Na₂CO₃时不得出现由Na₂CO₃与Ca(OH)₂反应产生的白色沉淀）；逐项复核仅B项成立，A未配平、C、D均错误；题号、题型、分值3分、知识点、技能N3、等级4、认知“理解”、难度easy不变。",
+      "issue_ids": [
+        "q9-science",
+        "q9-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC6",
+      "operator": "revise_blank_wording_and_scoring",
+      "cause": "(2)问答案OH⁻超出初中可达范围，学生合理作答CO₃²⁻与采分点冲突；题干未注明“填离子符号”，与同卷同类填空标注不一致。",
+      "acceptance_criteria": "(2)问设问或题干资料修改后，学生依据题内信息可唯一推出OH⁻；各空统一注明“填离子符号”；评分要点与答案键覆盖三个空、合计6分，键名与题干编号一一对应；题号、题型、分值6分、知识点、技能N2、等级2、认知“理解”、难度easy不变。",
+      "issue_ids": [
+        "q19-science",
+        "q19-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "complete_scoring_points",
+      "cause": "第(3)问“氢氧化钙干扰原因”一空无采分点，第(2)问采分点未覆盖“盐酸可能过量”内容，答案与评分要点不完整对应。",
+      "acceptance_criteria": "评分要点覆盖第(1)(2)(3)问全部设问，含“氢氧化钙引入新OH⁻干扰检验与终点判断”及“盐酸可能过量、不能确定恰好完全反应”两项；采分点合计5分与points一致；题号、题型、分值5分、知识点、技能N5、等级4、认知“综合”、难度medium不变。",
+      "issue_ids": [
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "e608abc9744de5b406b731e322a6893e5bcefc2754f01db4c26bdac1cd278e2a"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "d6fbf31403fbd9ef20810d1dd1305085bb5330740e7756af92d224d5e714d98c"
+    },
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0ce071b1a4eb800c8c0e34f69b5203ff9f254473d49a31cbe8bdf438818f0670"
+    }
+  }
+}

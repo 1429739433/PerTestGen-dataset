@@ -1,0 +1,141 @@
+{
+  "round": 2,
+  "status": "completed",
+  "parent_ids": [
+    "r1-p0-c0"
+  ],
+  "candidate_ids": [
+    "r2-p0-c0",
+    "r2-p0-c1"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 7,
+    "remaining_question_slots": 24,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q6",
+      "q2",
+      "q13",
+      "q12",
+      "q19",
+      "q14"
+    ],
+    "contributions": {
+      "q3": 1.5,
+      "q14": 2.5,
+      "q13": 8.0,
+      "q22": 1.5,
+      "q12": 9.5,
+      "q2": 4.5,
+      "q19": 7.5,
+      "q6": 3.0
+    },
+    "selected_mass": 0.9210526315789473,
+    "weighted_penalty_total": 38.0,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q12",
+      "q13",
+      "q14",
+      "q19",
+      "q3",
+      "q6"
+    ],
+    "authorized_issue_ids": [
+      "q2-skills",
+      "q2-difficulty_cognition",
+      "q6-science",
+      "q6-science-veto",
+      "q12-science",
+      "q12-coverage",
+      "q12-difficulty_cognition",
+      "q12-specification",
+      "q12-science-veto",
+      "q13-science",
+      "q13-specification",
+      "q13-science-veto",
+      "q14-skills",
+      "q19-science",
+      "q19-skills",
+      "q19-difficulty_cognition",
+      "q19-science-veto"
+    ],
+    "priority_dimensions": [
+      "coverage",
+      "difficulty_cognition",
+      "science",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "deferred_question_ids": [
+      "q3",
+      "q22"
+    ],
+    "all_major_question_ids": [
+      "q12",
+      "q13",
+      "q14",
+      "q19",
+      "q2",
+      "q3",
+      "q6"
+    ],
+    "per_round_question_limit": 6,
+    "notice": "贡献度覆盖达到目标或达到本轮题数上限后停止选题；未选问题继续保留到下一轮，不修改评分或达标条件。",
+    "backlog_ages": {
+      "q12": 1,
+      "q13": 1,
+      "q19": 1,
+      "q2": 0,
+      "q6": 0,
+      "q14": 1,
+      "q3": 1
+    },
+    "fairness_rule": "已确认关键否决优先，其余持续未排到的重大问题优先；再兼顾失败维度与贡献度。",
+    "stalled_question_attempts": {
+      "q3": 3,
+      "q13": 2,
+      "q12": 4,
+      "q19": 4,
+      "q21": 2
+    },
+    "repair_dimension_candidates": {
+      "coverage": [
+        "q3",
+        "q12"
+      ],
+      "difficulty_cognition": [
+        "q2",
+        "q12",
+        "q19"
+      ],
+      "science": [
+        "q6",
+        "q12",
+        "q13",
+        "q19",
+        "q22"
+      ],
+      "skills": [
+        "q2",
+        "q14",
+        "q19"
+      ],
+      "specification": [
+        "q12",
+        "q13"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r2-p0-c1"
+  ]
+}

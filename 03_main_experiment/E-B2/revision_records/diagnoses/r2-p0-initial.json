@@ -1,0 +1,296 @@
+{
+  "D": [
+    {
+      "question_id": "q14",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 50,
+      "root_cause": "RC7",
+      "suggestion": "B项第二句“互换②③仍能除去全部可溶性杂质”实际成立（Na₂CO₃仍在BaCl₂之后，可同时沉淀Ca²⁺和过量Ba²⁺），与C项同为正确，单选唯一性被破坏，评分点“选A、B、D均不得分”不可用。须重写B项使其成为明确错误陈述（如改为“若先加Na₂CO₃后加BaCl₂，则过量Ba²⁺无法除去”），同步修订答案与评分点，保持3分单选、知识点与N3 level4综合要求不变。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "coverage",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 30,
+      "root_cause": "RC1",
+      "suggestion": "四问均为题干已告知离子组成与pH条件下的单步辨认，未落实N2 level4“在含干扰情境中自主筛选条件、整合多条关系分析离子变化”，且蓝图task_requirement要求的导电性变化设问完全缺失。须重写必答任务：增设需依据pH曲线或离子数据推理导电性变化、反应前后离子种类增减及指示剂变色关系的设问，使学生在多信息情境中完成多步分析，保持6分、N2、level4与“综合”认知不变。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC7",
+      "suggestion": "粒子示意图自相矛盾：Na⁺由反应前2个变为过程中3个、反应后3个Na⁺配2个Cl⁻，电荷不守恒；第(2)问依据“◇多于◆”与图中◇、◆各1个不符。须重绘示意图（Na⁺始终2个，恰好反应时为2Na⁺+2Cl⁻，过程中OH⁻多于H⁺），并同步修订第(2)问答案依据与评分点，保持6分、N2、level4与“应用”不变。"
+    },
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "正确项A中“Cl⁻数目始终不变”与题干“逐滴加入稀盐酸”矛盾：Cl⁻随盐酸持续带入而增加，旁观离子仅指不参与反应。须改写A项（如“Na⁺数目始终不变，Cl⁻随盐酸加入而增多，二者均不参与反应”），或改设其他正确项并同步修订答案与评分点，保持3分单选、N2 level4与“综合”不变。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "suggestion": "三问均为依题干已给活动性顺序的单步判断、单一方程式书写与一次质量比比较，属N4 level1—2行为，未落实level4“复杂混合体系中综合多种条件推理反应进程及产物”。须重写必答任务，如给出多种金属与同一酸的分步加料条件或含干扰的混合物情境，要求推理反应先后、剩余金属与最终溶液成分，保持6分、N4、level4与“综合”不变。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "suggestion": "判断B正确依赖“盐酸先与NaOH反应”这一题干未陈述的反应顺序约定，技能边界要求分步条件须明确给出。须在题干补充“已知盐酸先与NaOH发生中和反应，再与Na₂CO₃反应”等分步条件，或改为给出pH曲线，使B项可由题面信息推出；同时修正D项“不含任何钠盐”与“溶质只有NaCl”的自相矛盾表述，保持3分单选、N4 level4与“应用”不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q14",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_and_scoring",
+      "cause": "B项“互换②③仍能除去全部可溶性杂质”实际成立，与C项同为正确，单选唯一性破坏，评分点“选A、B、D均不得分”与事实矛盾。",
+      "acceptance_criteria": "重写后四选项中仅C项成立；B项改为明确错误陈述（如“若先加Na₂CO₃后加BaCl₂，过量Ba²⁺无法除去”）；评分点与唯一正确项一致；仍为3分单选，知识点“常见酸碱盐的化学式书写判断”、N3、level4、综合认知不变。",
+      "issue_ids": [
+        "q14-science",
+        "q14-science-veto",
+        "q14-difficulty_cognition",
+        "q14-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC1",
+      "operator": "rewrite_task_requirement",
+      "cause": "四问均为题干已给离子组成与pH条件下的单步辨认，未落实N2 level4多步分析行为；蓝图要求的导电性变化设问缺失。",
+      "acceptance_criteria": "新增设问须要求学生依据pH曲线或离子数据推理导电性变化、反应前后离子种类增减及指示剂变色关系，至少两处需整合多条信息；仍为6分填空，知识点“盐酸在水溶液中电离出的离子种类”、N2、level4、综合认知不变；评分点与各空一一对应。",
+      "issue_ids": [
+        "q19-coverage",
+        "q19-skills",
+        "q19-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_figure_and_scoring",
+      "cause": "粒子示意图Na⁺数目前后不一致且电荷不守恒；第(2)问依据“◇多于◆”与图中各1个不符。",
+      "acceptance_criteria": "示意图中Na⁺始终为2个，恰好反应时为2Na⁺+2Cl⁻、无H⁺无OH⁻，过程中OH⁻数目多于H⁺；第(2)问答案依据与图示一致；评分点3+2+1=6分与题分对应；知识点“中和反应的微观实质”、N2、level4、应用认知不变。",
+      "issue_ids": [
+        "q16-science",
+        "q16-science-veto",
+        "q16-difficulty_cognition",
+        "q16-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_and_answer",
+      "cause": "正确项A“Cl⁻数目始终不变”与逐滴加入稀盐酸的操作矛盾，Cl⁻随盐酸带入而增加。",
+      "acceptance_criteria": "改写后A项表述符合“Na⁺数目不变、Cl⁻随盐酸加入增多、二者均不参与反应”的事实，或改设其他正确项；四选项仅一项成立；答案与评分点同步；仍为3分单选，知识点“复分解反应前后离子种类的变化”、N2、level4、综合认知不变。",
+      "issue_ids": [
+        "q13-science",
+        "q13-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC1",
+      "operator": "rewrite_task_requirement",
+      "cause": "三问均为单步规则套用与一次质量比比较，属N4 level1—2行为，未落实level4复杂体系多条件推理。",
+      "acceptance_criteria": "重写后须给出多种金属与同一酸的分步加料条件或含干扰混合物情境，要求学生推理反应先后、剩余金属及最终溶液成分，至少两处需整合多条关系；仍为6分填空，知识点“金属与稀盐酸能否反应的判断”、N4、level4、综合认知不变；评分点与设问对应。",
+      "issue_ids": [
+        "q20-skills",
+        "q20-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC7",
+      "operator": "add_stem_condition_and_fix_option",
+      "cause": "判断B正确依赖题干未陈述的“盐酸先与NaOH反应”顺序约定；D项“不含任何钠盐”与“溶质只有NaCl”自相矛盾。",
+      "acceptance_criteria": "题干补充分步反应条件或pH曲线，使B项可由题面推出；D项改为无自相矛盾的错误陈述；四选项仅B成立；仍为3分单选，知识点“根据复分解条件判断反应产物”、N4、level4、应用认知不变。",
+      "issue_ids": [
+        "q10-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q14": {
+      "question_id": "q14",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "f984c3386ae5d53db138c5054c7d37832e4d7b2571711724644071c31945f3e5"
+    },
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "39aa74817fd9217159979714476679fb78c33e6962e1f7aefb0051d488a79530"
+    },
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "1d19ca955ec104626d26d65998b14bcae1eda738730e8a2f621ae60d4c90c242"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "cd04faf2606fda376e6de7e1813ef334aac944fff3ce22114e1043137352dd73"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "ecda228518105fc1e6f690b5c94ca4ae5777ef068a563331b020f0c3d7bc261c"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2c22ddbff9e07228d5c5f7480f73e7aed6d4035f5199288bbc83f764918b1602"
+    }
+  }
+}

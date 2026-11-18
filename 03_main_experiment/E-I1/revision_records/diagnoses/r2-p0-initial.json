@@ -1,0 +1,270 @@
+{
+  "D": [
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "root_cause_detail": "参考答案(1)理由与采分点1含学科错误：称“pH在7~8.2之间仍可能有极少量盐酸剩余”，而pH>7为碱性，不可能有盐酸剩余；答案(3)“红色褪去时溶液已偏酸性”亦不严谨（刚越过8.2时仍显弱碱性）。该错误表述被写入采分点，影响判分。",
+      "suggestion": "将(1)理由改为“褪色仅表明pH<8.2，不能说明pH=7或恰好完全反应；pH在7~8.2之间时溶液可能仍显弱碱性（NaOH稍过量），不能排除极少量NaOH剩余”；将(3)改为“红色褪去时溶液pH已降至8.2以下，终点滞后于等当点”；同步修订采分点1与结论边界表述，保留石蕊/pH试纸方案与“能证明是否明显呈酸性、不能证明恰好完全反应”的边界要求。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science",
+        "difficulty_cognition"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "答案(1)由“酚酞不变红”直接断定“完全变质”，未提示不变红仅表明OH⁻浓度低于指示剂检出（pH<8.2附近仍可能有残留OH⁻）的证据局限；设问(2)直接提示“必须先除尽碳酸根”的顺序理由、(3)(4)措辞暗示两方案均有缺陷，开放度被收窄，hard定位略偏弱。",
+      "suggestion": "在答案(1)与采分点中补充证据边界：“不变红说明OH⁻浓度很低，不能严格排除极微量NaOH残留”；将设问(2)改为“说明本流程中先加足量氯化钡、后滴加酚酞的证据逻辑”，(3)(4)改为中性设问（“请评价该方案”“请分析该改动对判断的影响”），不暗示结论。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "题干“加入适量氢氧化钠溶液”未明确定量含义：若NaOH不足，最终溶质还应含剩余HCl，选项B的“仅NaCl或NaCl和NaOH”未覆盖该情形，且B中“若NaOH过量”与“适量”表述不协调。",
+      "suggestion": "将“适量氢氧化钠溶液”改为“逐滴加入氢氧化钠溶液至恰好中和（或至过量）”，或在选项中明确“若NaOH不足则还含HCl”的分支；同步修订采分点3的最终溶质表述，使各情形与选项一一对应。"
+    },
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "蓝图task_requirement要求“给出微观粒子示意图”，题干仅提供文字性导电性数据与判据，未附示意图；信息足以作答，属不影响判分的规范瑕疵。",
+      "suggestion": "在题干补充“反应前/反应初期/反应后期”三幅微观粒子示意图（标注Na⁺、CO₃²⁻、HCO₃⁻、H⁺、Cl⁻、H₂O、CO₂），或经审批将task_requirement中“示意图”改为“离子种类信息”；不得仅改标签掩盖缺图。"
+    },
+    {
+      "question_id": "q12",
+      "dimensions": [
+        "skills",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "单选3分却列出三个各1分的采分点，与“选对得本题全分、选错不得分”的单选给分规则不一致；题面方程式由选项给出，“书写”落实为核对辨认，与N3四级“书写方程式”存在形式差异（按单选规则不单独扣分，但需在采分点中明确）。",
+      "suggestion": "将scoring_points统一为“选择A得3分，选B/C/D不得分”，并在解析中保留B未配平、C的E成分错误、D的BaSO₄不与盐酸反应的逐项依据；如需落实“书写”，可在题干增设“写出步骤②中发生反应的化学方程式”独立小问并另设计分，否则在采分点注明“核对辨认即可”。"
+    },
+    {
+      "question_id": "q3",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC7",
+      "root_cause_detail": "D项“一定含有锌离子”依赖“镁量有限、未观察到锌析出”的隐含判断；题干“一段时间后取出镁条”未限定镁条用量与反应程度，若镁耗尽盐酸后继续置换Zn²⁺，Zn²⁺可能减少或消失，“一定含Zn²⁺”超出题干信息能保证的范围。",
+      "suggestion": "在题干补充限定条件，如“镁条量较少，取出时镁条已完全溶解且未观察到银白色固体析出”，或将D项改为“一定含有镁离子，可能含有锌离子和氢离子”；同步修订答案与采分点，使“一定/可能”的断言与题给条件严格对应。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "replace",
+      "cause": "参考答案(1)与采分点1将pH 7~8.2误作“可能有盐酸剩余”，答案(3)“已偏酸性”不严谨，属指示剂终点与pH关系的科学性错误，且写入判分依据。",
+      "acceptance_criteria": "答案(1)理由改为“褪色仅表明pH<8.2，不能说明pH=7或恰好完全反应；pH在7~8.2之间时溶液可能仍显弱碱性（NaOH稍过量）”；答案(3)改为“红色褪去时pH已降至8.2以下，终点滞后于等当点”；采分点1同步修订且不再出现“pH 7~8.2间有盐酸剩余”表述；保留石蕊/pH试纸方案及“能证明是否明显呈酸性、不能证明恰好完全反应”的结论边界；评分点合计仍为5分。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification",
+        "q21-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "replace",
+      "cause": "答案(1)由“酚酞不变红”直接断定“完全变质”，未提示指示剂检出限的证据局限；设问(2)(3)(4)措辞暗示结论，收窄开放度，与hard及N5五级“评估方案局限”要求不完全匹配。",
+      "acceptance_criteria": "答案(1)与采分点补充“不变红说明OH⁻浓度很低，不能严格排除极微量NaOH残留”的证据边界；设问(2)改为“说明本流程中先加足量氯化钡、后滴加酚酞的证据逻辑”，(3)(4)改为中性设问（“请评价该方案”“请分析该改动对判断的影响”），不暗示结论；四问仍可依题干试剂与资料作答，评分点合计仍为10分。",
+      "issue_ids": [
+        "q22-science",
+        "q22-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC6",
+      "operator": "replace",
+      "cause": "“适量氢氧化钠溶液”未明确定量含义，选项B未覆盖NaOH不足时剩余HCl的情形，表述与“若NaOH过量”不协调。",
+      "acceptance_criteria": "题干改为“逐滴加入氢氧化钠溶液至恰好中和（或至过量）”，或在选项B中明确“若NaOH不足则还含HCl”的分支；采分点3的最终溶质表述与各情形一一对应；答案仍唯一为B，3分不变。",
+      "issue_ids": [
+        "q10-specification"
+      ],
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "root_cause": "RC6",
+      "operator": "replace",
+      "cause": "蓝图task_requirement要求微观粒子示意图，题干仅文字化离子信息，缺图属规范瑕疵（不影响作答）。",
+      "acceptance_criteria": "题干补充“反应前/反应初期/反应后期”三幅微观粒子示意图并标注Na⁺、CO₃²⁻、HCO₃⁻、H⁺、Cl⁻、H₂O、CO₂；或经审批将task_requirement中“示意图”改为“离子种类信息”；答案B与3分单选评分不变。",
+      "issue_ids": [
+        "q9-specification"
+      ],
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "root_cause": "RC6",
+      "operator": "replace",
+      "cause": "单选3分却列三个各1分采分点，与“选对得全分”规则不一致；“书写”落实为核对辨认，需在采分点中明确。",
+      "acceptance_criteria": "scoring_points统一为“选择A得3分，选B/C/D不得分”，解析保留B未配平、C的E成分错误、D的BaSO₄不与盐酸反应的逐项依据；如需落实“书写”，题干增设“写出步骤②中发生反应的化学方程式”独立小问并另设计分，否则采分点注明“核对辨认即可”；总分仍为3分。",
+      "issue_ids": [
+        "q12-skills",
+        "q12-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q3",
+      "root_cause": "RC7",
+      "operator": "replace",
+      "cause": "D项“一定含有锌离子”依赖未说明的镁条用量与反应程度，题干“一段时间后取出镁条”不能保证Zn²⁺仍存在。",
+      "acceptance_criteria": "题干补充限定条件（如“镁条量较少，取出时镁条已完全溶解且未观察到银白色固体析出”），或将D项改为“一定含有镁离子，可能含有锌离子和氢离子”；答案与采分点同步修订，使“一定/可能”断言与题给条件严格对应；3分单选不变。",
+      "issue_ids": [
+        "q3-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q3": {
+      "question_id": "q3",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "e3359933d398be25a0ae203553d04a082b33338c9a407bf7c15c18379bee2c93"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "2a9a18f763b2494889e6b56edba21272ad77d6df083d65d9d11617162a0039c6"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7449c2003f1d4b82d4eee74ff796e410ea663f375489fedb28791abb6bd22b74"
+    },
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "c50c49970f5940e09dd0d6e44ebf6d22ddd7fed36aecd984195433371bf02fc4"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "fa27d1f6923aaf36a82091bfefae8f21f7222a974612333f37bd15127cf3836e"
+    },
+    "q12": {
+      "question_id": "q12",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "5cd1f9a8b3331732826e4072ed9e895d8058f031448e96bf27c4a261cc15f3b7"
+    }
+  }
+}

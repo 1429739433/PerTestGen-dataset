@@ -1,0 +1,210 @@
+{
+  "D": [
+    {
+      "question_id": "q7",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "保留题干与选项（C为唯一正确项），仅重写评分点说明：删除“假设适量即恰好完全沉淀或Ba²⁺过量/不足需讨论”等自相矛盾表述，改为“选C得3分；依据：白色沉淀为BaCO₃或BaSO₄，原液至少含CO₃²⁻、SO₄²⁻之一；候选阳离子仅Na⁺，由电中性必含Na⁺且不沉淀进入滤液；OH⁻由Ba(OH)₂引入且不消耗，酚酞变红证实；Cl⁻无现象证据故为可能”。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC1",
+      "suggestion": "保持N1二级与easy定位，将正确项C的因果链改为“敞口样品潮解吸水后NaOH质量分数降低，等质量取样时单位质量样品放热减少，故温升不如密封样品明显”，删除“质量分数稀释效应”以外的定量比较；同时把C项首句改为“瓶内敞口固体因潮解吸水总质量增大，而实验各取等质量样品”，明确总量与取样质量的区分，使现象判断限于题干提示下的宏观比较。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "在题干中明确加入“先依据物质类别（酸、碱、盐）及化合价规则，分别写出氢氧化钙、碳酸钠、硫酸、氯化铁（铁为+3价）的化学式，再判断下列配对”，使选出C必须完成“类别→化合价→化学式”的自主书写与逐项排除（Ca(OH)₂、Na₂CO₃、FeCl₃），落实N3三级行为；选项与答案C不变。"
+    },
+    {
+      "question_id": "q11",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "保留题干与选项A，将评分点改为单选整体给分：“选A得3分，选其他不得分；判断依据：导电因含自由移动的离子，Na₂CO₃阴离子为CO₃²⁻、NaCl阴离子为Cl⁻”，删除1+1+1分列表述，避免误读为可部分给分。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "suggestion": "将设问(1)由“步骤①中不断搅拌的目的”改为“步骤②中不断搅拌的目的”，与题干中“逐滴加入稀盐酸，并不断搅拌”的操作编号一致；答案与采分点（1分+2分+1分+1分=5分）不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q7",
+      "root_cause": "RC6",
+      "operator": "rewrite_scoring_points",
+      "cause": "评分点说明内部推理混乱且自相矛盾（“假设适量即恰好完全沉淀或Ba²⁺过量/不足需讨论”后未讨论），属阅卷说明瑕疵，不影响学生作答与判分。",
+      "acceptance_criteria": "评分点仅保留“选C得3分，选其他不得分”及可核验依据：白色沉淀为BaCO₃或BaSO₄→原液至少含CO₃²⁻、SO₄²⁻之一；候选阳离子仅Na⁺→由电中性必含Na⁺且进入滤液；OH⁻由Ba(OH)₂引入且不消耗、酚酞变红证实；Cl⁻无证据故为“可能”；不再出现“需讨论”等未决表述。",
+      "issue_ids": [
+        "q7-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_option",
+      "cause": "正确项C的因果链需理解质量分数对单位质量放热量的稀释效应，含轻度定量比较，略超N1二级“限于肉眼可见或仪器直接显示的宏观现象”边界；且C项首句“敞口放置的固体质量比密封保存的固体大”未区分瓶内总量与等质量取样，读题需自行补全。",
+      "acceptance_criteria": "题干明确“各取等质量少量固体”并给出潮解、溶解放热两条提示；正确项C表述为“瓶内敞口固体因潮解吸水总质量增大；等质量取样时敞口样品中NaOH质量分数降低，单位质量样品放热减少，故温升不如密封样品明显”，现象判断限于题干提示下的宏观比较，不再要求额外定量推理；干扰项A、B、D仍分别因“水分溶解放热更多”“吸热多于放热”“氢氧化钠消失”而错误；答案唯一为C，评分点“选C得3分”与3分对应。",
+      "issue_ids": [
+        "q8-skills",
+        "q8-difficulty_cognition",
+        "q8-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem",
+      "cause": "题干仅要求判断名称与化学式配对正误，学生可直接核验选出C，无需“依据类别和化合价自主书写化学式”的N3三级行为，目标等级3未落实。",
+      "acceptance_criteria": "题干明确要求先依据物质类别（酸、碱、盐）及化合价规则分别写出氢氧化钙、碳酸钠、硫酸、氯化铁（铁为+3价）的化学式，再判断配对正误；学生须完成Ca(OH)₂、Na₂CO₃、H₂SO₄、FeCl₃的书写并据此排除A（缺OH）、B（缺Na）、D（Fe为+2）才能选出C；选项、答案C与3分评分点不变。",
+      "issue_ids": [
+        "q10-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "root_cause": "RC6",
+      "operator": "rewrite_scoring_points",
+      "cause": "单选按提交规则选对得全分，但评分点按1+1+1分列三个采分点，易被误读为可部分给分。",
+      "acceptance_criteria": "评分点统一为“选A得3分，选其他不得分”，并附判断依据：导电因含自由移动的离子，Na₂CO₃阴离子为CO₃²⁻、NaCl阴离子为Cl⁻；不再出现分项计分表述。",
+      "issue_ids": [
+        "q11-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "rewrite_stem",
+      "cause": "设问(1)指向“步骤①中不断搅拌”，但步骤①原文不含搅拌，“不断搅拌”出现在步骤②，设问与操作步骤编号不一致，影响读题作答。",
+      "acceptance_criteria": "设问(1)改为“步骤②中不断搅拌的目的”，与题干步骤②“逐滴加入稀盐酸，并不断搅拌”一致；答案“使反应物充分接触、加快反应速率”与采分点1分不变；(2)红→无2分、(2)说明1分、(3)减小1分合计5分与题目分值一致。",
+      "issue_ids": [
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q7": {
+      "question_id": "q7",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "0ab934d37485c2756baf0ee56b9efd406208df77f2ad315cc6130d0dabd08b0c"
+    },
+    "q11": {
+      "question_id": "q11",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "c0b59566669fef22da5ed503c8d5fa37dda3666f8513f1e6a3ceb243c5d4bba0"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2fb67f041e15acab69f857bdc0c202c300db7572e65ef9929dbe81149be00d38"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "213afb2ac2dab9bd792ed5dbc98d77d68e993f503826843c49adbd64bb8c3dda"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "6b035cde2adb85f45b73e53ebe631db87740db8b61ecbcf9bb74919d3d88c8b0"
+    }
+  }
+}

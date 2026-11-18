@@ -1,0 +1,305 @@
+{
+  "D": [
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification",
+        "difficulty_cognition"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "root_cause_detail": "参考答案(2)10.4%经复算不成立：由质量守恒CO₂=10.6+100-108.4=2.2 g，推得Na₂CO₃ 5.3 g、NaCl 5.85 g、杂质5.3 g；杂质不溶口径溶液质量103.1 g，质量分数5.85/103.1×100%≈5.7%，杂质可溶口径5.85/108.4×100%≈5.4%，均非10.4%。同时题干未说明杂质是否溶于水，溶液质量分母不唯一；采分点3、4含出题草稿式自疑与替代数据（106.2 g、11.0%），分值与10分不符（3+3+2+0=8）。",
+      "suggestion": "在保持题型、10分、知识点、N3二级、easy不变的前提下重写：明确“杂质不溶于水且不参与反应，反应后过滤所得滤液为待求溶液”，将答案(2)改为5.7%，采分点按3+3+2+2=10分重排，删除草稿式讨论，给出与题干数据一致的完整解题路径（CO₂ 2.2 g→Na₂CO₃ 5.3 g→NaCl 5.85 g→溶液103.1 g→5.7%）。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC4",
+      "root_cause_detail": "题干实际必答任务为用酚酞与碳酸钠鉴别三种溶液并判断HCl与Na₂CO₃的复分解类型，未考查蓝图knowledge_topic“酸碱中和反应的实验操作与现象分析”；task_requirement中“说明中和反应恰好完全反应时的判断依据”被替换为“滴加至恰好不再产生气泡时的基本反应类型”，本卷该5分必考内容落空。",
+      "suggestion": "保持题型experiment、5分、知识点、N5三级、medium不变，在鉴别方案之后增设指向中和反应操作与终点的设问：如“另取氢氧化钠溶液，滴加酚酞后逐滴加入稀盐酸至红色恰好褪去，写出操作要点，并说明能否据此断定恰好完全中和及理由（酚酞变色点非精确等当点）”，并相应调整采分点使总分仍为5分。"
+    },
+    {
+      "question_id": "q17",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification",
+        "coverage"
+      ],
+      "penalty": 75,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干步骤一为久置NaOH（含Na₂CO₃）加过量BaCl₂，CO₃²⁻已完全沉淀为BaCO₃，滤液B只含NaCl、NaOH和过量BaCl₂，步骤二加稀盐酸不可能产生气泡，题干自设现象与自设条件冲突，第3问无合法推理路径；answer字段为生成过程说明并自称改题（碳酸钠+硫酸钠、答案“无明显现象”），scoring_points（“2”“BaCl₂”“无明显现象”）对应另一版题干，与提交题文完全不对应，判分规则失效；N4三级“多物质体系推理反应能否发生”的必答行为无法被有效引发。",
+      "suggestion": "保持题型fill_blank、6分、知识点“复分解反应发生条件的判断”、N4三级、easy不变，重写为自洽题干：取含Na₂CO₃和Na₂SO₄的混合溶液，加过量BaCl₂充分反应后过滤，滤液中含NaCl与过量BaCl₂；设问改为(1)加入过量BaCl₂后发生几个复分解反应；(2)滤液中除NaCl外还含何种溶质；(3)向滤液滴加稀盐酸的现象；(4)从复分解条件解释该现象（Ba²⁺、Na⁺、Cl⁻与H⁺、Cl⁻不能生成沉淀、气体或水，故不反应）。答案与采分点按1+1+1+3=6分重写，删除全部草稿式说明。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "skills",
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "N5三级要求“自主选择试剂和方法，完成两步以上鉴别”，本题两步方案已在题干给出，学生仅判断既有方案与操作正误，属N5一至二级前置行为，三级必答行为未落实；题干“第一步…区分出一种溶液”与石蕊实际可区分三种溶液（酸红、碱蓝、中性紫）的事实矛盾，“剩余两种”表述依赖该矛盾设定；采分点1冗长含混且赋0分，与3分对应关系不清。",
+      "suggestion": "保持单选、3分、知识点“pH试纸与浓硫酸稀释的实验操作”、N5三级、easy不变，重写题干：不给出完整鉴别步骤，要求学生自主选择石蕊、酚酞、碳酸钠溶液、pH试纸等试剂设计两步以上方案区分三种溶液，四个选项分别考查第一步现象判断、第二步现象判断、pH试纸润湿的错误后果、浓硫酸稀释“酸入水”的操作要点；修正“区分出一种溶液”的矛盾表述，采分点按1+1+1=3分重写。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "coverage",
+        "difficulty_cognition"
+      ],
+      "penalty": 15,
+      "root_cause": "RC3",
+      "root_cause_detail": "题干要求排除碳酸根对酚酞的干扰并解释Ca(OH)₂引入OH⁻的原因，属N5四级“在含干扰情境中设计并评估检验方案”的行为，超出蓝图target_level=3及学生N5=3的目标等级；同时task_requirement中“指出单一证据判断的局限”一问未在题干设问中出现，任务要求未完全落实。",
+      "suggestion": "保持experiment、10分、知识点“氢氧化钠变质程度的多证据推断”、N5三级、hard不变，按三级“自主选择试剂完成两步以上检验并说明结论依据”重写：保留两步检验方案设计与现象结论，将“为什么不能用氢氧化钙代替氯化钙”改为“说明第一步试剂需过量及取上层清液检验的理由”，并补入“指出仅凭酚酞变红判断是否含NaOH的局限”一问；采分点按3+3+2+2=10分对应调整。"
+    },
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "root_cause_detail": "题干任务仍是在单一反应情境中依据A/B对照与产物检验判断CO₂与NaOH是否反应，未落实N4三级“在多物质体系中推理特定反应能否发生或共存”的必答行为（如分步加料条件下的反应进程或离子共存判断），三级必答行为落空。",
+      "suggestion": "保持单选、3分、知识点“碱与非金属氧化物反应及证据分析”、N4三级、medium不变，在题干中增设多物质体系条件：如反应后A瓶溶液中含Na₂CO₃与过量NaOH，要求推理逐滴加入稀盐酸时各阶段发生的反应、离子共存情况及最终溶液成分，四个选项分别考查对照实验作用、产物检验证据、分步反应进程判断、离子共存判断，使选出正确项必须完成多物质体系推理。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_answer_and_scoring",
+      "cause": "参考答案(2)10.4%与题干数据复算结果（5.7%或5.4%）不符，且杂质溶解性未限定导致溶液质量分母不唯一，采分点含草稿式替代数据、分值与10分不符。",
+      "acceptance_criteria": "题干明确“杂质不溶于水且不反应，反应后过滤所得滤液为待求溶液”；(1)CO₂=2.2 g；(2)NaCl=5.85 g、溶液质量103.1 g、质量分数5.7%（保留至0.1%）；采分点合计10分且逐条对应设问，无草稿式文字；答案与题干数据完全自洽。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification",
+        "q23-difficulty_cognition",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC4",
+      "operator": "add_neutralization_task_and_rescore",
+      "cause": "实际必答任务为三种溶液鉴别与复分解类型判断，未考查“酸碱中和反应的实验操作与现象分析”，task_requirement中的中和终点判断依据被替换。",
+      "acceptance_criteria": "题干在鉴别方案之外增设指向中和反应操作与终点的设问（如酚酞褪色后能否断定恰好完全中和及理由）；采分点覆盖鉴别两步与中和操作/终点判断，合计5分；知识点与N5三级行为均落实。",
+      "issue_ids": [
+        "q21-coverage",
+        "missing-酸碱中和反应的实验操作与现象分析"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_answer_and_scoring",
+      "cause": "过量BaCl₂已除尽CO₃²⁻，滤液加稀盐酸不可能产生气泡，题干条件与现象冲突；answer与scoring_points对应另一版题干，判分规则失效。",
+      "acceptance_criteria": "题干改为含Na₂CO₃和Na₂SO₄的混合溶液加过量BaCl₂后过滤，滤液含NaCl与过量BaCl₂；设问(1)反应个数=2、(2)溶质含BaCl₂、(3)加稀盐酸无明显现象、(4)从复分解条件解释不反应；采分点1+1+1+3=6分，答案与题干逐项对应，无草稿式说明。",
+      "issue_ids": [
+        "q17-science",
+        "q17-skills",
+        "q17-difficulty_cognition",
+        "q17-specification",
+        "q17-coverage",
+        "q17-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_options_and_scoring",
+      "cause": "两步鉴别方案已在题干给出，学生仅判断正误，未落实N5三级自主设计两步以上鉴别的必答行为；题干“区分出一种溶液”与石蕊可区分三种溶液的事实矛盾。",
+      "acceptance_criteria": "题干不给出完整步骤，要求学生自主选择试剂设计两步以上方案区分三种溶液；四个选项分别考查第一步现象、第二步现象、pH试纸润湿后果、浓硫酸稀释操作要点；修正“区分出一种溶液”的矛盾表述；采分点合计3分且与选项对应。",
+      "issue_ids": [
+        "q8-skills",
+        "q8-science",
+        "q8-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC3",
+      "operator": "adjust_task_level_and_rescore",
+      "cause": "干扰排除与Ca(OH)₂引入OH⁻的原因解释属N5四级行为，超出target_level=3；task_requirement中“指出单一证据判断的局限”未设问。",
+      "acceptance_criteria": "题干按N5三级重写：保留两步检验方案设计与现象结论，将氢氧化钙干扰解释改为“第一步试剂需过量及取上层清液的理由”，并补入“仅凭酚酞变红判断是否含NaOH的局限”一问；采分点3+3+2+2=10分，行为不超出三级范围。",
+      "issue_ids": [
+        "q22-difficulty_cognition",
+        "q22-coverage"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题干仍为单一反应情境的证据判断，未落实N4三级“在多物质体系中推理反应能否发生或共存”的必答行为。",
+      "acceptance_criteria": "题干增设多物质体系条件（如A瓶反应后溶液含Na₂CO₃与过量NaOH，逐滴加入稀盐酸），四个选项分别考查对照实验作用、产物检验证据、分步反应进程、离子共存判断；选出正确项必须完成多物质体系推理；答案唯一，采分点合计3分。",
+      "issue_ids": [
+        "q15-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "skills.dimension",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "4003c0dd8913291becdec42da1cc5daa61987db7abe50ebcd3b0af7f7ed26571"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "c5dab9210260a94c8148a1ea73738dbccc81e4e30f0ad706a7a13e9e2ef77f54"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2a1b583cc1b7289a0b97a0d3a2038c33ff1ccae24f8323263aa0ab6f907497b2"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0c201813a18a26f8d721025ebfd51b041859caaa5efc5b7b05eef39d6366c11b"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a4278891502e4f0b48bf4b967171599435cba5b292d1680c4f7cb2955d58fe28"
+    },
+    "q17": {
+      "question_id": "q17",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0632dd02b5a34a3e0508dbdbba806f80d26f0f6b70143e6237374181e2956eb4"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "运行编号": "web-334fdb02105e",
+  "终止状态": "quality_met",
+  "采用版本": "r5-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q15-skills",
+      "question_ids": [
+        "q15"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC1",
+      "evidence": "dimension：实际任务落实N5除杂方案评估（逐项判断试剂是否引入新杂质、操作是否可行），直接对应目标维度；但为单步除杂、无隐藏干扰条件，未达到tree等级4'复杂混合体系多步分析并检查结论成立条件'的行为要求；cognition：每个选项需整合'反应能否发生''是否引入新杂质''是否损耗NaOH'多条关系综合排除（如B虽能除杂但引入NaCl），符合蓝图'综合'认知"
+    },
+    {
+      "issue_id": "q15-difficulty_cognition",
+      "question_ids": [
+        "q15"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：实际思维为对四个含干扰项方案分别做多条件整合与排除，达到综合层级；difficulty：题干与q4高度相似（q4明确写出'既不引入新杂质也不损失主要物质'，q15隐含于'试剂选择及操作均合理'），且'适量'提示降低了用量判断难度；同题重复再现使其在本卷中的区分度受限，难度本身与目标medium相符"
+    },
+    {
+      "issue_id": "q16-science",
+      "question_ids": [
+        "q16"
+      ],
+      "dimension": "science",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC6",
+      "evidence": "facts：数据自洽：阶段②Cl⁻=6、新生成水=6、OH⁻剩4，符合H⁺+OH⁻=H₂O且H⁺无剩余；阶段③累计Cl⁻=10、新生成水=10、H⁺剩4、OH⁻=0，Na⁺守恒为10，符合盐酸过量的中和模型，无科学错误。；solvability：题干说明计数基准、水分子不计入及稀盐酸带入水使水分子数增多，排除歧义；各空均可由表格数据唯一推出（如②阶段OH⁻=4>0故呈碱性，③阶段仅Na⁺、Cl⁻大量存在）。；answer：逐空核对共9空：第1问2空（已完全反应；碱）、第2问3空（H⁺、OH⁻、H₂O）、第3问离子2空（Na⁺、Cl⁻，一个计分条目覆盖两空）、判断空1空（不正确）均有参考答案；但第3问'理由是______'空在题面明确要求填写，答案文本虽给出理由，scoring_points四个条目均未为该空设置采分点与分值，无法按要点判分，须补该空采分点并调整分值分配。总分核对：2+3+0.5+0.5=6与6分一致，但存在无分值空。"
+    },
+    {
+      "issue_id": "q16-specification",
+      "question_ids": [
+        "q16"
+      ],
+      "dimension": "specification",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干已限定“以反应前溶液中的微粒数为基准，水分子数未计入”并给出已知说明，各空填法指向明确，无歧义。；scoring：第3问题干要求填写“理由是______”，但评分要点仅覆盖第3问离子空（0.5分）与判断空（0.5分），理由空无对应采分点和分值；四点合计2+3+0.5+0.5=6分虽与总分一致，但理由空无法按要点判分，须补该空采分点并调整分值分配。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 56.086956,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0",
+        "r1-p0-c1"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 70.456522,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 72.26087,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0",
+        "r3-p0-c1"
+      ]
+    },
+    {
+      "round": 4,
+      "accepted": true,
+      "adopted_Q": 84.347826,
+      "status": "completed",
+      "candidates": [
+        "r4-p0-c0"
+      ]
+    },
+    {
+      "round": 5,
+      "accepted": true,
+      "adopted_Q": 87.456522,
+      "status": "completed",
+      "candidates": [
+        "r5-p0-c0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "D": [
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "suggestion": "重写题干与选项：将流程括注改为“滤渣含BaSO₄、CaCO₃、BaCO₃三种沉淀”；改写C项使其在“试剂稍过量、Ba²⁺已除尽”前提下明确为错误（如改为“操作③只需除去过量Na₂CO₃，蒸发所得精盐一定只含NaCl且不含其他杂质”并保留其可判错性），或改写设问为“最能说明操作②作用的是”；同步修正D项判错理由为“Na⁺数目不变”，使唯一正确项为B。"
+    },
+    {
+      "question_id": "q3",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 50,
+      "root_cause": "RC7",
+      "suggestion": "消除双正确项：将C项改写为在步骤③现象下不成立的表述（如“仅凭步骤①的现象即可确定固体中不含Na₂SO₄”），或把设问改为“最能由步骤③现象得出的结论是”，使D成为唯一正确项；同时降低C项作为“无法确定”表述的提示性，恢复N4等级5所需的完整推理链。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "消除A、B双正确项：改写A项使其在候选集内不成立（如“步骤1不变色说明X一定是稀硫酸”），或改写设问为“关于步骤2误差分析正确的是”，使B成为唯一正确项；保留步骤3规范操作描述与步骤4无现象记录。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC6",
+      "suggestion": "重写scoring_points为5条各1分的清晰采分点（(1)NaCl 1分、(1)HCl 1分、(2)理由1分、(3)试剂氯化钙1分、(3)目的1分），删除草稿性讨论与前后矛盾的分配方案；精简(2)参考答案，删除“碳酸氢钠”等超纲枝节，保留“碳酸钠显碱性、褪色不能证明无碳酸钠”的核心逻辑。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "suggestion": "修正第(5)问答案与采分点：将“氯化钙不足未除尽碳酸钠使酚酞变红”改为与“上层清液不变红”方向一致的原因（如酚酞试液失效或滴加量过少、取样未混匀、步骤2后未静置取清液等），并删除采分点中“假阳性”表述，确保按采分点给分与题干前提一致。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC6",
+      "suggestion": "修正第(3)问措辞，删除“除OH⁻已耗尽外”的矛盾限定，改为“此时溶液中大量存在的阴离子主要是______”；在(1)(2)后增设一句要求学生用微观粒子说明电导率下降原因的简答空（不改变6分总分，可将(2)的2分拆为1+1），使N2等级2的独立解释行为得到落实。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题干括注“滤渣含两种沉淀”与实际三种沉淀矛盾；C项在“试剂稍过量、Ba²⁺已除尽”前提下成立，与B构成双正确项；D项判错理由“Na⁺数目增加”不准确（实际不变）。",
+      "acceptance_criteria": "1) 流程括注改为“滤渣含BaSO₄、CaCO₃、BaCO₃三种沉淀”；2) 逐项独立验证后唯一正确项为B；3) C项在题面“稍过量”前提下明确不成立，或设问改为指向操作②作用的表述；4) D项判错理由改为“Na⁺数目不变”；5) 保持单选3分、知识点“常见盐与酸、碱反应的化学方程式书写”、N3等级4、easy、理解不变。",
+      "issue_ids": [
+        "q9-science",
+        "q9-specification",
+        "q9-science-veto",
+        "q9-skills",
+        "q9-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q3",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_C_or_stem",
+      "cause": "C项“仅凭步骤①或②无法确定组成”与D项同时为真，单选答案唯一性缺失，选C的正确判断被误判0分；C项表述本身提示过多，削弱N4等级5目标推理链。",
+      "acceptance_criteria": "1) 逐项独立验证后唯一正确项为D；2) C项改写后在步骤③现象下不成立，或设问改为“最能由步骤③现象得出的结论是”；3) 保持单选3分、知识点“复分解反应发生条件的判断”、N4等级5、medium、应用不变；4) 评分点仍为选D得3分。",
+      "issue_ids": [
+        "q3-science",
+        "q3-specification",
+        "q3-science-veto",
+        "q3-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_A_or_stem",
+      "cause": "A项“步骤1不变色说明X一定不是氢氧化钠溶液”在题给候选集内成立，与B项构成双正确项，答案唯一性缺失。",
+      "acceptance_criteria": "1) 逐项独立验证后唯一正确项为B；2) A项改写后在候选集内不成立，或设问改为“关于步骤2误差分析正确的是”；3) 保持单选3分、知识点“pH试纸与浓硫酸稀释的实验操作”、N5等级4、easy、应用不变；4) 步骤3规范操作与步骤4无现象记录保留。",
+      "issue_ids": [
+        "q10-science",
+        "q10-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "rewrite_scoring_points",
+      "cause": "scoring_points仅一条且description内含大量草稿性讨论与自相矛盾的分配方案，第(2)问理由与(3)氢氧化钙干扰原因是否计分前后不一，阅卷依据不可靠。",
+      "acceptance_criteria": "1) scoring_points重写为5条各1分：(1)NaCl、(1)HCl、(2)理由、(3)试剂氯化钙、(3)目的，合计5分与points一致；2) 删除全部草稿性讨论与“加分/合并”等不确定表述；3) 参考答案(2)精简为“碳酸钠显碱性、褪色不能证明无碳酸钠”核心逻辑，删除超纲枝节；4) 保持实验题5分、知识点、N5等级4、medium、综合不变。",
+      "issue_ids": [
+        "q21-specification",
+        "q21-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "rewrite_answer_and_scoring_point_5",
+      "cause": "第(5)问设问限定“上层清液不变红”，但参考答案第一点描述的是变红（假阳性），方向相反；采分点含“假阳性”表述，会将方向相反答案判为得分。",
+      "acceptance_criteria": "1) 第(5)问答案示例改为与“不变红”方向一致的原因（酚酞失效、滴加量过少、取样未混匀、未取清液等）；2) 采分点删除“假阳性”表述，仅保留与题干前提一致的逻辑漏洞；3) 保持实验题10分、5个采分点各2分、知识点、N5等级4、hard、综合不变。",
+      "issue_ids": [
+        "q22-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC6",
+      "operator": "rewrite_stem_wording_and_add_explanation_blank",
+      "cause": "第(3)问“大量存在的阴离子除OH⁻已耗尽外”措辞自相矛盾；题干已给出解释框架，(3)实为等级1离子识别，N2等级2独立解释行为落实偏弱。",
+      "acceptance_criteria": "1) 第(3)问改为“此时溶液中大量存在的阴离子主要是______（填离子符号）”，删除矛盾限定；2) 增设要求学生用微观粒子说明电导率下降原因的简答空，或将(2)的2分拆为1+1以容纳解释要求；3) 总分仍为6分，评分点合计6分；4) 保持填空6分、知识点“中和反应的微观实质”、N2等级2、easy、理解不变。",
+      "issue_ids": [
+        "q16-specification",
+        "q16-science",
+        "q16-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "ed0205e345b0bd6dde2a50a3980b8449aea9eb05b64cb9e3192cf9f319295712"
+    },
+    "q3": {
+      "question_id": "q3",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "f41b215953cc7585d36479102c3ce3e49561d40f64a50e1c70c0cb5d51357588"
+    },
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "skills.dimension",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2118f9c480b1d177e10c25d5344958c49b9b6b2a4c7e735b4464dbdba2372fbc"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "93dd50884cb95c615a2d36e3b90c39de13297703e1353c717c4ee0b83342283e"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "65eb5e8b1073fbfaec6f1b150e73b74ce502bba2ac4c57e7361abb08f26008b2"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "39e4522b8ec1a6fb13b8d5f1d1987a01ce75a728fd576b615d2785243e5f4a8e"
+    }
+  }
+}

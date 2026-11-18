@@ -1,0 +1,236 @@
+{
+  "D": [
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "将设问“最能准确区分……且排除干扰的是”改为“下列解释或推断正确的是”，去掉“最能”隐含的最优比较，使单选指向唯一正确项；选项与答案C不变。"
+    },
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "保持N4与level 4不变，把必答任务改为混合体系中反应进程与产物的推理：例如给出NaOH与Na₂CO₃混合液分步滴加稀盐酸的pH数据与分步条件，要求判断各阶段溶质与现象；不得以“评估实验证据充分性”作为主任务（该行为属N5）。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC7",
+      "suggestion": "修正阶段Ⅱ粒子组成与答案计数的一致性：若保留“某时刻”图，须使OH⁻数目多于H⁺数目（如○○◇◇◆●或○○◇●），并同步修改(2)答案与采分依据；若改为“恰好完全反应时”，则阶段Ⅱ应为○○●●、答案改“中”。同时说明图示为瞬时混合示意，避免H⁺与OH⁻大量共存表述。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "skills"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "suggestion": "(3)第三空改为可由题面推出的结论：删去“先减弱至pH=7最弱”的采分要求，改为“OH⁻减少、Cl⁻随盐酸带入增多，自由离子总数变化不大”，或补充离子迁移率/浓度资料后再要求判断导电性；同步修改答案与2分采分点。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "消除“过量铁粉”与设问的矛盾：将步骤①改为“加入一定量铁粉（铁粉不足，盐酸有剩余）”并把氯化铜由“可能混入”改为“混有”，使滤液甲含FeCl₂、CuCl₂、HCl；(1)答案改为FeCl₂、CuCl₂、HCl；(2)保留先CuCl₂后HCl；(3)须限定“锌粉过量”，答案改为ZnCl₂；滤渣丁为Fe、Cu、Zn。同步重写评分点。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q2",
+      "root_cause": "RC6",
+      "operator": "rewrite_stem",
+      "cause": "设问“最能准确区分……且排除干扰的是”含最优比较，措辞不严谨（q2-specification）。",
+      "acceptance_criteria": "设问改为“下列解释或推断正确的是”；四个选项与答案C不变；单选唯一正确项仍为C，3分不变。",
+      "issue_ids": [
+        "q2-specification"
+      ],
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "root_cause": "RC1",
+      "operator": "rewrite_task",
+      "cause": "实际任务为评估CO₂与NaOH反应证据的充分性并辨析检验方案，属N5实验探究行为，未落实N4 level 4“复杂混合体系中推理反应进程及产物”（q15-skills）。",
+      "acceptance_criteria": "题干改为NaOH与Na₂CO₃混合液分步滴加稀盐酸的情境，给出分步条件与pH数据；四个选项分别对应各阶段溶质与现象判断；恰有一个正确项；学生须整合分步条件与数据推理反应进程，不依赖证据充分性评估即可作答；题型单选、3分、N4、level 4、medium不变。",
+      "issue_ids": [
+        "q15-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "阶段Ⅱ图示“○ ○ ◇ ◆ ●”中OH⁻与H⁺各1个，与答案“OH⁻为2个、H⁺为1个”及“OH⁻有剩余故呈碱性”矛盾，第(2)问不可唯一作答，采分依据不成立（q16-science、q16-specification、q16-science-veto）；第(2)问因此退化为核对计数（q16-skills）。",
+      "acceptance_criteria": "阶段Ⅱ粒子组成与(2)答案计数一致：若判“碱”，图中OH⁻数目须多于H⁺数目且答案依据可逐个数出；若判“中”，阶段Ⅱ须为○○●●且答案改“中”；(1)(3)答案与图示自洽；7空均有对应采分点，总分3+2+1=6不变；题型填空、6分、N2、level 4、easy不变。",
+      "issue_ids": [
+        "q16-science",
+        "q16-skills",
+        "q16-specification",
+        "q16-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC7",
+      "operator": "rewrite_subquestion_and_scoring",
+      "cause": "(3)第三空要求由“OH⁻减少、Na⁺不变”说明导电性“先减弱至pH=7最弱”，但加料同时带入等量Cl⁻，离子总数未减少，该结论依赖题面未给的迁移率假设，2分采分点不成立（q19-science）；情境无干扰信息，综合程度略低（q19-skills）。",
+      "acceptance_criteria": "(3)第三空改为可由题面条件推出的结论（如“OH⁻减少、Cl⁻增多，自由离子总数变化不大”），或补充离子迁移率资料后再要求判断导电性；答案与2分采分点同步修改；其余各空答案不变；总分1+1+1+2+1=6不变；题型填空、6分、N2、level 4、easy不变。",
+      "issue_ids": [
+        "q19-science",
+        "q19-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "步骤①“过量铁粉”必然耗尽盐酸并置换完Cu²⁺，滤液甲只含FeCl₂，而(2)设问与答案预设滤液甲含CuCl₂和HCl，条件与设问互斥；(1)答案“Fe、Cu”中Cu因“可能混入”非一定存在（q20-science、q20-science-veto）；(2)设问对象不明、评分点与题面条件不对应（q20-specification）。",
+      "acceptance_criteria": "步骤①改为“加入一定量铁粉（铁粉不足，盐酸有剩余）”，氯化铜改为“混有”；滤液甲必含FeCl₂、CuCl₂、HCl，(1)答案与之一致；(2)先CuCl₂后HCl可解；(3)限定“锌粉过量”，答案ZnCl₂、滤渣Fe、Cu、Zn；各空采分点与题面条件对应，总分2+2+2=6不变；题型填空、6分、N4、level 4、medium不变。",
+      "issue_ids": [
+        "q20-science",
+        "q20-specification",
+        "q20-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "3e60566bbb7a74742e0c1f95abff051de789c88b0f0d29601a728bc3d7951642"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "65b13a517bf87c63b6c080e08b2ba022925aac56bdaac473e0079008eda9d1eb"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7a0d2c5e86381a75214da803c93f085cf592728c9a5d3a8192275f458260ba1b"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "5fe8c3a0630ea627353cb2e7b2ccf6baac94e4dc0da55189d526cdfb85d7aff5"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2dac78847f1aff9e065ae370f93b086c95e902e916e8cb952badb35af02914e6"
+    }
+  }
+}

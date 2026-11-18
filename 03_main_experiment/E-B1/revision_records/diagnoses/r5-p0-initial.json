@@ -1,0 +1,87 @@
+{
+  "D": [
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC6",
+      "suggestion": "补齐第3问“理由是______”空的采分点与分值（如判断0.5分、理由1分、离子0.5分，或按空重新分配至6分），使每个作答空均有可执行判分规则；题干、答案与数据无需改动。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC6",
+      "suggestion": "修正第(4)问采分点分值：将“判断不严密并说明理由”与“提出更准确方法”各设0.5分，合计1分，与points=5一致；同时将第(3)问参考答案第二示例改为机制可成立的表述（如酚酞用量大、红色深，观察“刚好褪去”时终点滞后），或删去该示例，保留第一示例。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q16",
+      "root_cause": "RC6",
+      "operator": "修订评分点",
+      "cause": "第3问“理由是______”空在题面明确要求作答，参考答案已给出，但scoring_points四个条目均未覆盖该空，无采分点与分值，无法按要点判分。",
+      "acceptance_criteria": "第3问每个作答空（离子两空、判断空、理由空）均有对应采分点与分值；各采分点分值合计等于6分；理由空给出可检查的要点（水是生成物、水分子增多含盐酸带入水、水不是反应物）；题干、答案与表格数据保持不变。",
+      "issue_ids": [
+        "q16-science",
+        "q16-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "修订评分点与参考答案",
+      "cause": "第(4)问采分点写“判断并说明理由得1分；提出方法得1分”，合计2分，而第(4)问实际仅占1分，按现文无法对应给分；第(3)问参考答案第二示例称“用量大时变色点偏差表现更明显”，未说明指示剂用量为何放大固有变色范围偏差，机制表述不严密。",
+      "acceptance_criteria": "第(4)问采分点拆为判断并说明理由0.5分、提出更准确方法0.5分，合计1分；四点采分点合计等于5分；第(3)问参考答案保留“红色深致观察终点滞后”等机制可成立的合理原因，删去或改写未说明机制的示例；评分要点仍允许答出一种合理原因即可。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "0ccf97b4c333c01af259dc6310dc0f8a0b10507fdaea335b70087e22da56ec4b"
+    },
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "6c00b26f33df5995b21aa725fe2e0ae1fdaad4115e42c9c688871fc8c035cad7"
+    }
+  }
+}

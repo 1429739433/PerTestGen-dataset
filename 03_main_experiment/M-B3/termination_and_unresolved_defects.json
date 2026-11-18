@@ -1,0 +1,124 @@
+{
+  "运行编号": "web-a5b0125de63f",
+  "终止状态": "iteration_limit",
+  "采用版本": "r5-p0-c0",
+  "达标": false,
+  "遗留问题": [
+    {
+      "issue_id": "q15-coverage",
+      "question_ids": [
+        "q15"
+      ],
+      "dimension": "coverage",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC4",
+      "evidence": "content：题干落实了“滴加稀盐酸、观察气泡、得出已变质结论”的完整检验行为，考查变质检验原理，属“检验氢氧化钠是否变质的试剂选择”主题的落实；但蓝图task_requirement还要求“从若干试剂中选出试剂并说明依据”，题干已固定试剂为稀盐酸，未要求学生选择试剂，仅通过选项C/D的干扰项间接覆盖试剂辨析。；redundancy：'检验氢氧化钠是否变质的试剂选择'(3分)由q15独立落实；q10为除杂试剂选择、q22为变质程度多证据推断，主题界定均不同，不构成重复挤占。"
+    },
+    {
+      "issue_id": "q16-specification",
+      "question_ids": [
+        "q16"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干(1)第二空写'填\"沉淀\"\"气体\"或\"水\"'，单引号并列暗示只填一种，而参考答案和评分点要求写出'气体、沉淀'两种；建议改为'填\"沉淀\"\"气体\"或\"水\"（可多填）'以免学生只答一个而失分；scoring：题面共6个空，评分点逐空覆盖：评分点(1)合并第(1)问两空（各1分），评分点(2)合并第(2)问两空（各0.5分），评分点(3)(4)分别对应第(3)(4)问；合并计分关系清楚，合计2+1+2+1=6分与本题6分一致，各给分细则与设问对应完整"
+    },
+    {
+      "issue_id": "q21-science",
+      "question_ids": [
+        "q21"
+      ],
+      "dimension": "science",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC6",
+      "evidence": "facts：逐问核对：(1) 酚酞遇氢氧化钠变红、滴加盐酸至红色褪去，答案'红；溶液由红色恰好变为无色'仅描述指示剂颜色变化，未断言pH=7或酸足量；(2) 明确要求学生指出'恰好完全反应'不一定成立，答案给出'酚酞在中性和酸性溶液中均呈无色，红色褪去只能说明不显碱性，不能说明恰好完全反应'，正是对变色范围局限的正确质疑，符合boundary_conditions要求；(3) 锌粒/碳酸钠遇盐酸产生气泡、石蕊遇碱变蓝、遇酸变红、中性呈紫色，均为正确化学事实。题目没有以褪色断定精确中和的错误预设。；solvability：题干【实验桌上的试剂】明确列出'无色酚酞溶液、紫色石蕊溶液、稀盐酸、氢氧化钠溶液、锌粒、碳酸钠溶液、蒸馏水'，(3)排除酚酞后两步检验在给定试剂内完全可完成：第一步可用锌粒或碳酸钠查酸过量，第二步可用石蕊区分碱性（蓝）与中性（紫）。答案三个示例的试剂均取自题干清单，条件自洽、可解。示例三第二步与第一步用同一试剂属冗余设计但不影响可解性与判分。；answer：答案本体三示例科学正确且覆盖(1)(2)(3)全部设问，但交付文本混入大段生成过程注释（'考虑到这是一个生成任务''修正策略''最终决定'及末尾'原题若严格限制在…无法完成第(3)问的检验'的注释），该注释声称试剂清单缺锌粒和碳酸钠、第(3)问无解，与题干实际列出的试剂直接矛盾。试题是完整交付文本，答案含与题干矛盾的非答案内容影响答案可用性与阅卷依据，非轻微措辞问题。"
+    },
+    {
+      "issue_id": "q21-specification",
+      "question_ids": [
+        "q21"
+      ],
+      "dimension": "specification",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干(1)仅设一个填空'溶液变为____色'，但参考答案写作'红；溶液由红色恰好变为无色'，采分点1要求'填红，并说明滴加稀盐酸后溶液由红色变为无色，得1分'。题面无对应第二空的设问或作答位置，学生无法按采分点作答该说明性内容；该变色过程虽在题干叙述中出现，但并未设为需学生写出内容。给分规则与题面不一致，直接影响(1)的1分判分，不能判为轻微。；scoring：采分点1将“填红”与“说明变色过程”合并计1分，但题干(1)无该说明性设问；采分点2、3、4与5分分值及设问(2)(3)对应尚可（1+2+1+1=5），但(1)的给分规则与题面不一致，需修改题干增设第二空或修改采分点"
+    },
+    {
+      "issue_id": "q22-difficulty_cognition",
+      "question_ids": [
+        "q22"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：各问均要求说明判断依据并区分证据支持的结论强度（部分/基本全部变质），为多证据综合推理，符合综合层级；difficulty：独立核实两版改动：当前stem未恢复资料3，方案两步完整给出且资料直接支撑。蓝图task_requirement称‘要求学生设计多步检验方案’，但学生实际不选择试剂、只解释给定步骤，task_condition‘不给出完整步骤，自主选择’未满足，任务介于N5等级2（完整信息+步骤提示）与等级3之间；(3)(4)的多证据推断与方案缺陷评价使其仍可达hard定位，但与蓝图‘设计’表述不一致，宜统一题文或蓝图表述。本次改动未消除该偏差，不支持minor升为pass，旧判minor成立。"
+    },
+    {
+      "issue_id": "q22-specification",
+      "question_ids": [
+        "q22"
+      ],
+      "dimension": "specification",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC6",
+      "evidence": "clarity：独立核实：stem【查阅资料】仅有第1、2条，stem(3)为‘若步骤二观察到上层清液不变红，说明样品中氢氧化钠已基本不存在。请说明得出这一判断的依据’；而students可见的subquestions(3)为‘能否据此断定样品全部变质？请结合资料3说明理由，并给出与证据强度相符的结论’——两处设问不同，且subquestions引用的‘资料3’在题干中不存在。若subquestions随题交付，学生按其作答将与stem及scoring_points(3)的给分点错位，直接影响作答与判分，维持moderate；本次改动未修复该不一致。；scoring：题干标注(1)(2)各2分、(3)(4)各3分，共10分与points一致；scoring_points各项分值（2+2+3+3）逐问对应，给分点覆盖设问的全部要求"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 48.01087,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 50.141304,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0",
+        "r2-p0-c1"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 65.380435,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0"
+      ]
+    },
+    {
+      "round": 4,
+      "accepted": true,
+      "adopted_Q": 74.804348,
+      "status": "completed",
+      "candidates": [
+        "r4-p0-c0",
+        "r4-p0-c1"
+      ]
+    },
+    {
+      "round": 5,
+      "accepted": true,
+      "adopted_Q": 86.304348,
+      "status": "completed",
+      "candidates": [
+        "r5-p0-c0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "unit_id": "acid-base-salt-20261018",
+  "total_score": 100,
+  "duration_minutes": 90,
+  "items": [
+    {
+      "question_id": "q1",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N1",
+      "target_level": 2,
+      "knowledge_topic": "K1.1",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "task_requirement": "根据给定指示剂与酸碱性溶液混合的情境，判断并选出对应的颜色变化现象。",
+      "expected_behavior": "在提示下描述或判断多个关联的宏观现象。例如：在已知加入稀盐酸的条件下，描述锌粒表面产生气泡且固体逐渐减少的现象；或根据pH试纸比色卡，判断某溶液呈酸性。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N1",
+      "target_level": 2,
+      "knowledge_topic": "K1.2",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "task_requirement": "依据pH与酸碱性的对应关系，判断给定pH数据所代表的溶液酸碱性并选出正确结论。",
+      "expected_behavior": "在提示下描述或判断多个关联的宏观现象。例如：在已知加入稀盐酸的条件下，描述锌粒表面产生气泡且固体逐渐减少的现象；或根据pH试纸比色卡，判断某溶液呈酸性。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q3",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N2",
+      "target_level": 2,
+      "knowledge_topic": "K2.2",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "task_requirement": "从溶液中主要离子的角度解释稀盐酸与稀硫酸具有相似化学性质的原因，选出正确解释。",
+      "expected_behavior": "用微观粒子解释简单的宏观性质或现象。例如：解释为什么稀盐酸和稀硫酸都能使石蕊变红（因为都含有H⁺）；或解释中和反应放热是因为H⁺和OH⁻结合生成水分子。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q4",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N1",
+      "target_level": 3,
+      "knowledge_topic": "K2.1",
+      "cognition": "应用",
+      "difficulty": "medium",
+      "task_requirement": "对比浓盐酸与浓硫酸在挥发性、吸水性等宏观性质上的差异，选出符合题意的现象或用途判断。",
+      "expected_behavior": "通过对比或简单归纳，识别不同物质反应时的宏观差异。例如：对比稀盐酸和稀硫酸分别与碳酸钠反应，识别出两者均产生气泡但速率可能不同；或根据沉淀颜色区分氢氧化铜（蓝色）和氢氧化铁（红褐色）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N2",
+      "target_level": 2,
+      "knowledge_topic": "K2.5",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "task_requirement": "题面给出三个酸与碱反应的实例（含反应物与生成物，如盐酸与氢氧化钠、稀硫酸与氢氧化钾、盐酸与氢氧化钙），学生须从微观离子角度归纳这些反应的共同实质（H⁺与OH⁻结合生成水分子），据此判断中和反应的通性表述，并从选项中选出能正确表示中和反应实质的一项；只提交一个选项字母，选对得本题全分，归纳过程不单独提交或计分。",
+      "expected_behavior": "用微观粒子解释简单的宏观性质或现象。例如：解释为什么稀盐酸和稀硫酸都能使石蕊变红（因为都含有H⁺）；或解释中和反应放热是因为H⁺和OH⁻结合生成水分子。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N1",
+      "target_level": 3,
+      "knowledge_topic": "K3.2",
+      "cognition": "应用",
+      "difficulty": "medium",
+      "task_requirement": "根据碳酸钠、碳酸氢钠、碳酸钙与酸反应产生气体的宏观现象差异，选出正确的现象判断或物质对应关系。",
+      "expected_behavior": "通过对比或简单归纳，识别不同物质反应时的宏观差异。例如：对比稀盐酸和稀硫酸分别与碳酸钠反应，识别出两者均产生气泡但速率可能不同；或根据沉淀颜色区分氢氧化铜（蓝色）和氢氧化铁（红褐色）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q7",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N4",
+      "target_level": 3,
+      "knowledge_topic": "K3.4",
+      "cognition": "应用",
+      "difficulty": "medium",
+      "task_requirement": "依据复分解反应发生条件，判断给定的一组酸、碱、盐之间能否发生反应，选出判断正确的选项。",
+      "expected_behavior": "在多物质体系中，推理特定反应能否发生或共存。例如：在含有稀盐酸和氯化铜的混合溶液中加入铁粉，根据题目明确给出的反应先后顺序或分步加料条件，推理反应进程及最终溶液成分；或判断某组离子在溶液中能否大量共存。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N2",
+      "target_level": 3,
+      "knowledge_topic": "K2.4",
+      "cognition": "理解",
+      "difficulty": "medium",
+      "task_requirement": "题面给出氢氧化钠溶液与二氧化碳反应、氢氧化钙溶液与二氧化碳反应两组事实及溶液中的主要离子信息，学生须从微观离子角度比较两者性质相似与差异（都含OH⁻，阳离子不同影响溶解性与用途），据此选出能正确说明氢氧化钠溶液与二氧化碳反应本质及反应发生证据的一项；只提交一个选项字母，选对得本题全分，比较过程不单独提交或计分。",
+      "expected_behavior": "从微观角度比较不同物质性质的差异或相似性。例如：解释为什么氢氧化钠和氢氧化钙化学性质相似（都含OH⁻）但用途不同（阳离子不同导致溶解性等差异）；或比较碳酸钠与氯化钠溶液，指出前者含CO₃²⁻而后者含Cl⁻，结合指示剂变色现象说明阴离子种类对溶液酸碱性的影响。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N4",
+      "target_level": 3,
+      "knowledge_topic": "K2.2",
+      "cognition": "应用",
+      "difficulty": "medium",
+      "task_requirement": "结合金属活动性顺序，判断给定金属与稀酸能否反应及反应剧烈程度，选出正确结论。",
+      "expected_behavior": "在多物质体系中，推理特定反应能否发生或共存。例如：在含有稀盐酸和氯化铜的混合溶液中加入铁粉，根据题目明确给出的反应先后顺序或分步加料条件，推理反应进程及最终溶液成分；或判断某组离子在溶液中能否大量共存。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N3",
+      "target_level": 3,
+      "knowledge_topic": "K3.3",
+      "cognition": "应用",
+      "difficulty": "medium",
+      "task_requirement": "根据盐与酸、碱、盐反应的规律，选出化学方程式书写正确或反应关系判断正确的选项。",
+      "expected_behavior": "在给定条件下，选择正确的反应路径书写方程式并进行两步计算。例如：已知某混合物中碳酸钠的质量，计算其与足量盐酸反应生成二氧化碳的质量，并进一步计算若用该二氧化碳与足量石灰水反应生成沉淀的质量；或根据物质类别，自主判断并书写复分解反应的方程式。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N1",
+      "target_level": 4,
+      "knowledge_topic": "K5.2",
+      "cognition": "综合",
+      "difficulty": "hard",
+      "task_requirement": "在含干扰离子的混合溶液情境中，依据加入试剂后沉淀与气体的组合现象，筛选证据并选出正确的物质鉴别结论。",
+      "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N4",
+      "target_level": 4,
+      "knowledge_topic": "K5.3",
+      "cognition": "综合",
+      "difficulty": "hard",
+      "task_requirement": "在酸碱盐转化的多步反应体系中，综合反应条件推理物质间能否一步转化，选出转化关系正确的选项。",
+      "expected_behavior": "在复杂混合体系中，综合多种反应条件，推理反应进程及产物。例如：向含有NaOH和Na₂CO₃的混合溶液中滴加稀盐酸，根据pH变化曲线或题目给出的分步反应条件，推理各阶段发生的反应及溶质变化；或设计除杂方案时，推理所选试剂是否会引入新杂质或发生副反应。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N2",
+      "target_level": 4,
+      "knowledge_topic": "K2.5",
+      "cognition": "综合",
+      "difficulty": "hard",
+      "task_requirement": "结合pH变化曲线与微观离子变化，分析中和反应进程中的溶质成分，选出对反应实质解释正确的选项。",
+      "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N3",
+      "target_level": 4,
+      "knowledge_topic": "K5.4",
+      "cognition": "综合",
+      "difficulty": "hard",
+      "task_requirement": "在真实生产或实验情境中筛选有效反应关系，判断依据方程式进行的定量关系或质量变化，选出正确结论。",
+      "expected_behavior": "在复杂情境中，筛选有效反应，书写方程式并进行多步定量分析。例如：在含有杂质的粗盐提纯情境中，写出除去可溶性杂质（如Ca²⁺, Mg²⁺, SO₄²⁻）所需的试剂及对应的化学方程式，并计算若加入过量试剂后，最终蒸发结晶所得固体质量的变化范围；或根据pH曲线，判断反应进程中溶质成分的变化，并写出关键点的方程式。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "question_type": "single_choice",
+      "points": 3,
+      "skill_id": "N5",
+      "target_level": 4,
+      "knowledge_topic": "K5.2",
+      "cognition": "综合",
+      "difficulty": "hard",
+      "task_requirement": "针对含干扰因素的检验或除杂任务，评估给定实验方案的合理性，选出方案设计正确或结论可靠的选项。",
+      "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "question_type": "fill_blank",
+      "points": 6,
+      "skill_id": "N1",
+      "target_level": 2,
+      "knowledge_topic": "K1.3",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "task_requirement": "根据pH试纸使用的规范操作与比色判断要求，填写指定空白处的正确操作或读数结论。",
+      "expected_behavior": "在提示下描述或判断多个关联的宏观现象。例如：在已知加入稀盐酸的条件下，描述锌粒表面产生气泡且固体逐渐减少的现象；或根据pH试纸比色卡，判断某溶液呈酸性。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "question_type": "fill_blank",
+      "points": 6,
+      "skill_id": "N3",
+      "target_level": 2,
+      "knowledge_topic": "K2.2",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "task_requirement": "依据酸的通性，填写指定反应的化学方程式或常见酸的性质与用途对应内容。",
+      "expected_behavior": "归纳某类物质的通性并写出代表性方程式，或在给定关键方程式或质量比提示下完成常规质量及质量分数任务。例如：根据给出的多个反应实例，归纳酸的通性（与指示剂、金属、金属氧化物、碱、盐反应），并写出其中与氧化铜反应的方程式；或根据化肥标签，写出主要成分的化学式；或根据给定的反应方程式和质量比，计算溶液中溶质的质量分数。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "question_type": "fill_blank",
+      "points": 6,
+      "skill_id": "N3",
+      "target_level": 3,
+      "knowledge_topic": "K3.4",
+      "cognition": "应用",
+      "difficulty": "medium",
+      "task_requirement": "根据复分解反应发生条件，填写指定反应能否发生的判断依据或生成沉淀、气体、水的对应化学式。",
+      "expected_behavior": "在给定条件下，选择正确的反应路径书写方程式并进行两步计算。例如：已知某混合物中碳酸钠的质量，计算其与足量盐酸反应生成二氧化碳的质量，并进一步计算若用该二氧化碳与足量石灰水反应生成沉淀的质量；或根据物质类别，自主判断并书写复分解反应的方程式。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "question_type": "fill_blank",
+      "points": 6,
+      "skill_id": "N4",
+      "target_level": 3,
+      "knowledge_topic": "K2.5",
+      "cognition": "应用",
+      "difficulty": "medium",
+      "task_requirement": "依据中和反应的判定与反应条件，填写指定情境中反应是否发生及判断所依据的关键信息。",
+      "expected_behavior": "在多物质体系中，推理特定反应能否发生或共存。例如：在含有稀盐酸和氯化铜的混合溶液中加入铁粉，根据题目明确给出的反应先后顺序或分步加料条件，推理反应进程及最终溶液成分；或判断某组离子在溶液中能否大量共存。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "question_type": "fill_blank",
+      "points": 6,
+      "skill_id": "N2",
+      "target_level": 3,
+      "knowledge_topic": "K3.3",
+      "cognition": "理解",
+      "difficulty": "medium",
+      "task_requirement": "题面给出盐与碱、盐与盐反应的两个具体实例（如碳酸钠与氢氧化钙、碳酸钠与氯化钡）及各物质在溶液中的主要离子，学生须从微观离子角度比较两组反应中参与结合的关键离子与生成物的异同，并按答题位置分别填写：第1空填第一组反应中参与结合的关键阴、阳离子，第2空填该组生成的沉淀化学式，第3空填第二组反应中参与结合的关键阴、阳离子，第4空填该组生成的沉淀化学式；每个独立答案对应一个答题位置，按空计分。",
+      "expected_behavior": "从微观角度比较不同物质性质的差异或相似性。例如：解释为什么氢氧化钠和氢氧化钙化学性质相似（都含OH⁻）但用途不同（阳离子不同导致溶解性等差异）；或比较碳酸钠与氯化钠溶液，指出前者含CO₃²⁻而后者含Cl⁻，结合指示剂变色现象说明阴离子种类对溶液酸碱性的影响。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "question_type": "experiment",
+      "points": 5,
+      "skill_id": "N5",
+      "target_level": 3,
+      "knowledge_topic": "K1.3",
+      "cognition": "应用",
+      "difficulty": "medium",
+      "task_requirement": "根据给定实验目的与器材，补充测定溶液酸碱度或检验酸碱性的操作步骤要点及现象记录。",
+      "expected_behavior": "自主选择试剂和方法，完成两步以上的鉴别或简单除杂。例如：设计实验区分稀硫酸、氢氧化钠溶液和氯化钠溶液，选择酚酞和碳酸钠溶液（或其他合理组合），描述步骤、现象及结论；或从氯化钠溶液中除去少量碳酸钠，选择适量稀盐酸并说明操作要点。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "question_type": "experiment",
+      "points": 10,
+      "skill_id": "N5",
+      "target_level": 4,
+      "knowledge_topic": "K5.2",
+      "cognition": "综合",
+      "difficulty": "hard",
+      "task_requirement": "针对含干扰因素的样品检验或变质探究任务，设计多步实验方案，说明试剂选择、操作顺序、预期现象及结论推理依据。",
+      "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "question_type": "calculation",
+      "points": 10,
+      "skill_id": "N3",
+      "target_level": 4,
+      "knowledge_topic": "K5.4",
+      "cognition": "综合",
+      "difficulty": "hard",
+      "task_requirement": "在真实情境中依据化学方程式进行含杂质或溶液质量分数的多步定量计算，写出计算过程并得出结果。",
+      "expected_behavior": "在复杂情境中，筛选有效反应，书写方程式并进行多步定量分析。例如：在含有杂质的粗盐提纯情境中，写出除去可溶性杂质（如Ca²⁺, Mg²⁺, SO₄²⁻）所需的试剂及对应的化学方程式，并计算若加入过量试剂后，最终蒸发结晶所得固体质量的变化范围；或根据pH曲线，判断反应进程中溶质成分的变化，并写出关键点的方程式。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ]
+    }
+  ],
+  "required_content": {
+    "K1.1": 3,
+    "K1.2": 3,
+    "K2.2": 12,
+    "K2.1": 3,
+    "K2.5": 12,
+    "K3.2": 3,
+    "K3.4": 9,
+    "K2.4": 3,
+    "K3.3": 9,
+    "K5.2": 16,
+    "K5.3": 3,
+    "K5.4": 13,
+    "K1.3": 11
+  },
+  "rubric_version": "chapter3_20261029",
+  "student_skill_levels": {
+    "N1": 4,
+    "N2": 4,
+    "N3": 4,
+    "N4": 4,
+    "N5": 4
+  },
+  "execution_mode": "official_api",
+  "planning_origin_levels": {
+    "q1": 2,
+    "q2": 2,
+    "q3": 2,
+    "q4": 3,
+    "q5": 2,
+    "q6": 3,
+    "q7": 3,
+    "q8": 3,
+    "q9": 3,
+    "q10": 3,
+    "q11": 4,
+    "q12": 4,
+    "q13": 4,
+    "q14": 4,
+    "q15": 4,
+    "q16": 2,
+    "q17": 2,
+    "q18": 3,
+    "q19": 3,
+    "q20": 3,
+    "q21": 3,
+    "q22": 4,
+    "q23": 4
+  },
+  "planning_repair": {
+    "source_blueprint_fingerprint": "9031c81833a229ce60e721260a833bb90e66708779c98b515f4028957c330b56",
+    "changes": [],
+    "input_scope": "技能树、画像及原蓝图；无试卷、分数或评价结果",
+    "notice": "上游命题目标显式校正；新旧范围分数不作试题优化收益比较。新蓝图冻结后独立评价并修订。",
+    "rounds": []
+  },
+  "planning_validation": {
+    "protocol": "20261105_grounded_adaptive_levels_v2",
+    "status": "passed",
+    "signature": "fd75343a712b4ec6193a65e6f060a2b3a38499be1e41c1868eebe99fd8f4e874",
+    "audit_file": "audit.json",
+    "notice": "核查依据来自教学材料、技能树及必答任务；不使用试卷分数调整目标。新蓝图须独立建立评分基线。"
+  }
+}

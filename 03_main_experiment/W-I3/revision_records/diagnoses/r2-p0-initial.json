@@ -1,0 +1,220 @@
+{
+  "D": [
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC7",
+      "root_cause_detail": "参考答案与评分点1把反应前烧杯溶液写成含Na⁺、OH⁻、H⁺、Cl⁻四种离子，与题干“先盛NaOH溶液、再逐滴加盐酸”的加料顺序矛盾，正确答案应为Na⁺、OH⁻，按现评分点正确作答不得分（q18-science、q18-science-veto）；同时题干已明示OH⁻、H⁺与指示剂颜色关系，学生按提示逐空填写，实际行为接近N2等级2，未落实等级3“自主选择关系并连接两步”的要求（q18-difficulty_cognition）；第(2)问横线标注“填离子符号”却要求文字描述OH⁻量的变化，作答形式指示不一致（q18-specification）。",
+      "suggestion": "重写(1)答案与评分点为Na⁺、OH⁻，删除H⁺、Cl⁻；将(2)拆为“OH⁻量如何变化（文字）”与“实际结合减少的离子（填符号）”两空并分别赋分；增设需学生自主比较或选择依据的设问（如比较NaOH溶液与NaCl溶液使酚酞变色的微观差异并连接两步说明），以落实N2等级3行为；保持题号、题型、6分、知识点、N2、easy不变。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "root_cause_detail": "题干已给定酚酞指示剂，学生只做数据读取、现象分析与溶质推断，未落实N5等级3“自主选择试剂和方法，完成两步以上鉴别或简单除杂”的核心行为（q21-skills）；科学性与评分点经核验通过，无需改动。",
+      "suggestion": "在保持实验题型、5分、知识点、N5、medium不变的前提下，增设需学生自主选择试剂或设计补充操作以确认恰好中和的设问（如自选试剂验证30 mL时溶液成分、设计排除酚酞褪色误判的两步操作），并要求描述步骤、现象与结论；评分点相应补充对应分值。"
+    },
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC3",
+      "root_cause_detail": "设问(2)需串联两个方程式、三组质量比、一次差量求NaOH并求和，实际为多步综合计算，超出蓝图N3等级1“一步简单计算”与认知“识记”的定位（q23-skills、q23-difficulty_cognition）；题干“样品中杂质不参与反应、不含氯元素”与10.0 g恰由5.3 g Na₂CO₃+4.7 g NaOH组成的隐含事实不符，且未说明中间量保留位数（q23-science、q23-specification）。数值经程序复算全部正确。",
+      "suggestion": "在保持计算题型、10分、知识点、N3、easy、等级1不变的前提下，将任务收敛为一步计算（如仅由CO₂ 2.2 g按106∶44求Na₂CO₃质量，或仅按给定质量比求某一生成物质量），删除需自行组织两路径求和的设问；将“杂质不参与反应、不含氯元素”改为“样品仅由Na₂CO₃和NaOH组成”，并明确各步保留位数；评分点按新设问重设并保持总分10分。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q18",
+      "root_cause": "RC7",
+      "operator": "replace",
+      "cause": "参考答案(1)与评分点1误将盐酸中的H⁺、Cl⁻计入反应前烧杯溶液，与题干加料顺序矛盾，导致正确作答不得分。",
+      "acceptance_criteria": "(1)答案与评分点仅接受Na⁺、OH⁻（可含H₂O），不再出现H⁺、Cl⁻；评分点1表述与题干“反应前烧杯内为NaOH溶液”一致；按新评分点，写出Na⁺、OH⁻得满分，写出含H⁺或Cl⁻不得分；题号、题型、6分、知识点、N2、easy不变。",
+      "issue_ids": [
+        "q18-science",
+        "q18-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC3",
+      "operator": "rewrite_task",
+      "cause": "题干已明示OH⁻、H⁺与指示剂颜色关系，学生按提示逐空填写，实际行为低于N2等级3“自主选择关系并连接两步说明依据”。",
+      "acceptance_criteria": "至少一处设问要求学生自主选择或比较两种溶液的微观差异（如NaOH溶液与NaCl溶液使酚酞变色的原因），并连接“含某离子”与“指示剂变色”两步说明依据；评分点含该比较与依据的分值；仍为填空、6分、N2、easy、知识点“中和反应的微观实质”不变。",
+      "issue_ids": [
+        "q18-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC6",
+      "operator": "revise_stem",
+      "cause": "第(2)问横线标注“填离子符号”，但设问前半要求文字描述OH⁻量的变化，作答形式指示不一致。",
+      "acceptance_criteria": "第(2)问拆分为“OH⁻的量如何变化（文字作答）”与“实际结合减少的离子（填离子符号）”两空，各空作答形式标注与设问要求一致；评分点与两空一一对应，总分仍为6分。",
+      "issue_ids": [
+        "q18-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC1",
+      "operator": "rewrite_task",
+      "cause": "指示剂已在题干给定，学生仅做数据读取与溶质推断，未落实N5等级3“自主选择试剂和方法，完成两步以上鉴别”的行为。",
+      "acceptance_criteria": "至少增设一问要求学生自主选择试剂或设计两步以上操作以确认恰好中和或验证30 mL时溶液成分，并描述步骤、现象与结论；评分点含该设计步骤与结论的分值；仍为实验题、5分、N5、medium、知识点“酸碱中和反应的实验操作与现象分析”不变；原pH数据表与科学性结论保留。",
+      "issue_ids": [
+        "q21-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC3",
+      "operator": "rewrite_task",
+      "cause": "设问(2)为两方程两路径的组合计算并求和，实际难度与认知高于蓝图N3等级1、识记、easy的定位。",
+      "acceptance_criteria": "任务收敛为一步计算（如仅由CO₂ 2.2 g按106∶44求Na₂CO₃质量，或仅按给定质量比求单一生成物质量），不再要求自行组织两路径求和；评分点与单步计算对应且合计10分；仍为计算题、N3、easy、知识点“酸碱盐反应方程式与溶质质量分数计算”不变。",
+      "issue_ids": [
+        "q23-skills",
+        "q23-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "revise_stem",
+      "cause": "“样品中杂质不参与反应、不含氯元素”与10.0 g恰由5.3 g Na₂CO₃+4.7 g NaOH组成的隐含事实不符，未明示样品仅由两成分组成。",
+      "acceptance_criteria": "题干明确“样品仅由Na₂CO₃和NaOH组成”或给出与数据自洽的杂质说明；由总质量减碳酸钠得NaOH的隐含假设在题干中明示；数值关系（CO₂ 2.2 g、样品10.0 g）保持不变。",
+      "issue_ids": [
+        "q23-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC6",
+      "operator": "revise_stem",
+      "cause": "“结果保留一位小数”仅对总质量适用，中间量y=5.85 g为两位小数，未说明中间值保留位数。",
+      "acceptance_criteria": "题干明确各步中间量与最终结果的保留位数（如中间量保留两位小数、最终结果保留一位小数），评分点容差与之一致；总分仍为10分。",
+      "issue_ids": [
+        "q23-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "eeba5fe2a1570c9c955ddbe1b16a779e4d1fb0558c5948c27149dce97a5d6829"
+    },
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2b79cb9c975b514edfbcebf88c7ebff66bc43ee3512488c8d42d55ddc22991d1"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "c601624737a3e26e38acb0f2b5c5b6f48b57f8b9e4a4b4bbd969535c4129e96b"
+    }
+  }
+}

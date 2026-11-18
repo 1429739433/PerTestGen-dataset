@@ -1,0 +1,117 @@
+{
+  "运行编号": "web-5ce51eb3f8c5",
+  "终止状态": "quality_met",
+  "采用版本": "r2-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q2-difficulty_cognition",
+      "question_ids": [
+        "q2"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：题干未给出完整推理步骤，学生须自行选择适用关系并连接两步说明依据，符合N2等级3的task_condition，实际认知活动达到目标层级。；difficulty：目标等级3要求'不给出完整步骤'自主连接两步推理，但四个选项各自给出完整论证链，学生只需甄别正误而非自行组织推理，实际推理负荷低于等级3的典型要求；建议设问改为要求说明判断依据以匹配目标难度。"
+    },
+    {
+      "issue_id": "q2-specification",
+      "question_ids": [
+        "q2"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干设问'下列说法正确的是'末尾缺少括号留空及标点，与q1'（　）'的版式不一致；设问内容本身清楚完整，不影响作答，属版式瑕疵。；scoring：评分点3分与本题分值一致，描述内容涵盖识别离子种类与排除—推断的推理依据，与参考答案D对应。"
+    },
+    {
+      "issue_id": "q4-skills",
+      "question_ids": [
+        "q4"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC1",
+      "evidence": "dimension：任务类型正确落实N2：在选项间比较并辨认“含OH⁻→使酚酞变红”的两步微观因果连接（options.B）。但题干已直接给出两溶液的完整微粒组成（“已知…含有大量Na⁺、OH⁻和H₂O分子…”），学生无需自主确定比较对象，主要工作是排除与现象矛盾的选项，自主“选择适用关系并连接两个相关步骤”的程度被题干提示部分替代，略低于N2等级3任务条件中“不给出完整步骤、自主选择适用关系”的要求；建议题干删去直接点明OH⁻的微粒清单，仅保留现象，可回到等级3。；cognition：正确作答需理解离子种类与宏观性质的因果联系并排除三项与现象矛盾的解释，超出对微粒名称的直接回忆，达到蓝图“理解”层级。"
+    },
+    {
+      "issue_id": "q7-coverage",
+      "question_ids": [
+        "q7"
+      ],
+      "dimension": "coverage",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC4",
+      "evidence": "content：实际必答任务是判断四组物质能否反应，其中A项需运用'碱与非金属氧化物反应生成盐和水'规律，目标知识点被直接考查；但蓝图task_requirement还要求'指出判断所依据的反应规律'，题干仅要求选择，未要求学生陈述依据；且C项涉及金属与稀盐酸判断，蓝图planning_reason称已删除该信息，实际以干扰项形式出现。；redundancy：'碱与非金属氧化物反应及证据分析'要求3分，仅q7(3分)落实，无重复挤占。"
+    },
+    {
+      "issue_id": "q9-coverage",
+      "question_ids": [
+        "q9"
+      ],
+      "dimension": "coverage",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC4",
+      "evidence": "content：实际任务考查『常见盐与酸、碱反应的化学方程式书写』，知识点已落实；但蓝图task_requirement明确要求『与q5考查不同反应实例』，实际题干与q5完全使用同一反应（碳酸钠与石灰水制氢氧化钠），未按蓝图更换反应实例，属于对计划条件的偏离。；redundancy：q9与q5题干和选项几乎完全相同(同一反应的方程式正误判断)，属明显重复；但该知识点'常见盐与酸、碱反应的化学方程式书写'已确认分值6分(q5+q9)满足最低要求，依判据不能据此认定必考知识实际少于最低分值。"
+    },
+    {
+      "issue_id": "q16-skills",
+      "question_ids": [
+        "q16"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC2",
+      "evidence": "dimension：题干实际任务：依据给定溶解性表对三组物质逐一判断能否发生复分解反应并填写依据，为完整信息下的单步直接判断，与N4等级1可观察行为“根据给定的溶解性表，判断单一反应能否发生”完全对应。；cognition：蓝图cognition标签为“识记”，但学生实际须将复分解条件规则应用到三组新组合上作出判断，属于规则应用而非单纯回忆，实际认知略高于标签，提示蓝图标签可修正为理解/应用"
+    },
+    {
+      "issue_id": "q18-science",
+      "question_ids": [
+        "q18"
+      ],
+      "dimension": "science",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "facts：独立核查：NaOH溶液含Na⁺/OH⁻、NaCl溶液含Na⁺/Cl⁻、盐酸含H⁺/Cl⁻，与题干表格一致；酚酞遇含OH⁻溶液变红、遇含H⁺溶液不变红符合指示剂事实（题干以'已知'给出，未作精确等当点断言）；H⁺与OH⁻结合生成H₂O为初中认可的中和反应微观实质。边界条件核实：题(2)仅问OH⁻量随加盐酸的变化，加料过程中Cl⁻随盐酸带入而增加，但题文未对Cl⁻/Na⁺的数量变化作任何断言，故不存在把旁观离子数量不变作为隐含前提的缺陷；题(3)问'实际结合而减少的离子'，比较对象为反应消耗，H⁺与OH⁻结合减少的表述在反应层面成立，答案正确。另：表格中符号◇（CO₃²⁻）被定义但三种溶液均未使用，属冗余图例，不影响作答与判分。；solvability：题干表格给出三种溶液全部微粒构成并明示'各符号只表示粒子种类，不表示数目比例'，避免比例误读；(1)可据NaOH含○(OH⁻)与NaCl不含○作答，(2)(3)据加盐酸消耗OH⁻的常规过程作答，条件自洽、信息充分，三问均可据题面解答。；answer：参考答案(1)氢氧化钠变红/氯化钠不变红及两步离子依据、(2)OH⁻逐渐减少、(3)H⁺和OH⁻结合生成H₂O，独立验证均正确且对应全部三问；评分点3+1+1+1=6与points一致。缺陷：answer_original字段仍为改版前旧题的答案（(1)'Na⁺、OH⁻、H⁺、Cl⁻'、(3)'Na⁺和Cl⁻'），与现行answer及设问不对应，属交付数据冗余错误；学生作答文本与现行评分点不受影响，判为轻微。"
+    },
+    {
+      "issue_id": "q19-specification",
+      "question_ids": [
+        "q19"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干要求学生先写出化学式再在括号内判断'正确'或'错误'，但因三条物质均对应正确写法，学生只要写对，括号必然填'正确'，判断环节对答对者无区分作用，属于轻微设计瑕疵，不影响作答与判分。；scoring：三个评分点各2分，合计6分，与points=6对应，且每点覆盖书写与判断两部分。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 59.0,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 85.217392,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "D": [
+    {
+      "question_id": "q7",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干仅说“滴加稀盐酸，观察到有气泡产生”，未限定盐酸足量或恰好完全反应；若盐酸不足，B项“反应后仍含CO₃²⁻”亦成立，设问“反应前后离子种类变化”缺少用量终点条件，存在歧义。",
+      "suggestion": "在题干中补明“逐滴加入稀盐酸至恰好不再产生气泡（碳酸钠恰好完全反应）”，使A项唯一成立；保持题型、分值、知识点、技能N2等级1与识记、easy不变。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "science",
+        "coverage",
+        "skills",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_detail": "B项Na₂CO₃+2HCl=2NaCl+H₂O+CO₂↑配平正确、生成气体和水，同样满足“方程式书写正确且符合复分解发生条件”，与C项并列为正确项，答案不唯一；同时题干称“三组物质”而选项列四组，实际必答任务为复分解条件判断与方程式核对，未落实“常见酸碱盐的化学式书写判断”，也未落实N3等级3“自主判断并书写方程式”的行为。",
+      "suggestion": "重写选项使唯一正确：可将B项改为未配平形式（如Na₂CO₃+HCl=NaCl+H₂O+CO₂↑）或改为不反应组合；将题干“三组”改为“四组”；在保持知识点标签“常见酸碱盐的化学式书写判断”前提下，使判断必须涉及化学式书写正误（如设置化学式错误项），并保留依据复分解条件判断反应能否发生的步骤；答案与评分点同步改为唯一正确项。"
+    },
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干“含有氢氧化钙和碳酸钠的混合溶液”与化学事实矛盾：Ca(OH)₂与Na₂CO₃在溶液中生成CaCO₃沉淀和NaOH，不能大量共存；“至不再产生气泡”未给出盐酸用量，终点状态不确定，A、C均可成立，B、D在酸过量或不足时亦可能成立，答案不唯一。",
+      "suggestion": "重写情境：改为“向盛有氢氧化钙与碳酸钙悬浊液的烧杯中逐滴加入稀盐酸，至不再产生气泡且盐酸恰好完全反应（无剩余）”，过滤后向滤液滴加硝酸银；选项围绕“滤液中一定含CaCl₂、白色沉淀为AgCl”设置唯一正确项，其余选项分别以“含盐酸”“AgOH”“碳酸银”等错误来源排除；评分点同步改为单选全对得分。"
+    },
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "science",
+        "coverage",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_detail": "A、B、C三个方案在步骤、现象与结论上均成立：B用石蕊一步区分三种溶液、第二步酚酞验证NaOH；C用pH试纸区分三种溶液、第二步酚酞验证；均满足“两步鉴别”设问，答案不唯一。同时题干实际考查指示剂鉴别，未涉及“pH试纸与浓硫酸稀释的实验操作”，该必考内容落空。",
+      "suggestion": "重写题干与选项：在设问中增加“每一步都必须用于区分溶液”的限定，使B、C第二步仅作验证而不区分新溶液，从而排除；或将正确方案限定为使用pH试纸测定并区分三种溶液后再用指示剂验证，使pH试纸成为必用试剂；同时将知识点任务调整为包含pH试纸规范使用（如蘸取、对照比色卡）的判断，落实“pH试纸与浓硫酸稀释的实验操作”中的pH试纸操作部分；答案与评分点同步修订。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "coverage",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "参考答案方案二自述“此方案仅需一步即可鉴别，若强制要求两步，可补充……”，与题干“设计一个两步实验方案”不符，作为示例答案会给评分点“第二步试剂”的判定造成混乱；评分点第1分与第2分存在现象重叠表述。同时题干实际任务为三种溶液鉴别，未涉及“酸碱中和反应的实验操作与现象分析”，该必考内容落空。",
+      "suggestion": "删去方案二或将其改写为严格两步方案；评分点明确“第一步须区分出一种溶液、第二步须区分剩余两种溶液”，并说明一步方案不得满分；在保持题型、分值、技能N5等级3与medium不变的前提下，将任务改为以中和反应为载体的两步方案设计（如用酚酞判断NaOH被盐酸恰好中和的终点，再用碳酸钠区分剩余溶液），使“酸碱中和反应的实验操作与现象分析”落地；答案与评分点同步修订。"
+    },
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_detail": "第3问参考答案12.2%错误：由2.2 g CO₂得NaCl 5.85 g，反应后溶液质量50.0+40.0−2.2=87.8 g，NaCl质量分数5.85/87.8×100%≈6.7%；评分点第5条内嵌命题者自我质疑文字并与参考答案矛盾，评分依据不可用。题干已直接给出反应方程式，削弱了“书写方程式”这一N3等级3子目标。",
+      "suggestion": "将第3问答案改为约6.7%，评分点第5条改为“正确计算反应后溶液总质量87.8 g并得出NaCl质量分数约6.7%（允许6.6%—6.7%）”，删除自我质疑文字；可将题干“已知反应方程式”改为提示性信息或删去，使第1问真正要求书写方程式；题干数据与分值保持不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q7",
+      "root_cause": "RC7",
+      "operator": "modify_stem",
+      "cause": "题干未限定盐酸用量，B项在盐酸不足时亦成立，设问存在歧义。",
+      "acceptance_criteria": "题干明确“逐滴加入稀盐酸至恰好不再产生气泡（碳酸钠恰好完全反应）”；逐项核验后仅A项成立；题型、3分、知识点、N2等级1、识记、easy均不变。",
+      "issue_ids": [
+        "q7-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC7",
+      "operator": "rewrite_item",
+      "cause": "B项与C项同为正确项，答案不唯一；题干“三组”与四选项不符；实际任务未落实“常见酸碱盐的化学式书写判断”与N3等级3自主书写行为。",
+      "acceptance_criteria": "四个选项逐项独立核验后仅一个正确项；题干组数与选项数一致；至少一个选项的判断依赖化学式书写正误，且作答需依据复分解条件判断反应能否发生；答案与评分点指向该唯一正确项；题型、3分、知识点标签、N3等级3、理解、easy不变。",
+      "issue_ids": [
+        "q8-science",
+        "q8-coverage",
+        "q8-skills",
+        "q8-specification",
+        "q8-science-veto",
+        "missing-常见酸碱盐的化学式书写判断"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "rewrite_item",
+      "cause": "初始混合溶液不能共存，且“不再产生气泡”未限定酸用量，A、C同时成立，答案不唯一。",
+      "acceptance_criteria": "题干改为可共存的悬浊液体系并明确“盐酸恰好完全反应、无剩余”；逐项核验后仅一个正确项；滤液成分与沉淀来源的判断均需依据复分解条件；答案与评分点同步；题型、3分、知识点、N4等级3、理解、easy不变。",
+      "issue_ids": [
+        "q9-science",
+        "q9-difficulty_cognition",
+        "q9-specification",
+        "q9-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "root_cause": "RC7",
+      "operator": "rewrite_item",
+      "cause": "A、B、C三方案均满足设问，答案不唯一；实际任务未落实“pH试纸与浓硫酸稀释的实验操作”。",
+      "acceptance_criteria": "题干增加“每一步都必须用于区分溶液”等限定，使逐项核验后仅一个方案成立；正确方案必须使用pH试纸并体现规范操作（蘸取、对照标准比色卡），使该知识点落地；答案与评分点同步；题型、3分、N5等级3、应用、medium不变。",
+      "issue_ids": [
+        "q13-science",
+        "q13-coverage",
+        "q13-difficulty_cognition",
+        "q13-science-veto",
+        "missing-pH试纸与浓硫酸稀释的实验操作"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "modify_answer_and_scoring",
+      "cause": "参考答案方案二不满足两步要求，评分点现象重叠；实际任务未落实“酸碱中和反应的实验操作与现象分析”。",
+      "acceptance_criteria": "参考答案只保留严格两步方案；评分点明确第一步区分一种、第二步区分剩余两种，一步方案不得满分；任务以中和反应为载体（如酚酞判断中和终点后再鉴别），使“酸碱中和反应的实验操作与现象分析”落地；题型、5分、N5等级3、应用、medium不变。",
+      "issue_ids": [
+        "q21-science",
+        "q21-coverage",
+        "q21-specification",
+        "missing-酸碱中和反应的实验操作与现象分析"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "modify_answer_and_scoring",
+      "cause": "第3问答案12.2%错误，正确约6.7%；评分点内嵌自我质疑文字并与答案矛盾；题干直接给出方程式削弱书写子目标。",
+      "acceptance_criteria": "第3问答案改为约6.7%，评分点给出87.8 g与6.7%（允许6.6%—6.7%）并删除自我质疑文字；第1问真正要求书写方程式（题干不再直接给出完整方程式或仅给反应物提示）；题干数据自洽；题型、10分、知识点、N3等级3、应用、medium不变。",
+      "issue_ids": [
+        "q23-science",
+        "q23-skills",
+        "q23-difficulty_cognition",
+        "q23-specification",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "bd3ade21b360041e460118707f354116512987d81289b9d0132edd641b01b79f"
+    },
+    "q7": {
+      "question_id": "q7",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6d7da5d2d2dda6ce84037c8f8928c845829645be0425042d690774906f0ed02d"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "skills.dimension",
+        "skills.cognition",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7d164bae753222ca09cc48bfd88bd0ad7986017821deac207d2204a98322b239"
+    },
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "coverage.redundancy",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "3fdf8eef0f763f836defbf98c0551d40223cefdb7760276df4e379d4d701cd1c"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "coverage.content",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a7b55d1b4c9013ddaa79e5edad5d873d1c559cd49af52f1434faea13221919c5"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "1d2944cd9eaa037d3acf1655aacaa2097d035623141c7f0ea79dbb4ceb8efdfc"
+    }
+  }
+}

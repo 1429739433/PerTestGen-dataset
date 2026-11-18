@@ -1,0 +1,118 @@
+{
+  "round": 4,
+  "status": "completed",
+  "parent_ids": [
+    "r3-p0-c0"
+  ],
+  "candidate_ids": [
+    "r4-p0-c0",
+    "r4-p0-c1"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 5,
+    "remaining_question_slots": 12,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q18",
+      "q22",
+      "q21",
+      "q3",
+      "q7",
+      "q8"
+    ],
+    "contributions": {
+      "q16": 0.5,
+      "q14": 2.5,
+      "q22": 1.0,
+      "q8": 3.25,
+      "q18": 3.25,
+      "q20": 0.5,
+      "q21": 4.0,
+      "q7": 4.5,
+      "q3": 4.5
+    },
+    "selected_mass": 0.8541666666666666,
+    "weighted_penalty_total": 24.0,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q14",
+      "q21",
+      "q3",
+      "q7",
+      "q8"
+    ],
+    "authorized_issue_ids": [
+      "q3-skills",
+      "q3-difficulty_cognition",
+      "q7-skills",
+      "q7-difficulty_cognition",
+      "q8-skills",
+      "q8-difficulty_cognition",
+      "q18-science",
+      "q18-skills",
+      "q18-specification",
+      "q21-science",
+      "q21-specification",
+      "q22-difficulty_cognition"
+    ],
+    "priority_dimensions": [
+      "difficulty_cognition",
+      "science",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": [
+      "q14",
+      "q16",
+      "q20"
+    ],
+    "stalled_question_attempts": {
+      "q4": 1,
+      "q16": 2,
+      "q14": 1,
+      "q3": 1,
+      "q7": 1,
+      "q8": 1,
+      "q9": 1,
+      "q20": 1,
+      "q1": 1
+    },
+    "repair_dimension_candidates": {
+      "difficulty_cognition": [
+        "q3",
+        "q7",
+        "q8",
+        "q22"
+      ],
+      "science": [
+        "q18",
+        "q21"
+      ],
+      "skills": [
+        "q3",
+        "q7",
+        "q8",
+        "q14",
+        "q18"
+      ],
+      "specification": [
+        "q16",
+        "q18",
+        "q20",
+        "q21"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r4-p0-c1"
+  ]
+}

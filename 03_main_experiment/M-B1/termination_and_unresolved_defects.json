@@ -1,0 +1,115 @@
+{
+  "运行编号": "web-f921172f5f98",
+  "终止状态": "quality_met",
+  "采用版本": "r3-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q5-science",
+      "question_ids": [
+        "q5"
+      ],
+      "dimension": "science",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC7",
+      "evidence": "facts：Fe+2HCl→FeCl₂+H₂↑、Fe+CuCl₂→FeCl₂+Cu均符合金属活动性顺序（Fe>H>Cu），四个选项的化学事实本身无误。但评分依据中'铁先与盐酸反应，此时氯化铜尚未被置换'是活动性顺序不能推出的排他性先后断言：向盐酸与氯化铜混合液中加入少量铁粉时，两种反应均可发生，无法仅凭'仍有气泡'断定铜离子完全未反应。该断言属解析瑕疵，不影响选项真值（A的'一定不含'无论是否假定排他顺序均不成立，因铁粉少量且气泡持续说明铁已耗尽，氯化铜是否剩余取决于用量关系，不能保证不含）。；solvability：边界条件独立核实：铁少量且第一次反应后仍有气泡，说明铁已耗尽、盐酸剩余；第二次加铁至无气泡并充分反应，铁可能恰好耗尽或不足。逐项验证：A'一定不含氯化铜'不成立（氯化铜可能剩余，取决于两次用量）；B'一定只含铜'不成立（铁可能剩余入滤渣）；C'一定不含氯化亚铁'不成立（第一次气泡证明铁与盐酸反应，必生成FeCl₂）；D'一定含氯化亚铁，可能含氯化铜'成立（两个反应均生成FeCl₂；铁粉未保证过量，CuCl₂可能剩余）。注意各选项判定均未依赖'铜离子完全反应后才产氢'的排他顺序，仅用'一定/可能'与已给现象即可推出。恰有D一个true项，单选唯一，条件自洽。；answer：参考答案D正确，与独立逐项验证一致；评分点对A、B、C的否定依据和D的肯定依据均能对应设问。评分描述中'此时氯化铜尚未被置换'一句属无依据的排他顺序断言，但其后的结论（A错误因'一定不含'无保证、D正确因'可能含氯化铜'）不依赖该句，最终各选项判定与答案均成立，不影响判分。"
+    },
+    {
+      "issue_id": "q6-skills",
+      "question_ids": [
+        "q6"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC2",
+      "evidence": "dimension：实际任务考查实验操作规范理解与结论判断，属于N5实验操作探究维度；cognition：蓝图cognition'应用'，实际为在给定方案中逐项判断正误并组合两项任务的判断，含一定自主分析（识别错误操作及后果），但未达等级3'自主选择试剂和方法完成两步以上鉴别或除杂'的方案设计要求；建议将蓝图行为描述下调或在题干中增加设计性设问"
+    },
+    {
+      "issue_id": "q6-difficulty_cognition",
+      "question_ids": [
+        "q6"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：同skills.cognition：实际为操作正误辨析，接近等级2-3之间，未完全落实等级3方案设计行为；difficulty：双任务组合使错误点分布于不同选项，需逐项核查两任务，条件无多余提示，符合easy定位及学生等级3基础"
+    },
+    {
+      "issue_id": "q9-specification",
+      "question_ids": [
+        "q9"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：四个选项均使用'→'而非初中规范要求的等号'='，与题干'书写完全正确'的严格标准不完全一致；因全卷选项统一使用且不影响答案判断，属轻微瑕疵，建议改为等号。；scoring：单选3分对应一个评分点，逐项错误说明与答案对应，分值匹配。"
+    },
+    {
+      "issue_id": "q13-specification",
+      "question_ids": [
+        "q13"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干给出两个方程式并明确设问'反应前后溶液中离子种类的变化'，A项'（若有）'的括号已提示SO₄²⁻仅在反应②存在，设问与选项表述清楚；scoring：scoring_points.description混入命题者自我检讨文字（'让我们重新审视选项A的严谨性'等），并承认A项表述'略显模糊'；虽不影响3分与答案A的对应，但评分要点文本不规范，应精简为标准的答案与分值说明"
+    },
+    {
+      "issue_id": "q14-difficulty_cognition",
+      "question_ids": [
+        "q14"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：四组均需同时核验俗名、化学式、类别三项，实际认知活动涉及规则应用而非单纯回忆，与目标'应用'基本一致；difficulty：单选判断形式下各错误项特征明显（熟石灰/CaO、火碱/Na₂CO₃为典型混淆），实际作答难度低于蓝图'medium'，与N3等级3示例中的方程式书写和两步计算相比操作强度明显降低，建议视作难度偏易的瑕疵"
+    },
+    {
+      "issue_id": "q20-skills",
+      "question_ids": [
+        "q20"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC1",
+      "evidence": "dimension：skill_alignment.assessed_action：学生须对比三种金属与盐酸反应判断活动性强弱、依据活动性顺序解释铜不反应、并在过量铁粉与盐酸/氯化铜混合体系中推理滤渣成分（stem第(1)(3)(4)小题）。relation：direct——第(4)⑤需在多物质体系中连接'铁与盐酸反应''铁置换铜''铁粉过量'多个步骤推理滤渣成分，符合N4等级3行为示例。但①③④为单步或直接判断，属等级1—2行为，整题落点略低于等级3的目标行为强度，判minor。；cognition：蓝图目标认知为'理解'；③要求说明原因（与氢的位置关系关联），⑤要求依据反应进程推理，超出单纯识记，达到理解层级。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 56.695652,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 76.021739,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 85.869565,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0"
+      ]
+    }
+  ]
+}

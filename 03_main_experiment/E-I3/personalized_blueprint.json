@@ -1,0 +1,3167 @@
+{
+  "unit_id": "acid-base-salt-20261018",
+  "total_score": 100,
+  "duration_minutes": 90,
+  "items": [
+    {
+      "question_id": "q1",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+      "cognition": "应用",
+      "difficulty": "easy",
+      "skill_id": "N1",
+      "target_level": 4,
+      "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 16,
+        "task_reason": "原任务仅要求判断三种溶液中指示剂颜色并说明对应关系，属熟悉情境下的多现象直接判断，未落实N1等级4所需的含干扰情境筛选与多步证据判断。保留必考知识点KP-bd8603c4aff075a2与N1等级4，改为以含酚酞的氢氧化钠溶液滴加稀盐酸为情境，要求识别红色褪去这一反应证据并检查其在含碳酸钠干扰时结论成立的条件，认知由理解调整为应用，符合等级4行为。"
+      },
+      "task_requirement": "给出含酚酞的氢氧化钠溶液，向其中滴加稀盐酸至过量，同时记录滴加过程中溶液红色逐渐褪去、且始终无气泡产生的现象；要求学生判断红色褪去能否作为稀盐酸与氢氧化钠发生反应的宏观证据，并说明若该氢氧化钠溶液部分变质（含碳酸钠）时，仅凭红色褪去能否排除碳酸钠与盐酸反应的干扰，选择正确结论。"
+    },
+    {
+      "question_id": "q2",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "溶液酸碱性与pH的关系判断",
+      "cognition": "应用",
+      "difficulty": "easy",
+      "skill_id": "N1",
+      "target_level": 4,
+      "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 16,
+        "task_reason": "原任务虽提及排除pH试纸使用不当的干扰，但未给出干扰数据的特征与判断依据，学生无法实际执行筛选。保留必考知识点KP-6d481f29bab2caf2与N1等级4，在题内明确给出湿润试纸使酸性溶液pH偏大的信息，使学生能实际排除异常数据并检查结论成立条件，认知保持应用。"
+      },
+      "task_requirement": "提供四份溶液的pH测定记录：稀盐酸pH=2、氢氧化钠溶液pH=13、氯化钠溶液pH=7、碳酸钠溶液pH=11；另附一条异常记录“某酸性溶液用湿润的pH试纸测得pH=9”。要求学生依据pH数值判断各溶液酸碱性，并依据“湿润试纸会稀释待测液、使酸性溶液测得pH偏大”这一题内给出的信息，识别并排除该异常记录，选择正确结论。"
+    },
+    {
+      "question_id": "q3",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "盐酸在水溶液中电离出的离子种类",
+      "cognition": "应用",
+      "difficulty": "easy",
+      "skill_id": "N2",
+      "target_level": 4,
+      "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 19,
+        "task_reason": "原任务仅判断单一盐酸溶液中的离子种类并说明依据，无反应体系或离子变化分析，实际接近N2等级1—2。保留知识点KP-0231324e35cb47e3与N2等级4，改为以盐酸与氢氧化钠反应前后离子种类变化为情境，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+      },
+      "task_requirement": "给出盐酸与氢氧化钠溶液反应前、恰好完全反应、盐酸过量三个阶段的微观粒子种类记录（含H⁺、Cl⁻、Na⁺、OH⁻、H₂O），要求学生依据反应前后离子种类的变化，判断盐酸溶液中大量存在的离子，并解释反应实质是H⁺与OH⁻结合生成水分子，同时说明反应后溶液中仍存在Cl⁻和Na⁺的原因，选择正确结论。"
+    },
+    {
+      "question_id": "q4",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "skill_id": "N4",
+      "target_level": 2,
+      "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 2,
+        "shift": 0,
+        "cognition_shift": -1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 36,
+        "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断能否发生并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+      },
+      "task_requirement": "给出氢氧化钠溶液与二氧化碳反应的文字描述，要求学生依据“碱能与某些非金属氧化物反应生成盐和水”这一规则，判断该反应能否发生，并说明判断依据，选择正确结论。"
+    },
+    {
+      "question_id": "q5",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "氢氧化钠潮解与溶解放热现象",
+      "cognition": "应用",
+      "difficulty": "easy",
+      "skill_id": "N1",
+      "target_level": 4,
+      "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 16,
+        "task_reason": "原任务核心是区分潮解、溶解放热与化学变化，未落实N1等级4“识别特定反应发生的宏观证据并排除干扰”的行为。保留知识点KP-c02bfef1106cf375与N1等级4，在题内给出二氧化碳反应信息作为干扰来源，要求学生判断两组现象的宏观证据归属并排除混淆说法，认知保持应用。"
+      },
+      "task_requirement": "呈现两组现象记录：甲组为氢氧化钠固体敞口放置后表面潮湿、体积增大；乙组为氢氧化钠固体溶于水时试管外壁发热。另给出“氢氧化钠与空气中二氧化碳反应生成碳酸钠”的信息。要求学生判断甲、乙两组现象分别属于物理变化还是化学变化，并排除“表面潮湿一定是与二氧化碳发生了化学反应”的干扰说法，选择正确结论。"
+    },
+    {
+      "question_id": "q6",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "氢氧化钠溶液中大量存在的微粒",
+      "cognition": "应用",
+      "difficulty": "easy",
+      "skill_id": "N2",
+      "target_level": 4,
+      "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 19,
+        "task_reason": "原任务仅判断单一氢氧化钠溶液的微粒并解释导电，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-995481316624b42b与N2等级4，增加氢氧化钠与稀盐酸反应前后微粒变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+      },
+      "task_requirement": "给出氢氧化钠溶液与蔗糖溶液的电导性对比信息，并给出氢氧化钠溶液与稀盐酸反应前后微粒种类的记录。要求学生判断氢氧化钠溶液中大量存在的微粒，解释其导电原因，并依据反应后OH⁻减少、H₂O增多的微粒变化，说明导电性变化与反应实质的关系，选择正确结论。"
+    },
+    {
+      "question_id": "q7",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "skill_id": "N4",
+      "target_level": 2,
+      "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 2,
+        "shift": 0,
+        "cognition_shift": -1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 36,
+        "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断反应类型并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+      },
+      "task_requirement": "给出氢氧化钙溶液与二氧化碳反应生成白色沉淀的实验现象，要求学生依据“碱能与某些非金属氧化物反应生成盐和水”这一规则，判断该反应能否发生并说明判断依据，选择正确结论。"
+    },
+    {
+      "question_id": "q8",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "酸碱指示剂在不同溶液中的变色现象",
+      "cognition": "应用",
+      "difficulty": "easy",
+      "skill_id": "N1",
+      "target_level": 4,
+      "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 16,
+        "task_reason": "原任务虽提及排除试液用量干扰，但未给出干扰数据特征，学生无法实际执行筛选。保留知识点KP-bd14f6d75083f240与N1等级4，在题内给出石蕊在中性溶液中显紫色的判断依据，使学生能实际识别并排除异常记录，认知保持应用。"
+      },
+      "task_requirement": "提供紫色石蕊试液分别加入稀硫酸、氢氧化钙溶液、碳酸钠溶液的变色记录，并附一条异常记录“某中性氯化钠溶液加入石蕊后显红色”。题内说明石蕊在中性溶液中显紫色。要求学生判断各溶液酸碱性，识别并排除该异常记录，选择正确结论。"
+    },
+    {
+      "question_id": "q9",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "碳酸钠溶液导电的微观原因",
+      "cognition": "应用",
+      "difficulty": "easy",
+      "skill_id": "N2",
+      "target_level": 4,
+      "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 19,
+        "task_reason": "原任务仅解释单一碳酸钠溶液的导电并判断主要离子，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-39d31cb1ee7d2aa7与N2等级4，增加碳酸钠与稀盐酸反应前后离子种类变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知由理解调整为应用。"
+      },
+      "task_requirement": "给出碳酸钠溶液导电的实验事实，并给出碳酸钠溶液与稀盐酸反应前后溶液中离子种类的记录（反应前含Na⁺、CO₃²⁻，反应后含Na⁺、Cl⁻并有气泡产生）。要求学生从微观离子角度解释碳酸钠溶液导电的原因，并依据反应前后离子种类的变化说明反应实质，选择正确结论。"
+    },
+    {
+      "question_id": "q10",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "复分解反应发生条件的判断",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "skill_id": "N4",
+      "target_level": 2,
+      "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 2,
+        "shift": 0,
+        "cognition_shift": -1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 36,
+        "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据复分解条件判断多组反应能否发生并说明依据属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+      },
+      "task_requirement": "给出若干组酸碱盐混合的实例（如稀盐酸与氢氧化钠、氯化钠与硝酸钾、碳酸钠与稀盐酸），要求学生依据复分解反应发生条件（生成沉淀、气体或水）判断哪些能发生反应，并说明判断依据，选择正确结论。"
+    },
+    {
+      "question_id": "q11",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "pH试纸与浓硫酸稀释的实验操作",
+      "cognition": "应用",
+      "difficulty": "easy",
+      "skill_id": "N5",
+      "target_level": 4,
+      "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 20,
+        "task_reason": "原任务仅为操作步骤纠错，未要求设计方案或评估干扰，实际接近N5等级1—2。保留知识点KP-ef0fab0d7c07794f与N5等级4，改为要求学生判断操作错误并评估错误操作对测量结果与温度变化的影响，落实等级4“评估方案并考虑干扰因素”的行为，认知保持应用。"
+      },
+      "task_requirement": "呈现“用湿润的pH试纸测定某氢氧化钠溶液的pH”和“将水沿烧杯内壁缓缓倒入浓硫酸中并搅拌”两项操作描述，要求学生判断两项操作中的错误，并评估若按错误操作进行，所测pH与溶液温度变化分别会产生什么偏差，选择正确结论。"
+    },
+    {
+      "question_id": "q12",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+      "cognition": "应用",
+      "difficulty": "easy",
+      "skill_id": "N1",
+      "target_level": 4,
+      "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 16,
+        "task_reason": "原任务仅依据单一变色现象判断可能酸碱性并说明局限，未设置需排除的干扰证据或多步分析，实际接近N1等级3。保留必考知识点KP-bd8603c4aff075a2与N1等级4，增加两种可能成分的干扰假设，要求学生排除干扰并选择进一步检验思路，落实等级4行为，认知保持应用。"
+      },
+      "task_requirement": "给出向某未知溶液中滴加无色酚酞试液后变红的实验事实，并给出该溶液可能为氢氧化钠溶液或碳酸钠溶液的两种假设。要求学生判断该溶液可能的酸碱性，并说明仅凭酚酞变红无法区分两种假设的理由，进而选择能进一步排除干扰、确定成分的后续检验思路，选择正确结论。"
+    },
+    {
+      "question_id": "q13",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "复分解反应前后离子种类的变化",
+      "cognition": "综合",
+      "difficulty": "medium",
+      "skill_id": "N2",
+      "target_level": 4,
+      "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+      "source_ids": [
+        "objectives-01",
+        "textbook-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 1,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 19,
+        "task_reason": "N2等级4要求分析复杂体系离子变化；本题以反应前后离子对比形式综合考查，匹配当前水平。"
+      },
+      "task_requirement": "给出碳酸钠溶液与稀盐酸反应前后的离子种类记录，要求学生分析反应前后离子种类的变化，判断哪些离子未参与反应，并选择正确的离子变化结论。",
+      "knowledge_topic_id": "KP-acd1e9dffedd4cb0"
+    },
+    {
+      "question_id": "q14",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "金属与稀盐酸能否反应的判断",
+      "cognition": "识记",
+      "difficulty": "easy",
+      "skill_id": "N4",
+      "target_level": 2,
+      "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 2,
+        "shift": 0,
+        "cognition_shift": -1,
+        "difficulty_shift": -1,
+        "target_dimension_points": 36,
+        "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为理解与任务行为不符：依据活动性顺序判断哪些金属能反应并说明依据属直接判断，未达到解释反应条件或实质的理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为识记。"
+      },
+      "task_requirement": "给出铜、锌、铁分别加入稀盐酸的实验现象描述，要求学生依据金属活动性顺序判断哪些金属能与稀盐酸反应，并说明判断依据，选择正确结论。"
+    },
+    {
+      "question_id": "q15",
+      "question_type": "single_choice",
+      "points": 3,
+      "knowledge_topic": "除去氢氧化钠溶液中碳酸钠杂质的试剂选择",
+      "cognition": "综合",
+      "difficulty": "medium",
+      "skill_id": "N5",
+      "target_level": 4,
+      "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+      "source_ids": [
+        "objectives-01",
+        "textbook-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 1,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 20,
+        "task_reason": "N5等级4要求设计并评估除杂方案、考虑干扰；本题以方案评估形式综合考查，匹配当前水平。"
+      },
+      "task_requirement": "给出除去氢氧化钠溶液中少量碳酸钠的若干试剂方案（如稀盐酸、氯化钙溶液、氢氧化钙溶液），要求学生评估各方案是否引入新杂质或发生副反应，选择合理方案并说明理由。",
+      "knowledge_topic_id": "KP-c7cbaf2bfe42bb41"
+    },
+    {
+      "question_id": "q16",
+      "question_type": "fill_blank",
+      "points": 6,
+      "knowledge_topic": "复分解反应发生条件的判断",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "skill_id": "N4",
+      "target_level": 2,
+      "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 2,
+        "shift": 0,
+        "cognition_shift": -1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 36,
+        "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据生成沉淀、气体或水判断每组能否发生复分解反应属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+      },
+      "task_requirement": "给出四组酸碱盐混合的实例，要求学生在空格中填写每组能否发生复分解反应及判断依据（生成沉淀、气体或水），以填空形式作答。"
+    },
+    {
+      "question_id": "q17",
+      "question_type": "fill_blank",
+      "points": 6,
+      "knowledge_topic": "金属与稀盐酸能否反应的判断",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "skill_id": "N4",
+      "target_level": 2,
+      "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 2,
+        "shift": 0,
+        "cognition_shift": -1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 36,
+        "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据金属活动性顺序判断多种金属能否与酸反应并填写依据属理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为理解。"
+      },
+      "task_requirement": "给出镁、铝、铜、银四种金属与稀盐酸接触的实例，要求学生在空格中填写能否反应及对应依据（金属活动性顺序），以填空形式作答。"
+    },
+    {
+      "question_id": "q18",
+      "question_type": "fill_blank",
+      "points": 6,
+      "knowledge_topic": "酸碱盐反应条件及产物判断",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "skill_id": "N4",
+      "target_level": 2,
+      "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+      "source_ids": [
+        "objectives-01",
+        "textbook-01"
+      ],
+      "planning_reason": {
+        "student_level": 2,
+        "shift": -1,
+        "cognition_shift": -1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 36,
+        "task_reason": "N4等级2要求在熟悉情境下判断反应条件与产物；maximum_level为3，安排等级2基础巩固，符合理解认知。"
+      },
+      "task_requirement": "给出稀硫酸与氢氧化钠、碳酸钠与氯化钙、氯化钠与稀硝酸等反应实例，要求学生在空格中填写反应能否发生及产物判断，以填空形式作答。",
+      "knowledge_topic_id": "KP-d4104766fc722ed5"
+    },
+    {
+      "question_id": "q19",
+      "question_type": "fill_blank",
+      "points": 6,
+      "knowledge_topic": "中和反应的微观实质",
+      "cognition": "综合",
+      "difficulty": "easy",
+      "skill_id": "N2",
+      "target_level": 4,
+      "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+      "source_ids": [
+        "textbook-01",
+        "objectives-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 0,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 19,
+        "task_reason": "原任务仅针对单一中和反应填写离子变化并说明实质，无复杂体系或多条关系整合，实际接近N2等级2—3。保留必考知识点KP-b5125e85d37c5636与N2等级4，增加反应后Na⁺、Cl⁻仍存在的微粒记录，要求学生整合离子变化与反应实质并检查结论成立条件，落实等级4行为，认知保持综合。"
+      },
+      "task_requirement": "给出稀盐酸与氢氧化钠溶液反应的微观粒子示意图，并给出反应后溶液中同时存在Na⁺、Cl⁻和H₂O的微粒记录。要求学生在空格中填写反应前后溶液中离子种类的变化，说明中和反应的微观实质，并解释反应后溶液中的Na⁺和Cl⁻并未消失的原因，以填空形式作答。"
+    },
+    {
+      "question_id": "q20",
+      "question_type": "fill_blank",
+      "points": 6,
+      "knowledge_topic": "根据复分解条件判断反应产物",
+      "cognition": "理解",
+      "difficulty": "easy",
+      "skill_id": "N4",
+      "target_level": 2,
+      "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+      "source_ids": [
+        "objectives-01",
+        "textbook-01"
+      ],
+      "planning_reason": {
+        "student_level": 2,
+        "shift": -1,
+        "cognition_shift": -1,
+        "difficulty_shift": -1,
+        "target_dimension_points": 36,
+        "task_reason": "N4等级2要求在熟悉情境下判断反应产物；maximum_level为3，安排等级2基础巩固，符合理解认知。"
+      },
+      "task_requirement": "给出碳酸钠与稀盐酸、硫酸铜与氢氧化钠等反应的反应物，要求学生在空格中依据复分解条件填写生成物并判断反应能否发生，以填空形式作答。",
+      "knowledge_topic_id": "KP-9c3ea94354185d3c"
+    },
+    {
+      "question_id": "q21",
+      "question_type": "experiment",
+      "points": 5,
+      "knowledge_topic": "酸碱中和反应的实验操作与现象分析",
+      "cognition": "综合",
+      "difficulty": "medium",
+      "skill_id": "N5",
+      "target_level": 4,
+      "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+      "source_ids": [
+        "objectives-01",
+        "textbook-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 1,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 20,
+        "task_reason": "必考主题KP-0f06c22fc627bc1e，N5等级4要求评估实验方案并考虑干扰；以操作与现象分析形式综合考查，匹配当前水平。"
+      },
+      "task_requirement": "给出向含酚酞的氢氧化钠溶液中滴加稀盐酸的实验操作与现象记录，要求学生分析红色褪去作为中和反应发生的证据，判断滴加过程中溶液pH与溶质成分的变化，并说明仅凭颜色变化判断反应终点的局限，以实验分析形式作答。",
+      "knowledge_topic_id": "KP-0f06c22fc627bc1e"
+    },
+    {
+      "question_id": "q22",
+      "question_type": "experiment",
+      "points": 10,
+      "knowledge_topic": "氢氧化钠变质程度的多证据推断",
+      "cognition": "综合",
+      "difficulty": "hard",
+      "skill_id": "N5",
+      "target_level": 4,
+      "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+      "source_ids": [
+        "objectives-01",
+        "textbook-01"
+      ],
+      "planning_reason": {
+        "student_level": 4,
+        "shift": 1,
+        "cognition_shift": 1,
+        "difficulty_shift": 0,
+        "target_dimension_points": 20,
+        "task_reason": "N5等级4要求设计并评估检验方案、考虑干扰；本题以多证据推断形式综合考查，匹配当前水平。"
+      },
+      "task_requirement": "给出某氢氧化钠样品可能变质的背景及若干检验证据（如加入氯化钙产生沉淀、上层清液使酚酞变红），要求学生依据多组证据推断样品的变质程度，设计补充检验步骤并说明推断逻辑，以实验探究形式作答。",
+      "knowledge_topic_id": "KP-08d023639dc96fb8"
+    },
+    {
+      "question_id": "q23",
+      "question_type": "calculation",
+      "points": 10,
+      "knowledge_topic": "酸碱盐反应方程式与溶质质量分数计算",
+      "cognition": "综合",
+      "difficulty": "hard",
+      "skill_id": "N3",
+      "target_level": 5,
+      "expected_behavior": "设计基于通性的转化路径，并评估计算模型的适用性。例如：设计从碳酸钙制备氢氧化钠的转化路径，写出各步方程式，并计算理论产率；或针对“酸与碱反应一定生成盐和水”的通性，结合具体情境（如反应物纯度、杂质干扰）评估该通性在定量计算中的局限性，并修正计算模型。",
+      "source_ids": [
+        "objectives-01",
+        "textbook-01"
+      ],
+      "planning_reason": {
+        "student_level": 5,
+        "shift": 1,
+        "cognition_shift": 1,
+        "difficulty_shift": 1,
+        "target_dimension_points": 9,
+        "task_reason": "必考主题KP-1974193c8105fb0f，N3等级5要求设计转化路径并评估计算模型适用性；本题以定量计算结合杂质影响讨论形式综合考查，匹配当前水平。"
+      },
+      "task_requirement": "给出含碳酸钠的氢氧化钠样品与稀盐酸反应的质量数据，要求学生书写相关化学方程式，计算样品中碳酸钠的质量分数及反应后溶液中溶质的质量分数，并讨论杂质对计算结果的影响，以计算题形式作答。",
+      "knowledge_topic_id": "KP-1974193c8105fb0f"
+    }
+  ],
+  "required_content": {
+    "酸碱指示剂遇酸碱的颜色变化": 6,
+    "溶液酸碱性与pH的关系判断": 3,
+    "盐酸在水溶液中电离出的离子种类": 3,
+    "碱与非金属氧化物反应及证据分析": 6,
+    "氢氧化钠潮解与溶解放热现象": 3,
+    "氢氧化钠溶液中大量存在的微粒": 3,
+    "酸碱指示剂在不同溶液中的变色现象": 3,
+    "碳酸钠溶液导电的微观原因": 3,
+    "复分解反应发生条件的判断": 9,
+    "pH试纸与浓硫酸稀释的实验操作": 3,
+    "复分解反应前后离子种类的变化": 3,
+    "金属与稀盐酸能否反应的判断": 9,
+    "除去氢氧化钠溶液中碳酸钠杂质的试剂选择": 3,
+    "酸碱盐反应条件及产物判断": 6,
+    "中和反应的微观实质": 6,
+    "根据复分解条件判断反应产物": 6,
+    "酸碱中和反应的实验操作与现象分析": 5,
+    "氢氧化钠变质程度的多证据推断": 10,
+    "酸碱盐反应方程式与溶质质量分数计算": 10
+  },
+  "blueprint_version": "user-image-20261105-N4-confirmed",
+  "confirmed_primary_skills": {
+    "q1": "N1",
+    "q2": "N1",
+    "q3": "N1",
+    "q4": "N2",
+    "q5": "N2",
+    "q6": "N2",
+    "q7": "N2",
+    "q8": "N2",
+    "q9": "N3",
+    "q10": "N4",
+    "q11": "N4",
+    "q12": "N5",
+    "q13": "N4",
+    "q14": "N5",
+    "q15": "N5",
+    "q16": "N1",
+    "q17": "N2",
+    "q18": "N3",
+    "q19": "N4",
+    "q20": "N4",
+    "q21": "N5",
+    "q22": "N5",
+    "q23": "N3"
+  },
+  "rubric_version": "chapter3_20261029",
+  "student_skill_levels": {
+    "N1": 4,
+    "N2": 4,
+    "N3": 5,
+    "N4": 2,
+    "N5": 4
+  },
+  "planning": {
+    "lambda": 0.5,
+    "skill_order": [
+      "N1",
+      "N2",
+      "N3",
+      "N4",
+      "N5"
+    ],
+    "beta": [
+      0.15,
+      0.21,
+      0.19,
+      0.21,
+      0.24
+    ],
+    "delta": [
+      0.25,
+      0.25,
+      0.0,
+      0.75,
+      0.25
+    ],
+    "compensation": [
+      0.16666666666666666,
+      0.16666666666666666,
+      0.0,
+      0.5,
+      0.16666666666666666
+    ],
+    "pi": [
+      0.15833333333333333,
+      0.18833333333333332,
+      0.095,
+      0.355,
+      0.2033333333333333
+    ],
+    "target_points": [
+      16,
+      19,
+      9,
+      36,
+      20
+    ],
+    "actual_points": [
+      15,
+      18,
+      10,
+      36,
+      21
+    ],
+    "allocation_residual": [
+      -1,
+      -1,
+      1,
+      0,
+      1
+    ],
+    "mandatory_coverage_gaps": [],
+    "difficulty_deviation_measure": "maximum_absolute_bucket_points",
+    "difficulty_rule": "paper_3_3_2_independent_shifts",
+    "difficulty_rollback_ids": [],
+    "difficulty_deviation": 19,
+    "whole_slot_allocation_exact": false,
+    "task_type_anchors": [
+      {
+        "question_id": "q21",
+        "question_type": "experiment",
+        "knowledge_topic": "酸碱中和反应的实验操作与现象分析",
+        "skill_id": "N5"
+      },
+      {
+        "question_id": "q22",
+        "question_type": "experiment",
+        "knowledge_topic": "氢氧化钠变质程度的多证据推断",
+        "skill_id": "N5"
+      },
+      {
+        "question_id": "q23",
+        "question_type": "calculation",
+        "knowledge_topic": "酸碱盐反应方程式与溶质质量分数计算",
+        "skill_id": "N3"
+      }
+    ],
+    "semantic_refinement": {
+      "role": "planner",
+      "label": "personalized-task-planning",
+      "notice": "程序冻结题位、分值、技能分配与难度；A2依据技能树和画像确定具体任务、真实行为等级及认知操作。",
+      "contract_audit": {
+        "version": "20261103_a2_topic_ids_scoped_completion_v1",
+        "contract": {
+          "version": "20261103_a2_topic_ids_scoped_completion_v1",
+          "topics": [
+            {
+              "topic_id": "KP-c00e53a56b80eb0a",
+              "name": "K1.1"
+            },
+            {
+              "topic_id": "KP-a04941631de4d8b8",
+              "name": "K1.2"
+            },
+            {
+              "topic_id": "KP-984f58df6ca7fd18",
+              "name": "K1.3"
+            },
+            {
+              "topic_id": "KP-e8e4de34530255bd",
+              "name": "K2.1"
+            },
+            {
+              "topic_id": "KP-7a7e5c05161d551c",
+              "name": "K2.2"
+            },
+            {
+              "topic_id": "KP-b47e1401443c1e8d",
+              "name": "K2.3"
+            },
+            {
+              "topic_id": "KP-ec95b20bf8c43bc5",
+              "name": "K2.4"
+            },
+            {
+              "topic_id": "KP-bc53e6e37b6bff53",
+              "name": "K2.5"
+            },
+            {
+              "topic_id": "KP-50da54e5bfb32920",
+              "name": "K3.1"
+            },
+            {
+              "topic_id": "KP-8c58f538d01f645f",
+              "name": "K3.2"
+            },
+            {
+              "topic_id": "KP-67d186f69c1ee2d8",
+              "name": "K3.3"
+            },
+            {
+              "topic_id": "KP-ebe7edb4053dd0e3",
+              "name": "K3.4"
+            },
+            {
+              "topic_id": "KP-cf8a6c1c0de4b49b",
+              "name": "K4.1"
+            },
+            {
+              "topic_id": "KP-47efef7891f100d6",
+              "name": "K4.2"
+            },
+            {
+              "topic_id": "KP-ab128b17fc16e4a6",
+              "name": "K5.1"
+            },
+            {
+              "topic_id": "KP-ec66802298ff769d",
+              "name": "K5.2"
+            },
+            {
+              "topic_id": "KP-307a95b6c03b69bb",
+              "name": "K5.3"
+            },
+            {
+              "topic_id": "KP-361b29cfddac436f",
+              "name": "K5.4"
+            },
+            {
+              "topic_id": "KP-ef0fab0d7c07794f",
+              "name": "pH试纸与浓硫酸稀释的实验操作"
+            },
+            {
+              "topic_id": "KP-b5125e85d37c5636",
+              "name": "中和反应的微观实质"
+            },
+            {
+              "topic_id": "KP-e58e61389db3cdf3",
+              "name": "从离子角度描述中和反应过程"
+            },
+            {
+              "topic_id": "KP-acd1e9dffedd4cb0",
+              "name": "复分解反应前后离子种类的变化"
+            },
+            {
+              "topic_id": "KP-1777970e1ea43173",
+              "name": "复分解反应发生条件的判断"
+            },
+            {
+              "topic_id": "KP-a662d32c0fdc9185",
+              "name": "常见盐与酸、碱反应的化学方程式书写"
+            },
+            {
+              "topic_id": "KP-fc9132aaec7b0623",
+              "name": "常见酸碱盐的化学式书写判断"
+            },
+            {
+              "topic_id": "KP-9c3ea94354185d3c",
+              "name": "根据复分解条件判断反应产物"
+            },
+            {
+              "topic_id": "KP-6b9354c7471f55bf",
+              "name": "检验氢氧化钠是否变质的试剂选择"
+            },
+            {
+              "topic_id": "KP-08d023639dc96fb8",
+              "name": "氢氧化钠变质程度的多证据推断"
+            },
+            {
+              "topic_id": "KP-995481316624b42b",
+              "name": "氢氧化钠溶液中大量存在的微粒"
+            },
+            {
+              "topic_id": "KP-c02bfef1106cf375",
+              "name": "氢氧化钠潮解与溶解放热现象"
+            },
+            {
+              "topic_id": "KP-6d481f29bab2caf2",
+              "name": "溶液酸碱性与pH的关系判断"
+            },
+            {
+              "topic_id": "KP-0231324e35cb47e3",
+              "name": "盐酸在水溶液中电离出的离子种类"
+            },
+            {
+              "topic_id": "KP-078651ddb52c73c6",
+              "name": "碱与非金属氧化物反应及证据分析"
+            },
+            {
+              "topic_id": "KP-39d31cb1ee7d2aa7",
+              "name": "碳酸钠溶液导电的微观原因"
+            },
+            {
+              "topic_id": "KP-0f06c22fc627bc1e",
+              "name": "酸碱中和反应的实验操作与现象分析"
+            },
+            {
+              "topic_id": "KP-bd14f6d75083f240",
+              "name": "酸碱指示剂在不同溶液中的变色现象"
+            },
+            {
+              "topic_id": "KP-bd8603c4aff075a2",
+              "name": "酸碱指示剂遇酸碱的颜色变化"
+            },
+            {
+              "topic_id": "KP-1974193c8105fb0f",
+              "name": "酸碱盐反应方程式与溶质质量分数计算"
+            },
+            {
+              "topic_id": "KP-d4104766fc722ed5",
+              "name": "酸碱盐反应条件及产物判断"
+            },
+            {
+              "topic_id": "KP-a4b0738355849534",
+              "name": "金属与稀盐酸能否反应的判断"
+            },
+            {
+              "topic_id": "KP-c7cbaf2bfe42bb41",
+              "name": "除去氢氧化钠溶液中碳酸钠杂质的试剂选择"
+            }
+          ],
+          "items": [
+            {
+              "question_id": "q1",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N1",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-bd8603c4aff075a2",
+              "current_topic": "酸碱指示剂遇酸碱的颜色变化",
+              "required_topic_id": "KP-bd8603c4aff075a2",
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "理解"
+            },
+            {
+              "question_id": "q2",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N1",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-6d481f29bab2caf2",
+              "current_topic": "溶液酸碱性与pH的关系判断",
+              "required_topic_id": "KP-6d481f29bab2caf2",
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "应用"
+            },
+            {
+              "question_id": "q3",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N2",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-0231324e35cb47e3",
+              "current_topic": "盐酸在水溶液中电离出的离子种类",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "应用"
+            },
+            {
+              "question_id": "q4",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N4",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-078651ddb52c73c6",
+              "current_topic": "碱与非金属氧化物反应及证据分析",
+              "required_topic_id": null,
+              "maximum_level": 3,
+              "locked_target": {},
+              "current_target_level": 2,
+              "current_cognition": "识记"
+            },
+            {
+              "question_id": "q5",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N1",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-c02bfef1106cf375",
+              "current_topic": "氢氧化钠潮解与溶解放热现象",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "应用"
+            },
+            {
+              "question_id": "q6",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N2",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-995481316624b42b",
+              "current_topic": "氢氧化钠溶液中大量存在的微粒",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "应用"
+            },
+            {
+              "question_id": "q7",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N4",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-078651ddb52c73c6",
+              "current_topic": "碱与非金属氧化物反应及证据分析",
+              "required_topic_id": null,
+              "maximum_level": 3,
+              "locked_target": {},
+              "current_target_level": 2,
+              "current_cognition": "识记"
+            },
+            {
+              "question_id": "q8",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N1",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-bd14f6d75083f240",
+              "current_topic": "酸碱指示剂在不同溶液中的变色现象",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "应用"
+            },
+            {
+              "question_id": "q9",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N2",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-39d31cb1ee7d2aa7",
+              "current_topic": "碳酸钠溶液导电的微观原因",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "理解"
+            },
+            {
+              "question_id": "q10",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N4",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-1777970e1ea43173",
+              "current_topic": "复分解反应发生条件的判断",
+              "required_topic_id": "KP-1777970e1ea43173",
+              "maximum_level": 3,
+              "locked_target": {},
+              "current_target_level": 2,
+              "current_cognition": "识记"
+            },
+            {
+              "question_id": "q11",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N5",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-ef0fab0d7c07794f",
+              "current_topic": "pH试纸与浓硫酸稀释的实验操作",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "应用"
+            },
+            {
+              "question_id": "q12",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N1",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-bd8603c4aff075a2",
+              "current_topic": "酸碱指示剂遇酸碱的颜色变化",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "应用"
+            },
+            {
+              "question_id": "q13",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N2",
+                "difficulty": "medium"
+              },
+              "current_topic_id": "KP-acd1e9dffedd4cb0",
+              "current_topic": "复分解反应前后离子种类的变化",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "综合"
+            },
+            {
+              "question_id": "q14",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N4",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-a4b0738355849534",
+              "current_topic": "金属与稀盐酸能否反应的判断",
+              "required_topic_id": null,
+              "maximum_level": 3,
+              "locked_target": {},
+              "current_target_level": 2,
+              "current_cognition": "理解"
+            },
+            {
+              "question_id": "q15",
+              "fixed_fields": {
+                "question_type": "single_choice",
+                "points": 3,
+                "skill_id": "N5",
+                "difficulty": "medium"
+              },
+              "current_topic_id": "KP-c7cbaf2bfe42bb41",
+              "current_topic": "除去氢氧化钠溶液中碳酸钠杂质的试剂选择",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "综合"
+            },
+            {
+              "question_id": "q16",
+              "fixed_fields": {
+                "question_type": "fill_blank",
+                "points": 6,
+                "skill_id": "N4",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-1777970e1ea43173",
+              "current_topic": "复分解反应发生条件的判断",
+              "required_topic_id": null,
+              "maximum_level": 3,
+              "locked_target": {},
+              "current_target_level": 2,
+              "current_cognition": "识记"
+            },
+            {
+              "question_id": "q17",
+              "fixed_fields": {
+                "question_type": "fill_blank",
+                "points": 6,
+                "skill_id": "N4",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-a4b0738355849534",
+              "current_topic": "金属与稀盐酸能否反应的判断",
+              "required_topic_id": null,
+              "maximum_level": 3,
+              "locked_target": {},
+              "current_target_level": 2,
+              "current_cognition": "识记"
+            },
+            {
+              "question_id": "q18",
+              "fixed_fields": {
+                "question_type": "fill_blank",
+                "points": 6,
+                "skill_id": "N4",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-d4104766fc722ed5",
+              "current_topic": "酸碱盐反应条件及产物判断",
+              "required_topic_id": null,
+              "maximum_level": 3,
+              "locked_target": {},
+              "current_target_level": 2,
+              "current_cognition": "理解"
+            },
+            {
+              "question_id": "q19",
+              "fixed_fields": {
+                "question_type": "fill_blank",
+                "points": 6,
+                "skill_id": "N2",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-b5125e85d37c5636",
+              "current_topic": "中和反应的微观实质",
+              "required_topic_id": "KP-b5125e85d37c5636",
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "综合"
+            },
+            {
+              "question_id": "q20",
+              "fixed_fields": {
+                "question_type": "fill_blank",
+                "points": 6,
+                "skill_id": "N4",
+                "difficulty": "easy"
+              },
+              "current_topic_id": "KP-9c3ea94354185d3c",
+              "current_topic": "根据复分解条件判断反应产物",
+              "required_topic_id": null,
+              "maximum_level": 3,
+              "locked_target": {},
+              "current_target_level": 2,
+              "current_cognition": "理解"
+            },
+            {
+              "question_id": "q21",
+              "fixed_fields": {
+                "question_type": "experiment",
+                "points": 5,
+                "skill_id": "N5",
+                "difficulty": "medium"
+              },
+              "current_topic_id": "KP-0f06c22fc627bc1e",
+              "current_topic": "酸碱中和反应的实验操作与现象分析",
+              "required_topic_id": "KP-0f06c22fc627bc1e",
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "综合"
+            },
+            {
+              "question_id": "q22",
+              "fixed_fields": {
+                "question_type": "experiment",
+                "points": 10,
+                "skill_id": "N5",
+                "difficulty": "hard"
+              },
+              "current_topic_id": "KP-08d023639dc96fb8",
+              "current_topic": "氢氧化钠变质程度的多证据推断",
+              "required_topic_id": null,
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 4,
+              "current_cognition": "综合"
+            },
+            {
+              "question_id": "q23",
+              "fixed_fields": {
+                "question_type": "calculation",
+                "points": 10,
+                "skill_id": "N3",
+                "difficulty": "hard"
+              },
+              "current_topic_id": "KP-1974193c8105fb0f",
+              "current_topic": "酸碱盐反应方程式与溶质质量分数计算",
+              "required_topic_id": "KP-1974193c8105fb0f",
+              "maximum_level": 5,
+              "locked_target": {},
+              "current_target_level": 5,
+              "current_cognition": "综合"
+            }
+          ],
+          "mandatory_coverage": [
+            {
+              "topic_id": "KP-bd8603c4aff075a2",
+              "name": "酸碱指示剂遇酸碱的颜色变化",
+              "minimum_points": 3,
+              "reserved_question_ids": [
+                "q1"
+              ]
+            },
+            {
+              "topic_id": "KP-6d481f29bab2caf2",
+              "name": "溶液酸碱性与pH的关系判断",
+              "minimum_points": 3,
+              "reserved_question_ids": [
+                "q2"
+              ]
+            },
+            {
+              "topic_id": "KP-b5125e85d37c5636",
+              "name": "中和反应的微观实质",
+              "minimum_points": 3,
+              "reserved_question_ids": [
+                "q19"
+              ]
+            },
+            {
+              "topic_id": "KP-1777970e1ea43173",
+              "name": "复分解反应发生条件的判断",
+              "minimum_points": 3,
+              "reserved_question_ids": [
+                "q10"
+              ]
+            },
+            {
+              "topic_id": "KP-0f06c22fc627bc1e",
+              "name": "酸碱中和反应的实验操作与现象分析",
+              "minimum_points": 5,
+              "reserved_question_ids": [
+                "q21"
+              ]
+            },
+            {
+              "topic_id": "KP-1974193c8105fb0f",
+              "name": "酸碱盐反应方程式与溶质质量分数计算",
+              "minimum_points": 10,
+              "reserved_question_ids": [
+                "q23"
+              ]
+            }
+          ],
+          "editable_fields": [
+            "knowledge_topic_id",
+            "target_level",
+            "cognition",
+            "task_requirement",
+            "reason"
+          ],
+          "fixed_fields": [
+            "question_type",
+            "points",
+            "skill_id",
+            "difficulty"
+          ]
+        },
+        "attempts": [
+          {
+            "label": "personalized-task-planning",
+            "requested_question_ids": [
+              "q1",
+              "q2",
+              "q3",
+              "q4",
+              "q5",
+              "q6",
+              "q7",
+              "q8",
+              "q9",
+              "q10",
+              "q11",
+              "q12",
+              "q13",
+              "q14",
+              "q15",
+              "q16",
+              "q17",
+              "q18",
+              "q19",
+              "q20",
+              "q21",
+              "q22",
+              "q23"
+            ],
+            "accepted_question_ids": [
+              "q1",
+              "q2",
+              "q3",
+              "q4",
+              "q5",
+              "q6",
+              "q7",
+              "q8",
+              "q9",
+              "q10",
+              "q11",
+              "q12",
+              "q13",
+              "q14",
+              "q15",
+              "q16",
+              "q17",
+              "q18",
+              "q19",
+              "q20",
+              "q21",
+              "q22",
+              "q23"
+            ],
+            "errors": []
+          }
+        ],
+        "status": "passed",
+        "accepted_question_ids": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q8",
+          "q9",
+          "q10",
+          "q11",
+          "q12",
+          "q13",
+          "q14",
+          "q15",
+          "q16",
+          "q17",
+          "q18",
+          "q19",
+          "q20",
+          "q21",
+          "q22",
+          "q23"
+        ]
+      },
+      "physical_calls": 4
+    }
+  },
+  "solver": {
+    "status": "chapter3_greedy_whole_slots",
+    "components": {
+      "joint_tv": 0.02
+    }
+  },
+  "planning_origin_levels": {
+    "q1": 4,
+    "q2": 4,
+    "q3": 4,
+    "q4": 2,
+    "q5": 4,
+    "q6": 4,
+    "q7": 2,
+    "q8": 4,
+    "q9": 4,
+    "q10": 2,
+    "q11": 4,
+    "q12": 4,
+    "q13": 4,
+    "q14": 2,
+    "q15": 4,
+    "q16": 2,
+    "q17": 2,
+    "q18": 2,
+    "q19": 4,
+    "q20": 2,
+    "q21": 4,
+    "q22": 4,
+    "q23": 5
+  },
+  "planning_repair": {
+    "source_blueprint_fingerprint": "34ee88f40cc689047c6becf2fb8b5802e884b562336d4280e95b8117db6c50ea",
+    "changes": [
+      {
+        "question_id": "q1",
+        "before": {
+          "question_id": "q1",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+          "cognition": "理解",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "必考主题KP-bd8603c4aff075a2，N1等级4要求在多组现象中筛选并判断宏观证据；本题以多溶液对照呈现，匹配当前水平。"
+          },
+          "task_requirement": "给出紫色石蕊试液和无色酚酞试液分别加入稀盐酸、氢氧化钠溶液、氯化钠溶液的实验记录表，要求学生判断各试液的颜色变化，并说明指示剂变色与溶液酸碱性之间的对应关系，以选择形式作答。",
+          "knowledge_topic_id": "KP-bd8603c4aff075a2"
+        },
+        "after": {
+          "question_id": "q1",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "原任务仅要求判断三种溶液中指示剂颜色并说明对应关系，属熟悉情境下的多现象直接判断，未落实N1等级4所需的含干扰情境筛选与多步证据判断。保留必考知识点KP-bd8603c4aff075a2与N1等级4，改为以含酚酞的氢氧化钠溶液滴加稀盐酸为情境，要求识别红色褪去这一反应证据并检查其在含碳酸钠干扰时结论成立的条件，认知由理解调整为应用，符合等级4行为。"
+          },
+          "task_requirement": "给出含酚酞的氢氧化钠溶液，向其中滴加稀盐酸至过量，同时记录滴加过程中溶液红色逐渐褪去、且始终无气泡产生的现象；要求学生判断红色褪去能否作为稀盐酸与氢氧化钠发生反应的宏观证据，并说明若该氢氧化钠溶液部分变质（含碳酸钠）时，仅凭红色褪去能否排除碳酸钠与盐酸反应的干扰，选择正确结论。"
+        },
+        "reason": "原任务仅要求判断三种溶液中指示剂颜色并说明对应关系，属熟悉情境下的多现象直接判断，未落实N1等级4所需的含干扰情境筛选与多步证据判断。保留必考知识点KP-bd8603c4aff075a2与N1等级4，改为以含酚酞的氢氧化钠溶液滴加稀盐酸为情境，要求识别红色褪去这一反应证据并检查其在含碳酸钠干扰时结论成立的条件，认知由理解调整为应用，符合等级4行为。"
+      },
+      {
+        "question_id": "q2",
+        "before": {
+          "question_id": "q2",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "溶液酸碱性与pH的关系判断",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "必考主题KP-6d481f29bab2caf2，N1等级4强调含干扰情境下判断宏观证据；以pH数据表形式设置干扰项，符合应用认知。"
+          },
+          "task_requirement": "提供若干溶液（如稀盐酸、氢氧化钠溶液、氯化钠溶液、碳酸钠溶液）的pH测定结果，要求学生依据pH数值判断酸碱性，并排除pH试纸使用不当造成的干扰数据，选择正确结论。",
+          "knowledge_topic_id": "KP-6d481f29bab2caf2"
+        },
+        "after": {
+          "question_id": "q2",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "溶液酸碱性与pH的关系判断",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "原任务虽提及排除pH试纸使用不当的干扰，但未给出干扰数据的特征与判断依据，学生无法实际执行筛选。保留必考知识点KP-6d481f29bab2caf2与N1等级4，在题内明确给出湿润试纸使酸性溶液pH偏大的信息，使学生能实际排除异常数据并检查结论成立条件，认知保持应用。"
+          },
+          "task_requirement": "提供四份溶液的pH测定记录：稀盐酸pH=2、氢氧化钠溶液pH=13、氯化钠溶液pH=7、碳酸钠溶液pH=11；另附一条异常记录“某酸性溶液用湿润的pH试纸测得pH=9”。要求学生依据pH数值判断各溶液酸碱性，并依据“湿润试纸会稀释待测液、使酸性溶液测得pH偏大”这一题内给出的信息，识别并排除该异常记录，选择正确结论。"
+        },
+        "reason": "原任务虽提及排除pH试纸使用不当的干扰，但未给出干扰数据的特征与判断依据，学生无法实际执行筛选。保留必考知识点KP-6d481f29bab2caf2与N1等级4，在题内明确给出湿润试纸使酸性溶液pH偏大的信息，使学生能实际排除异常数据并检查结论成立条件，认知保持应用。"
+      },
+      {
+        "question_id": "q3",
+        "before": {
+          "question_id": "q3",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "盐酸在水溶液中电离出的离子种类",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N2",
+          "target_level": 4,
+          "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 19,
+            "task_reason": "N2等级4要求分析离子变化并解释实质；本题聚焦盐酸电离的离子组成，与q6、q9的微观任务区分，保持知识广度。"
+          },
+          "task_requirement": "给出盐酸、硫酸、氯化钠三种溶液的电离信息，要求学生判断盐酸溶液中大量存在的离子种类，并说明判断依据，以选择形式作答。",
+          "knowledge_topic_id": "KP-0231324e35cb47e3"
+        },
+        "after": {
+          "question_id": "q3",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "盐酸在水溶液中电离出的离子种类",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N2",
+          "target_level": 4,
+          "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 19,
+            "task_reason": "原任务仅判断单一盐酸溶液中的离子种类并说明依据，无反应体系或离子变化分析，实际接近N2等级1—2。保留知识点KP-0231324e35cb47e3与N2等级4，改为以盐酸与氢氧化钠反应前后离子种类变化为情境，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+          },
+          "task_requirement": "给出盐酸与氢氧化钠溶液反应前、恰好完全反应、盐酸过量三个阶段的微观粒子种类记录（含H⁺、Cl⁻、Na⁺、OH⁻、H₂O），要求学生依据反应前后离子种类的变化，判断盐酸溶液中大量存在的离子，并解释反应实质是H⁺与OH⁻结合生成水分子，同时说明反应后溶液中仍存在Cl⁻和Na⁺的原因，选择正确结论。"
+        },
+        "reason": "原任务仅判断单一盐酸溶液中的离子种类并说明依据，无反应体系或离子变化分析，实际接近N2等级1—2。保留知识点KP-0231324e35cb47e3与N2等级4，改为以盐酸与氢氧化钠反应前后离子种类变化为情境，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+      },
+      {
+        "question_id": "q4",
+        "before": {
+          "question_id": "q4",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+          "cognition": "识记",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": -1,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "N4等级2要求在熟悉情境下依据规则判断常见反应；maximum_level为3，安排基础巩固等级2，符合识记认知。"
+          },
+          "task_requirement": "给出氢氧化钠溶液与二氧化碳反应的文字描述，要求学生判断该反应能否发生并指出判断依据（属于碱与非金属氧化物反应），以选择形式作答。",
+          "knowledge_topic_id": "KP-078651ddb52c73c6"
+        },
+        "after": {
+          "question_id": "q4",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+          "cognition": "理解",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": 0,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断能否发生并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+          },
+          "task_requirement": "给出氢氧化钠溶液与二氧化碳反应的文字描述，要求学生依据“碱能与某些非金属氧化物反应生成盐和水”这一规则，判断该反应能否发生，并说明判断依据，选择正确结论。"
+        },
+        "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断能否发生并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+      },
+      {
+        "question_id": "q5",
+        "before": {
+          "question_id": "q5",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "氢氧化钠潮解与溶解放热现象",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "N1等级4要求含干扰情境下识别宏观证据；本题以现象记录形式考查潮解与放热，匹配当前水平。"
+          },
+          "task_requirement": "呈现氢氧化钠固体在空气中放置后表面潮湿并发热的现象记录，要求学生判断该现象涉及的潮解与溶解放热，并排除与化学变化混淆的干扰选项，选择正确解释。",
+          "knowledge_topic_id": "KP-c02bfef1106cf375"
+        },
+        "after": {
+          "question_id": "q5",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "氢氧化钠潮解与溶解放热现象",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "原任务核心是区分潮解、溶解放热与化学变化，未落实N1等级4“识别特定反应发生的宏观证据并排除干扰”的行为。保留知识点KP-c02bfef1106cf375与N1等级4，在题内给出二氧化碳反应信息作为干扰来源，要求学生判断两组现象的宏观证据归属并排除混淆说法，认知保持应用。"
+          },
+          "task_requirement": "呈现两组现象记录：甲组为氢氧化钠固体敞口放置后表面潮湿、体积增大；乙组为氢氧化钠固体溶于水时试管外壁发热。另给出“氢氧化钠与空气中二氧化碳反应生成碳酸钠”的信息。要求学生判断甲、乙两组现象分别属于物理变化还是化学变化，并排除“表面潮湿一定是与二氧化碳发生了化学反应”的干扰说法，选择正确结论。"
+        },
+        "reason": "原任务核心是区分潮解、溶解放热与化学变化，未落实N1等级4“识别特定反应发生的宏观证据并排除干扰”的行为。保留知识点KP-c02bfef1106cf375与N1等级4，在题内给出二氧化碳反应信息作为干扰来源，要求学生判断两组现象的宏观证据归属并排除混淆说法，认知保持应用。"
+      },
+      {
+        "question_id": "q6",
+        "before": {
+          "question_id": "q6",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "氢氧化钠溶液中大量存在的微粒",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N2",
+          "target_level": 4,
+          "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 19,
+            "task_reason": "N2等级4要求从微观角度解释性质；本题与q3的盐酸电离、q9的碳酸钠导电形成不同任务，避免同主题重复考查。"
+          },
+          "task_requirement": "给出氢氧化钠溶液与蔗糖溶液的电导性对比信息，要求学生判断氢氧化钠溶液中大量存在的微粒，并解释其导电原因，以选择形式作答。",
+          "knowledge_topic_id": "KP-995481316624b42b"
+        },
+        "after": {
+          "question_id": "q6",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "氢氧化钠溶液中大量存在的微粒",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N2",
+          "target_level": 4,
+          "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 19,
+            "task_reason": "原任务仅判断单一氢氧化钠溶液的微粒并解释导电，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-995481316624b42b与N2等级4，增加氢氧化钠与稀盐酸反应前后微粒变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+          },
+          "task_requirement": "给出氢氧化钠溶液与蔗糖溶液的电导性对比信息，并给出氢氧化钠溶液与稀盐酸反应前后微粒种类的记录。要求学生判断氢氧化钠溶液中大量存在的微粒，解释其导电原因，并依据反应后OH⁻减少、H₂O增多的微粒变化，说明导电性变化与反应实质的关系，选择正确结论。"
+        },
+        "reason": "原任务仅判断单一氢氧化钠溶液的微粒并解释导电，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-995481316624b42b与N2等级4，增加氢氧化钠与稀盐酸反应前后微粒变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+      },
+      {
+        "question_id": "q7",
+        "before": {
+          "question_id": "q7",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+          "cognition": "识记",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": -1,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "与q4同主题但任务不同（氢氧化钙而非氢氧化钠），N4等级2基础巩固，保持知识广度。"
+          },
+          "task_requirement": "给出氢氧化钙溶液与二氧化碳反应生成白色沉淀的实验现象，要求学生判断该反应类型并说明判断依据，以选择形式作答。",
+          "knowledge_topic_id": "KP-078651ddb52c73c6"
+        },
+        "after": {
+          "question_id": "q7",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+          "cognition": "理解",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": 0,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断反应类型并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+          },
+          "task_requirement": "给出氢氧化钙溶液与二氧化碳反应生成白色沉淀的实验现象，要求学生依据“碱能与某些非金属氧化物反应生成盐和水”这一规则，判断该反应能否发生并说明判断依据，选择正确结论。"
+        },
+        "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断反应类型并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+      },
+      {
+        "question_id": "q8",
+        "before": {
+          "question_id": "q8",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "酸碱指示剂在不同溶液中的变色现象",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "N1等级4要求含干扰情境下判断宏观证据；本题与q1的指示剂主题不同编号，考查不同溶液组合，保持广度。"
+          },
+          "task_requirement": "提供紫色石蕊试液分别加入稀硫酸、氢氧化钙溶液、碳酸钠溶液的变色记录，要求学生判断各溶液酸碱性并排除因试液用量不同造成的干扰，选择正确结论。",
+          "knowledge_topic_id": "KP-bd14f6d75083f240"
+        },
+        "after": {
+          "question_id": "q8",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "酸碱指示剂在不同溶液中的变色现象",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "原任务虽提及排除试液用量干扰，但未给出干扰数据特征，学生无法实际执行筛选。保留知识点KP-bd14f6d75083f240与N1等级4，在题内给出石蕊在中性溶液中显紫色的判断依据，使学生能实际识别并排除异常记录，认知保持应用。"
+          },
+          "task_requirement": "提供紫色石蕊试液分别加入稀硫酸、氢氧化钙溶液、碳酸钠溶液的变色记录，并附一条异常记录“某中性氯化钠溶液加入石蕊后显红色”。题内说明石蕊在中性溶液中显紫色。要求学生判断各溶液酸碱性，识别并排除该异常记录，选择正确结论。"
+        },
+        "reason": "原任务虽提及排除试液用量干扰，但未给出干扰数据特征，学生无法实际执行筛选。保留知识点KP-bd14f6d75083f240与N1等级4，在题内给出石蕊在中性溶液中显紫色的判断依据，使学生能实际识别并排除异常记录，认知保持应用。"
+      },
+      {
+        "question_id": "q9",
+        "before": {
+          "question_id": "q9",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "碳酸钠溶液导电的微观原因",
+          "cognition": "理解",
+          "difficulty": "easy",
+          "skill_id": "N2",
+          "target_level": 4,
+          "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 19,
+            "task_reason": "N2等级4要求解释离子变化与性质；本题聚焦碳酸钠溶液导电的微观原因，与q3、q6任务区分。"
+          },
+          "task_requirement": "给出碳酸钠溶液导电的实验事实，要求学生从微观离子角度解释导电原因，并判断溶液中主要存在的离子，以选择形式作答。",
+          "knowledge_topic_id": "KP-39d31cb1ee7d2aa7"
+        },
+        "after": {
+          "question_id": "q9",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "碳酸钠溶液导电的微观原因",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N2",
+          "target_level": 4,
+          "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 19,
+            "task_reason": "原任务仅解释单一碳酸钠溶液的导电并判断主要离子，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-39d31cb1ee7d2aa7与N2等级4，增加碳酸钠与稀盐酸反应前后离子种类变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知由理解调整为应用。"
+          },
+          "task_requirement": "给出碳酸钠溶液导电的实验事实，并给出碳酸钠溶液与稀盐酸反应前后溶液中离子种类的记录（反应前含Na⁺、CO₃²⁻，反应后含Na⁺、Cl⁻并有气泡产生）。要求学生从微观离子角度解释碳酸钠溶液导电的原因，并依据反应前后离子种类的变化说明反应实质，选择正确结论。"
+        },
+        "reason": "原任务仅解释单一碳酸钠溶液的导电并判断主要离子，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-39d31cb1ee7d2aa7与N2等级4，增加碳酸钠与稀盐酸反应前后离子种类变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知由理解调整为应用。"
+      },
+      {
+        "question_id": "q10",
+        "before": {
+          "question_id": "q10",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "复分解反应发生条件的判断",
+          "cognition": "识记",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": -1,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "必考主题KP-1777970e1ea43173，N4等级2基础巩固；以多组实例判断形式覆盖复分解条件，符合识记认知。"
+          },
+          "task_requirement": "给出若干组酸碱盐混合的实例（如稀盐酸与氢氧化钠、氯化钠与硝酸钾、碳酸钠与稀盐酸），要求学生依据复分解反应发生条件判断哪些能发生反应，以选择形式作答。",
+          "knowledge_topic_id": "KP-1777970e1ea43173"
+        },
+        "after": {
+          "question_id": "q10",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "复分解反应发生条件的判断",
+          "cognition": "理解",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": 0,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据复分解条件判断多组反应能否发生并说明依据属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+          },
+          "task_requirement": "给出若干组酸碱盐混合的实例（如稀盐酸与氢氧化钠、氯化钠与硝酸钾、碳酸钠与稀盐酸），要求学生依据复分解反应发生条件（生成沉淀、气体或水）判断哪些能发生反应，并说明判断依据，选择正确结论。"
+        },
+        "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据复分解条件判断多组反应能否发生并说明依据属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+      },
+      {
+        "question_id": "q11",
+        "before": {
+          "question_id": "q11",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "pH试纸与浓硫酸稀释的实验操作",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N5",
+          "target_level": 4,
+          "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 20,
+            "task_reason": "N5等级4要求评估操作方案并考虑干扰；本题以操作纠错形式考查实验操作，匹配当前水平。"
+          },
+          "task_requirement": "呈现用pH试纸测定溶液pH和稀释浓硫酸的操作步骤描述，要求学生判断操作中的错误并选择正确操作，排除干扰选项。",
+          "knowledge_topic_id": "KP-ef0fab0d7c07794f"
+        },
+        "after": {
+          "question_id": "q11",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "pH试纸与浓硫酸稀释的实验操作",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N5",
+          "target_level": 4,
+          "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 20,
+            "task_reason": "原任务仅为操作步骤纠错，未要求设计方案或评估干扰，实际接近N5等级1—2。保留知识点KP-ef0fab0d7c07794f与N5等级4，改为要求学生判断操作错误并评估错误操作对测量结果与温度变化的影响，落实等级4“评估方案并考虑干扰因素”的行为，认知保持应用。"
+          },
+          "task_requirement": "呈现“用湿润的pH试纸测定某氢氧化钠溶液的pH”和“将水沿烧杯内壁缓缓倒入浓硫酸中并搅拌”两项操作描述，要求学生判断两项操作中的错误，并评估若按错误操作进行，所测pH与溶液温度变化分别会产生什么偏差，选择正确结论。"
+        },
+        "reason": "原任务仅为操作步骤纠错，未要求设计方案或评估干扰，实际接近N5等级1—2。保留知识点KP-ef0fab0d7c07794f与N5等级4，改为要求学生判断操作错误并评估错误操作对测量结果与温度变化的影响，落实等级4“评估方案并考虑干扰因素”的行为，认知保持应用。"
+      },
+      {
+        "question_id": "q12",
+        "before": {
+          "question_id": "q12",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "必考主题KP-bd8603c4aff075a2复现，但与q1任务不同（由现象反推酸碱性并讨论证据局限），N1等级4匹配当前水平。"
+          },
+          "task_requirement": "给出向某未知溶液中滴加无色酚酞试液后变红的实验事实，要求学生判断该溶液可能的酸碱性，并说明不能仅凭此现象确定溶液成分的理由，以选择形式作答。",
+          "knowledge_topic_id": "KP-bd8603c4aff075a2"
+        },
+        "after": {
+          "question_id": "q12",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+          "cognition": "应用",
+          "difficulty": "easy",
+          "skill_id": "N1",
+          "target_level": 4,
+          "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 16,
+            "task_reason": "原任务仅依据单一变色现象判断可能酸碱性并说明局限，未设置需排除的干扰证据或多步分析，实际接近N1等级3。保留必考知识点KP-bd8603c4aff075a2与N1等级4，增加两种可能成分的干扰假设，要求学生排除干扰并选择进一步检验思路，落实等级4行为，认知保持应用。"
+          },
+          "task_requirement": "给出向某未知溶液中滴加无色酚酞试液后变红的实验事实，并给出该溶液可能为氢氧化钠溶液或碳酸钠溶液的两种假设。要求学生判断该溶液可能的酸碱性，并说明仅凭酚酞变红无法区分两种假设的理由，进而选择能进一步排除干扰、确定成分的后续检验思路，选择正确结论。"
+        },
+        "reason": "原任务仅依据单一变色现象判断可能酸碱性并说明局限，未设置需排除的干扰证据或多步分析，实际接近N1等级3。保留必考知识点KP-bd8603c4aff075a2与N1等级4，增加两种可能成分的干扰假设，要求学生排除干扰并选择进一步检验思路，落实等级4行为，认知保持应用。"
+      },
+      {
+        "question_id": "q14",
+        "before": {
+          "question_id": "q14",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "金属与稀盐酸能否反应的判断",
+          "cognition": "理解",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": -1,
+            "cognition_shift": -1,
+            "difficulty_shift": -1,
+            "target_dimension_points": 36,
+            "task_reason": "N4等级2要求在熟悉情境下判断常见反应；maximum_level为3，安排等级2基础巩固，符合理解认知。"
+          },
+          "task_requirement": "给出铜、锌、铁分别加入稀盐酸的实验现象描述，要求学生依据金属活动性顺序判断哪些金属能与稀盐酸反应，并说明判断依据，以选择形式作答。",
+          "knowledge_topic_id": "KP-a4b0738355849534"
+        },
+        "after": {
+          "question_id": "q14",
+          "question_type": "single_choice",
+          "points": 3,
+          "knowledge_topic": "金属与稀盐酸能否反应的判断",
+          "cognition": "识记",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": 0,
+            "cognition_shift": -1,
+            "difficulty_shift": -1,
+            "target_dimension_points": 36,
+            "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为理解与任务行为不符：依据活动性顺序判断哪些金属能反应并说明依据属直接判断，未达到解释反应条件或实质的理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为识记。"
+          },
+          "task_requirement": "给出铜、锌、铁分别加入稀盐酸的实验现象描述，要求学生依据金属活动性顺序判断哪些金属能与稀盐酸反应，并说明判断依据，选择正确结论。"
+        },
+        "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为理解与任务行为不符：依据活动性顺序判断哪些金属能反应并说明依据属直接判断，未达到解释反应条件或实质的理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为识记。"
+      },
+      {
+        "question_id": "q16",
+        "before": {
+          "question_id": "q16",
+          "question_type": "fill_blank",
+          "points": 6,
+          "knowledge_topic": "复分解反应发生条件的判断",
+          "cognition": "识记",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": -1,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "与q10同主题但题型和任务不同（逐组填写判断依据），N4等级2基础巩固，符合识记认知。"
+          },
+          "task_requirement": "给出四组酸碱盐混合的实例，要求学生在空格中填写每组能否发生复分解反应及判断依据（生成沉淀、气体或水），以填空形式作答。",
+          "knowledge_topic_id": "KP-1777970e1ea43173"
+        },
+        "after": {
+          "question_id": "q16",
+          "question_type": "fill_blank",
+          "points": 6,
+          "knowledge_topic": "复分解反应发生条件的判断",
+          "cognition": "理解",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": 0,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据生成沉淀、气体或水判断每组能否发生复分解反应属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+          },
+          "task_requirement": "给出四组酸碱盐混合的实例，要求学生在空格中填写每组能否发生复分解反应及判断依据（生成沉淀、气体或水），以填空形式作答。"
+        },
+        "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据生成沉淀、气体或水判断每组能否发生复分解反应属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+      },
+      {
+        "question_id": "q17",
+        "before": {
+          "question_id": "q17",
+          "question_type": "fill_blank",
+          "points": 6,
+          "knowledge_topic": "金属与稀盐酸能否反应的判断",
+          "cognition": "识记",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": -1,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "与q14同主题但任务不同（填空填写判断依据），N4等级2基础巩固，符合识记认知。"
+          },
+          "task_requirement": "给出镁、铝、铜、银四种金属与稀盐酸接触的实例，要求学生在空格中填写能否反应及对应依据（金属活动性顺序），以填空形式作答。",
+          "knowledge_topic_id": "KP-a4b0738355849534"
+        },
+        "after": {
+          "question_id": "q17",
+          "question_type": "fill_blank",
+          "points": 6,
+          "knowledge_topic": "金属与稀盐酸能否反应的判断",
+          "cognition": "理解",
+          "difficulty": "easy",
+          "skill_id": "N4",
+          "target_level": 2,
+          "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 2,
+            "shift": 0,
+            "cognition_shift": -1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 36,
+            "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据金属活动性顺序判断多种金属能否与酸反应并填写依据属理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为理解。"
+          },
+          "task_requirement": "给出镁、铝、铜、银四种金属与稀盐酸接触的实例，要求学生在空格中填写能否反应及对应依据（金属活动性顺序），以填空形式作答。"
+        },
+        "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据金属活动性顺序判断多种金属能否与酸反应并填写依据属理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为理解。"
+      },
+      {
+        "question_id": "q19",
+        "before": {
+          "question_id": "q19",
+          "question_type": "fill_blank",
+          "points": 6,
+          "knowledge_topic": "中和反应的微观实质",
+          "cognition": "综合",
+          "difficulty": "easy",
+          "skill_id": "N2",
+          "target_level": 4,
+          "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+          "source_ids": [
+            "objectives-01",
+            "textbook-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 1,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 19,
+            "task_reason": "必考主题KP-b5125e85d37c5636，N2等级4要求分析离子变化并解释反应实质；以微观示意图填空形式综合考查，匹配当前水平。"
+          },
+          "task_requirement": "给出稀盐酸与氢氧化钠溶液反应的微观粒子示意图，要求学生在空格中填写反应前后溶液中离子种类的变化，并说明中和反应的微观实质，以填空形式作答。",
+          "knowledge_topic_id": "KP-b5125e85d37c5636"
+        },
+        "after": {
+          "question_id": "q19",
+          "question_type": "fill_blank",
+          "points": 6,
+          "knowledge_topic": "中和反应的微观实质",
+          "cognition": "综合",
+          "difficulty": "easy",
+          "skill_id": "N2",
+          "target_level": 4,
+          "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+          "source_ids": [
+            "textbook-01",
+            "objectives-01"
+          ],
+          "planning_reason": {
+            "student_level": 4,
+            "shift": 0,
+            "cognition_shift": 1,
+            "difficulty_shift": 0,
+            "target_dimension_points": 19,
+            "task_reason": "原任务仅针对单一中和反应填写离子变化并说明实质，无复杂体系或多条关系整合，实际接近N2等级2—3。保留必考知识点KP-b5125e85d37c5636与N2等级4，增加反应后Na⁺、Cl⁻仍存在的微粒记录，要求学生整合离子变化与反应实质并检查结论成立条件，落实等级4行为，认知保持综合。"
+          },
+          "task_requirement": "给出稀盐酸与氢氧化钠溶液反应的微观粒子示意图，并给出反应后溶液中同时存在Na⁺、Cl⁻和H₂O的微粒记录。要求学生在空格中填写反应前后溶液中离子种类的变化，说明中和反应的微观实质，并解释反应后溶液中的Na⁺和Cl⁻并未消失的原因，以填空形式作答。"
+        },
+        "reason": "原任务仅针对单一中和反应填写离子变化并说明实质，无复杂体系或多条关系整合，实际接近N2等级2—3。保留必考知识点KP-b5125e85d37c5636与N2等级4，增加反应后Na⁺、Cl⁻仍存在的微粒记录，要求学生整合离子变化与反应实质并检查结论成立条件，落实等级4行为，认知保持综合。"
+      }
+    ],
+    "input_scope": "技能树、画像及原蓝图；无试卷、分数或评价结果",
+    "notice": "上游命题目标显式校正；新旧范围分数不作试题优化收益比较。新蓝图冻结后独立评价并修订。",
+    "rounds": [
+      {
+        "attempt": 1,
+        "question_ids": [
+          "q1",
+          "q10",
+          "q11",
+          "q12",
+          "q14",
+          "q16",
+          "q17",
+          "q19",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6",
+          "q7",
+          "q8",
+          "q9"
+        ],
+        "changes": [
+          {
+            "question_id": "q1",
+            "before": {
+              "question_id": "q1",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+              "cognition": "理解",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "必考主题KP-bd8603c4aff075a2，N1等级4要求在多组现象中筛选并判断宏观证据；本题以多溶液对照呈现，匹配当前水平。"
+              },
+              "task_requirement": "给出紫色石蕊试液和无色酚酞试液分别加入稀盐酸、氢氧化钠溶液、氯化钠溶液的实验记录表，要求学生判断各试液的颜色变化，并说明指示剂变色与溶液酸碱性之间的对应关系，以选择形式作答。",
+              "knowledge_topic_id": "KP-bd8603c4aff075a2"
+            },
+            "after": {
+              "question_id": "q1",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "原任务仅要求判断三种溶液中指示剂颜色并说明对应关系，属熟悉情境下的多现象直接判断，未落实N1等级4所需的含干扰情境筛选与多步证据判断。保留必考知识点KP-bd8603c4aff075a2与N1等级4，改为以含酚酞的氢氧化钠溶液滴加稀盐酸为情境，要求识别红色褪去这一反应证据并检查其在含碳酸钠干扰时结论成立的条件，认知由理解调整为应用，符合等级4行为。"
+              },
+              "task_requirement": "给出含酚酞的氢氧化钠溶液，向其中滴加稀盐酸至过量，同时记录滴加过程中溶液红色逐渐褪去、且始终无气泡产生的现象；要求学生判断红色褪去能否作为稀盐酸与氢氧化钠发生反应的宏观证据，并说明若该氢氧化钠溶液部分变质（含碳酸钠）时，仅凭红色褪去能否排除碳酸钠与盐酸反应的干扰，选择正确结论。"
+            },
+            "reason": "原任务仅要求判断三种溶液中指示剂颜色并说明对应关系，属熟悉情境下的多现象直接判断，未落实N1等级4所需的含干扰情境筛选与多步证据判断。保留必考知识点KP-bd8603c4aff075a2与N1等级4，改为以含酚酞的氢氧化钠溶液滴加稀盐酸为情境，要求识别红色褪去这一反应证据并检查其在含碳酸钠干扰时结论成立的条件，认知由理解调整为应用，符合等级4行为。"
+          },
+          {
+            "question_id": "q2",
+            "before": {
+              "question_id": "q2",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "溶液酸碱性与pH的关系判断",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "必考主题KP-6d481f29bab2caf2，N1等级4强调含干扰情境下判断宏观证据；以pH数据表形式设置干扰项，符合应用认知。"
+              },
+              "task_requirement": "提供若干溶液（如稀盐酸、氢氧化钠溶液、氯化钠溶液、碳酸钠溶液）的pH测定结果，要求学生依据pH数值判断酸碱性，并排除pH试纸使用不当造成的干扰数据，选择正确结论。",
+              "knowledge_topic_id": "KP-6d481f29bab2caf2"
+            },
+            "after": {
+              "question_id": "q2",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "溶液酸碱性与pH的关系判断",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "原任务虽提及排除pH试纸使用不当的干扰，但未给出干扰数据的特征与判断依据，学生无法实际执行筛选。保留必考知识点KP-6d481f29bab2caf2与N1等级4，在题内明确给出湿润试纸使酸性溶液pH偏大的信息，使学生能实际排除异常数据并检查结论成立条件，认知保持应用。"
+              },
+              "task_requirement": "提供四份溶液的pH测定记录：稀盐酸pH=2、氢氧化钠溶液pH=13、氯化钠溶液pH=7、碳酸钠溶液pH=11；另附一条异常记录“某酸性溶液用湿润的pH试纸测得pH=9”。要求学生依据pH数值判断各溶液酸碱性，并依据“湿润试纸会稀释待测液、使酸性溶液测得pH偏大”这一题内给出的信息，识别并排除该异常记录，选择正确结论。"
+            },
+            "reason": "原任务虽提及排除pH试纸使用不当的干扰，但未给出干扰数据的特征与判断依据，学生无法实际执行筛选。保留必考知识点KP-6d481f29bab2caf2与N1等级4，在题内明确给出湿润试纸使酸性溶液pH偏大的信息，使学生能实际排除异常数据并检查结论成立条件，认知保持应用。"
+          },
+          {
+            "question_id": "q3",
+            "before": {
+              "question_id": "q3",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "盐酸在水溶液中电离出的离子种类",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N2",
+              "target_level": 4,
+              "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 19,
+                "task_reason": "N2等级4要求分析离子变化并解释实质；本题聚焦盐酸电离的离子组成，与q6、q9的微观任务区分，保持知识广度。"
+              },
+              "task_requirement": "给出盐酸、硫酸、氯化钠三种溶液的电离信息，要求学生判断盐酸溶液中大量存在的离子种类，并说明判断依据，以选择形式作答。",
+              "knowledge_topic_id": "KP-0231324e35cb47e3"
+            },
+            "after": {
+              "question_id": "q3",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "盐酸在水溶液中电离出的离子种类",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N2",
+              "target_level": 4,
+              "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 19,
+                "task_reason": "原任务仅判断单一盐酸溶液中的离子种类并说明依据，无反应体系或离子变化分析，实际接近N2等级1—2。保留知识点KP-0231324e35cb47e3与N2等级4，改为以盐酸与氢氧化钠反应前后离子种类变化为情境，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+              },
+              "task_requirement": "给出盐酸与氢氧化钠溶液反应前、恰好完全反应、盐酸过量三个阶段的微观粒子种类记录（含H⁺、Cl⁻、Na⁺、OH⁻、H₂O），要求学生依据反应前后离子种类的变化，判断盐酸溶液中大量存在的离子，并解释反应实质是H⁺与OH⁻结合生成水分子，同时说明反应后溶液中仍存在Cl⁻和Na⁺的原因，选择正确结论。"
+            },
+            "reason": "原任务仅判断单一盐酸溶液中的离子种类并说明依据，无反应体系或离子变化分析，实际接近N2等级1—2。保留知识点KP-0231324e35cb47e3与N2等级4，改为以盐酸与氢氧化钠反应前后离子种类变化为情境，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+          },
+          {
+            "question_id": "q4",
+            "before": {
+              "question_id": "q4",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+              "cognition": "识记",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": -1,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "N4等级2要求在熟悉情境下依据规则判断常见反应；maximum_level为3，安排基础巩固等级2，符合识记认知。"
+              },
+              "task_requirement": "给出氢氧化钠溶液与二氧化碳反应的文字描述，要求学生判断该反应能否发生并指出判断依据（属于碱与非金属氧化物反应），以选择形式作答。",
+              "knowledge_topic_id": "KP-078651ddb52c73c6"
+            },
+            "after": {
+              "question_id": "q4",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+              "cognition": "理解",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": 0,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断能否发生并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+              },
+              "task_requirement": "给出氢氧化钠溶液与二氧化碳反应的文字描述，要求学生依据“碱能与某些非金属氧化物反应生成盐和水”这一规则，判断该反应能否发生，并说明判断依据，选择正确结论。"
+            },
+            "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断能否发生并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+          },
+          {
+            "question_id": "q5",
+            "before": {
+              "question_id": "q5",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "氢氧化钠潮解与溶解放热现象",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "N1等级4要求含干扰情境下识别宏观证据；本题以现象记录形式考查潮解与放热，匹配当前水平。"
+              },
+              "task_requirement": "呈现氢氧化钠固体在空气中放置后表面潮湿并发热的现象记录，要求学生判断该现象涉及的潮解与溶解放热，并排除与化学变化混淆的干扰选项，选择正确解释。",
+              "knowledge_topic_id": "KP-c02bfef1106cf375"
+            },
+            "after": {
+              "question_id": "q5",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "氢氧化钠潮解与溶解放热现象",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "原任务核心是区分潮解、溶解放热与化学变化，未落实N1等级4“识别特定反应发生的宏观证据并排除干扰”的行为。保留知识点KP-c02bfef1106cf375与N1等级4，在题内给出二氧化碳反应信息作为干扰来源，要求学生判断两组现象的宏观证据归属并排除混淆说法，认知保持应用。"
+              },
+              "task_requirement": "呈现两组现象记录：甲组为氢氧化钠固体敞口放置后表面潮湿、体积增大；乙组为氢氧化钠固体溶于水时试管外壁发热。另给出“氢氧化钠与空气中二氧化碳反应生成碳酸钠”的信息。要求学生判断甲、乙两组现象分别属于物理变化还是化学变化，并排除“表面潮湿一定是与二氧化碳发生了化学反应”的干扰说法，选择正确结论。"
+            },
+            "reason": "原任务核心是区分潮解、溶解放热与化学变化，未落实N1等级4“识别特定反应发生的宏观证据并排除干扰”的行为。保留知识点KP-c02bfef1106cf375与N1等级4，在题内给出二氧化碳反应信息作为干扰来源，要求学生判断两组现象的宏观证据归属并排除混淆说法，认知保持应用。"
+          },
+          {
+            "question_id": "q6",
+            "before": {
+              "question_id": "q6",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "氢氧化钠溶液中大量存在的微粒",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N2",
+              "target_level": 4,
+              "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 19,
+                "task_reason": "N2等级4要求从微观角度解释性质；本题与q3的盐酸电离、q9的碳酸钠导电形成不同任务，避免同主题重复考查。"
+              },
+              "task_requirement": "给出氢氧化钠溶液与蔗糖溶液的电导性对比信息，要求学生判断氢氧化钠溶液中大量存在的微粒，并解释其导电原因，以选择形式作答。",
+              "knowledge_topic_id": "KP-995481316624b42b"
+            },
+            "after": {
+              "question_id": "q6",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "氢氧化钠溶液中大量存在的微粒",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N2",
+              "target_level": 4,
+              "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 19,
+                "task_reason": "原任务仅判断单一氢氧化钠溶液的微粒并解释导电，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-995481316624b42b与N2等级4，增加氢氧化钠与稀盐酸反应前后微粒变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+              },
+              "task_requirement": "给出氢氧化钠溶液与蔗糖溶液的电导性对比信息，并给出氢氧化钠溶液与稀盐酸反应前后微粒种类的记录。要求学生判断氢氧化钠溶液中大量存在的微粒，解释其导电原因，并依据反应后OH⁻减少、H₂O增多的微粒变化，说明导电性变化与反应实质的关系，选择正确结论。"
+            },
+            "reason": "原任务仅判断单一氢氧化钠溶液的微粒并解释导电，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-995481316624b42b与N2等级4，增加氢氧化钠与稀盐酸反应前后微粒变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知保持应用。"
+          },
+          {
+            "question_id": "q7",
+            "before": {
+              "question_id": "q7",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+              "cognition": "识记",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": -1,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "与q4同主题但任务不同（氢氧化钙而非氢氧化钠），N4等级2基础巩固，保持知识广度。"
+              },
+              "task_requirement": "给出氢氧化钙溶液与二氧化碳反应生成白色沉淀的实验现象，要求学生判断该反应类型并说明判断依据，以选择形式作答。",
+              "knowledge_topic_id": "KP-078651ddb52c73c6"
+            },
+            "after": {
+              "question_id": "q7",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "碱与非金属氧化物反应及证据分析",
+              "cognition": "理解",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": 0,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断反应类型并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+              },
+              "task_requirement": "给出氢氧化钙溶液与二氧化碳反应生成白色沉淀的实验现象，要求学生依据“碱能与某些非金属氧化物反应生成盐和水”这一规则，判断该反应能否发生并说明判断依据，选择正确结论。"
+            },
+            "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据反应规则判断反应类型并说明依据属理解层次。保留知识点KP-078651ddb52c73c6、N4等级2与题型分值，认知调整为理解。"
+          },
+          {
+            "question_id": "q8",
+            "before": {
+              "question_id": "q8",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "酸碱指示剂在不同溶液中的变色现象",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "N1等级4要求含干扰情境下判断宏观证据；本题与q1的指示剂主题不同编号，考查不同溶液组合，保持广度。"
+              },
+              "task_requirement": "提供紫色石蕊试液分别加入稀硫酸、氢氧化钙溶液、碳酸钠溶液的变色记录，要求学生判断各溶液酸碱性并排除因试液用量不同造成的干扰，选择正确结论。",
+              "knowledge_topic_id": "KP-bd14f6d75083f240"
+            },
+            "after": {
+              "question_id": "q8",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "酸碱指示剂在不同溶液中的变色现象",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "原任务虽提及排除试液用量干扰，但未给出干扰数据特征，学生无法实际执行筛选。保留知识点KP-bd14f6d75083f240与N1等级4，在题内给出石蕊在中性溶液中显紫色的判断依据，使学生能实际识别并排除异常记录，认知保持应用。"
+              },
+              "task_requirement": "提供紫色石蕊试液分别加入稀硫酸、氢氧化钙溶液、碳酸钠溶液的变色记录，并附一条异常记录“某中性氯化钠溶液加入石蕊后显红色”。题内说明石蕊在中性溶液中显紫色。要求学生判断各溶液酸碱性，识别并排除该异常记录，选择正确结论。"
+            },
+            "reason": "原任务虽提及排除试液用量干扰，但未给出干扰数据特征，学生无法实际执行筛选。保留知识点KP-bd14f6d75083f240与N1等级4，在题内给出石蕊在中性溶液中显紫色的判断依据，使学生能实际识别并排除异常记录，认知保持应用。"
+          },
+          {
+            "question_id": "q9",
+            "before": {
+              "question_id": "q9",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "碳酸钠溶液导电的微观原因",
+              "cognition": "理解",
+              "difficulty": "easy",
+              "skill_id": "N2",
+              "target_level": 4,
+              "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 19,
+                "task_reason": "N2等级4要求解释离子变化与性质；本题聚焦碳酸钠溶液导电的微观原因，与q3、q6任务区分。"
+              },
+              "task_requirement": "给出碳酸钠溶液导电的实验事实，要求学生从微观离子角度解释导电原因，并判断溶液中主要存在的离子，以选择形式作答。",
+              "knowledge_topic_id": "KP-39d31cb1ee7d2aa7"
+            },
+            "after": {
+              "question_id": "q9",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "碳酸钠溶液导电的微观原因",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N2",
+              "target_level": 4,
+              "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 19,
+                "task_reason": "原任务仅解释单一碳酸钠溶液的导电并判断主要离子，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-39d31cb1ee7d2aa7与N2等级4，增加碳酸钠与稀盐酸反应前后离子种类变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知由理解调整为应用。"
+              },
+              "task_requirement": "给出碳酸钠溶液导电的实验事实，并给出碳酸钠溶液与稀盐酸反应前后溶液中离子种类的记录（反应前含Na⁺、CO₃²⁻，反应后含Na⁺、Cl⁻并有气泡产生）。要求学生从微观离子角度解释碳酸钠溶液导电的原因，并依据反应前后离子种类的变化说明反应实质，选择正确结论。"
+            },
+            "reason": "原任务仅解释单一碳酸钠溶液的导电并判断主要离子，无反应体系或离子变化，实际接近N2等级1—2。保留知识点KP-39d31cb1ee7d2aa7与N2等级4，增加碳酸钠与稀盐酸反应前后离子种类变化信息，要求学生分析离子变化并解释反应实质，落实等级4行为，认知由理解调整为应用。"
+          },
+          {
+            "question_id": "q10",
+            "before": {
+              "question_id": "q10",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "复分解反应发生条件的判断",
+              "cognition": "识记",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": -1,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "必考主题KP-1777970e1ea43173，N4等级2基础巩固；以多组实例判断形式覆盖复分解条件，符合识记认知。"
+              },
+              "task_requirement": "给出若干组酸碱盐混合的实例（如稀盐酸与氢氧化钠、氯化钠与硝酸钾、碳酸钠与稀盐酸），要求学生依据复分解反应发生条件判断哪些能发生反应，以选择形式作答。",
+              "knowledge_topic_id": "KP-1777970e1ea43173"
+            },
+            "after": {
+              "question_id": "q10",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "复分解反应发生条件的判断",
+              "cognition": "理解",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": 0,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据复分解条件判断多组反应能否发生并说明依据属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+              },
+              "task_requirement": "给出若干组酸碱盐混合的实例（如稀盐酸与氢氧化钠、氯化钠与硝酸钾、碳酸钠与稀盐酸），要求学生依据复分解反应发生条件（生成沉淀、气体或水）判断哪些能发生反应，并说明判断依据，选择正确结论。"
+            },
+            "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据复分解条件判断多组反应能否发生并说明依据属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+          },
+          {
+            "question_id": "q11",
+            "before": {
+              "question_id": "q11",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "pH试纸与浓硫酸稀释的实验操作",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N5",
+              "target_level": 4,
+              "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 20,
+                "task_reason": "N5等级4要求评估操作方案并考虑干扰；本题以操作纠错形式考查实验操作，匹配当前水平。"
+              },
+              "task_requirement": "呈现用pH试纸测定溶液pH和稀释浓硫酸的操作步骤描述，要求学生判断操作中的错误并选择正确操作，排除干扰选项。",
+              "knowledge_topic_id": "KP-ef0fab0d7c07794f"
+            },
+            "after": {
+              "question_id": "q11",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "pH试纸与浓硫酸稀释的实验操作",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N5",
+              "target_level": 4,
+              "expected_behavior": "设计并评估复杂的检验、鉴别或除杂方案，考虑干扰因素。例如：设计实验检验某氢氧化钠样品是否变质（含碳酸钠），先加入过量氯化钙或氯化钡溶液沉淀碳酸根，再检验上层清液是否使酚酞变红以判断原氢氧化钠残留；或设计从含有硫酸铜和硫酸亚铁的废液中回收铜的方案，评估加入过量铁粉后过滤、洗涤、干燥及后续处理步骤的合理性。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 20,
+                "task_reason": "原任务仅为操作步骤纠错，未要求设计方案或评估干扰，实际接近N5等级1—2。保留知识点KP-ef0fab0d7c07794f与N5等级4，改为要求学生判断操作错误并评估错误操作对测量结果与温度变化的影响，落实等级4“评估方案并考虑干扰因素”的行为，认知保持应用。"
+              },
+              "task_requirement": "呈现“用湿润的pH试纸测定某氢氧化钠溶液的pH”和“将水沿烧杯内壁缓缓倒入浓硫酸中并搅拌”两项操作描述，要求学生判断两项操作中的错误，并评估若按错误操作进行，所测pH与溶液温度变化分别会产生什么偏差，选择正确结论。"
+            },
+            "reason": "原任务仅为操作步骤纠错，未要求设计方案或评估干扰，实际接近N5等级1—2。保留知识点KP-ef0fab0d7c07794f与N5等级4，改为要求学生判断操作错误并评估错误操作对测量结果与温度变化的影响，落实等级4“评估方案并考虑干扰因素”的行为，认知保持应用。"
+          },
+          {
+            "question_id": "q12",
+            "before": {
+              "question_id": "q12",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "必考主题KP-bd8603c4aff075a2复现，但与q1任务不同（由现象反推酸碱性并讨论证据局限），N1等级4匹配当前水平。"
+              },
+              "task_requirement": "给出向某未知溶液中滴加无色酚酞试液后变红的实验事实，要求学生判断该溶液可能的酸碱性，并说明不能仅凭此现象确定溶液成分的理由，以选择形式作答。",
+              "knowledge_topic_id": "KP-bd8603c4aff075a2"
+            },
+            "after": {
+              "question_id": "q12",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "酸碱指示剂遇酸碱的颜色变化",
+              "cognition": "应用",
+              "difficulty": "easy",
+              "skill_id": "N1",
+              "target_level": 4,
+              "expected_behavior": "在复杂混合体系中，识别并排除干扰，准确判断特定反应发生的宏观证据。例如：在含有酚酞的氢氧化钠溶液中滴加稀盐酸，识别红色褪去作为中和反应发生的宏观证据，并排除气泡产生的干扰（若存在碳酸钠杂质需先识别）；或在多种盐溶液中，根据加入试剂后的沉淀组合特征，识别出目标离子。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 16,
+                "task_reason": "原任务仅依据单一变色现象判断可能酸碱性并说明局限，未设置需排除的干扰证据或多步分析，实际接近N1等级3。保留必考知识点KP-bd8603c4aff075a2与N1等级4，增加两种可能成分的干扰假设，要求学生排除干扰并选择进一步检验思路，落实等级4行为，认知保持应用。"
+              },
+              "task_requirement": "给出向某未知溶液中滴加无色酚酞试液后变红的实验事实，并给出该溶液可能为氢氧化钠溶液或碳酸钠溶液的两种假设。要求学生判断该溶液可能的酸碱性，并说明仅凭酚酞变红无法区分两种假设的理由，进而选择能进一步排除干扰、确定成分的后续检验思路，选择正确结论。"
+            },
+            "reason": "原任务仅依据单一变色现象判断可能酸碱性并说明局限，未设置需排除的干扰证据或多步分析，实际接近N1等级3。保留必考知识点KP-bd8603c4aff075a2与N1等级4，增加两种可能成分的干扰假设，要求学生排除干扰并选择进一步检验思路，落实等级4行为，认知保持应用。"
+          },
+          {
+            "question_id": "q14",
+            "before": {
+              "question_id": "q14",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "金属与稀盐酸能否反应的判断",
+              "cognition": "理解",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": -1,
+                "cognition_shift": -1,
+                "difficulty_shift": -1,
+                "target_dimension_points": 36,
+                "task_reason": "N4等级2要求在熟悉情境下判断常见反应；maximum_level为3，安排等级2基础巩固，符合理解认知。"
+              },
+              "task_requirement": "给出铜、锌、铁分别加入稀盐酸的实验现象描述，要求学生依据金属活动性顺序判断哪些金属能与稀盐酸反应，并说明判断依据，以选择形式作答。",
+              "knowledge_topic_id": "KP-a4b0738355849534"
+            },
+            "after": {
+              "question_id": "q14",
+              "question_type": "single_choice",
+              "points": 3,
+              "knowledge_topic": "金属与稀盐酸能否反应的判断",
+              "cognition": "识记",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": 0,
+                "cognition_shift": -1,
+                "difficulty_shift": -1,
+                "target_dimension_points": 36,
+                "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为理解与任务行为不符：依据活动性顺序判断哪些金属能反应并说明依据属直接判断，未达到解释反应条件或实质的理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为识记。"
+              },
+              "task_requirement": "给出铜、锌、铁分别加入稀盐酸的实验现象描述，要求学生依据金属活动性顺序判断哪些金属能与稀盐酸反应，并说明判断依据，选择正确结论。"
+            },
+            "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为理解与任务行为不符：依据活动性顺序判断哪些金属能反应并说明依据属直接判断，未达到解释反应条件或实质的理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为识记。"
+          },
+          {
+            "question_id": "q16",
+            "before": {
+              "question_id": "q16",
+              "question_type": "fill_blank",
+              "points": 6,
+              "knowledge_topic": "复分解反应发生条件的判断",
+              "cognition": "识记",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": -1,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "与q10同主题但题型和任务不同（逐组填写判断依据），N4等级2基础巩固，符合识记认知。"
+              },
+              "task_requirement": "给出四组酸碱盐混合的实例，要求学生在空格中填写每组能否发生复分解反应及判断依据（生成沉淀、气体或水），以填空形式作答。",
+              "knowledge_topic_id": "KP-1777970e1ea43173"
+            },
+            "after": {
+              "question_id": "q16",
+              "question_type": "fill_blank",
+              "points": 6,
+              "knowledge_topic": "复分解反应发生条件的判断",
+              "cognition": "理解",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": 0,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据生成沉淀、气体或水判断每组能否发生复分解反应属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+              },
+              "task_requirement": "给出四组酸碱盐混合的实例，要求学生在空格中填写每组能否发生复分解反应及判断依据（生成沉淀、气体或水），以填空形式作答。"
+            },
+            "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据生成沉淀、气体或水判断每组能否发生复分解反应属理解层次。保留必考知识点KP-1777970e1ea43173、N4等级2与题型分值，认知调整为理解。"
+          },
+          {
+            "question_id": "q17",
+            "before": {
+              "question_id": "q17",
+              "question_type": "fill_blank",
+              "points": 6,
+              "knowledge_topic": "金属与稀盐酸能否反应的判断",
+              "cognition": "识记",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": -1,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "与q14同主题但任务不同（填空填写判断依据），N4等级2基础巩固，符合识记认知。"
+              },
+              "task_requirement": "给出镁、铝、铜、银四种金属与稀盐酸接触的实例，要求学生在空格中填写能否反应及对应依据（金属活动性顺序），以填空形式作答。",
+              "knowledge_topic_id": "KP-a4b0738355849534"
+            },
+            "after": {
+              "question_id": "q17",
+              "question_type": "fill_blank",
+              "points": 6,
+              "knowledge_topic": "金属与稀盐酸能否反应的判断",
+              "cognition": "理解",
+              "difficulty": "easy",
+              "skill_id": "N4",
+              "target_level": 2,
+              "expected_behavior": "依据反应条件规则，解释或判断常见反应的发生情况。例如：解释为什么氢氧化钠溶液能与二氧化碳反应（生成盐和水，虽无沉淀气体，但属于非金属氧化物与碱反应）；或判断稀硫酸与氯化钡溶液反应能否发生（生成沉淀）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 2,
+                "shift": 0,
+                "cognition_shift": -1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 36,
+                "task_reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据金属活动性顺序判断多种金属能否与酸反应并填写依据属理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为理解。"
+              },
+              "task_requirement": "给出镁、铝、铜、银四种金属与稀盐酸接触的实例，要求学生在空格中填写能否反应及对应依据（金属活动性顺序），以填空形式作答。"
+            },
+            "reason": "原任务的知识点、技能与等级2均匹配，仅认知标注为识记与任务行为不符：依据金属活动性顺序判断多种金属能否与酸反应并填写依据属理解层次。保留知识点KP-a4b0738355849534、N4等级2与题型分值，认知调整为理解。"
+          },
+          {
+            "question_id": "q19",
+            "before": {
+              "question_id": "q19",
+              "question_type": "fill_blank",
+              "points": 6,
+              "knowledge_topic": "中和反应的微观实质",
+              "cognition": "综合",
+              "difficulty": "easy",
+              "skill_id": "N2",
+              "target_level": 4,
+              "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+              "source_ids": [
+                "objectives-01",
+                "textbook-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 1,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 19,
+                "task_reason": "必考主题KP-b5125e85d37c5636，N2等级4要求分析离子变化并解释反应实质；以微观示意图填空形式综合考查，匹配当前水平。"
+              },
+              "task_requirement": "给出稀盐酸与氢氧化钠溶液反应的微观粒子示意图，要求学生在空格中填写反应前后溶液中离子种类的变化，并说明中和反应的微观实质，以填空形式作答。",
+              "knowledge_topic_id": "KP-b5125e85d37c5636"
+            },
+            "after": {
+              "question_id": "q19",
+              "question_type": "fill_blank",
+              "points": 6,
+              "knowledge_topic": "中和反应的微观实质",
+              "cognition": "综合",
+              "difficulty": "easy",
+              "skill_id": "N2",
+              "target_level": 4,
+              "expected_behavior": "分析复杂反应体系中的离子变化，解释反应实质。例如：在碳酸钠与稀盐酸反应中，分步解释微观过程（先CO₃²⁻+H⁺→HCO₃⁻，再HCO₃⁻+H⁺→H₂O+CO₂↑，若题目给出分步条件）；或解释为什么氯化钡溶液能鉴别硫酸钠和碳酸钠（Ba²⁺分别与SO₄²⁻、CO₃²⁻结合生成不同沉淀，且沉淀在酸中的行为不同）。",
+              "source_ids": [
+                "textbook-01",
+                "objectives-01"
+              ],
+              "planning_reason": {
+                "student_level": 4,
+                "shift": 0,
+                "cognition_shift": 1,
+                "difficulty_shift": 0,
+                "target_dimension_points": 19,
+                "task_reason": "原任务仅针对单一中和反应填写离子变化并说明实质，无复杂体系或多条关系整合，实际接近N2等级2—3。保留必考知识点KP-b5125e85d37c5636与N2等级4，增加反应后Na⁺、Cl⁻仍存在的微粒记录，要求学生整合离子变化与反应实质并检查结论成立条件，落实等级4行为，认知保持综合。"
+              },
+              "task_requirement": "给出稀盐酸与氢氧化钠溶液反应的微观粒子示意图，并给出反应后溶液中同时存在Na⁺、Cl⁻和H₂O的微粒记录。要求学生在空格中填写反应前后溶液中离子种类的变化，说明中和反应的微观实质，并解释反应后溶液中的Na⁺和Cl⁻并未消失的原因，以填空形式作答。"
+            },
+            "reason": "原任务仅针对单一中和反应填写离子变化并说明实质，无复杂体系或多条关系整合，实际接近N2等级2—3。保留必考知识点KP-b5125e85d37c5636与N2等级4，增加反应后Na⁺、Cl⁻仍存在的微粒记录，要求学生整合离子变化与反应实质并检查结论成立条件，落实等级4行为，认知保持综合。"
+          }
+        ],
+        "unresolved_question_ids": []
+      }
+    ]
+  },
+  "planning_validation": {
+    "protocol": "20261105_grounded_adaptive_levels_v2",
+    "status": "passed",
+    "signature": "c75822a44f754269833f1e356a7d38e7c879537bfe11a2350ffae3c7f81974e3",
+    "audit_file": "final-audit.json",
+    "notice": "核查依据来自教学材料、技能树及必答任务；不使用试卷分数调整目标。新蓝图须独立建立评分基线。"
+  },
+  "execution_mode": "official_api"
+}

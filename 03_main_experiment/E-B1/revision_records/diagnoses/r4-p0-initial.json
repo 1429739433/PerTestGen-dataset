@@ -1,0 +1,175 @@
+{
+  "D": [
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7科学性错误（答案不唯一）叠加RC6规范缺陷（评分依据不成立）",
+      "suggestion": "在冻结字段（单选、3分、N5、easy、应用、知识点“除去氢氧化钠溶液中碳酸钠杂质的试剂选择”、目标等级4）内重写题干与选项，使唯一正确项成立：保留A（稀盐酸先中和NaOH，消耗氢氧化钠）为唯一可排除项；将B、D改为可被题面条件明确排除的表述，例如B改为“加入过量澄清石灰水”，D改为“加入稀盐酸至不再产生气泡后过滤”，或把C、D改为不同试剂（如C为适量Ba(OH)₂、D为适量BaCl₂）并明确“不引入新离子”的判定口径；同步重写评分点，逐项给出A、B、D不满足题干约束的化学依据，删除“CaCO₃可溶于后续酸性环境”“Ca²⁺残留风险高于Ba²⁺”等无题面依据的理由。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "RC6规范缺陷：第3问“理由是______”必答空无对应采分点",
+      "suggestion": "在冻结字段（填空、6分、N2、easy、应用、知识点“中和反应的微观实质”、目标等级4）内调整评分点：为第3问“理由是______”空设置分值（如0.5分），并相应调整离子空、判断空分值，使各空均有可判分规则且合计仍为6分；答案与评分点逐空对齐。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "RC6规范缺陷：answer/answer_original第(2)空仅写“H⁺”，漏“OH⁻”，与题面两空及评分点“每空1分”不一致",
+      "suggestion": "在冻结字段（填空、6分、N2、medium、应用、知识点“氢氧化钠溶液中大量存在的微粒”、目标等级4）内将answer与answer_original第(2)空补全为“H⁺和OH⁻”，与题面“______和______”两空及评分点“每空1分”一致；其余各空与2+2+1+1=6分保持不变。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7科学性错误：参考答案(3)首选解释“酚酞作为弱酸消耗NaOH导致多耗0.3 mL盐酸”定量不成立",
+      "suggestion": "在冻结字段（实验题、5分、N5、medium、综合、知识点“酸碱中和反应的实验操作与现象分析”、目标等级4）内修改参考答案与评分点(3)：删除“酚酞弱酸消耗NaOH”作为首选解释，改为“酚酞浓度大、红色深、褪色色浅导致终点滞后”或“酚酞变色范围（pH约8.2～10.0）与恰好完全反应点不一致”等合理原因；评分点保留“答出一种合理原因得2分、仅答实验误差不得分”的规则。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q2",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_options_and_scoring",
+      "cause": "题面约束（适量、不消耗NaOH、不残留新离子、可溶性盐不计新杂质）使B、C、D同时成立，单选无唯一答案；评分点对B、D的排除理由（“适量”下Ca²⁺残留、“CaCO₃溶于后续酸性环境”）在题面无依据，无法支撑C得3分。",
+      "acceptance_criteria": "1) 在冻结字段（单选、3分、N5、easy、应用、知识点“除去氢氧化钠溶液中碳酸钠杂质的试剂选择”、目标等级4）内重写后，逐项独立验证恰有一个选项满足题干全部约束；2) 其余三个选项各有一条由题面条件直接推出的排除依据，不依赖题面未给出的酸环境、过量假设或教材习惯；3) 评分点逐项写明A、B、D不满足的具体约束，合计3分；4) 不得通过修改知识点、技能、等级、难度或分值掩盖缺陷。",
+      "issue_ids": [
+        "q2-science",
+        "q2-specification",
+        "q2-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC6",
+      "operator": "revise_scoring_points",
+      "cause": "第3问含“理由是______”必答空，但评分点仅覆盖离子空0.5分与判断空0.5分，理由空无采分规则，阅卷无法判分。",
+      "acceptance_criteria": "1) 第3问“理由是______”空有明确采分点与分值；2) 各采分点分值合计仍为6分，与points一致；3) 参考答案逐空与评分点一一对应，无遗漏空；4) 题干、知识点、技能、等级、难度、题型、分值不变。",
+      "issue_ids": [
+        "q16-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC6",
+      "operator": "revise_answer_record",
+      "cause": "题面第(2)问为“______和______”两空，评分点给出“H⁺和OH⁻”每空1分，但answer与answer_original第(2)空仅写“H⁺”，答案记录与采分点不一致。",
+      "acceptance_criteria": "1) answer与answer_original第(2)空均为“H⁺和OH⁻”，与题面两空及评分点“每空1分”对应；2) 其余各空答案与2+2+1+1=6分保持不变；3) 题干、知识点、技能、等级、难度、题型、分值不变。",
+      "issue_ids": [
+        "q20-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "revise_reference_answer_and_scoring",
+      "cause": "参考答案(3)首选解释“酚酞作为弱酸消耗NaOH导致多耗0.3 mL盐酸”定量不成立：5滴酚酞总量约0.2 mL，其弱酸消耗的NaOH远不足以多耗0.3 mL 0.1 mol/L盐酸；多耗体积主要源于指示剂浓度大、褪色色浅导致终点滞后。",
+      "acceptance_criteria": "1) 参考答案(3)删除“酚酞弱酸消耗NaOH”作为首选解释，改为“指示剂浓度大、褪色色浅导致终点滞后”或“酚酞变色范围与恰好完全反应点不一致”等合理原因；2) 评分点(3)保留“答出一种合理原因得2分、仅答实验误差不得分”的规则，合计仍为5分；3) 第(4)问继续明确“红色褪去时pH约8.2而非7”，不得将褪色等同于pH=7；4) 题干、知识点、技能、等级、难度、题型、分值不变。",
+      "issue_ids": [
+        "q21-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6b4e00210c381d7053110d089a6a925307a2ef57e5c3f0b2006a3ff5cf43259d"
+    },
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "86f16c52bfaaa025180ef8a57f2ec4dbb238e5314ba7e3462a3102ebec1861db"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6e3ab7e53d91c12bf857cf92487a9fd665123b6d04dc527a458ff88edca9b8e5"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "4d09697d15e5fb1c328fa8983ffea9515a534954663ed2da6d61bcbcbc114b01"
+    }
+  }
+}

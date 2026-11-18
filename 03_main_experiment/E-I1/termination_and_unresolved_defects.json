@@ -1,0 +1,60 @@
+{
+  "运行编号": "web-03bf3a7bf470",
+  "终止状态": "quality_met",
+  "采用版本": "r3-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q19-difficulty_cognition",
+      "question_ids": [
+        "q19"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：实际认知操作为解释/综合（整合多证据判断反应进程、解释微观实质），与蓝图cognition'综合'及target_level 4一致。；difficulty：蓝图difficulty标为easy，但(3)要求整合三条记录与酚酞变色范围并检查'恰好完全反应'结论的条件，推理步骤明显多于easy题典型的一步辨认；(2)的时刻限定也含轻度干扰。单题6分中3分落在多步整合上，与easy标签存在偏差，属难度标签与实际任务不匹配，不影响题目本身可作答与判分，建议将difficulty调整为中等或在蓝图说明该题为easy中偏综合。"
+    },
+    {
+      "issue_id": "q21-specification",
+      "question_ids": [
+        "q21"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干实验步骤、【资料】与三个设问均清楚完整，(2)明确'写化学式'、(1)明确'写出操作、现象和结论'，无单位歧义或条件缺失；scoring：评分点总分2+1+1+1=5与points=5对应，覆盖(1)(2)(3)全部设问。缺陷：评分点4'结论表述准确：红色褪去仅表明pH<8.2…'与评分点1中'说明理由：褪色仅表明pH<8.2…'内容重叠，同一正确表述可在两处重复采分，总分口径可能超过5分；建议将评分点4改为仅约束错误表述（如'pH在7~8.2之间有盐酸剩余'或'终点滞后于等当点'的绝对断言）的扣分项。此为给分规则重叠的轻微缺陷，不影响答案科学性。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 68.771739,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 72.663044,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 93.043478,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0"
+      ]
+    }
+  ]
+}

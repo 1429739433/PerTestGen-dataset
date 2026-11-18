@@ -1,0 +1,16 @@
+{
+  "状态": "evaluated",
+  "采用原因": "qualification_recovery",
+  "曾被采用": true,
+  "错误": null,
+  "综合分": 93.043478,
+  "五维分": {
+    "science": 95,
+    "coverage": 95,
+    "skills": 95,
+    "difficulty_cognition": 88.478261,
+    "specification": 88.478261
+  },
+  "评价完整": true,
+  "否决维度": []
+}

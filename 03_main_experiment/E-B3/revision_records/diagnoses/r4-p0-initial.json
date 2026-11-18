@@ -1,0 +1,278 @@
+{
+  "D": [
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "suggestion": "保留B为唯一正确项，但改写B的理由句：删去“Na⁺和Cl⁻的种类和数目均未改变”，改为“Cl⁻在反应前后数目不变（NaOH溶液不带入Cl⁻），未参加反应；Na⁺由加入的NaOH溶液带入，是旁观离子”。同步修改评分要点中的判断依据，使“Cl⁻未参加反应”与“Na⁺数目由0增至3”不再矛盾。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "将第(3)问括号内“恰好完全反应（指溶液pH=7）”改为“恰好完全反应（指碳酸钠、氢氧化钠均完全转化为氯化钠，盐酸用量仍为50g）”，消除pH=7与CO₂逸出假设之间的张力；答案与评分点数值（3.9%、偏大）保持不变。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "重写题干：删去与设问无关的“碳酸钠/碳酸氢钠白色粉末”情境，改为含干扰条件的标签核对情境（如给出若干名称—化学式配对，其中含FeSO₄/Fe₂(SO₄)₃、Fe(OH)₂/Fe(OH)₃易混项，要求学生筛选后书写正确化学式）；第(2)问改为“上述四种物质中属于碱的是______（写出所有碱）”，答案与评分点改为Fe(OH)₃、Fe(OH)₂；第(3)问明确指定“取Fe(OH)₃固体”，方程式Fe(OH)₃+3HCl=FeCl₃+3H₂O不变。使任务达到N3等级4的筛选与整合要求。"
+    },
+    {
+      "question_id": "q11",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 55,
+      "root_cause": "RC7",
+      "suggestion": "消除双正确项：将B组改为含错误化学式（如“硫酸亚铁Fe₂(SO₄)₃；氢氧化亚铁Fe(OH)₃”），使仅C组化学式正确且方程式成立；或将题干限定改为“选出与氢氧化钠溶液能发生复分解反应且生成水和可溶盐的一组”，使B（生成沉淀）被排除。同步修改评分要点，使其排除理由与题面限定一致；并在题干中增加一步要求（如写出所选组中盐与氢氧化钠反应的化学方程式），以落实N3等级4的方程式书写行为。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "消除双正确项：将A项改为含明确错误（如“过量Ba²⁺由后续加入的NaOH除去”或“BaCl₂+Na₂SO₄=BaSO₄↓+NaCl”未配平），使D成为唯一满足“化学式书写、试剂作用与化学方程式均正确”的选项；同步修改评分要点中对A的排除理由，使其与题面限定一致，不再以“未说明Na₂CO₃全部作用”这一题面未要求的标准排除A。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "suggestion": "修改第(4)问答案与评分点：将补充试剂限定为氯化铁溶液（BaCl₂与FeCl₃不生成沉淀），或明确“过滤除去BaCO₃沉淀后向滤液滴加硫酸铜，若出现白色沉淀为过量Ba²⁺与SO₄²⁻生成BaSO₄，蓝色沉淀才是NaOH的证据”；删去“若无明显现象则完全变质”这一与过量BaCl₂存在相矛盾的表述，使操作—现象—结论对应成立。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_and_rubric",
+      "cause": "选项B及评分要点称“反应前后Na⁺和Cl⁻的种类和数目均未改变”，与题干排布（Na⁺由0个增至3个）直接矛盾，评价理由含事实错误。",
+      "acceptance_criteria": "B项理由句不再出现“Na⁺数目未改变”，改为“Cl⁻数目不变、未参加反应；Na⁺由NaOH溶液带入，为旁观离子”；评分要点判断依据同步更新；A、C、D仍为可辨识错误项，B为唯一正确项。",
+      "issue_ids": [
+        "q9-science",
+        "q9-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC6",
+      "operator": "rewrite_stem_wording",
+      "cause": "第(3)问以“溶液pH=7”定义恰好完全反应，与“CO₂完全逸出”的计算假设存在张力，易使学生困惑。",
+      "acceptance_criteria": "第(3)问改为以“碳酸钠、氢氧化钠均完全转化为氯化钠，盐酸用量仍为50g”界定终点；答案“偏大”及理由（NaCl质量恒为5.85g、CO₂逸出使溶液总质量小于150g）与评分点数值不变。",
+      "issue_ids": [
+        "q20-specification"
+      ],
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_rubric",
+      "cause": "第(2)问“属于碱的是”在Fe(OH)₃与Fe(OH)₂并存时指向不明，参考答案仅给Fe(OH)₃；题干首段碳酸钠/碳酸氢钠情境与设问脱节；实际任务仅为识记性书写，未落实N3等级4的筛选整合行为。",
+      "acceptance_criteria": "题干情境与设问一致且含有效干扰条件；第(2)问明确要求写出所有碱，答案与评分点为Fe(OH)₃、Fe(OH)₂；第(3)问明确指定Fe(OH)₃，方程式Fe(OH)₃+3HCl=FeCl₃+3H₂O；学生须经筛选易混化学式后方能作答，达到N3等级4行为。",
+      "issue_ids": [
+        "q16-science",
+        "q16-skills",
+        "q16-difficulty_cognition",
+        "q16-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_and_rubric",
+      "cause": "B组化学式正确且FeSO₄+2NaOH=Fe(OH)₂↓+Na₂SO₄配平正确、符合复分解条件，与C组同为满足设问的正确项，参考答案仅承认C；题面亦未要求自主书写方程式，N3等级4行为落实不足。",
+      "acceptance_criteria": "经修改后仅一个选项同时满足“化学式正确、与氢氧化钠溶液能发生复分解反应且方程式书写正确”；评分要点排除理由与题面限定一致；题干增加书写所选组中盐与氢氧化钠反应方程式的要求，落实N3等级4行为。",
+      "issue_ids": [
+        "q11-science",
+        "q11-skills",
+        "q11-specification",
+        "q11-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_and_rubric",
+      "cause": "A项化学式、试剂作用（过量Ba²⁺由后续Na₂CO₃除去）与方程式均正确，与D同为满足设问的正确项；评分点以题面未要求的“须说明Na₂CO₃全部作用”排除A，采分规则不成立。",
+      "acceptance_criteria": "经修改后仅D项同时满足“化学式书写、试剂作用与化学方程式均正确”；A项含可辨识错误（作用表述或方程式配平错误）；评分点对A的排除理由与题面限定一致，按题面作答者不再被误判0分。",
+      "issue_ids": [
+        "q1-science",
+        "q1-specification",
+        "q1-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "rewrite_answer_and_rubric",
+      "cause": "第(4)问答案允许在含过量BaCl₂的上层清液中滴加硫酸铜，CuSO₄与BaCl₂生成BaSO₄白色沉淀，故“若无明显现象则完全变质”分支的预期现象不成立。",
+      "acceptance_criteria": "补充实验试剂限定为氯化铁溶液，或明确说明白色沉淀为BaSO₄、蓝色沉淀才是NaOH的证据；操作、预期现象与结论在含过量BaCl₂条件下均成立；评分点4分对应方案完整性与操作—现象—结论一致性。",
+      "issue_ids": [
+        "q22-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "c6cf29d99a06203deb71a36d0ac73dedcfc4abbaf69149d9da6ac1e29029dbbb"
+    },
+    "q11": {
+      "question_id": "q11",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "8966ba42de8cccf476b50f8ffbeb824c3b209be3e6781346031d9b826057a34b"
+    },
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7172b013daa15c7a5efbccfcaa22d677cd0dd534de3c081e2f65092f194b673f"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "0c6178ecc99233cb013038a2793baeca805c0ccba372f39fc8e3d1ac76818e63"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "d029ae9ccd8b69969b77cf4a4b3cdad34a335de070772daa7771c44496d94ea4"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "91830646443c258c8ccf78fd4055bca9b37247d69a47529e217778b5ee54e735"
+    }
+  }
+}

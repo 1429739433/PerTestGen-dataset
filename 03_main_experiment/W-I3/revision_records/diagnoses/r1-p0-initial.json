@@ -1,0 +1,292 @@
+{
+  "D": [
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "保持单选、3分、N4等级1、easy与知识点不变，重写选项使唯一正确项成立：保留B（NaCl与AgNO3生成AgCl沉淀）为唯一答案，将C改为不能发生反应或不能生成水的组合（如NaOH溶液与KNO3溶液），并同步修订评分点为“选出唯一正确选项B，3分”，确保逐项独立验证仅B满足复分解反应发生条件。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "保持单选、3分、N1等级3、easy与知识点不变，消除B与D并存的唯一性缺陷：改写B项使其包含可判定的错误陈述（如将②归为化学变化或声称①放热），或改写D项使其成为唯一完整正确表述；同时修订评分点第3条，给出B项被排除的具体事实依据，使3分评分点与唯一答案对应。"
+    },
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "suggestion": "保持填空、6分、N2等级3、easy与知识点不变，删去题干中“氢氧化钠在水中解离出Na⁺和OH⁻，稀盐酸在水中解离出H⁺和Cl⁻”的完整解离提示，改为给出反应现象与微粒示意信息，要求学生自主判断溶液中离子种类、实际参加反应的离子及生成物，并连接“含OH⁻使酚酞变红—加酸后OH⁻减少—褪色”两步说明依据，以落实等级3比较与说明行为；评分点仍按2+2+1+1=6分对应各设问。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "保持实验题、5分、N5等级3、medium与知识点不变，将第1问中“为了准确判断反应终点”改为“为指示溶液碱性消失、辅助判断滴加进程”，避免以酚酞褪色断言恰好中和；同时将评分点压缩为与5分一致且不重复计分的条目（如现象1分、方案设计2分、现象与结论对应1分、石蕊颜色1分），删除第1条与第4条交叉重复计分。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 10,
+      "root_cause": "RC3",
+      "suggestion": "保持实验题、10分、N5等级3、hard与知识点不变，将第(2)问中“指出若使用澄清石灰水代替氯化钙溶液会对实验结果产生什么影响”改为在题干资料卡中直接给出“石灰水与碳酸钠反应生成氢氧化钠”的信息后，要求学生据此说明该方案不能区分部分变质与全部变质的原因，把干扰评估降为在给定信息下的两步说明，避免越级到N5等级4的自主评估干扰；评分点相应调整并保持合计10分。"
+    },
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "suggestion": "保持计算题、10分、N3等级1、easy与知识点不变，修正答案算术：NaOH 4.7 g生成NaCl应为4.7×58.5/40=6.87375 g（约6.87 g），总NaCl为5.85+6.87375=12.72375 g≈12.7 g；同步统一评分点3的允许值口径。并将第(2)问改为在题干中补写NaOH+HCl=NaCl+H₂O方程式并明确“氯化钠来自碳酸钠与氢氧化钠两条路径”，使任务回到给定方程式和质量比的一步或直接对应计算，匹配N3等级1与easy；若保留多步整合，则须在题干给出两条路径提示以不越级。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q1",
+      "root_cause": "RC7",
+      "operator": "replace_options",
+      "cause": "B与C均为能发生反应的组合，单选唯一性被破坏，评分点“选出B”失去判分依据。",
+      "acceptance_criteria": "逐项独立验证后仅B满足复分解反应发生条件（生成AgCl沉淀）；C项改为不能生成沉淀、气体或水的组合；评分点表述为唯一正确选项B并计3分。",
+      "issue_ids": [
+        "q1-science",
+        "q1-specification",
+        "q1-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC7",
+      "operator": "replace_options",
+      "cause": "B与D两项陈述均与题干记录和初中教学界定相符，形成两可，评分点对B的排除依据不成立。",
+      "acceptance_criteria": "逐项独立验证后仅一项为真；被排除项含可指认的事实错误；评分点第3条给出该错误的具体依据，3分与唯一答案对应。",
+      "issue_ids": [
+        "q10-science",
+        "q10-specification",
+        "q10-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem",
+      "cause": "题干直接给出全部解离离子信息，学生仅需按提示填写，实际为N2等级1—2行为，未落实等级3自主连接两步说明依据。",
+      "acceptance_criteria": "题干不再直接列出两种电解质的解离离子；学生须自主判断反应前离子、实际结合离子及生成物，并连接“含OH⁻—酚酞变红—加酸后OH⁻减少—褪色”两步说明依据；评分点2+2+1+1=6分与设问一一对应。",
+      "issue_ids": [
+        "q18-skills",
+        "q18-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem",
+      "cause": "题干以酚酞褪色表述为“准确判断反应终点”，超出指示剂变色范围的合理使用；评分点合计8分超出5分且存在重复计分。",
+      "acceptance_criteria": "题干不再以酚酞褪色断言恰好中和或pH=7；评分点合计恰为5分、无交叉重复，且各点与设问对应可判分。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC3",
+      "operator": "rewrite_stem",
+      "cause": "第(2)问要求自主评估石灰水替代氯化钙的干扰，对应N5等级4行为，高于目标等级3与学生当前水平。",
+      "acceptance_criteria": "题干资料卡给出“石灰水与碳酸钠反应生成氢氧化钠”的信息，学生据此在给定信息下说明不能区分部分变质与全部变质的原因；任务为两步说明而非自主评估干扰；评分点合计仍为10分。",
+      "issue_ids": [
+        "q22-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "replace_answer",
+      "cause": "NaOH生成NaCl的答案算术错误（应为6.87375 g而非6.8625 g），且第(2)问需学生自备方程式并多步整合，超出N3等级1与easy设定。",
+      "acceptance_criteria": "答案中z=6.87375 g（约6.87 g）、总NaCl≈12.7 g，评分点允许值口径统一；题干补写NaOH+HCl=NaCl+H₂O并明确氯化钠两条来源，使任务为给定方程式和质量比的直接计算；评分点合计10分。",
+      "issue_ids": [
+        "q23-science",
+        "q23-skills",
+        "q23-difficulty_cognition",
+        "q23-specification",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "b5a23b21ab7a7d06328484fa686a3f29db148dcb09d84c6daa64725fc07bc5a6"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "f57952f39e0dd19f09709d4ea62c2d71611829c19b6875277efc3c76cbb1c9f8"
+    },
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7c8d39d4b81a2081e0885041bba236267ebe3fcadd70094efc11f151f1f7edff"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "cce0674ac1d27795d18811d08cd401fd852f0ac93eddaafe4ae44ebea19c8855"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "5efbb17e51a1f294f3bf85dd3865f3dfa46261754d3fb132f188455561d6ba5d"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "58e8d81aeb79561bb195915946d3a2e396f8ca211ce915f724b51f67a91d2560"
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "D": [
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "保持题号、题型、分值、知识点、技能N3、等级5与认知综合不变，重写第(3)问数据链与答案：明确终点含义（恰好不再产生气泡时盐酸是否过量、NaOH是否反应完），使样品组成与盐酸用量自洽；将溶质质量分数答案统一为按Cl守恒算得的11.7g/157.8g≈7.4%（或同步修改题干数据使目标值成立），删除评分点中“消耗HCl 4.0g”“7.05%”等错误中间量；第(4)问答案与评分点统一为“观点不正确：惰性杂质不产生CO2，由CO2推得的Na2CO3质量准确，分母为样品总质量，故不会偏大”，删除自相矛盾的“观点正确”表述。"
+    },
+    {
+      "question_id": "q12",
+      "dimensions": [
+        "science",
+        "coverage",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 45,
+      "root_cause": "RC4",
+      "suggestion": "保持单选3分、技能N1、等级5、认知应用、难度medium不变，按蓝图knowledge_topic“溶液酸碱性与pH的关系判断”重写题干：给出几种溶液的pH数据及指示剂颜色信息，要求判断酸碱性并评估仅凭pH试纸读数区分两种酸性溶液的局限；同时修正选项与答案的唯一性（现题面下唯一成立项为A，参考答案C不成立），删除或改写自相矛盾的B项与无鉴别价值的步骤3，评分点改为“选出正确选项得3分”的表述。"
+    },
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 50,
+      "root_cause": "RC7",
+      "suggestion": "保持单选3分、技能N5、等级4、认知应用、难度easy不变，重写题干约束与选项使唯一正确项成立：可将设问改为“最合理的是”并明确“生成的可溶性盐不计为新杂质”或改用能真正满足“不引入新杂质、不消耗NaOH”的试剂（如适量Ba(OH)2），使四个选项逐一可判；同步修正评分点中“氯化钠是原溶液成分”的事实错误，改为说明生成NaCl属引入新溶质、需在设问中界定，并保证答案与选项一致。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "保持填空6分、技能N4、等级4、认知应用、难度easy不变，重写第(3)问情境：铁粉过量时滤液不含Cu2+，应改为“向滤液中加NaOH无明显现象”或改为向滤渣/另取原混合液加碱，使现象与条件自洽；答案(1)滤液溶质补为FeCl2和FeSO4，并同步修订评分点第2条自相矛盾的表述，删除“通常只填FeSO4得分”的模糊说法。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 25,
+      "root_cause": "RC7",
+      "suggestion": "保持单选3分、技能N4、等级4、认知应用、难度easy不变，在题干中明确“本单元范围内CO2与NaOH只生成Na2CO3”或改写A项使其在给定条件下确定错误（如“溶液A中溶质只有NaOH”），消除A项歧义，使唯一正确项为C；评分点保持与C对应。"
+    },
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "保持单选3分、技能N2、等级4、认知理解、难度easy不变，改写A项使其确定错误（如“反应开始前溶液中只有Na⁺和CO₃²⁻，不存在其他微粒”并明确不计水的电离，或改为“反应开始前溶液中含HCO₃⁻”），消除A项与B项并存的歧义，使唯一正确项为B；评分点保持与B对应。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_answer_scoring",
+      "cause": "第(3)问参考答案7.6%与Cl守恒算得的11.7g/157.8g≈7.4%不符；样品组成与盐酸用量不自洽（若NaOH完全反应需HCl 7.94g＞7.3g，必有约0.7g NaOH未反应）；评分点含“消耗HCl 4.0g”“7.05%”等错误中间量；第(4)问答案先称“观点正确”后结论“不正确”，自相矛盾。",
+      "acceptance_criteria": "题干数据自洽：由质量守恒得m(CO2)=2.2g、m(Na2CO3)=5.3g、质量分数53.0%；第(3)问答案与评分点统一为按Cl守恒计算的NaCl 11.7g、质量分数7.4%（保留一位小数），或修改题干数据使目标值成立且给出完整推导；第(4)问答案与评分点统一为“观点不正确，惰性杂质不产生CO2，由CO2推得的Na2CO3质量准确，分母为样品总质量，故不会偏大”；删除全部错误中间量与矛盾表述；题号、题型、分值10分、知识点、技能N3、等级5、认知综合不变。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "root_cause": "RC4",
+      "operator": "rewrite_task_requirement_and_options",
+      "cause": "实际题干无任何pH数据，任务为石蕊变色与鉴别方案评估，蓝图必考知识点“溶液酸碱性与pH的关系判断”未被实际必答任务直接考查；且题面下唯一成立项为A而参考答案为C，B项自相矛盾、步骤3无鉴别价值。",
+      "acceptance_criteria": "题干给出几种溶液的pH数据及指示剂颜色信息，学生须据此判断酸碱性并评估仅凭pH试纸读数区分两种酸性溶液的局限，直接落实“溶液酸碱性与pH的关系判断”；四个选项逐一可判且恰有一个正确项，答案与选项一致；删除自相矛盾的B项表述与无鉴别价值的步骤3；评分点改为“选出正确选项得3分”；题号、单选3分、技能N1、等级5、认知应用、难度medium不变。",
+      "issue_ids": [
+        "q12-coverage",
+        "q12-science",
+        "q12-difficulty_cognition",
+        "q12-specification",
+        "q12-science-veto",
+        "missing-溶液酸碱性与pH的关系判断"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_options_scoring",
+      "cause": "题干“不引入新杂质、不消耗氢氧化钠”的硬约束下四个选项均不成立（D生成原溶液没有的NaCl），无唯一正确项；评分点称“氯化钠是原溶液成分”为事实错误。",
+      "acceptance_criteria": "在保持单选3分、技能N5、等级4、认知应用、难度easy不变的前提下，题干约束与选项使恰有一个选项满足全部条件（可明确“生成的可溶性盐不计为新杂质”或改用适量Ba(OH)2等试剂），四个选项逐一可判；评分点删除“氯化钠是原溶液成分”的错误表述，改为与设问一致的除杂理由；答案与选项一致。",
+      "issue_ids": [
+        "q2-science",
+        "q2-skills",
+        "q2-specification",
+        "q2-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC7",
+      "operator": "rewrite_subquestion_answer_scoring",
+      "cause": "铁粉过量时CuSO4已被完全置换，滤液不含Cu2+，第(3)问“加NaOH产生蓝色沉淀”与题干条件矛盾；答案(1)滤液溶质漏写FeCl2；评分点第2条自相矛盾。",
+      "acceptance_criteria": "第(3)问情境与“铁粉过量”条件自洽（如改为向滤液中加NaOH无明显现象，或改为向另取的原混合液加碱），现象与结论一致；答案(1)滤液溶质为FeCl2和FeSO4，评分点同步修订并删除“通常只填FeSO4得分”的模糊表述；各空分值合计6分；题号、填空6分、技能N4、等级4、认知应用、难度easy不变。",
+      "issue_ids": [
+        "q19-science",
+        "q19-specification",
+        "q19-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_a",
+      "cause": "“通入足量二氧化碳”与选项A“溶液A中溶质只有碳酸钠”之间存在题干未说明的化学前提（过量CO2是否进一步与Na2CO3反应生成NaHCO3），导致A项判断依赖未写明的假设，唯一性受损。",
+      "acceptance_criteria": "题干明确本单元范围内CO2与NaOH只生成Na2CO3，或改写A项使其在给定条件下确定错误；四个选项逐一可判且唯一正确项为C；评分点与C对应；题号、单选3分、技能N4、等级4、认知应用、难度easy不变。",
+      "issue_ids": [
+        "q6-science",
+        "q6-specification",
+        "q6-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_a",
+      "cause": "A项“反应开始前溶液中只有Na⁺和CO₃²⁻”在初中阶段可判为正确，与B项并存，题干未明确是否排除非过程性描述，导致唯一性受损。",
+      "acceptance_criteria": "改写A项使其确定错误（如明确不计水的电离并改为含HCO₃⁻等错误表述），四个选项逐一可判且唯一正确项为B；评分点与B对应；题号、单选3分、技能N2、等级4、认知理解、难度easy不变。",
+      "issue_ids": [
+        "q9-science",
+        "q9-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "fe02084a747aa6830b80306edd81ca29dcefecca30ed81f800eb8f5551c60f6d"
+    },
+    "q12": {
+      "question_id": "q12",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "coverage.content",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "1fd68b5675aa28f1bdcef6552606a80e14a2bbfd4f2c9c0c801d20b93cabbded"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "49b054e855165eaf79b789dd38331f99768fea7d930ea908b157f2ff75d428d2"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "53baa082bba336ed9edfa178a6371729cfb3f0cc351a432926640fd4c1fdc40d"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "b61e09533a33682ee56876e0fee160f6cd6f0085f370ad03c590b52048749afe"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "bdbcb270720a9287fe37e09f6db474c8f6c09b673d678ee4bb78c1e060120990"
+    }
+  }
+}

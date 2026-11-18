@@ -1,0 +1,288 @@
+{
+  "D": [
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "重写题干数据使NaOH与Na2CO3共存且与10.0g样品自洽：例如把产气段改为60–80g（20g盐酸产2.2g CO2），0–60g段含HCl 0.15mol，扣Na2CO3第一步0.05mol后NaOH为0.10mol（4.0g），Na2CO3 5.3g，合计9.3g，另0.7g惰性杂质；同步重算答案(2)53.0%、(3)NaCl 0.20mol=11.7g、溶液157.8g、约7.4%，并重写全部评分点，删除草稿文本与自拟数据表；第(4)问改为“若另取含不溶惰性杂质的类似样品”，消除与实验一“固体全部溶解”的冲突；第(3)问设问补入对组分质量之和小于10.0g的分析要求，使采分点与设问对应。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "coverage",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC5",
+      "suggestion": "本题与q16的(2)(3)(4)为完全相同的三组反应对且任务层级更低，属重复考查并挤占“酸碱指示剂遇酸碱的颜色变化”低于下限的分值空间；在保持题号、题型、6分、知识点“根据复分解条件判断反应产物”、N4等级2、理解、easy不变的前提下，把三组反应物替换为q16未用的组合（如碳酸钠与氢氧化钙、硫酸与氢氧化钡、硝酸银与氯化钠），并保留“判断能否发生+填写生成物化学式或无反应”的作答形式；同时把第6个评分点改为仅填“无反应”得分，删除“留空也得分”，与题干作答要求一致。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "science",
+        "skills"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "题面存在A、D两个正确项，须重写选项使唯一：把A改为科学错误表述（如“氢氧化钠溶液导电是因为其中含有大量自由移动的H₂O分子”），保留D为唯一正确项；同时按N2等级4要求提升必答任务，题干不直接给出反应前后微粒清单，改为给出实验现象（灯泡变暗未熄灭）与反应事实，要求学生自主推断反应后溶液中仍存在的离子并解释导电性变化与反应实质，落实“分析复杂反应体系中的离子变化”行为；评分点按新选项与推断要求重写。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "参考答案A与唯一正确项B不符，且A中“无气泡产生证明不含碳酸钠”违反碳酸钠与盐酸分步反应（第一步生成NaHCO₃不产气）的事实；将参考答案改为B，并按B重写评分点：1分判断红色褪去可作为中和反应发生的宏观证据，2分判断无气泡不能排除碳酸钠（分步反应第一步无气体），删除“推断不含碳酸钠”的采分表述；选项文字可保留，但须确保A作为错误项不再被标为正确。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "题面存在A、D两个正确项，须改写A使其成为错误项：例如改为“记录①和②均正确，说明只有酸能使石蕊变色、碱不能使石蕊变色”，或改为与题干规则矛盾的表述（如“记录②错误，氢氧化钙溶液不能使石蕊变蓝”）；保留D为唯一正确项，参考答案D不变，评分点按新A的排除依据微调表述。"
+    },
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "suggestion": "题干“酸性溶液X用湿润pH试纸测得pH=9”科学上不成立（稀释只能使酸性溶液pH由酸性侧趋近7，不会升至碱性区9）；在保持题号、题型、3分、知识点“溶液酸碱性与pH的关系判断”、N1等级4、应用、easy不变的前提下，把X的测得值改为酸性区内的偏大值（如真实pH=3的酸性溶液用湿润试纸测得pH=4），并相应改写C、D两个干扰项（如“真实pH等于4”“真实pH小于4”），使B仍为唯一正确项，评分点同步更新。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "题干表格数据不自洽：40–80g段生成0.05mol CO2对应0.05mol HCl，0–40g段同为0.05mol HCl恰被Na2CO3第一步耗尽，推出NaOH为0g，与“主要成分为NaOH”矛盾；参考答案(2)10.6%、(3)15.3%均无法由题面数据推出；评分点混入自我推翻的草稿与自拟数据表。",
+      "acceptance_criteria": "1) 由表格数据可唯一解出NaOH>0且Na2CO3>0，两者质量之和不超过10.0g，剩余部分有明确说明；2) 答案(2)与由CO2量按Na2CO3~CO2独立算出的质量分数一致（保留一位小数）；3) 答案(3)与按题面数据独立算出的NaCl质量、溶液质量及质量分数一致；4) 评分点合计10分，逐点对应四个设问，无草稿文本、无与题干不一致的数据表；5) 第(4)问情境与实验一“固体全部溶解”不冲突；6) 第(3)问设问与采分点一一对应。",
+      "issue_ids": [
+        "q23-science",
+        "q23-difficulty_cognition",
+        "q23-specification",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC5",
+      "operator": "replace_reaction_pairs_and_fix_scoring",
+      "cause": "三组反应对与q16(2)(3)(4)完全相同且任务层级更低，构成重复考查，并挤占“酸碱指示剂遇酸碱的颜色变化”低于分值下限的空间；第6个评分点允许留空得分与题干“填写无反应”要求不符。",
+      "acceptance_criteria": "1) 三组反应物与q16不重复，仍覆盖“生成气体”“生成沉淀”“无沉淀气体水不反应”三类条件；2) 仍为填空形式、6分、知识点“根据复分解条件判断反应产物”、N4等级2、理解、easy；3) 参考答案与评分点逐空对应，合计6分；4) 第(3)题仅填“无反应”得分，留空不得分；5) 修改后本卷“酸碱指示剂遇酸碱的颜色变化”不再因本题重复而低于下限（或明确记录该缺口由其他题位补足）。",
+      "issue_ids": [
+        "q20-coverage",
+        "q20-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_task",
+      "cause": "A项“氢氧化钠溶液导电是因为含大量自由移动的Na⁺和OH⁻”科学正确，与D并存构成双真，单选不唯一；同时题干直接给出反应前后微粒清单，学生仅需单步判断，未落实N2等级4“分析复杂反应体系中的离子变化”的行为。",
+      "acceptance_criteria": "1) 四个选项中恰有一个正确项，参考答案与该唯一正确项一致；2) 错误项的错误属科学错误而非表述歧义；3) 题干不直接列出反应后离子清单，学生须依据现象与反应事实自主推断反应后仍存在的离子并解释导电性变化；4) 评分点3分，覆盖“判断NaOH溶液中大量存在的微粒”与“解释变暗原因及未熄灭原因”两项必答任务；5) 保持单选、3分、知识点“氢氧化钠溶液中大量存在的微粒”、N2等级4、应用、easy。",
+      "issue_ids": [
+        "q6-science",
+        "q6-skills",
+        "q6-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC7",
+      "operator": "fix_answer_key_and_scoring",
+      "cause": "唯一正确项为B，参考答案却为A；A中“无气泡产生证明不含碳酸钠”违反碳酸钠与盐酸分步反应第一步不产气的事实；2分评分点沿用该错误推理。",
+      "acceptance_criteria": "1) 参考答案为B，且逐项核验仅B成立；2) 评分点合计3分，1分对应“红色褪去可作为中和反应发生的宏观证据”，2分对应“无气泡不能排除碳酸钠（分步反应第一步无气体）”；3) 评分点中不再出现“推断不含碳酸钠”的表述；4) 保持单选、3分、知识点“酸碱指示剂遇酸碱的颜色变化”、N1等级4、应用、easy。",
+      "issue_ids": [
+        "q1-science",
+        "q1-specification",
+        "q1-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC7",
+      "operator": "rewrite_option_a",
+      "cause": "A项“记录①和②均正确，说明酸和碱都能使石蕊变色”陈述属实，与D并存构成双真，单选不唯一。",
+      "acceptance_criteria": "1) 改写后四个选项中仅D成立，A为可明确判错的表述；2) 参考答案D不变；3) 评分点合计3分，分别对应排除A/B、确认③符合规则、识别④为异常记录；4) 保持单选、3分、知识点“酸碱指示剂在不同溶液中的变色现象”、N1等级4、应用、easy。",
+      "issue_ids": [
+        "q8-science",
+        "q8-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "root_cause": "RC7",
+      "operator": "rewrite_x_record_and_options",
+      "cause": "“酸性溶液用湿润pH试纸测得pH=9”科学上不成立，稀释只能使酸性溶液pH由酸性侧趋近7，不会升至碱性区。",
+      "acceptance_criteria": "1) X的测得值落在酸性区且相对真实值偏大，符合题内“偏大”规则；2) 四个选项中仅B成立，C、D作为干扰项与“偏大”规则矛盾；3) 参考答案B不变，评分点3分与设问对应；4) 保持单选、3分、知识点“溶液酸碱性与pH的关系判断”、N1等级4、应用、easy。",
+      "issue_ids": [
+        "q2-science",
+        "q2-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a4d252592baef83e3df9ca3e9702362aeec5f1c26ec59f15e72005fe7aa80c23"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0631eb40ebf86fbbb6be0bd468f60f6149ae560a84a5ffb418bef3af610a29cb"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6e990255aa795dade9bcbb8d079acf4460716a27019878cb25dac17f5fda5f94"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "82a17ee9f9931169273a9c67d1665dc057ed24aa9ecb31b83baadbcea57c54af"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "f0803914ef43f577aaca96c27a60226d1dfef8ae1240ddf0154d466cae83031d"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.redundancy",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "41200aa8044e856b8991836b3551e450ec40c317945228283e6c3a622b13a806"
+    }
+  }
+}

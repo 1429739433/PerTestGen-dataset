@@ -1,0 +1,659 @@
+[
+  {
+    "适用画像": [
+      "W-B1",
+      "W-B3",
+      "W-I1",
+      "M-B2",
+      "M-I1",
+      "M-I3",
+      "E-B1",
+      "E-B2",
+      "E-B3",
+      "E-I2",
+      "E-I3"
+    ],
+    "配置": {
+      "agents": {
+        "constructor": {
+          "max_tokens": 12288,
+          "provider": "qwen",
+          "temperature": 0.2
+        },
+        "diagnostician": {
+          "max_tokens": 8192,
+          "provider": "deepseek",
+          "temperature": 0.1
+        },
+        "evaluator": {
+          "max_tokens": 12288,
+          "provider": "glm",
+          "reasoning_effort": "low",
+          "temperature": 0.1
+        },
+        "generator": {
+          "max_tokens": 16384,
+          "provider": "qwen",
+          "temperature": 0.7
+        },
+        "optimizer": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.3
+        },
+        "planner": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.2
+        }
+      },
+      "allocation": {
+        "alpha": 0.5,
+        "difficulty_shift": 0.15,
+        "level_mass": [
+          0.25,
+          0.6,
+          0.15
+        ],
+        "max_candidates_per_slot": 4,
+        "max_nodes": 50000,
+        "priority_weights": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "protected_task_types": [
+          "calculation",
+          "experiment"
+        ],
+        "time_limit_seconds": 10,
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ]
+      },
+      "evaluation": {
+        "batch_questions": 2,
+        "version": "chapter3_20261029"
+      },
+      "method": {
+        "composite_threshold": 85,
+        "diagnosis_mass": 0.8,
+        "draft_review": "none",
+        "execution_revision": "20261106_choice_scratch_and_revision_checks_v9",
+        "generation_rewrites": 2,
+        "longest_common_fragment": 40,
+        "numeric_validation": true,
+        "revision_limit": 2,
+        "semantic_review_batch": 8,
+        "semantic_similarity_threshold": 0.85,
+        "solution_paths": 2,
+        "stoichiometric_repair": true,
+        "version": "chapter3_20261029"
+      },
+      "search": {
+        "accept_verified_progress": true,
+        "compose_safe_repairs": true,
+        "edit_fraction": 0.15,
+        "final_audit": false,
+        "incremental_evaluation": false,
+        "isolated_recovery": true,
+        "pool_size": 1,
+        "repair_batch_limit": 6,
+        "repair_minor_regression": true,
+        "rounds": 5,
+        "score_tolerance": 5,
+        "stable_local_evaluation": true,
+        "stall_rounds": 2,
+        "stop_on_stall": true,
+        "temperatures": [
+          0.3
+        ]
+      },
+      "thresholds": {
+        "coverage": 80,
+        "difficulty_cognition": 80,
+        "science": 80,
+        "skills": 80,
+        "specification": 80
+      },
+      "tree_construction": {
+        "level_conditions": {
+          "1": "在给定必要知识关系、示例或操作步骤及完整信息的条件下，完成一个直接辨认、对应或单步处理任务。",
+          "2": "在熟悉情境和完整信息下，依据给出的关键关系或步骤提示，完成常规任务并作直接说明；不要求独立设计方案。",
+          "3": "在熟悉或轻度变化的情境中，不给出完整步骤，自主选择适用关系并连接两个相关步骤，说明结论依据。",
+          "4": "在信息较多或含干扰的情境中，自主筛选条件、整合多条关系，完成多步分析并检查结论成立的条件。",
+          "5": "在开放或迁移情境中，自主组织证据与约束，提出并比较可行解释或方案，检验结论并说明适用范围与局限。"
+        },
+        "max_revisions": 3,
+        "skill_dimensions": 5
+      },
+      "模型代号": {
+        "deepseek": "deepseek-flash",
+        "glm": "glm-5.3-flash",
+        "qwen": "qwen3.8-flash"
+      }
+    }
+  },
+  {
+    "适用画像": [
+      "W-B2",
+      "W-I3",
+      "M-B1",
+      "M-I2"
+    ],
+    "配置": {
+      "agents": {
+        "constructor": {
+          "max_tokens": 12288,
+          "provider": "qwen",
+          "temperature": 0.2
+        },
+        "diagnostician": {
+          "max_tokens": 8192,
+          "provider": "deepseek",
+          "temperature": 0.1
+        },
+        "evaluator": {
+          "max_tokens": 12288,
+          "provider": "glm",
+          "reasoning_effort": "low",
+          "temperature": 0.1
+        },
+        "generator": {
+          "max_tokens": 16384,
+          "provider": "qwen",
+          "temperature": 0.7
+        },
+        "optimizer": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.3
+        },
+        "planner": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.2
+        }
+      },
+      "allocation": {
+        "alpha": 0.5,
+        "difficulty_shift": 0.15,
+        "level_mass": [
+          0.25,
+          0.6,
+          0.15
+        ],
+        "max_candidates_per_slot": 4,
+        "max_nodes": 50000,
+        "priority_weights": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "protected_task_types": [
+          "calculation",
+          "experiment"
+        ],
+        "time_limit_seconds": 10,
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ]
+      },
+      "evaluation": {
+        "batch_questions": 2,
+        "version": "chapter3_20261029"
+      },
+      "method": {
+        "composite_threshold": 85,
+        "diagnosis_mass": 0.8,
+        "draft_review": "none",
+        "execution_revision": "20261105_evidence_coverage_and_literal_views_v7",
+        "generation_rewrites": 2,
+        "longest_common_fragment": 40,
+        "numeric_validation": true,
+        "revision_limit": 2,
+        "semantic_review_batch": 8,
+        "semantic_similarity_threshold": 0.85,
+        "solution_paths": 2,
+        "stoichiometric_repair": true,
+        "version": "chapter3_20261029"
+      },
+      "search": {
+        "accept_verified_progress": true,
+        "compose_safe_repairs": true,
+        "edit_fraction": 0.15,
+        "final_audit": false,
+        "incremental_evaluation": false,
+        "pool_size": 1,
+        "repair_batch_limit": 6,
+        "repair_minor_regression": true,
+        "rounds": 5,
+        "score_tolerance": 5,
+        "stable_local_evaluation": true,
+        "stall_rounds": 2,
+        "stop_on_stall": true,
+        "temperatures": [
+          0.3
+        ]
+      },
+      "thresholds": {
+        "coverage": 80,
+        "difficulty_cognition": 80,
+        "science": 80,
+        "skills": 80,
+        "specification": 80
+      },
+      "tree_construction": {
+        "level_conditions": {
+          "1": "在给定必要知识关系、示例或操作步骤及完整信息的条件下，完成一个直接辨认、对应或单步处理任务。",
+          "2": "在熟悉情境和完整信息下，依据给出的关键关系或步骤提示，完成常规任务并作直接说明；不要求独立设计方案。",
+          "3": "在熟悉或轻度变化的情境中，不给出完整步骤，自主选择适用关系并连接两个相关步骤，说明结论依据。",
+          "4": "在信息较多或含干扰的情境中，自主筛选条件、整合多条关系，完成多步分析并检查结论成立的条件。",
+          "5": "在开放或迁移情境中，自主组织证据与约束，提出并比较可行解释或方案，检验结论并说明适用范围与局限。"
+        },
+        "max_revisions": 3,
+        "skill_dimensions": 5
+      },
+      "模型代号": {
+        "deepseek": "deepseek-flash",
+        "glm": "glm-5.3-flash",
+        "qwen": "qwen3.8-flash"
+      }
+    }
+  },
+  {
+    "适用画像": [
+      "W-I2"
+    ],
+    "配置": {
+      "agents": {
+        "constructor": {
+          "max_tokens": 12288,
+          "provider": "qwen",
+          "temperature": 0.2
+        },
+        "diagnostician": {
+          "max_tokens": 8192,
+          "provider": "deepseek",
+          "temperature": 0.1
+        },
+        "evaluator": {
+          "max_tokens": 12288,
+          "provider": "glm",
+          "reasoning_effort": "low",
+          "temperature": 0.1
+        },
+        "generator": {
+          "max_tokens": 16384,
+          "provider": "qwen",
+          "temperature": 0.7
+        },
+        "optimizer": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.3
+        },
+        "planner": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.2
+        }
+      },
+      "allocation": {
+        "alpha": 0.5,
+        "difficulty_shift": 0.15,
+        "level_mass": [
+          0.25,
+          0.6,
+          0.15
+        ],
+        "max_candidates_per_slot": 4,
+        "max_nodes": 50000,
+        "priority_weights": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "protected_task_types": [
+          "calculation",
+          "experiment"
+        ],
+        "time_limit_seconds": 10,
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ]
+      },
+      "evaluation": {
+        "batch_questions": 2,
+        "version": "chapter3_20261029"
+      },
+      "method": {
+        "composite_threshold": 85,
+        "diagnosis_mass": 0.8,
+        "draft_review": "none",
+        "execution_revision": "20261106_choice_scratch_and_revision_checks_v8",
+        "generation_rewrites": 2,
+        "longest_common_fragment": 40,
+        "numeric_validation": true,
+        "revision_limit": 2,
+        "semantic_review_batch": 8,
+        "semantic_similarity_threshold": 0.85,
+        "solution_paths": 2,
+        "stoichiometric_repair": true,
+        "version": "chapter3_20261029"
+      },
+      "search": {
+        "accept_verified_progress": true,
+        "compose_safe_repairs": true,
+        "edit_fraction": 0.15,
+        "final_audit": false,
+        "incremental_evaluation": false,
+        "isolated_recovery": true,
+        "pool_size": 1,
+        "repair_batch_limit": 6,
+        "repair_minor_regression": true,
+        "rounds": 5,
+        "score_tolerance": 5,
+        "stable_local_evaluation": true,
+        "stall_rounds": 2,
+        "stop_on_stall": true,
+        "temperatures": [
+          0.3
+        ]
+      },
+      "thresholds": {
+        "coverage": 80,
+        "difficulty_cognition": 80,
+        "science": 80,
+        "skills": 80,
+        "specification": 80
+      },
+      "tree_construction": {
+        "level_conditions": {
+          "1": "在给定必要知识关系、示例或操作步骤及完整信息的条件下，完成一个直接辨认、对应或单步处理任务。",
+          "2": "在熟悉情境和完整信息下，依据给出的关键关系或步骤提示，完成常规任务并作直接说明；不要求独立设计方案。",
+          "3": "在熟悉或轻度变化的情境中，不给出完整步骤，自主选择适用关系并连接两个相关步骤，说明结论依据。",
+          "4": "在信息较多或含干扰的情境中，自主筛选条件、整合多条关系，完成多步分析并检查结论成立的条件。",
+          "5": "在开放或迁移情境中，自主组织证据与约束，提出并比较可行解释或方案，检验结论并说明适用范围与局限。"
+        },
+        "max_revisions": 3,
+        "skill_dimensions": 5
+      },
+      "模型代号": {
+        "deepseek": "deepseek-flash",
+        "glm": "glm-5.3-flash",
+        "qwen": "qwen3.8-flash"
+      }
+    }
+  },
+  {
+    "适用画像": [
+      "M-B3"
+    ],
+    "配置": {
+      "agents": {
+        "constructor": {
+          "max_tokens": 12288,
+          "provider": "qwen",
+          "temperature": 0.2
+        },
+        "diagnostician": {
+          "max_tokens": 8192,
+          "provider": "deepseek",
+          "temperature": 0.1
+        },
+        "evaluator": {
+          "max_tokens": 12288,
+          "provider": "glm",
+          "reasoning_effort": "low",
+          "temperature": 0.1
+        },
+        "generator": {
+          "max_tokens": 16384,
+          "provider": "qwen",
+          "temperature": 0.7
+        },
+        "optimizer": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.3
+        },
+        "planner": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.2
+        }
+      },
+      "allocation": {
+        "alpha": 0.5,
+        "difficulty_shift": 0.15,
+        "level_mass": [
+          0.25,
+          0.6,
+          0.15
+        ],
+        "max_candidates_per_slot": 4,
+        "max_nodes": 50000,
+        "priority_weights": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "protected_task_types": [
+          "calculation",
+          "experiment"
+        ],
+        "time_limit_seconds": 10,
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ]
+      },
+      "evaluation": {
+        "batch_questions": 2,
+        "version": "chapter3_20261029"
+      },
+      "method": {
+        "composite_threshold": 85,
+        "diagnosis_mass": 0.8,
+        "draft_review": "none",
+        "execution_revision": "20261106_choice_scratch_and_revision_checks_v11",
+        "generation_rewrites": 2,
+        "longest_common_fragment": 40,
+        "numeric_validation": true,
+        "revision_limit": 2,
+        "semantic_review_batch": 8,
+        "semantic_similarity_threshold": 0.85,
+        "solution_paths": 2,
+        "stoichiometric_repair": true,
+        "version": "chapter3_20261029"
+      },
+      "search": {
+        "accept_verified_progress": true,
+        "compose_safe_repairs": true,
+        "edit_fraction": 0.15,
+        "final_audit": false,
+        "incremental_evaluation": false,
+        "isolated_recovery": true,
+        "pool_size": 1,
+        "repair_batch_limit": 6,
+        "repair_minor_regression": true,
+        "rounds": 5,
+        "score_tolerance": 5,
+        "stable_local_evaluation": true,
+        "stall_rounds": 2,
+        "stop_on_stall": true,
+        "temperatures": [
+          0.3
+        ]
+      },
+      "thresholds": {
+        "coverage": 80,
+        "difficulty_cognition": 80,
+        "science": 80,
+        "skills": 80,
+        "specification": 80
+      },
+      "tree_construction": {
+        "level_conditions": {
+          "1": "在给定必要知识关系、示例或操作步骤及完整信息的条件下，完成一个直接辨认、对应或单步处理任务。",
+          "2": "在熟悉情境和完整信息下，依据给出的关键关系或步骤提示，完成常规任务并作直接说明；不要求独立设计方案。",
+          "3": "在熟悉或轻度变化的情境中，不给出完整步骤，自主选择适用关系并连接两个相关步骤，说明结论依据。",
+          "4": "在信息较多或含干扰的情境中，自主筛选条件、整合多条关系，完成多步分析并检查结论成立的条件。",
+          "5": "在开放或迁移情境中，自主组织证据与约束，提出并比较可行解释或方案，检验结论并说明适用范围与局限。"
+        },
+        "max_revisions": 3,
+        "skill_dimensions": 5
+      },
+      "模型代号": {
+        "deepseek": "deepseek-flash",
+        "glm": "glm-5.3-flash",
+        "qwen": "qwen3.8-flash"
+      }
+    }
+  },
+  {
+    "适用画像": [
+      "E-I1"
+    ],
+    "配置": {
+      "agents": {
+        "constructor": {
+          "max_tokens": 12288,
+          "provider": "qwen",
+          "temperature": 0.2
+        },
+        "diagnostician": {
+          "max_tokens": 8192,
+          "provider": "deepseek",
+          "temperature": 0.1
+        },
+        "evaluator": {
+          "max_tokens": 12288,
+          "provider": "glm",
+          "reasoning_effort": "low",
+          "temperature": 0.1
+        },
+        "generator": {
+          "max_tokens": 16384,
+          "provider": "qwen",
+          "temperature": 0.7
+        },
+        "optimizer": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.3
+        },
+        "planner": {
+          "max_tokens": 12288,
+          "provider": "deepseek",
+          "temperature": 0.2
+        }
+      },
+      "allocation": {
+        "alpha": 0.5,
+        "difficulty_shift": 0.15,
+        "level_mass": [
+          0.25,
+          0.6,
+          0.15
+        ],
+        "max_candidates_per_slot": 4,
+        "max_nodes": 50000,
+        "priority_weights": [
+          4,
+          3,
+          2,
+          1,
+          0
+        ],
+        "protected_task_types": [
+          "calculation",
+          "experiment"
+        ],
+        "time_limit_seconds": 10,
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ]
+      },
+      "evaluation": {
+        "batch_questions": 2,
+        "version": "chapter3_20261029"
+      },
+      "method": {
+        "composite_threshold": 85,
+        "diagnosis_mass": 0.8,
+        "draft_review": "none",
+        "execution_revision": "20261106_choice_scratch_and_revision_checks_v10",
+        "generation_rewrites": 2,
+        "longest_common_fragment": 40,
+        "numeric_validation": true,
+        "revision_limit": 2,
+        "semantic_review_batch": 8,
+        "semantic_similarity_threshold": 0.85,
+        "solution_paths": 2,
+        "stoichiometric_repair": true,
+        "version": "chapter3_20261029"
+      },
+      "search": {
+        "accept_verified_progress": true,
+        "compose_safe_repairs": true,
+        "edit_fraction": 0.15,
+        "final_audit": false,
+        "incremental_evaluation": false,
+        "isolated_recovery": true,
+        "pool_size": 1,
+        "repair_batch_limit": 6,
+        "repair_minor_regression": true,
+        "rounds": 5,
+        "score_tolerance": 5,
+        "stable_local_evaluation": true,
+        "stall_rounds": 2,
+        "stop_on_stall": true,
+        "temperatures": [
+          0.3
+        ]
+      },
+      "thresholds": {
+        "coverage": 80,
+        "difficulty_cognition": 80,
+        "science": 80,
+        "skills": 80,
+        "specification": 80
+      },
+      "tree_construction": {
+        "level_conditions": {
+          "1": "在给定必要知识关系、示例或操作步骤及完整信息的条件下，完成一个直接辨认、对应或单步处理任务。",
+          "2": "在熟悉情境和完整信息下，依据给出的关键关系或步骤提示，完成常规任务并作直接说明；不要求独立设计方案。",
+          "3": "在熟悉或轻度变化的情境中，不给出完整步骤，自主选择适用关系并连接两个相关步骤，说明结论依据。",
+          "4": "在信息较多或含干扰的情境中，自主筛选条件、整合多条关系，完成多步分析并检查结论成立的条件。",
+          "5": "在开放或迁移情境中，自主组织证据与约束，提出并比较可行解释或方案，检验结论并说明适用范围与局限。"
+        },
+        "max_revisions": 3,
+        "skill_dimensions": 5
+      },
+      "模型代号": {
+        "deepseek": "deepseek-flash",
+        "glm": "glm-5.3-flash",
+        "qwen": "qwen3.8-flash"
+      }
+    }
+  }
+]

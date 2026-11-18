@@ -1,0 +1,295 @@
+{
+  "D": [
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 55,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干流程无钠源：石灰石→CaO→Ca(OH)₂，滤液C为Ca(OH)₂溶液，通CO₂只得CaCO₃沉淀和水，不可能生成含NaOH的溶液F，步骤4'得到氢氧化钠固体'化学上不成立；同时步骤3'适量气体B恰好完全反应'与沉淀E=10g（仅对应4.4g CO₂）及步骤1逸出38g CO₂不匹配。",
+      "suggestion": "在保持题号、题型、分值10分、知识点'酸碱盐反应方程式与溶质质量分数计算'、技能N3、等级5、认知'综合'、难度hard不变的前提下重写题干：补入钠源与真实转化路径（如Na₂CO₃溶液与Ca(OH)₂反应制NaOH，或石灰石→CaO→Ca(OH)₂→与Na₂CO₃反应），使步骤3产物确为NaOH溶液；同步统一CO₂与沉淀E的定量数据（明确通入CO₂的量或改由Na₂CO₃+Ca(OH)₂路径给出沉淀量），并相应修订(3)(4)答案与评分点，使'评估过量试剂与杂质对产品纯度影响'的等级5任务在成立情境中可完成。"
+    },
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干限定变质原因仅为CO₂与NaOH生成Na₂CO₃且提示1用足量稀盐酸，则'无气泡→不含碳酸钠→未变质'（A项）在题内条件下同样成立，与参考答案B构成两个成立选项，单选不唯一。",
+      "suggestion": "保持题号、题型、分值3分、知识点'除去氢氧化钠溶液中碳酸钠杂质的试剂选择'、技能N5、等级2、认知'理解'、难度easy不变，修改题干或选项消除A项成立性：例如将提示1改为'滴加少量稀盐酸'并说明可能的现象局限，或把A项改写为明确错误的表述（如'若产生气泡则说明氢氧化钠完全变质'），使仅B项成立；同步核对评分点与答案。"
+    },
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "六个空仅要求填写已知溶液与指示剂作用后的颜色，属N1等级1—2的单步现象辨认；题干'归纳指示剂的变色规律'无作答栏目也无采分点，等级3要求的对比归纳行为未落实，实际认知低于'应用'。",
+      "suggestion": "保持题号、题型、分值6分、知识点'酸碱指示剂遇酸碱的颜色变化'、技能N1、等级3、认知'应用'、难度easy不变，增设可计分的归纳任务：如增加一空要求'由上述现象归纳：石蕊遇酸变__、遇碱变__；酚酞遇酸及中性__、遇碱变__'，或增设'据此归纳指示剂变色规律'的作答栏并给出对应采分点；同时删去无采分点的'归纳'表述或使其与评分点一致。"
+    },
+    {
+      "question_id": "q17",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_detail": "问(2)'一定不含有的溶质'：步骤2用CaCl₂除尽CO₃²⁻后滤液遇酚酞不变红，可推出NaOH同样不存在，参考答案仅给Ca(OH)₂，未覆盖可推出的全部结论；且步骤2'适量CaCl₂'未保证CO₃²⁻完全沉淀，影响'不变红'的推理前提。",
+      "suggestion": "保持题号、题型、分值6分、知识点'复分解反应发生条件的判断'、技能N4、等级3、认知'理解'、难度easy不变，将步骤2'适量CaCl₂'改为'足量CaCl₂'，并把问(2)答案与评分点补全为'Ca(OH)₂和NaOH'（或调整设问为'一定不含有的溶质是__，判断依据是__'），使答案、采分点与设问范围一致。"
+    },
+    {
+      "question_id": "q12",
+      "dimensions": [
+        "coverage",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "实际任务为对三个给定pH读数作直接对应判断，属N1二级行为；蓝图task_requirement要求的'说明pH与酸碱性强弱的关系（强弱程度比较）'及等级3的对比归纳、自主连接关系并说明依据未落实。",
+      "suggestion": "保持题号、题型、分值3分、知识点'溶液酸碱性与pH的关系判断'、技能N1、等级3、认知'理解'、难度easy不变，修改设问与选项：如给出多个pH读数要求按酸性由强到弱排序，或增设'甲与丙相比，__的酸性更强/碱性更强，依据是__'的选项，使作答必须进行强弱比较与对比归纳。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "参考答案(2)第二备选'酸碱恰好完全中和'超出酚酞褪色所能证明的范围（酚酞约pH8.2即褪色），表述需限定；第一备选'发生了反应'正确，故不构成不可解。",
+      "suggestion": "保持题号、题型、分值5分、知识点'酸碱中和反应的实验操作与现象分析'、技能N5、等级2、认知'理解'、难度easy不变，将答案(2)限定为'稀盐酸与氢氧化钠发生了反应（溶液碱性消失）'，删去或改写'恰好完全中和'备选，并同步修订对应评分点表述。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "题干流程无钠源，滤液C通CO₂不能生成含NaOH的溶液F，步骤4制NaOH不成立；且'适量气体B恰好完全反应'与沉淀E=10g、步骤1逸出38g CO₂的定量关系不匹配。",
+      "acceptance_criteria": "重写后流程中每一步产物与反应物化学上成立（存在明确钠源，步骤3产物确为NaOH溶液）；CO₂用量与沉淀E质量、步骤1逸出CO₂量三者定量自洽；题号q23、题型calculation、分值10分、知识点'酸碱盐反应方程式与溶质质量分数计算'、技能N3、等级5、认知'综合'、难度hard均不变；(1)(2)(3)(4)答案与评分点逐项对应且可独立验证。",
+      "issue_ids": [
+        "q23-science",
+        "q23-science-veto",
+        "q23-skills",
+        "q23-difficulty_cognition",
+        "q23-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "root_cause": "RC7",
+      "operator": "modify_stem_or_option",
+      "cause": "题干条件下A项'无气泡→未变质'同样成立，与B项构成两个成立选项，单选不唯一。",
+      "acceptance_criteria": "修改后逐项独立验证仅B项成立，A、C、D均可依据题内条件明确判错；题号q15、题型single_choice、分值3分、知识点'除去氢氧化钠溶液中碳酸钠杂质的试剂选择'、技能N5、等级2、认知'理解'、难度easy不变；答案与评分点一致。",
+      "issue_ids": [
+        "q15-science",
+        "q15-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC1",
+      "operator": "add_scoring_task",
+      "cause": "六个空仅为单步颜色辨认，等级3的对比归纳行为无作答栏目与采分点，实际认知低于'应用'。",
+      "acceptance_criteria": "修改后学生必答任务包含可计分的对比归纳（如归纳石蕊、酚酞遇酸/碱/中性的变色规律），并有对应采分点；题号q18、题型fill_blank、分值6分、知识点'酸碱指示剂遇酸碱的颜色变化'、技能N1、等级3、认知'应用'、难度easy不变；题干要求与评分点完全对应。",
+      "issue_ids": [
+        "q18-skills",
+        "q18-difficulty_cognition",
+        "q18-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "root_cause": "RC7",
+      "operator": "modify_stem_and_answer",
+      "cause": "问(2)参考答案仅给Ca(OH)₂，遗漏同样可推出的NaOH；步骤2'适量CaCl₂'未保证CO₃²⁻完全沉淀，削弱'不变红'的推理前提。",
+      "acceptance_criteria": "步骤2改为'足量CaCl₂'；问(2)答案与评分点覆盖全部可推出的不含溶质（Ca(OH)₂和NaOH）或设问调整为可唯一作答；题号q17、题型fill_blank、分值6分、知识点'复分解反应发生条件的判断'、技能N4、等级3、认知'理解'、难度easy不变；三问答案与采分点一一对应。",
+      "issue_ids": [
+        "q17-science",
+        "q17-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "root_cause": "RC1",
+      "operator": "modify_stem_and_options",
+      "cause": "实际任务为pH读数与酸碱性的直接对应，未落实等级3的对比归纳与酸碱性强弱比较。",
+      "acceptance_criteria": "修改后作答必须进行酸碱性强弱比较或排序并说明依据，落实N1等级3行为；题号q12、题型single_choice、分值3分、知识点'溶液酸碱性与pH的关系判断'、技能N1、等级3、认知'理解'、难度easy不变；仅一个选项成立。",
+      "issue_ids": [
+        "q12-coverage",
+        "q12-skills",
+        "q12-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "modify_answer_and_scoring",
+      "cause": "答案(2)第二备选'酸碱恰好完全中和'超出酚酞褪色所能证明的范围。",
+      "acceptance_criteria": "答案(2)限定为'稀盐酸与氢氧化钠发生了反应（溶液碱性消失）'，不再出现'恰好完全中和'作为正确结论；题号q21、题型experiment、分值5分、知识点'酸碱中和反应的实验操作与现象分析'、技能N5、等级2、认知'理解'、难度easy不变；评分点2+2+1与三问对应。",
+      "issue_ids": [
+        "q21-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "62af13567e9c4631d1c1279cf3335ea4b25200b5a2b428f8ccd4a674675b5977"
+    },
+    "q12": {
+      "question_id": "q12",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content",
+        "skills.dimension",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2d4beaeec0e26dde07662c1b14381be7849e242b2a4a98c48e3d05b9445627c6"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "9c3aece21aed0733c4a7c5fc3e7756e11fbdb922ce348beb0dc4c474864f3cbd"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7cb0c89ecfe0ea4c48649c517ac4033ba7d466b7454083b1782c7cfcae54b8a8"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a9f8b981511705dc1157207627447ad08b712e056542a6f3a034aa78cfdb395a"
+    },
+    "q17": {
+      "question_id": "q17",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "92ab5209e612e5ae828b609ece22af3c05682611182a351938e5603ba5051c61"
+    }
+  }
+}

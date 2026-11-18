@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "question_id": "q1",
+      "skill_id": "N1",
+      "target_level": 2
+    },
+    {
+      "question_id": "q2",
+      "skill_id": "N1",
+      "target_level": 2
+    },
+    {
+      "question_id": "q3",
+      "skill_id": "N1",
+      "target_level": 2
+    },
+    {
+      "question_id": "q4",
+      "skill_id": "N2",
+      "target_level": 1
+    },
+    {
+      "question_id": "q5",
+      "skill_id": "N2",
+      "target_level": 1
+    },
+    {
+      "question_id": "q6",
+      "skill_id": "N2",
+      "target_level": 2
+    },
+    {
+      "question_id": "q7",
+      "skill_id": "N2",
+      "target_level": 2
+    },
+    {
+      "question_id": "q8",
+      "skill_id": "N2",
+      "target_level": 2
+    },
+    {
+      "question_id": "q9",
+      "skill_id": "N3",
+      "target_level": 1
+    },
+    {
+      "question_id": "q10",
+      "skill_id": "N4",
+      "target_level": 2
+    },
+    {
+      "question_id": "q11",
+      "skill_id": "N4",
+      "target_level": 2
+    },
+    {
+      "question_id": "q12",
+      "skill_id": "N5",
+      "target_level": 2
+    },
+    {
+      "question_id": "q13",
+      "skill_id": "N4",
+      "target_level": 3
+    },
+    {
+      "question_id": "q14",
+      "skill_id": "N5",
+      "target_level": 3
+    },
+    {
+      "question_id": "q15",
+      "skill_id": "N5",
+      "target_level": 3
+    },
+    {
+      "question_id": "q16",
+      "skill_id": "N1",
+      "target_level": 2
+    },
+    {
+      "question_id": "q17",
+      "skill_id": "N2",
+      "target_level": 2
+    },
+    {
+      "question_id": "q18",
+      "skill_id": "N3",
+      "target_level": 2
+    },
+    {
+      "question_id": "q19",
+      "skill_id": "N4",
+      "target_level": 3
+    },
+    {
+      "question_id": "q20",
+      "skill_id": "N4",
+      "target_level": 3
+    },
+    {
+      "question_id": "q21",
+      "skill_id": "N5",
+      "target_level": 3
+    },
+    {
+      "question_id": "q22",
+      "skill_id": "N5",
+      "target_level": 4
+    },
+    {
+      "question_id": "q23",
+      "skill_id": "N3",
+      "target_level": 3
+    }
+  ],
+  "knowledge_catalog": {
+    "N1": [
+      "酸碱指示剂遇酸碱的颜色变化",
+      "溶液酸碱性与pH的关系判断",
+      "氢氧化钠潮解与溶解放热现象",
+      "酸碱指示剂在不同溶液中的变色现象"
+    ],
+    "N2": [
+      "盐酸在水溶液中电离出的离子种类",
+      "氢氧化钠溶液中大量存在的微粒",
+      "中和反应的微观实质",
+      "碳酸钠溶液导电的微观原因",
+      "复分解反应前后离子种类的变化",
+      "从离子角度描述中和反应过程"
+    ],
+    "N3": [
+      "常见酸碱盐的化学式书写判断",
+      "常见盐与酸、碱反应的化学方程式书写",
+      "酸碱盐反应方程式与溶质质量分数计算"
+    ],
+    "N4": [
+      "复分解反应发生条件的判断",
+      "金属与稀盐酸能否反应的判断",
+      "酸碱盐反应条件及产物判断",
+      "根据复分解条件判断反应产物",
+      "碱与非金属氧化物反应及证据分析"
+    ],
+    "N5": [
+      "pH试纸与浓硫酸稀释的实验操作",
+      "除去氢氧化钠溶液中碳酸钠杂质的试剂选择",
+      "检验氢氧化钠是否变质的试剂选择",
+      "酸碱中和反应的实验操作与现象分析",
+      "氢氧化钠变质程度的多证据推断"
+    ]
+  }
+}

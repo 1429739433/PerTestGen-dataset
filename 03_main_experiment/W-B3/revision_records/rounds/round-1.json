@@ -1,0 +1,89 @@
+{
+  "round": 1,
+  "status": "completed",
+  "parent_ids": [
+    "initial"
+  ],
+  "candidate_ids": [
+    "r1-p0-c0",
+    "r1-p0-c1"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 4,
+    "remaining_question_slots": 30,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q9",
+      "q1",
+      "q23",
+      "q21"
+    ],
+    "contributions": {
+      "q21": 3.0,
+      "q9": 6.0,
+      "q23": 8.0,
+      "q1": 1.0
+    },
+    "selected_mass": 1.0,
+    "weighted_penalty_total": 18.0,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q1",
+      "q21",
+      "q23",
+      "q9"
+    ],
+    "authorized_issue_ids": [
+      "q1-specification",
+      "q9-science",
+      "q9-science-veto",
+      "q21-science",
+      "q21-science-veto",
+      "q23-science",
+      "q23-difficulty_cognition",
+      "q23-specification",
+      "q23-science-veto"
+    ],
+    "priority_dimensions": [
+      "science",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [
+      "q11"
+    ],
+    "deferred_question_ids": [],
+    "stalled_question_attempts": {
+      "q11": 4,
+      "q5": 4,
+      "q10": 2,
+      "q6": 1,
+      "q21": 2,
+      "q23": 1,
+      "q14": 1,
+      "q15": 1,
+      "q22": 2
+    },
+    "repair_dimension_candidates": {
+      "science": [
+        "q9",
+        "q21",
+        "q23"
+      ],
+      "specification": [
+        "q1",
+        "q23"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r1-p0-c1"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "round": 4,
+  "status": "completed",
+  "parent_ids": [
+    "r2-p0-c0"
+  ],
+  "candidate_ids": [
+    "r4-p0-c0",
+    "r4-p0-c1"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 5,
+    "remaining_question_slots": 12,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q5",
+      "q8",
+      "q21",
+      "q11",
+      "q6"
+    ],
+    "contributions": {
+      "q1": 0.0,
+      "q2": 0.0,
+      "q3": 0.0,
+      "q4": 0.0,
+      "q5": 10.5,
+      "q6": 3.5,
+      "q7": 0.0,
+      "q8": 6.5,
+      "q9": 0.0,
+      "q10": 0.0,
+      "q11": 3.5,
+      "q12": 0.0,
+      "q13": 0.0,
+      "q14": 0.0,
+      "q15": 0.0,
+      "q16": 0.0,
+      "q17": 0.0,
+      "q18": 0.0,
+      "q19": 0.0,
+      "q20": 0.0,
+      "q21": 4.0,
+      "q22": 0.0,
+      "q23": 0.0
+    },
+    "selected_mass": 1.0,
+    "weighted_penalty_total": 28.0,
+    "policy": "failed_dimensions_major_defects_then_weighted_penalty",
+    "mandatory_major_question_ids": [
+      "q11",
+      "q21",
+      "q5",
+      "q6",
+      "q8"
+    ],
+    "authorized_issue_ids": [
+      "q5-science",
+      "q5-skills",
+      "q5-difficulty_cognition",
+      "q5-science-veto",
+      "q6-skills",
+      "q6-difficulty_cognition",
+      "q8-science",
+      "q8-specification",
+      "q8-science-veto",
+      "q11-science",
+      "q11-specification",
+      "q21-science",
+      "q21-specification"
+    ],
+    "priority_dimensions": [
+      "difficulty_cognition",
+      "science",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": []
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r4-p0-c1"
+  ]
+}

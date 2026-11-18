@@ -1,0 +1,296 @@
+{
+  "D": [
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "science",
+        "specification",
+        "coverage",
+        "difficulty_cognition"
+      ],
+      "penalty": 50,
+      "root_cause": "RC7",
+      "suggestion": "重写选项：A保留为唯一正确项（作用含除过量Ba²⁺与原有Ca²⁺，两条方程式配平、沉淀符号正确，并说明过量Na₂CO₃由后续适量稀盐酸除去、不引入新杂质）；B改为配平错误（如BaCl₂+Na₂CO₃=BaCO₃↓+NaCl）；C改为仅除Ca²⁺、遗漏过量Ba²⁺；D改为将Mg²⁺列为Na₂CO₃除杂对象。删除采分点中的命题者内部说明与拟修正方案，改为逐项判分依据。同时在题干或设问中落实“指出错误写法纠正方向、说明是否引入新杂质”的必答要求，使覆盖与N3四级任务条件一致。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC1",
+      "suggestion": "明确(1)的时点表述（如“加入稀盐酸后、反应发生前”），消除“反应前”两读；将(1)(2)由直接辨认改为需整合题内离子信息与反应进程的多步推断（如给出反应进程示意与现象记录，要求推断某时点大量存在的离子并说明依据），使N2四级“筛选条件、整合多关系、检查结论成立条件”的行为真实发生；评分点3中“共4分”笔误改为与points字段一致的3分表述。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification",
+        "difficulty_cognition"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "suggestion": "删除或放宽(1)中“仅利用废液、不添加新试剂”的自加约束（改为允许使用酚酞、石蕊或pH试纸等），使验证过量盐酸的方案在初中范围内可执行；重写参考答案(1)，删除“需重新审视题目约束”“让我们重新阅读约束”等草稿性文字，给出唯一、判据明确的操作—现象—结论链，并明确该结论能证明与不能证明的边界；评分点(1)按新方案重写给分依据。"
+    },
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "suggestion": "题干明确“该碳酸钠溶液不含杂质”或给出杂质质量，使第(3)问以84.3 g为反应后溶液质量成立；将“久置的碳酸钠溶液的变质程度”改为与设问一致的表述（如“测定某碳酸钠溶液的溶质质量分数并检查反应后溶液组成”）；“烧杯内剩余物质的总质量”改为“反应后烧杯内剩余混合物的总质量”，避免误读为含烧杯质量。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 10,
+      "root_cause": "RC3",
+      "suggestion": "在保持题号、题型、分值、知识点、技能与hard等级不变的前提下，将步骤1、2由完全给定改为给出部分现象与可选试剂，要求学生自主选择检验顺序、说明各步证据的逻辑链并评估方案局限（如为何必须先除尽CO₃²⁻再验OH⁻、替代试剂引入何种干扰），使N5五级“自主设计多步探究流程、动态调整后续计划”的行为真实发生。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "suggestion": "按蓝图task_requirement在题内补出滴加过程的pH变化曲线（或明确给出分步反应条件），使情境呈现方式与easy档预设一致；同时精简采分点中“初中阶段通常简化处理”等说明性文字，改为清晰的判分依据。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q8",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_scoring",
+      "cause": "选项A与B文字完全重复，正确项不唯一，单选唯一性失效；第三采分点含命题者内部设计说明与拟修正方案，非判分规则；且未落实“指出错误写法纠正方向、说明是否引入新杂质”的必答要求。",
+      "acceptance_criteria": "四个选项互不重复；仅A同时满足“作用完整（除过量Ba²⁺与原有Ca²⁺）+两条方程式配平及沉淀符号正确+说明过量Na₂CO₃由适量稀盐酸除去、不引入新杂质”；B为配平错误、C为遗漏过量Ba²⁺、D为误将Mg²⁺列为除杂对象，各含可指认的确定错误；采分点逐项给出A正确依据与B/C/D排除依据，不含命题者内部说明；题干或设问明确要求指出错误写法纠正方向并说明是否引入新杂质。",
+      "issue_ids": [
+        "q8-science",
+        "q8-science-veto",
+        "q8-specification",
+        "q8-coverage",
+        "q8-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_scoring",
+      "cause": "(1)“反应前”时点存在两读（滴盐酸前2种/混合后反应前4种）；(1)(2)(3)以直接辨认与单步填空为主，未落实N2四级“筛选条件、整合多关系、检查结论成立条件”的行为；评分点3文字“共4分”与points字段3分不一致。",
+      "acceptance_criteria": "(1)明确时点表述，答案唯一（4种）且与(2)(3)逻辑一致；至少一问要求整合题内多条离子与现象信息推断某时点大量存在的离子并说明依据，体现多步分析与结论条件检查；各空答案唯一或注明顺序可换；评分点分值合计等于6分，删除“共4分”笔误。",
+      "issue_ids": [
+        "q19-science",
+        "q19-skills",
+        "q19-difficulty_cognition",
+        "q19-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_answer_and_scoring",
+      "cause": "(1)自设“仅利用废液、不添加新试剂”约束，在初中范围内无可行化学验证方案，设问不可解；参考答案(1)最终采纳的回滴法需另取氢氧化钠溶液并滴入酚酞，违反该约束，且判据依赖滴加量、现象与结论对应模糊；答案正文混入草稿性文字。",
+      "acceptance_criteria": "删除或放宽“不添加新试剂”约束，允许使用酚酞、石蕊或pH试纸等常见试剂；参考答案(1)给出唯一可执行的操作—现象—结论链，并明确该结论能证明与不能证明的边界（不能证明恰好完全反应、不能排除pH 7~8.2间的极少量盐酸）；答案与评分点中不含草稿性文字；评分点(1)依据新方案重写，2+1+1+1=5分与分值一致。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification",
+        "q21-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_conditions",
+      "cause": "题干仅假设“杂质（若有）不与盐酸反应”，未排除杂质存在也未给出其质量，第(3)问以5.85 g/84.3 g计算溶质质量分数在存在杂质时不成立；情境表述“久置的碳酸钠溶液的变质程度”不符合化学事实且设问未落实；“烧杯内剩余物质的总质量”可能被误读为含烧杯质量。",
+      "acceptance_criteria": "题干明确“该溶液不含杂质”或给出杂质质量，使(1)~(4)在题给条件下唯一可解；情境表述与设问一致（测定溶质质量分数并检查反应后溶液组成）；质量表述明确为反应后烧杯内剩余混合物的总质量；答案2.2 g、5.3 g、5.85 g、6.9%、10.6%在修订后条件下仍成立；评分点2+3+2+2+1=10分与分值一致。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC3",
+      "operator": "rewrite_task_requirement",
+      "cause": "步骤1、2已完全给定，学生只在既定流程内答目的、判断与评价，实际行为落在N5四级示例（加过量氯化钡沉淀碳酸根再检酚酞），未充分落实五级“自主设计多步探究流程、动态调整后续计划”。",
+      "acceptance_criteria": "在保持题号、题型、分值10分、知识点、N5技能与hard等级不变的前提下，题干给出部分现象与可选试剂，要求学生自主确定检验顺序、说明各步证据的逻辑链，并评估替代试剂（如稀盐酸、氢氧化钡）引入的干扰及方案局限；评分点覆盖自主设计、逻辑链说明与方案评价，合计10分。",
+      "issue_ids": [
+        "q22-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC3",
+      "operator": "rewrite_stem_condition",
+      "cause": "蓝图task_requirement要求题内给出滴加过程中pH变化曲线及记录，实际题干仅有文字记录而无曲线，情境呈现方式与任务条件有差异，推理负担略高于预设easy档。",
+      "acceptance_criteria": "题内补出滴加过程的pH变化曲线（或明确给出分步反应条件），使分阶段判断所需信息以蓝图规定方式呈现；A、C、D仍可据题内信息证伪，B为唯一正确项；采分点删除说明性文字，改为清晰判分依据，3分与分值一致。",
+      "issue_ids": [
+        "q6-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "c4e64a74c80a8f810f4e6e0c87c5145d28541309f9239672346622bcb3103ef1"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7eb044a85eba06741d1bd655803afbcb9e9ffb9ed653bea7890ab69d5c3debdd"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "323349c286dd4c6ba940c4e804bc8aca5804a33945272215aa8c5d52e0e6f674"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6ef60a8237eea41216eff1efcc1f5e603a855c3214ee52ab86302e6c83c7d739"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "d4ebb7adb6d16991ae175eff1f5ccaca2d42359c8f2fd41de6373852a4923fce"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "ec0048a877835f499538fc194353799a2f5c134a0e607d524dca3bb27da6257f"
+    }
+  }
+}

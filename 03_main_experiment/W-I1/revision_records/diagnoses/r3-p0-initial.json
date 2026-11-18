@@ -1,0 +1,99 @@
+{
+  "D": [
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC5",
+      "root_cause_detail": "题干宣称考查化学式书写判断，但四个选项中化学式均书写正确，学生无需判断化学式正误；实际必答任务退化为复分解条件判断与方程式配平核对，与q12、q19重复，导致必考知识点『常见酸碱盐的化学式书写判断』（最低3分）实际得0分。",
+      "suggestion": "保持题号、单选、3分、N3、等级3、easy与理解不变，重写题干与选项，使正确作答必须依据物质类别判断化学式正误：可在选项中设置化学式书写错误项（如NaCO₃、FeCl₂、Fe(OH)₂等），并保留反应能否发生与配平核对，使『常见酸碱盐的化学式书写判断』成为必答判断点；同时调整干扰项避免与q12、q19的复分解条件判断任务重复。"
+    },
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC5",
+      "root_cause_detail": "正确方案A只用酚酞与石蕊，pH试纸仅出现在错误选项C中且排除理由为违反两步递进限定而非pH试纸操作正误，浓硫酸稀释完全未涉及；实际主知识点为指示剂变色鉴别，与q6、q15、q17重复，必考知识点『pH试纸与浓硫酸稀释的实验操作』（最低3分）实际得0分。",
+      "suggestion": "保持题号、单选、3分、N5、等级3、medium与应用不变，重写题干与选项，使正确作答必须判定pH试纸使用操作（如蘸取方式、滴在试纸中部、与标准比色卡对照）或浓硫酸稀释操作（酸入水、沿器壁缓慢加入并搅拌）的正误，并保留两步鉴别方案设计的行为要求；避免正确路径仅依赖指示剂变色而与q6、q15、q17重复。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q8",
+      "root_cause": "RC5",
+      "operator": "rewrite_stem_and_options",
+      "cause": "选项化学式全部正确，学生无需判断化学式正误，目标知识点『常见酸碱盐的化学式书写判断』未被必答任务落实，任务退化为复分解条件与配平核对并与q12、q19重复。",
+      "acceptance_criteria": "1）保持单选、3分、N3、等级3、easy、理解不变；2）至少一个干扰项的化学式书写错误，且排除该项必须依据物质类别判断化学式正误；3）正确项唯一，逐项独立验证成立；4）评分点写明化学式正误判断依据；5）不与q12、q19的复分解条件判断任务重复。",
+      "issue_ids": [
+        "q8-coverage",
+        "missing-常见酸碱盐的化学式书写判断"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "root_cause": "RC5",
+      "operator": "rewrite_stem_and_options",
+      "cause": "正确方案A只用酚酞与石蕊，pH试纸仅作错误选项的附带判断，浓硫酸稀释未涉及，目标知识点『pH试纸与浓硫酸稀释的实验操作』未被必答任务落实，且与q6、q15、q17指示剂变色任务重复。",
+      "acceptance_criteria": "1）保持单选、3分、N5、等级3、medium、应用不变；2）正确作答必须判定pH试纸使用操作或浓硫酸稀释操作的正误，且该判定为排除干扰项或确认正确项的必要依据；3）保留两步鉴别方案设计的行为要求；4）正确项唯一，逐项独立验证成立；5）评分点写明pH试纸或浓硫酸稀释操作的正误依据。",
+      "issue_ids": [
+        "q13-coverage",
+        "missing-pH试纸与浓硫酸稀释的实验操作"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content",
+        "coverage.redundancy"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "caf4bd0bc8e4a50dd9810e55dffdff9c2717e49fa92d9d5e4a677049686aacc9"
+    },
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content",
+        "coverage.redundancy"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "1ba80d87c2569b0598abc8c99f36f5e2d166ad2717bfb0eade9151ac760ae478"
+    }
+  }
+}

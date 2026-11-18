@@ -1,0 +1,275 @@
+{
+  "D": [
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "specification",
+        "difficulty_cognition"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "root_cause_detail": "题表现象表与给定四种溶液（稀盐酸、NaOH、Na₂CO₃、CaCl₂）的化学事实矛盾：'C与D产生白色沉淀'在推断C=CaCl₂、D=NaOH时不成立（CaCl₂与NaOH稀溶液混合无白色沉淀）；参考答案(1)把'C与D'列为能发生复分解且有明显现象的组别，答案(4)又把'H⁺+OH⁻=H₂O'对应到B与C（稀盐酸与氯化钙，二者不反应），题面、答案、评分点三重矛盾。",
+      "suggestion": "重写现象表与设问，使六组现象与四种溶液的真实反应一一自洽（例如保留A与B产气、A与C产白色沉淀、B与D无现象等可验证组合），并同步修正(1)组别、(4)所指组别与离子实质、评分点；修改后逐组复核复分解条件与现象。"
+    },
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "实际必答任务是对比实验证据的分析判断（对照水组排除溶解干扰、由变瘪程度差推断反应发生），属N5类证据分析行为；学生无需调用N4的复分解条件、金属活动性等反应发生条件规则即可作答，N4目标技能未落实。",
+      "suggestion": "在保持单选、3分、N4、等级3、应用、medium不变的前提下，把设问改为要求依据反应发生条件规则判断碱与非金属氧化物能否反应并说明依据（如给出生成物信息与对照证据，要求判断反应能否发生并排除溶解干扰），使选出正确项必须调用N4条件判断。"
+    },
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC3",
+      "root_cause_detail": "认知层级（综合）与蓝图一致，但难度标为easy而实际含两种干扰说法说理排除与判据近似性、结论成立条件的开放性分析，推理量高于easy；(2)三空仅1分、(4)多项内容仅1分，采分点与任务量不匹配。",
+      "suggestion": "在冻结的题号、题型、分值、知识点、技能、等级、认知难度内调整设问梯度与采分分配：将(2)(4)的作答要求拆细并对应到6分内的采分点，或降低(4)的开放度使其与easy定位相称；不改动标签掩盖难度偏移。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC7",
+      "root_cause_detail": "答案3'沉淀+不变红→全部变质'依赖酚酞变色下限（约pH8.2）的近似：不变红只能说明残留OH⁻低于指示剂变色范围，严格不能排除微量NaOH；题目未像q21那样要求讨论该局限，结论表述过强。",
+      "suggestion": "在答案与评分点中把'全部变质'表述为'样品中碳酸钠已检出、氢氧化钠已基本不存在（酚酞不变色表明残留OH⁻低于指示剂变色范围）'，或在设问中增加对指示剂灵敏度局限的说明要求，使结论与证据强度匹配。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 5,
+      "root_cause": "RC1",
+      "root_cause_detail": "(3)自主设计部分为单步检验，等级3要求的'两步以上'自主操作实际由(1)的给定步骤承担，自主选择与两步操作的N5等级3行为未完全展开。",
+      "suggestion": "在保持实验题、5分、N5、等级3、应用、medium不变的前提下，把(3)改为要求学生自主完成两步以上操作（如先选试剂检验酸是否过量，再对'未过量'情形进一步确认无碱剩余），并给出对应现象与结论，使自主设计行为完整落实。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "scoring_points按1.5+1.5列分，但单选按本卷规则选对即得全分3分，分项采分点不进入实际判分；评分点1'C、D试剂选择正确部分得分依据'易被误读为D可部分得分。",
+      "suggestion": "将评分点改为与单选判分一致的表述：正确选项C得3分，其余不得分；解析中说明A违背除杂原则、B/D现象与结论逻辑倒置，删除'部分得分依据'措辞。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q16",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "现象表'C与D产生白色沉淀'与CaCl₂、NaOH混合无沉淀的事实矛盾，导致推断链断裂、答案(1)(4)与题面互相矛盾，按现行评分点无法正确判分。",
+      "acceptance_criteria": "重写后的六组现象与稀盐酸、NaOH、Na₂CO₃、CaCl₂两两混合的真实结果逐组一致；由现象可唯一推断A—D；能发生复分解且有明显现象的组别、对应生成物条件、A与C的方程式、无现象组的离子实质四项答案与题面自洽；评分点与答案逐项对应且合计6分；保持填空、6分、N4、等级3、理解、easy不变。",
+      "issue_ids": [
+        "q16-science",
+        "q16-specification",
+        "q16-science-veto",
+        "q16-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_options",
+      "cause": "设问指向对比实验证据分析，学生不调用N4反应发生条件规则即可选出正确项，N4目标技能未落实。",
+      "acceptance_criteria": "改写后选出正确项必须依据反应发生条件规则（如复分解/碱与非金属氧化物反应条件）判断反应能否发生并排除溶解干扰；四个选项逐项独立验证唯一正确；保持单选、3分、N4、等级3、应用、medium不变。",
+      "issue_ids": [
+        "q13-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC3",
+      "operator": "adjust_task_and_scoring",
+      "cause": "难度标为easy但实际推理量与开放性偏高；(2)(4)采分点1分对应任务量过轻，部分正确作答难以给分。",
+      "acceptance_criteria": "调整后各小问作答量与6分内采分点匹配，(2)(4)的评分点可区分部分正确作答；整体推理量与easy定位相称；保持填空、6分、N2、等级4、综合不变。",
+      "issue_ids": [
+        "q18-difficulty_cognition",
+        "q18-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC7",
+      "operator": "revise_answer_and_scoring",
+      "cause": "'不变红→全部变质'依赖酚酞变色下限的近似，结论表述强于证据强度。",
+      "acceptance_criteria": "答案与评分点对'全部变质'的表述与酚酞灵敏度局限一致（或设问增加对指示剂局限的说明要求）；四问答案与评分点一一对应且合计10分；保持实验题、10分、N5、等级3、综合、hard不变。",
+      "issue_ids": [
+        "q22-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC1",
+      "operator": "rewrite_subquestion",
+      "cause": "(3)自主设计为单步检验，N5等级3'自主选择试剂和方法、完成两步以上操作'的行为未完整落实。",
+      "acceptance_criteria": "(3)要求学生自主选择试剂并完成两步以上操作，写出试剂、操作、现象与结论；评分点覆盖两步操作与结论；保持实验题、5分、N5、等级3、应用、medium不变。",
+      "issue_ids": [
+        "q21-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC6",
+      "operator": "revise_scoring_points",
+      "cause": "分项采分点与单选'选对得全分'规则不一致，且'部分得分依据'措辞易误读。",
+      "acceptance_criteria": "评分点与单选判分规则一致（选C得3分，其余不得分），解析说明A、B、D各自错误原因；保持单选、3分、N5、等级2、理解、easy不变。",
+      "issue_ids": [
+        "q10-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "cbbd496cb19a34f5105f784ad6f30e2e23e50b53515066b43190e27287015c44"
+    },
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "3e068b66089368dba74913a516e8f0ae10a572160cc18834c792f83a48d5b750"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "bb0f38801a51a9257a0e6e8fd36c90d7d69d2b0160e0f71b2df627837f7c2e2c"
+    },
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "390b26bbbbd595983a5742cd5272cc451a9bf8bd92d5ae0f2e77655900f774c9"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "76a0b48b2d0ef41d3e1cde2076ca854ffc4b0ee41eae108e2b1ba4caa55de3f8"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "39293d3a2f619c6486b888c565ac69862208d876b29b19167eea9631155e962b"
+    }
+  }
+}

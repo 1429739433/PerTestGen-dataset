@@ -1,0 +1,114 @@
+{
+  "运行编号": "web-fbddd735a23f",
+  "终止状态": "iteration_limit",
+  "采用版本": "r5-p0-c1",
+  "达标": false,
+  "遗留问题": [
+    {
+      "issue_id": "q5-coverage",
+      "question_ids": [
+        "q5"
+      ],
+      "dimension": "coverage",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC4",
+      "evidence": "content：实际必答任务是筛选Na₂CO₃与盐酸的有效反应、判断过量盐酸蒸发后固体成分，核心考查酸碱盐反应条件及产物判断和常见盐与酸反应的化学方程式书写；选项中方程式与化学式Na₂CO₃、NaHCO₃的辨认确实涉及蓝图知识点'常见酸碱盐的化学式书写判断'，但化学式判断仅为达成产物判断的手段，与蓝图主题存在轻微偏移。；redundancy：'常见酸碱盐的化学式书写判断'由q5(3分)与q14(3分)合计6分，达最低6分。q5与q9虽均含Na₂CO₃+HCl方程式，但q9承载独立的'常见盐与酸、碱反应的化学方程式书写'主题，分值各自达标。"
+    },
+    {
+      "issue_id": "q5-skills",
+      "question_ids": [
+        "q5"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC1",
+      "evidence": "dimension：skill_alignment：assessed_action=在含过量试剂干扰的除杂情境中筛选有效反应、依据方程式判断蒸发后固体成分；relation=direct；evidence_fields=[stem, options.A]；落实N3'识别反应关系、书写化学式与化学方程式'的核心，但缺少等级行为举例中的多步定量计算，属同维度内的轻微弱化，不构成prerequisite_only或different。；cognition：学生需自主筛选'过量盐酸+蒸发'两条信息并整合反应转化与试剂挥发性两条关系得出结论，达到应用层级及等级4'含干扰情境中整合多条关系'的任务条件；单选形式下推理在草稿完成即可，按target_scope规则不因缺书写栏扣分。"
+    },
+    {
+      "issue_id": "q19-science",
+      "question_ids": [
+        "q19"
+      ],
+      "dimension": "science",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "facts：碳酸钠在水溶液中电离出自由移动的Na⁺和CO₃²⁻，溶液导电；初中层面碳酸钠溶液显碱性可解释为溶液中存在OH⁻（CO₃²⁻与水作用产生），参考答案给出的Na⁺、CO₃²⁻、OH⁻均符合教材与化学事实。；solvability：题干给出导电与酚酞变红两项事实，要求填离子符号，信息充分，各空答案明确无歧义。；answer：scoring_points正确列出Na⁺、CO₃²⁻、OH⁻各2分共6分，与三个空对应；但answer键值结构\"(1)\"只给Na⁺、\"(2)\"给CO₃²⁻，与题干编号不符——题干(1)含两个空（应分别为Na⁺和CO₃²⁻），(2)才是OH⁻。评分要点可纠正，不影响实际判分，属轻微瑕疵。"
+    },
+    {
+      "issue_id": "q19-specification",
+      "question_ids": [
+        "q19"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干(1)(2)设问明确，空位对应清晰，要求填离子符号的语境明确（题干给出微观粒子角度），无单位或歧义问题。；scoring：分值6分与三个采分点各2分对应；但answer对象的键编号\"(1)/(2)/(3)\"与题干(1)两空、(2)一空的编号错位，阅卷时需依scoring_points而非answer键名，建议修正键结构，属轻微瑕疵。"
+    },
+    {
+      "issue_id": "q21-specification",
+      "question_ids": [
+        "q21"
+      ],
+      "dimension": "specification",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干明确填化学式/选填试剂/说明理由的要求，各空指令清晰，资料完整，不影响读题作答。；scoring：scoring_points共5分：第(3)问含三个空，但“若改为加入氢氧化钙溶液会造成干扰的原因”一空无对应采分点；(2)的采分点也只覆盖“不能证明不含碳酸钠”，未覆盖参考答案中“不能确定稀盐酸恰好完全反应（盐酸可能过量）”这一采分内容。答案与评分要点不完整对应，须补充采分点提示后才能公平阅卷。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 61.217391,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 77.804348,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 81.26087,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0",
+        "r3-p0-c1"
+      ]
+    },
+    {
+      "round": 4,
+      "accepted": true,
+      "adopted_Q": 84.521739,
+      "status": "completed",
+      "candidates": [
+        "r4-p0-c0",
+        "r4-p0-c1"
+      ]
+    },
+    {
+      "round": 5,
+      "accepted": true,
+      "adopted_Q": 88.630435,
+      "status": "completed",
+      "candidates": [
+        "r5-p0-c0",
+        "r5-p0-c1"
+      ]
+    }
+  ]
+}

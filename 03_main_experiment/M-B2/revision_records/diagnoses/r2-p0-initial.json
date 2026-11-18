@@ -1,0 +1,268 @@
+{
+  "D": [
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "coverage",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC4",
+      "suggestion": "重写本题：以pH试纸测定三种溶液pH并稀释浓硫酸为必答核心，要求学生自主选择指示剂/pH试纸设计两步以上鉴别方案，说明各步现象与结论，并辨析试纸润湿、水入浓硫酸等错误操作后果；设问改为'下列关于区分方案或实验操作的说法正确的是'，使正确项与题干任务一致，不再出现'一步即可区分'与'设计两步'相矛盾。"
+    },
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "在保持题号、题型、分值、知识点、技能N4、等级3、认知应用与medium难度不变的前提下，把情境改为多物质体系：如向含NaOH与Na2CO3的混合液中通CO2或加酸，明确分步加料条件，要求学生推理各阶段反应能否发生、产物及离子共存，并说明证据与排除干扰思路。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "保持N2三级与6分填空不变，把任务提升为比较性任务：给出盐酸与硫酸（或碳酸钠与氯化钠）溶液，要求学生填写离子符号后，从微观角度比较两者性质相似与差异（如与锌反应速率/产物、与氯化钡反应差异），说明阴离子种类对性质的影响，而非仅解释'都含H⁺'。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "suggestion": "在授权字段内修订评分要点，使分值合计等于6分（如第(2)问离子两空各1分、第(3)问1分，或明确各空分值分配），并核对答案与各空一一对应；题干设问与答案保持现有微观实质表述。"
+    },
+    {
+      "question_id": "q11",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 10,
+      "root_cause": "RC2",
+      "suggestion": "保持N3二级、3分单选与easy难度，调整选项设计：使选出正确项必须完成'归纳盐与酸通性+书写并配平Na2CO3与盐酸方程式'两步，干扰项分别设置通性绝对化错误与方程式配平/产物错误，避免仅凭识记单一方程式即可排除。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 5,
+      "root_cause": "RC1",
+      "suggestion": "保持N3二级、3分单选与easy难度，在选项或设问中落实'写出代表性反应化学方程式'这一必答行为：如增设需判断所给方程式是否正确书写的选项，使选出正确项必须同时完成通性归纳与方程式书写判断。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q8",
+      "root_cause": "RC4",
+      "operator": "rewrite_item",
+      "cause": "实际必答核心为石蕊变色现象判断，目标知识点'pH试纸与浓硫酸稀释的实验操作'仅以错误选项附带出现，学生答对不必掌握该操作；同时N5三级'自主选择试剂完成两步以上鉴别'未落实，题干'设计两步实验'与正确项'一步即可区分'矛盾。",
+      "acceptance_criteria": "1) 题干以pH试纸测定与浓硫酸稀释操作为必答核心，正确项必须依赖该操作知识；2) 学生须自主选择试剂并设计两步以上鉴别，说明各步现象与结论；3) 设问与正确项一致，不再出现'两步'与'一步'冲突；4) 保持单选3分、N5、等级3、easy、知识点不变；5) 四个选项逐项可独立判定真伪且仅一项正确。",
+      "issue_ids": [
+        "q8-coverage",
+        "q8-skills",
+        "q8-difficulty_cognition",
+        "q8-specification",
+        "missing-pH试纸与浓硫酸稀释的实验操作"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "root_cause": "RC1",
+      "operator": "rewrite_item",
+      "cause": "题干仍为单一反应（CO2与NaOH）是否发生的证据判断，A/B对照仅排除溶解干扰，未落实N4三级'在多物质体系中推理反应能否发生或共存'的必答行为。",
+      "acceptance_criteria": "1) 情境为含两种以上溶质的混合体系，并明确分步加料或反应完成条件；2) 学生须推理各阶段反应能否发生、产物及离子共存，并说明证据与排除干扰思路；3) 保持单选3分、N4、等级3、应用、medium、知识点不变；4) 选项唯一正确，干扰项对应典型推理谬误。",
+      "issue_ids": [
+        "q15-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC1",
+      "operator": "rewrite_item",
+      "cause": "实际任务为写出离子符号并解释两酸都含H⁺故性质相似，与N2二级示例几乎相同，未达到三级'从微观角度比较不同物质性质差异或相似性'。",
+      "acceptance_criteria": "1) 学生须填写离子符号后，从微观角度比较两种物质性质的相似性与差异（如与锌、与氯化钡反应差异），说明阴离子种类的影响；2) 保持填空6分、N2、等级3、理解、easy、知识点不变；3) 评分点覆盖比较性表述，分值合计6分。",
+      "issue_ids": [
+        "q19-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC6",
+      "operator": "fix_scoring",
+      "cause": "本题points=6，但评分要点分值为2+1+2+1+1=7分，合计与总分不符，阅卷采分会产生歧义。",
+      "acceptance_criteria": "1) 评分要点分值合计等于6分；2) 各评分点与题干(1)(2)(3)设问及答案一一对应；3) 答案与评分点表述一致，不改变知识点、技能、等级与认知要求。",
+      "issue_ids": [
+        "q16-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "root_cause": "RC2",
+      "operator": "rewrite_item",
+      "cause": "实际认知为理解/归纳层级，但选项设计使仅凭识记单一方程式即可排除干扰，未充分落实N3二级'归纳通性并书写代表性方程式'的完整行为。",
+      "acceptance_criteria": "1) 选出正确项须同时完成通性归纳与Na2CO3+2HCl方程式书写配平判断；2) 干扰项分别设置通性绝对化错误与方程式配平/产物错误；3) 保持单选3分、N3、等级2、easy、知识点不变；4) 唯一正确项。",
+      "issue_ids": [
+        "q11-skills",
+        "q11-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC1",
+      "operator": "rewrite_item",
+      "cause": "蓝图task_requirement要求归纳通性并写出代表性反应方程式，题面仅以选项判断承载化学式/离子个数比，未落实方程式书写行为。",
+      "acceptance_criteria": "1) 选项或设问中落实代表性反应化学方程式书写判断，选出正确项须同时完成通性归纳与方程式判断；2) 保持单选3分、N3、等级2、理解、easy、知识点不变；3) 唯一正确项，干扰项对应化合价或配平错误。",
+      "issue_ids": [
+        "q1-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q11": {
+      "question_id": "q11",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "9d6c919fe85e8a4d8dbac3919fad09f7dd04be154ca230d4ac1ae49bd2c1c5fc"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content",
+        "skills.dimension",
+        "difficulty_cognition.difficulty",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "99400523a4fc70a83b2032c5af646f8f9801af2dbc8d4ce3e0703d0ba074c82d"
+    },
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "78d0b50a5f0cd95618bea7fd8b964d5b616144989d45fee0515bb613ebcf1475"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "f6eef289635f345e32bf237c9600d1ccf1d9fb3c2325a7937db82d3e8a9f2204"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "169ec9811b961a95dd6eb274f45a5db2c734eae4e2f1dcd4427c0d805ced8f85"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a4278891502e4f0b48bf4b967171599435cba5b292d1680c4f7cb2955d58fe28"
+    }
+  }
+}

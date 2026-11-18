@@ -1,0 +1,112 @@
+{
+  "运行编号": "web-baafc8d0b277",
+  "终止状态": "needs_review",
+  "采用版本": "r3-p0-c0",
+  "达标": false,
+  "遗留问题": [
+    {
+      "issue_id": "q5-specification",
+      "question_ids": [
+        "q5"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干与选项设问清楚、无歧义；但蓝图task_requirement描述的是'稀硫酸与氢氧化钠、氯化钡、碳酸钠三组体系'，与实际选项（NaCl/CuCl₂/Na₂CO₃/KNO₃四种盐溶液）不一致，属蓝图描述与成题差异，不影响学生作答，提示修订蓝图task_requirement；scoring：3分对应'正确选择C'单一采分点，符合单选选对得全分的计分规则"
+    },
+    {
+      "issue_id": "q12-skills",
+      "question_ids": [
+        "q12"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC1",
+      "evidence": "dimension：题干与选项要求学生判断反应能否发生并辨认正确配平方程式，落实N3等级3行为'根据物质类别，自主判断……复分解反应的方程式'中的判断与辨认部分；但'书写'环节由选项替代，学生无需自主写出方程式，目标等级行为仅部分落实，属不影响作答判分的范围收窄。；cognition：学生需逐项判断反应能否发生并核对方程式配平，属理解层级的应用判断，达到蓝图'理解'。"
+    },
+    {
+      "issue_id": "q13-coverage",
+      "question_ids": [
+        "q13"
+      ],
+      "dimension": "coverage",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC4",
+      "evidence": "content：knowledge_topic为复合名称'pH试纸与浓硫酸稀释的实验操作'。正确项A的作答只依赖酚酞遇碱变红、石蕊遇酸变红遇中性盐不变色，即指示剂变色用于鉴别（K1.3/K5.2方向）。干扰项B、C虽含pH试纸使用与'湿润pH试纸'不规范操作，干扰项D含浓硫酸稀释误用，但依据题干'每一步都必须把尚未区分开的溶液进一步分开'，B、C、D在第一步后即已全部区分、第二步违反递进要求，单凭该判据即可全部排除，正确作答不需判定pH试纸操作正误或浓硫酸稀释知识。目标知识点两个子内容均未被必答任务直接落实，属于同主题（溶液酸碱性检验）但标签不吻合。试卷另需以其他题目正面落实pH试纸规范使用与浓硫酸稀释（如q20仅落实pH与酸碱性关系判断，未落实试纸操作与稀释操作，标签缺口未在本卷其他题补齐）。；redundancy：q13与q21、q20虽涉及鉴别与pH主题，但q13为方案正误判断型单选，q21为自主设计作答、q20为pH判断填空，任务形式与认知层级不同；q13未挤占required_content中的必要知识点（指示剂变色、pH操作等均另以足分值题目落实），无被挤占内容。"
+    },
+    {
+      "issue_id": "q14-specification",
+      "question_ids": [
+        "q14"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干设问结尾'正确的是'后缺少括号（q13为'正确的是（  ）'），不影响学生理解作答，属形式瑕疵；scoring：3分对应3个采分点，与单选选对得全分的规则一致"
+    },
+    {
+      "issue_id": "missing-pH试纸与浓硫酸稀释的实验操作",
+      "question_ids": [
+        "q13"
+      ],
+      "dimension": "coverage",
+      "severity": "critical",
+      "root_cause": "RC4",
+      "penalty": 0,
+      "evidence": "必考知识点完全未被实际考查：pH试纸与浓硫酸稀释的实验操作"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 66.163044,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 83.815217,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0",
+        "r2-p0-c1"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 83.815217,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0"
+      ]
+    },
+    {
+      "round": 4,
+      "accepted": false,
+      "adopted_Q": 83.815217,
+      "status": "completed",
+      "candidates": [
+        "r4-p0-c0"
+      ]
+    },
+    {
+      "round": 5,
+      "accepted": false,
+      "adopted_Q": 83.815217,
+      "status": "completed",
+      "candidates": [
+        "r5-p0-c0"
+      ]
+    }
+  ]
+}

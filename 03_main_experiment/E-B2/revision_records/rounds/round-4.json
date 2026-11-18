@@ -1,0 +1,108 @@
+{
+  "round": 4,
+  "status": "completed",
+  "parent_ids": [
+    "r3-p0-c1"
+  ],
+  "candidate_ids": [
+    "r4-p0-c0",
+    "r4-p0-c1"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 4,
+    "remaining_question_slots": 12,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q16",
+      "q20",
+      "q5",
+      "q17",
+      "q21",
+      "q22"
+    ],
+    "contributions": {
+      "q16": 8.25,
+      "q22": 1.5,
+      "q2": 0.5,
+      "q5": 1.5,
+      "q19": 4.25,
+      "q21": 1.5,
+      "q20": 8.0,
+      "q15": 2.5,
+      "q17": 1.5
+    },
+    "selected_mass": 0.7542372881355932,
+    "weighted_penalty_total": 29.5,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q15",
+      "q16",
+      "q19",
+      "q20"
+    ],
+    "authorized_issue_ids": [
+      "q5-science",
+      "q16-science",
+      "q16-skills",
+      "q16-specification",
+      "q16-science-veto",
+      "q17-science",
+      "q20-science",
+      "q20-specification",
+      "q20-science-veto",
+      "q21-science",
+      "q22-science"
+    ],
+    "priority_dimensions": [
+      "science",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": [
+      "q2",
+      "q15",
+      "q19"
+    ],
+    "stalled_question_attempts": {
+      "q16": 1,
+      "q1": 1,
+      "q19": 1,
+      "q6": 1,
+      "q15": 1,
+      "q20": 1
+    },
+    "repair_dimension_candidates": {
+      "science": [
+        "q5",
+        "q16",
+        "q17",
+        "q19",
+        "q20",
+        "q21",
+        "q22"
+      ],
+      "skills": [
+        "q15",
+        "q16",
+        "q19"
+      ],
+      "specification": [
+        "q2",
+        "q16",
+        "q20"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r4-p0-c1"
+  ]
+}

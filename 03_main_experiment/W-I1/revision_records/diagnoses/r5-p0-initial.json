@@ -1,0 +1,53 @@
+{
+  "D": [
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 5,
+      "root_cause": "RC4",
+      "root_cause_evidence": "knowledge_topic为复合知识点“pH试纸与浓硫酸稀释的实验操作”，但正确项A的必答路径只用酚酞（第一步区分NaOH）与石蕊（第二步区分稀硫酸与NaCl），实际主知识点为酸碱指示剂变色用于两步鉴别；B、C、D均因“第一步已全部区分、第二步未进一步区分”这一题干限定即可排除，正确作答不需判定pH试纸操作正误，浓硫酸稀释子内容完全未涉及。",
+      "suggestion": "在保持q13题号、单选、3分、N5、等级3、medium、应用及知识点“pH试纸与浓硫酸稀释的实验操作”不变的前提下，重写题干与选项，使选出正确项必须同时判定pH试纸规范使用（干燥试纸、玻璃棒蘸取滴于中部、与标准比色卡对照）与浓硫酸稀释操作（酸入水、沿器壁缓慢加入并搅拌、冷却后测定），并保留两步递进鉴别或操作判断的设问结构；干扰项的错误须落在pH试纸操作或稀释操作本身，而非仅靠“未进一步区分”排除。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q13",
+      "root_cause": "RC4",
+      "operator": "rewrite_stem_and_options",
+      "cause": "当前题文虽标注知识点为“pH试纸与浓硫酸稀释的实验操作”，但正确项仅依赖指示剂变色完成两步鉴别，pH试纸仅作情境用品出现，浓硫酸稀释完全未涉及；干扰项可仅凭“每一步须进一步区分”排除，学生无需判定pH试纸或稀释操作正误，目标知识点两个子内容均未被必答任务落实。",
+      "acceptance_criteria": "1）保持q13题号、single_choice、3分、skill_id N5、target_level 3、difficulty medium、cognition 应用及knowledge_topic“pH试纸与浓硫酸稀释的实验操作”不变；2）题干与选项使选出正确项必须同时判定pH试纸规范使用（干燥试纸、玻璃棒蘸取待测液滴于试纸中部、与标准比色卡对照）与浓硫酸稀释操作（将浓硫酸沿烧杯内壁缓慢注入水中并不断搅拌、冷却后测定）；3）至少两个干扰项的错误分别落在pH试纸操作（如润湿试纸、试纸浸入待测液）与稀释操作（如水注入浓硫酸）本身，而非仅因步骤未递进而排除；4）答案唯一，评分点与3分单选全分制一致，正确项的操作与结论均科学正确；5）不得修改标签掩盖缺陷，不得改动冻结的题号、题型、分值、技能、等级与认知难度。",
+      "issue_ids": [
+        "q13-coverage",
+        "missing-pH试纸与浓硫酸稀释的实验操作"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "be6772da049d2e70657606fdcb7f7e9a91f9ed9b16fd248213ef8364261bd15a"
+    }
+  }
+}

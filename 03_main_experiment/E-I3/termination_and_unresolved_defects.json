@@ -1,0 +1,61 @@
+{
+  "运行编号": "web-a185f361a7fa",
+  "终止状态": "quality_met",
+  "采用版本": "r3-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q2-skills",
+      "question_ids": [
+        "q2"
+      ],
+      "dimension": "skills",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC1",
+      "evidence": "dimension：单选作答规则下，B项'③pH=7呈中性、④pH=11呈碱性'可仅凭题干pH记录与pH-酸碱性对应关系直接判真并选出，无需运用'湿润试纸使酸性溶液测得pH偏大'规律：C、D为干扰项，但学生确认B为真后不必评估X的信息即可提交唯一正确选项。改动（C删去'因此它呈碱性'、D删去'因此它呈酸性'的内部矛盾）确实使C、D只能靠题给规律排除，强化了干扰信息的作用，但按target_scope'不经过目标推理也可答对时判技能未落实'，N1等级4的排除干扰行为仍未被强制执行，维持moderate而非原评的pass。；cognition：同上：选出B仅是pH数值与酸碱性、中性与碱性盐（碳酸钠溶液显碱性由题干记录直接给出）的单步对应，属于识记/理解层级；题给湿润试纸规律仅在评估C、D时才被需要，而确认B为真即可作答。实际被强制执行的认知未达蓝图'应用'，本次选项改写虽消除了原版C、D的内部矛盾捷径，但未消除B的直接可判性，判moderate。"
+    },
+    {
+      "issue_id": "q2-difficulty_cognition",
+      "question_ids": [
+        "q2"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC3",
+      "evidence": "cognition：同skills.cognition：单选情境下B项可直接判真，实际思维要求为pH-酸碱性直接对应（理解层级），低于蓝图'应用'。原评由moderate改pass的依据是'需运用规律推断X真实pH<9核查C、D'，但该核查对提交正确选项非必需，故维持moderate。；difficulty：题面清楚、数据常规、单选3分，与easy匹配；缺陷在于B项'③呈中性、④呈碱性'仅凭题干记录即可选出，等级4'排除干扰'的多步整合对走捷径学生部分落空，干扰信息的排除功能仅在学生主动核查C、D时生效。判轻微，与原current判一致；建议设问或选项设计使正确项也依赖X的信息。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 57.184783,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 62.217392,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0",
+        "r2-p0-c1"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 89.815217,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0"
+      ]
+    }
+  ]
+}

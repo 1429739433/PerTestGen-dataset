@@ -1,0 +1,79 @@
+{
+  "运行编号": "web-b04310f7aa3d",
+  "终止状态": "quality_met",
+  "采用版本": "r5-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q1-coverage",
+      "question_ids": [
+        "q1"
+      ],
+      "dimension": "coverage",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC4",
+      "evidence": "content：题干必答任务为依据复分解反应发生条件（生成物中有沉淀、气体或水）逐项判断四组酸碱盐混合能否反应：A项HCl+NaOH生成水，B项Na2CO3+H2SO4生成CO2气体，D项Na2SO4+BaCl2生成BaSO4沉淀，C项KCl与NaNO3交换离子后无沉淀、气体或水生成，答案C唯一正确。该任务直接考查'复分解反应发生条件的判断'，属于目标知识点'酸碱盐反应条件及产物判断'中的反应条件子内容，target的expected_behavior（判断稀硫酸与氯化钡反应能否发生等）与本题D项同型，条件判断目标已落实；但本题未涉及'产物判断'侧（如判断具体生成物并书写方程式，该任务在q3、q6、q10、q16等题落实），故目标知识点仅部分落实，按不吻合目录原标签以实际标签返回。；redundancy：q1为否定设问（选出不能反应项），q2为限定性肯定设问（须同时生成沉淀），两者判断操作和条件运用不同，属同主题不同任务的合理复现；未发现具体被挤占的必要任务，判pass。"
+    },
+    {
+      "issue_id": "q19-specification",
+      "question_ids": [
+        "q19"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干开头称“有镁、锌、铜、银四种金属片”，但表格仅列出镁、锌、铜三种，银未出现在表格中；蓝图task_requirement提到银。该多余信息不影响作答判分，属可保留的小瑕疵，建议删除“银”或补入表格。；scoring：三个评分点各2分，共6分，与题目分值一致，答案逐空对应评分点。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 54.836957,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 63.413043,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": false,
+      "adopted_Q": 63.413043,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0"
+      ]
+    },
+    {
+      "round": 4,
+      "accepted": true,
+      "adopted_Q": 81.684783,
+      "status": "completed",
+      "candidates": [
+        "r4-p0-c0",
+        "r4-p0-c1"
+      ]
+    },
+    {
+      "round": 5,
+      "accepted": true,
+      "adopted_Q": 93.369565,
+      "status": "completed",
+      "candidates": [
+        "r5-p0-c0"
+      ]
+    }
+  ]
+}

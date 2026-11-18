@@ -1,0 +1,270 @@
+{
+  "D": [
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC4",
+      "root_cause_detail": "实际必答任务为按复分解条件判断反应能否发生并核对方程式配平（A、B未配平，D不反应，C正确），四个选项化学式本身均正确，学生无需判断化学式正误，蓝图知识点'常见酸碱盐的化学式书写判断'未被直接落实。",
+      "suggestion": "保持题号、题型、分值、知识点标签、技能N3、等级3、easy不变，重写题干与选项：至少设置一个化学式书写错误（如FeCl₂/Fe(OH)₂、NaCO₃、CuOH等）的干扰项，使选出正确项必须同时判断化学式正误、反应能否发生与配平；答案与评分点同步更新。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干要求2与参考答案依据段、第4采分点将'酚酞由红色恰好变为无色'等同于'恰好完全中和、溶液由碱性变中性'，把指示剂变色范围（约pH8.2起褪色）当作精确等当点，且按此表述给分，会迫使学生写出错误结论。",
+      "suggestion": "保持实验题、5分、知识点、N5、等级3、medium不变，修改题干要求2与参考答案、第4采分点：改为'红色刚好褪去可作为判断反应接近完成的操作依据；仅凭酚酞褪色不能精确断定恰好完全中和或pH=7'，评分点按'接近完全中和+指出指示剂变色范围近似性'给分。"
+    },
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC4",
+      "root_cause_detail": "正确方案A只用酚酞与石蕊，pH试纸仅出现在错误选项C中，浓硫酸稀释完全未涉及，蓝图知识点'pH试纸与浓硫酸稀释的实验操作'未被直接落实。",
+      "suggestion": "保持单选、3分、N5、等级3、medium不变，重写题干与选项：使正确方案必须包含pH试纸规范操作（蘸取滴在试纸中部、与标准比色卡对照）或浓硫酸稀释操作判断，并保留'每步区分新溶液'的两步约束；答案与评分点同步更新。"
+    },
+    {
+      "question_id": "q7",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC7",
+      "root_cause_detail": "蓝图task_requirement要求给出微观示意图，实际以文字等价说明补足，学生仍可作答，属实现偏差；离子种类判断本身正确。",
+      "suggestion": "保持单选、3分、N2、等级1、easy不变，可在题干补配反应前后微观粒子示意图（或保留文字等价说明），使呈现形式与蓝图一致；答案A与评分点不变。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 5,
+      "root_cause": "RC4",
+      "root_cause_detail": "蓝图task_requirement要求配'表面潮湿并逐渐溶解'图示，实际为纯文字描述；文字信息已足以作答，属轻微呈现缺失。",
+      "suggestion": "保持单选、3分、N1、等级1、easy不变，补配氢氧化钠固体敞口放置表面潮湿溶解的示意图；答案A与评分点不变。"
+    },
+    {
+      "question_id": "q5",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "蓝图task_requirement写'稀硫酸与氢氧化钠、氯化钡、碳酸钠三组体系'，实际选项为NaCl/CuCl₂/Na₂CO₃/KNO₃四种盐溶液，蓝图描述与成题不一致，不影响学生作答。",
+      "suggestion": "保持单选、3分、N4、等级3、easy与知识点不变，按实际四组盐溶液修订蓝图task_requirement表述（或按蓝图三组体系调整选项），使任务描述与成题一致；答案C与评分点不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q8",
+      "root_cause": "RC4",
+      "operator": "rewrite_stem_options",
+      "cause": "四个选项化学式均正确，学生无需判断化学式正误，'常见酸碱盐的化学式书写判断'未落实。",
+      "acceptance_criteria": "重写后至少一个干扰项含化学式书写错误（如FeCl₂、NaCO₃、CuOH等），选出正确项须同时判断化学式正误、反应能否发生与配平；仍为单选3分、N3、等级3、easy，答案唯一，评分点与答案一致。",
+      "issue_ids": [
+        "q8-coverage",
+        "missing-常见酸碱盐的化学式书写判断"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "revise_stem_answer_rubric",
+      "cause": "题干要求2、参考答案与第4采分点把酚酞褪色等同于恰好完全中和与pH=7。",
+      "acceptance_criteria": "题干要求2、参考答案与第4采分点改为'红色刚好褪去作为判断反应接近完成的操作依据，仅凭褪色不能精确断定恰好完全中和或pH=7'；仍为实验题5分、N5、等级3、medium，采分点合计5分且与设问逐项对应。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification",
+        "q21-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q13",
+      "root_cause": "RC4",
+      "operator": "rewrite_stem_options",
+      "cause": "正确方案不含pH试纸规范操作，浓硫酸稀释未涉及，目标知识点未落实。",
+      "acceptance_criteria": "重写后正确方案必须包含pH试纸规范操作或浓硫酸稀释操作判断，并保留'每步区分新溶液'的两步约束；仍为单选3分、N5、等级3、medium，答案唯一，评分点与答案一致。",
+      "issue_ids": [
+        "q13-coverage",
+        "missing-pH试纸与浓硫酸稀释的实验操作"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q7",
+      "root_cause": "RC7",
+      "operator": "add_figure",
+      "cause": "蓝图要求微观示意图，实际以文字等价说明替代。",
+      "acceptance_criteria": "题干补配反应前后微观粒子示意图或保留等价文字说明，信息完整、答案A唯一；仍为单选3分、N2、等级1、easy。",
+      "issue_ids": [
+        "q7-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC4",
+      "operator": "add_figure",
+      "cause": "蓝图要求配氢氧化钠固体敞口放置表面潮湿溶解的图示，实际为纯文字。",
+      "acceptance_criteria": "补配对应示意图，文字信息与图一致、答案A唯一；仍为单选3分、N1、等级1、easy。",
+      "issue_ids": [
+        "q10-coverage"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "root_cause": "RC6",
+      "operator": "align_task_requirement",
+      "cause": "蓝图task_requirement的三组体系与实际四组盐溶液选项不一致。",
+      "acceptance_criteria": "蓝图task_requirement与成题选项一致（三组体系或四组盐溶液），题干设问、答案C与评分点不变；仍为单选3分、N4、等级3、easy。",
+      "issue_ids": [
+        "q5-specification"
+      ],
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q7": {
+      "question_id": "q7",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "3e4c16c6a7c6a146c0072cad5b6f126248e5820382ee0d50e6f05d445fe2dbec"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "caf4bd0bc8e4a50dd9810e55dffdff9c2717e49fa92d9d5e4a677049686aacc9"
+    },
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "1ba80d87c2569b0598abc8c99f36f5e2d166ad2717bfb0eade9151ac760ae478"
+    },
+    "q5": {
+      "question_id": "q5",
+      "allowed_fields": [
+        "options",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "c4698043d5c01c305af70ff2b817b48e0b28b6b05aa823c95460370ba071e3bf"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "c81e1f23a688ee6a424c3cfd1c9be18d9ff0997f0a383d46bd8e2788d1f6405c"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "879e6eea3efcb369eff2fb1cee4c2e2c3ab07af567feb7415c575637e4d571e2"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "round": 1,
+  "status": "completed",
+  "parent_ids": [
+    "initial"
+  ],
+  "candidate_ids": [
+    "r1-p0-c0"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 5,
+    "remaining_question_slots": 30,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q8",
+      "q9",
+      "q23",
+      "q13",
+      "q21",
+      "q7"
+    ],
+    "contributions": {
+      "q9": 10.0,
+      "q7": 1.5,
+      "q8": 12.0,
+      "q14": 0.5,
+      "q13": 8.5,
+      "q12": 1.25,
+      "q5": 0.5,
+      "q10": 0.75,
+      "q21": 3.5,
+      "q23": 10.25
+    },
+    "selected_mass": 0.9384615384615385,
+    "weighted_penalty_total": 48.75,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q13",
+      "q21",
+      "q23",
+      "q8",
+      "q9"
+    ],
+    "authorized_issue_ids": [
+      "q7-science",
+      "q8-science",
+      "q8-coverage",
+      "q8-skills",
+      "q8-specification",
+      "q8-science-veto",
+      "q9-science",
+      "q9-difficulty_cognition",
+      "q9-specification",
+      "q9-science-veto",
+      "q13-science",
+      "q13-coverage",
+      "q13-difficulty_cognition",
+      "q13-science-veto",
+      "q21-science",
+      "q21-coverage",
+      "q21-specification",
+      "q23-science",
+      "q23-skills",
+      "q23-difficulty_cognition",
+      "q23-specification",
+      "q23-science-veto",
+      "missing-常见酸碱盐的化学式书写判断",
+      "missing-pH试纸与浓硫酸稀释的实验操作",
+      "missing-酸碱中和反应的实验操作与现象分析"
+    ],
+    "priority_dimensions": [
+      "coverage",
+      "difficulty_cognition",
+      "science",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": [
+      "q5",
+      "q10",
+      "q12",
+      "q14"
+    ],
+    "stalled_question_attempts": {
+      "q21": 2,
+      "q16": 3,
+      "q13": 2
+    },
+    "repair_dimension_candidates": {
+      "coverage": [
+        "q8",
+        "q10",
+        "q13",
+        "q21"
+      ],
+      "difficulty_cognition": [
+        "q9",
+        "q13",
+        "q23"
+      ],
+      "science": [
+        "q7",
+        "q8",
+        "q9",
+        "q13",
+        "q21",
+        "q23"
+      ],
+      "skills": [
+        "q8",
+        "q12",
+        "q23"
+      ],
+      "specification": [
+        "q5",
+        "q8",
+        "q9",
+        "q14",
+        "q21",
+        "q23"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r1-p0-c0"
+  ]
+}

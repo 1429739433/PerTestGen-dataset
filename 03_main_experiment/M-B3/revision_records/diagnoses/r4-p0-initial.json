@@ -1,0 +1,283 @@
+{
+  "D": [
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC6",
+      "root_cause_detail": "RC6规范缺陷（含RC2认知偏低）：(4)答案'溶液中H⁺与OH⁻均已被消耗完'措辞不严格，中性溶液中H⁺与OH⁻仍等量微量存在；(4)问要求判断+微观依据+成立条件三项内容仅设1分，无阶梯给分；蓝图task_requirement要求'微观粒子示意图'，实际以符号串代替，信息等价但呈现形式与蓝图描述有差异。",
+      "suggestion": "将(4)答案改为'不再大量存在H⁺或OH⁻'，评分点拆为判断0.5分、微观依据0.5分、成立条件0.5分（或调整分值结构使合计仍为6分）；题干符号串图例保留，可在题干注明'符号串示意'以对应蓝图表述。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "root_cause_detail": "RC3难度偏移：蓝图task_requirement称'要求学生设计多步检验方案'，但题干已给出完整两步方案，实际任务为分析评价而非自主设计；该任务接近N5等级4行为，对目标等级3学生难度偏高，且与任务要求存在偏差。",
+      "suggestion": "在保持题号、题型、分值、知识点、技能、等级及认知难度要求不变的前提下，将题干方案改为'给出部分提示、由学生补全或选择检验试剂与顺序'，或将设问改为要求学生自主设计检验碳酸钠与残留氢氧化钠的步骤，使实际任务与N5等级3'自主选择试剂和方法、完成两步以上操作'一致。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC6",
+      "root_cause_detail": "RC6规范缺陷：题干(3)明确'从实验桌上的试剂中自主选择（酚酞溶液除外）'，但参考答案示例一、二、三的第二步均写'滴加2滴无色酚酞溶液'，直接违反题干自设排除条件；采分点'(3)第二步：正确选择无色酚酞溶液……得1分'与题干排除条件直接冲突，遵守题干不用酚酞的学生按此评分将失分。",
+      "suggestion": "将(3)第二步参考答案与采分点改为使用紫色石蕊溶液（变蓝说明氢氧化钠剩余，不变蓝说明氢氧化钠已完全反应），或取消题干'酚酞溶液除外'的排除条件并同步修改采分点；确保答案、评分点与题干试剂清单三者一致，分值合计仍为5分。"
+    },
+    {
+      "question_id": "q3",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "RC1维度错配（含RC3难度偏移）：题干仅给出四组两两混合，学生逐组判断单一反应能否发生，属N4等级1行为；未构成等级3要求的多物质体系、分步条件或共存推理，实际难度低于目标技能等级要求。",
+      "suggestion": "在保持单选题型、3分、知识点'酸碱盐反应条件及产物判断'、N4等级3、理解、easy不变的前提下，将题干改为多物质体系情境（如'某混合溶液含稀盐酸和氯化铜，加入铁粉，根据题目明确给出的反应先后顺序推理反应进程及最终溶液成分'或'判断某组离子在溶液中能否大量共存'），使选出正确项确实需要连接两个相关步骤并说明结论依据。"
+    },
+    {
+      "question_id": "q7",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "RC1维度错配（含RC3难度偏移）：实际任务为单一熟悉溶液的微粒辨认与两步联系，属level 2—3行为，未落实target_level 4要求的信息较多含干扰情境中的复杂体系多步离子变化分析；干扰项较直白，不构成等级4所需的多步整合，实际认知为理解/辨识层级，未达到'应用'层级。",
+      "suggestion": "在保持单选题型、3分、知识点'氢氧化钠溶液中大量存在的微粒'、N2等级4、应用、easy不变的前提下，将题干改为含干扰情境的多步微观分析（如给出氢氧化钠溶液与稀盐酸反应前后微粒变化的多条信息，要求学生整合电离、离子结合、导电多条关系并检查结论成立条件），使选出正确项需要筛选条件、排除干扰并说明结论成立条件。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 15,
+      "root_cause": "RC1",
+      "root_cause_detail": "RC1维度错配（含RC3难度偏移）：实际任务为熟悉情境中对成对物质的规则直接应用，仅需按题干明示条件对四组逐一做单步判断，属level 2行为，未涉及level 3要求的多物质体系中反应进程或共存推理，实际难度低于目标技能等级。",
+      "suggestion": "在保持单选题型、3分、知识点'根据复分解条件判断反应产物'、N4等级3、理解、easy不变的前提下，将题干改为多物质体系情境（如'某溶液中含Na⁺、CO₃²⁻、Cl⁻，逐滴加入稀盐酸，根据题目明确给出的分步加料条件推理反应进程及最终溶液成分'或'判断某组离子在溶液中能否大量共存'），使选出正确项需要连接两个相关步骤并说明结论依据。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q18",
+      "root_cause": "RC6",
+      "operator": "modify_answer_and_scoring",
+      "cause": "(4)答案'溶液中H⁺与OH⁻均已被消耗完'措辞不严格，中性溶液中H⁺与OH⁻仍等量微量存在；(4)问要求判断+微观依据+成立条件三项内容仅设1分，无阶梯给分；蓝图task_requirement要求'微观粒子示意图'，实际以符号串代替，信息等价但呈现形式与蓝图描述有差异。",
+      "acceptance_criteria": "(4)答案表述为'不再大量存在H⁺或OH⁻'，结论'恰好完全反应'方向不变；评分点拆分为判断、微观依据、成立条件三个可检查的给分点，合计仍为6分；题干保留符号串图例并注明'符号串示意'，学生可据图例完成全部作答；(1)(2)(3)答案与评分点不变。",
+      "issue_ids": [
+        "q18-science",
+        "q18-skills",
+        "q18-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC3",
+      "operator": "modify_stem_task",
+      "cause": "蓝图task_requirement称'要求学生设计多步检验方案'，但题干已给出完整两步方案，实际任务为分析评价而非自主设计；该任务接近N5等级4行为，对目标等级3学生难度偏高，且与任务要求存在偏差。",
+      "acceptance_criteria": "题干改为给出部分提示、由学生补全或选择检验试剂与顺序，或要求学生自主设计检验碳酸钠与残留氢氧化钠的步骤；学生必答任务包含'自主选择试剂和方法、完成两步以上操作、说明结论依据'；题号、题型、分值10分、知识点'氢氧化钠变质程度的多证据推断'、N5等级3、综合、hard不变；评分点与修改后的设问一一对应，合计仍为10分。",
+      "issue_ids": [
+        "q22-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "modify_answer_and_scoring",
+      "cause": "题干(3)明确'从实验桌上的试剂中自主选择（酚酞溶液除外）'，但参考答案示例一、二、三的第二步均写'滴加2滴无色酚酞溶液'，直接违反题干自设排除条件；采分点'(3)第二步：正确选择无色酚酞溶液……得1分'与题干排除条件直接冲突，遵守题干不用酚酞的学生按此评分将失分。",
+      "acceptance_criteria": "(3)第二步参考答案与采分点改为使用紫色石蕊溶液（变蓝说明氢氧化钠剩余，不变蓝说明氢氧化钠已完全反应），或取消题干'酚酞溶液除外'的排除条件并同步修改采分点；答案、评分点与题干试剂清单三者一致；分值合计仍为5分；学生按题干限定试剂作答可得分。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q3",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_conditions",
+      "cause": "题干仅给出四组两两混合，学生逐组判断单一反应能否发生，属N4等级1行为；未构成等级3要求的多物质体系、分步条件或共存推理，实际难度低于目标技能等级要求。",
+      "acceptance_criteria": "题干改为多物质体系情境（如'某混合溶液含稀盐酸和氯化铜，加入铁粉，根据题目明确给出的反应先后顺序推理反应进程及最终溶液成分'或'判断某组离子在溶液中能否大量共存'）；学生选出正确项确实需要连接两个相关步骤并说明结论依据；题号、单选题型、3分、知识点'酸碱盐反应条件及产物判断'、N4等级3、理解、easy不变；四个选项逐项独立验证唯一正确，评分点与答案对应。",
+      "issue_ids": [
+        "q3-skills",
+        "q3-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q7",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_conditions",
+      "cause": "实际任务为单一熟悉溶液的微粒辨认与两步联系，属level 2—3行为，未落实target_level 4要求的信息较多含干扰情境中的复杂体系多步离子变化分析；干扰项较直白，不构成等级4所需的多步整合，实际认知为理解/辨识层级，未达到'应用'层级。",
+      "acceptance_criteria": "题干改为含干扰情境的多步微观分析（如给出氢氧化钠溶液与稀盐酸反应前后微粒变化的多条信息，要求学生整合电离、离子结合、导电多条关系并检查结论成立条件）；学生选出正确项需要筛选条件、排除干扰并说明结论成立条件；题号、单选题型、3分、知识点'氢氧化钠溶液中大量存在的微粒'、N2等级4、应用、easy不变；四个选项逐项独立验证唯一正确，评分点与答案对应。",
+      "issue_ids": [
+        "q7-skills",
+        "q7-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_conditions",
+      "cause": "实际任务为熟悉情境中对成对物质的规则直接应用，仅需按题干明示条件对四组逐一做单步判断，属level 2行为，未涉及level 3要求的多物质体系中反应进程或共存推理，实际难度低于目标技能等级。",
+      "acceptance_criteria": "题干改为多物质体系情境（如'某溶液中含Na⁺、CO₃²⁻、Cl⁻，逐滴加入稀盐酸，根据题目明确给出的分步加料条件推理反应进程及最终溶液成分'或'判断某组离子在溶液中能否大量共存'）；学生选出正确项需要连接两个相关步骤并说明结论依据；题号、单选题型、3分、知识点'根据复分解条件判断反应产物'、N4等级3、理解、easy不变；四个选项逐项独立验证唯一正确，评分点与答案对应。",
+      "issue_ids": [
+        "q8-skills",
+        "q8-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6f5f149031dde9573deedfed0f69709da0497ab41c32f28688b802ed3a698dc9"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "983d857c7a11aca934c32efd0e4249b6640b346feab3cb47a069b47ae3ea4e2b"
+    },
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "skills.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0f48881b17aa331786ad55a59f1092ef865b8c1c1853574c0290266d258203c8"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "eec0725a3ef8631fad18484b26478de29f50f3205ee3aaf1a965fec39162f88f"
+    },
+    "q7": {
+      "question_id": "q7",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "b9765bd57e6be810a748932ac71d0954ccb453580ae2b34e8ffc46af6cb260dd"
+    },
+    "q3": {
+      "question_id": "q3",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7d56fb83dec04941482539a8c441110f0bbbd75b96e9b4e833d968c425108ad4"
+    }
+  }
+}

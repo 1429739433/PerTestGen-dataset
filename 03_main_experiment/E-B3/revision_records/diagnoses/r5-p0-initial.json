@@ -1,0 +1,140 @@
+{
+  "D": [
+    {
+      "question_id": "q11",
+      "dimensions": [
+        "science",
+        "specification",
+        "skills"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7（科学性错误）为主因：题面设问为“两种物质化学式均正确、且组内盐与氢氧化钠溶液能发生复分解反应、所写方程式也正确”，按此标准B组（FeSO₄、Fe(OH)₂化学式正确，FeSO₄+2NaOH=Fe(OH)₂↓+Na₂SO₄为盐与碱互换离子的复分解反应且书写正确）与C组同时成立，正确项不唯一；而评分要点却以题干中不存在的“生成水和可溶盐”限定排除B，属RC6规范缺陷（评分与题文判定标准不一致）。skills维度另见RC1：实际必答任务停留在化学式辨认与反应能否发生的条件判断，未落实N3等级4“筛选有效反应、书写方程式并进行多步分析”的行为。",
+      "suggestion": "在保持题号、题型（单选）、分值3分、知识点“常见酸碱盐的化学式书写判断”、技能N3、等级4、认知“应用”、难度easy不变的前提下重写题干与选项：①统一判定标准，题面只保留“化学式均正确且组内盐与NaOH能发生复分解反应、方程式正确”三项，删除评分点中“生成水和可溶盐”的隐性限定；②重构四个选项使仅一项满足全部条件——例如将B组改为化学式正确但方程式错误（如FeSO₄+2NaOH=Fe(OH)₂↓+Na₂SO₄改为未配平或产物写错），或将B组改为“硫酸亚铁FeSO₄；氢氧化亚铁Fe(OH)₂；FeSO₄+2NaOH=Fe(OH)₃↓+Na₂SO₄”使方程式错误；③为落实N3等级4，可在同一单选框架内增设需整合多条关系（化学式正误＋复分解条件＋方程式配平与产物）才能排除的干扰项，使选出正确项必须完成多步核对；④同步修订答案与评分点，使评分依据与题面文字完全一致。"
+    },
+    {
+      "question_id": "q12",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7（科学性错误，轻微）：选项D以“碳酸钠水解程度随浓度降低而增大”作为干扰解释，超出本单元教材边界（不得涉及盐类水解定量内容），虽为错误项不影响唯一答案C，但引入超纲概念，可能干扰学生判断。其余事实、可解性、答案与评分点均通过。",
+      "suggestion": "保持题号、题型、分值3分、知识点“溶液酸碱性与pH的关系判断”、技能N1、等级5、认知“应用”、难度medium不变，仅改写选项D的干扰表述，去除“水解程度”这一超纲概念，改为初中范围内可判的错误理由，例如“若先用水润湿pH试纸再滴加碳酸钠溶液，测得pH偏大，因为稀释使碳酸钠溶液的碱性增强”；相应调整评分点第三条的表述，使其与改写后的选项对应，仍保持“碱性溶液润湿后相当于稀释、pH应偏小”的判定方向。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "root_cause_detail": "RC6（规范缺陷，轻微）：第(4)问答案中“也可用pH计测定上层清液pH，pH>7则含氢氧化钠”的替代方案判定不严格——清液中存在BaCO₃的少量溶解，pH>7不能严格确证含NaOH，与FeCl₃红褐色沉淀分支相比证明力更弱；该缺陷涉及初中范围外的溶度积知识，仅影响一个非主采分点的替代方案表述，不影响主答案判分。题干资料、四问设问、分值2+2+2+4=10与评分规则均自洽。",
+      "suggestion": "保持题号、题型（实验）、分值10分、知识点“氢氧化钠变质程度的多证据推断”、技能N5、等级5、认知“综合”、难度hard不变，修订第(4)问答案与评分点：删除或弱化“pH>7则含氢氧化钠”的替代方案，或将其限定为“在排除碳酸根干扰的前提下，用pH计测得清液pH明显大于7可作辅助证据，但确证仍以滴加氯化铁溶液产生红褐色沉淀为准”；评分点中明确以FeCl₃（或等效的特异性OH⁻检验）为主判据，pH计方案仅作辅助且需说明其局限，避免将pH>7作为独立确证依据。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q11",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题面设问的三项条件使B组与C组同时成立，正确项不唯一；评分点又以题干中不存在的“生成水和可溶盐”限定排除B，判定标准与题文不一致。",
+      "acceptance_criteria": "①题面判定标准与评分点文字完全一致，不再出现“生成水和可溶盐”等题面未载明的隐性限定；②四个选项中恰有一项同时满足“两种物质化学式均正确、组内盐与NaOH能发生复分解反应、所写方程式正确”，其余三项各因化学式错误、反应不能发生或方程式错误而被排除；③选出正确项需完成化学式核对、复分解条件判断与方程式配平/产物核对的多步整合，落实N3等级4行为；④答案与评分点同步更新，选对得3分、选错不得分，与单选规则一致。",
+      "issue_ids": [
+        "q11-science",
+        "q11-specification",
+        "q11-skills",
+        "q11-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q12",
+      "root_cause": "RC7",
+      "operator": "rewrite_option",
+      "cause": "选项D使用“碳酸钠水解程度随浓度降低而增大”这一超出本单元教材边界的概念作干扰解释，属超纲瑕疵。",
+      "acceptance_criteria": "①选项D改为初中范围内可判的错误理由，不再出现“水解程度”等超纲概念；②四个选项仍仅C正确且唯一，A、B、D的结论或理由均可依据稀释对酸碱度的影响方向判定为错误；③评分点第三条与改写后的选项对应，仍覆盖“碱性溶液润湿后相当于稀释、pH应偏小”的判定方向；④题号、题型、分值3分、知识点、技能N1、等级5、认知“应用”、难度medium均不变。",
+      "issue_ids": [
+        "q12-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "revise_answer_and_scoring",
+      "cause": "第(4)问答案中“pH>7则含氢氧化钠”的替代方案判定不严格，清液中BaCO₃少量溶解可使pH略大于7，不能严格确证含NaOH。",
+      "acceptance_criteria": "①第(4)问答案以滴加氯化铁溶液产生红褐色沉淀（或等效的特异性OH⁻检验）为主判据，操作、现象、结论对应完整；②若保留pH计方案，须明确其为辅助证据并说明局限，不得将pH>7单独作为确证含NaOH的依据；③评分点4分规则相应调整，仍要求操作、现象、结论对应正确，并保留对选用含SO₄²⁻试剂（如CuSO₄）时须区分BaSO₄白色沉淀与蓝色沉淀的扣分说明；④题号、题型、分值10分、知识点、技能N5、等级5、认知“综合”、难度hard均不变。",
+      "issue_ids": [
+        "q22-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "fc12c4aeec6912bbe603404bcfc65b5e2d185ac84c049d168c20221b9ac502fa"
+    },
+    "q12": {
+      "question_id": "q12",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "cf69165d6fcfca4c98ebd99932b4e842becf6d7c81038c07994efb249c385678"
+    },
+    "q11": {
+      "question_id": "q11",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "8b2c2b8ad1fe412fae77187192325e99f1e2db61effdd7b688090961c1388908"
+    }
+  }
+}

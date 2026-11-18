@@ -1,0 +1,318 @@
+{
+  "D": [
+    {
+      "question_id": "q4",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 60,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7（科学性错误）为主因：B、C两项均同时满足“化学式书写正确且符合除杂原理”，单选无唯一答案；叠加RC1（技能维度未落实，仅辨认化学式未达N3 level4）与RC6（评分点混入命题者内部批注、无法判分）。",
+      "suggestion": "保持单选、3分、N3、level4、easy、知识点“常见酸碱盐的化学式书写判断”不变，重写题干与选项：使干扰项在化学式或除杂原理上明确错误，确保仅一项成立；设问可改为要求判断某步试剂化学式正误并说明其与除杂顺序的对应关系，使选出正确项必须经过筛选有效反应与顺序推理；评分点改为逐项判分说明，删除全部内部批注。"
+    },
+    {
+      "question_id": "q5",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7为主因：现象③“不再产生气泡，此时停止滴加”对停止原因（自然耗尽还是人为停止/酸量不足）存在歧义，导致C项“可能含有碳酸钠”无法唯一判定，参考答案C可解性存疑；叠加RC3（题干已直接给出分步条件，自主筛选要求被削弱）与RC6（评分点含自我推翻的推理文本）。",
+      "suggestion": "保持单选、3分、N4、level4、easy、知识点“酸碱盐反应条件及产物判断”不变，改写现象③表述，明确停止滴加的条件（如“继续滴加至不再产生气泡后仍继续滴加，无新现象”或明确“盐酸恰好与碳酸钠完全反应”），使C项成立条件唯一；或改设一个在题面条件下唯一正确的选项；评分点改为清晰的逐项判分说明。"
+    },
+    {
+      "question_id": "q14",
+      "dimensions": [
+        "science",
+        "coverage",
+        "skills",
+        "specification"
+      ],
+      "penalty": 55,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7为主因：按实际题面B项（稀盐酸除去过量Na₂CO₃和NaOH，化学式HCl）与D项均成立，单选无唯一答案；叠加RC4（目标知识点“常见酸碱盐的化学式书写判断”仅作选项成分，非任务核心）、RC1（无方程式书写与定量分析，N3 level4未落实）、RC6（评分点描述的B、C内容与实际题面选项不一致，且混入命题草稿）。",
+      "suggestion": "保持单选、3分、N3、level4、medium、知识点不变，重写选项使仅一项成立（如将B改为引入新杂质的错误试剂，或将设问改为要求判断化学式正误与除杂顺序的对应关系），并在任务中要求写出关键除杂方程式以落实N3 level4；评分点按实际题面逐项重写，删除草稿文本。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7为主因：题干表格明确“反应前（仅NaOH溶液）：Na⁺、OH⁻”，即反应前无Cl⁻，第(2)问“Na⁺和Cl⁻的数目不变”与题干自给信息矛盾；另“红色恰好褪去”直接等同于“恰好完全反应”属精确断定，酚酞变色范围不能支持。叠加RC1/RC3：给出完整离子表格后各空为直接辨认，未达N2 level4“自主筛选条件、整合多条关系”的要求。",
+      "suggestion": "保持填空、6分、N2、level4、easy、知识点“中和反应的微观实质”不变，修改第(2)问比较基准（如明确“比较反应前后溶液中Na⁺与Cl⁻各自数目”并给出可成立的表述，或改为“反应后新增的离子”），弱化“恰好完全反应”的精确断定（如改为“经检验溶液呈中性”）；同时撤去完整离子表格或改为需学生自行推断的微粒信息，使任务达到level4；answer键编号与题干小问对应。"
+    },
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 30,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7为主因：第3问“红色恰好褪去说明溶液呈中性”为学科错误断定（酚酞变色范围pH约8.2—10，褪色时可能仍呈弱碱性），该错误结论被作为必答采分点；叠加RC6：小问2设问“宏观证据是___”与正确选项“需结合后续红色褪去判断”（判断方法而非证据）口径不匹配。",
+      "suggestion": "保持填空、6分、N1、level4、easy、知识点“酸碱指示剂遇酸碱的颜色变化”不变，将第3问改为“红色恰好褪去说明溶液呈酸性或中性，不能确定具体酸碱性”或补充pH数据佐证；小问2设问改为“判断中和反应已发生的依据是___”，使选项与设问口径一致；评分点同步修订。"
+    },
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7为主因：题干数据自相矛盾——由60→80 g酸段每20.0 g酸产1.1 g CO₂推得产气段盐酸浓度0.0025 mol/g，样品中Na₂CO₃=5.3 g、NaOH=4.7 g，中和NaOH需47.0 g盐酸，加产气段40.0 g共需87.0 g，与表中恰好完全反应对应的80.0 g不符；参考答案(1)10.6%对应Na₂CO₃仅1.06 g（应产0.44 g CO₂），与表中2.2 g矛盾，按数据应为53%；答案(2)12.8%与按数据推出的约7.2%不符。叠加RC6：答案与采分点整体无法判分。",
+      "suggestion": "保持计算题、10分、N3、level4、medium、知识点“酸碱盐反应方程式与溶质质量分数计算”不变，重设数据使样品组成、盐酸浓度与气体数据自洽（如调整样品质量或盐酸加入量，使中和NaOH与产气段消耗盐酸之和等于恰好完全反应对应值），并据此重算答案(1)(2)与评分点；评分点须写明分段依据与计算式。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q4",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_options",
+      "cause": "B、C两项均满足“化学式书写正确且符合除杂原理”，单选无唯一答案；评分点混入命题者内部批注，无法判分。",
+      "acceptance_criteria": "保持单选、3分、N3、level4、easy、知识点“常见酸碱盐的化学式书写判断”不变；逐项独立验证后仅一项成立，其余三项在化学式或除杂原理上明确错误；选出正确项须经过筛选有效反应与除杂顺序推理；评分点逐项说明判分依据，无内部批注文本。",
+      "issue_ids": [
+        "q4-science",
+        "q4-skills",
+        "q4-specification",
+        "q4-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_condition",
+      "cause": "现象③“不再产生气泡，此时停止滴加”对停止原因存在歧义，C项“可能含有碳酸钠”无法唯一判定，参考答案C可解性存疑。",
+      "acceptance_criteria": "保持单选、3分、N4、level4、easy、知识点“酸碱盐反应条件及产物判断”不变；改写后停止滴加条件明确，四个选项逐项独立验证仅一项成立；评分点给出清晰逐项判分说明，无自我推翻文本。",
+      "issue_ids": [
+        "q5-science",
+        "q5-difficulty_cognition",
+        "q5-specification",
+        "q5-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_task",
+      "cause": "按实际题面B项与D项均成立，单选无唯一答案；目标知识点仅作选项成分，N3 level4的方程式书写与定量分析未落实；评分点描述与实际选项不一致。",
+      "acceptance_criteria": "保持单选、3分、N3、level4、medium、知识点不变；逐项验证仅一项成立；任务中要求写出关键除杂方程式以落实N3 level4；评分点按实际题面逐项重写，无草稿文本。",
+      "issue_ids": [
+        "q14-science",
+        "q14-coverage",
+        "q14-skills",
+        "q14-specification",
+        "q14-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "题干表格“反应前仅Na⁺、OH⁻”与第(2)问“Cl⁻数目不变”矛盾；“红色恰好褪去”等同于“恰好完全反应”属精确断定；完整离子表格使任务降为直接辨认，未达N2 level4。",
+      "acceptance_criteria": "保持填空、6分、N2、level4、easy、知识点“中和反应的微观实质”不变；第(2)问比较基准明确且与题干信息自洽；撤去或改造完整离子表格，使学生须自主推断微粒变化；answer键与题干小问编号一一对应；评分点与各空对应。",
+      "issue_ids": [
+        "q16-science",
+        "q16-skills",
+        "q16-difficulty_cognition",
+        "q16-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC7",
+      "operator": "rewrite_subquestion_and_scoring",
+      "cause": "第3问“红色恰好褪去说明溶液呈中性”为学科错误断定并被作为采分点；小问2设问与正确选项口径不匹配。",
+      "acceptance_criteria": "保持填空、6分、N1、level4、easy、知识点“酸碱指示剂遇酸碱的颜色变化”不变；第3问结论与酚酞变色范围一致（呈酸性或中性，不能确定）；小问2设问改为“判断依据”；评分点同步修订且与各小问对应。",
+      "issue_ids": [
+        "q18-science",
+        "q18-specification",
+        "q18-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_data_and_answer",
+      "cause": "题干数据自相矛盾：按产气段推得盐酸浓度0.0025 mol/g，中和NaOH需47.0 g、产气段需40.0 g，共87.0 g，与表中80.0 g不符；答案(1)10.6%与表中2.2 g CO₂矛盾（应为53%），答案(2)12.8%与按数据推出的约7.2%不符。",
+      "acceptance_criteria": "保持计算题、10分、N3、level4、medium、知识点不变；重设数据后样品组成、盐酸浓度与气体数据自洽，恰好完全反应对应盐酸总量与表格一致；答案(1)(2)由新数据重算且可复现；评分点写明分段依据与计算式。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q14": {
+      "question_id": "q14",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "skills.dimension",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "8487b7eccb3d76f9b0bdf32af21a14bcbebcdba6c4c97a334fed0cbf1a5af1ae"
+    },
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "27912ae5ff67bcefae6a920742380ce8521171410293a778db74c19cc8d92ed0"
+    },
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "1ab26c7c0011a0dc8eeca8a1e31fe9906a24cdffe18f47eb78b904ba9232ae32"
+    },
+    "q5": {
+      "question_id": "q5",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "217a1e6ce0266d27abd408bfb16d881fc37d13896c95bd680fc6cca2e90eb31d"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "8e88c073417cfcc711b92b6457c298540e6f63c10b83ea4b2cc4506bace4d8fd"
+    },
+    "q4": {
+      "question_id": "q4",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "53dec89c56d67d0ef7ccca9ec34a1d4159aa09d688621bd93a7722aae385cc7f"
+    }
+  }
+}

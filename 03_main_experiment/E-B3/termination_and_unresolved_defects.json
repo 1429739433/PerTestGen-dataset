@@ -1,0 +1,122 @@
+{
+  "运行编号": "web-d295c166b8dd",
+  "终止状态": "quality_met",
+  "采用版本": "r5-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q2-coverage",
+      "question_ids": [
+        "q2"
+      ],
+      "dimension": "coverage",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC4",
+      "evidence": "content：四个选项均为常见盐（Na₂CO₃、BaCl₂、CuSO₄、CaCO₃）与酸或碱反应的方程式正误筛选，实际任务直接落实目标知识点，同时涉及'复分解反应发生条件的判断'与'酸碱盐反应条件及产物判断'作为支撑。但蓝图task_requirement另要求'指出属于复分解反应的一个实例'，题面无相应设问，属蓝图要求与实际题面的差异；因单选题面使选出正确项仍需经复分解条件推理（判B、D不能发生），该缺失未影响本题主任务落实，故为minor而非更高级别。；redundancy：与q4、q15、q19在盐与酸碱反应方程式主题上有重合，但该主题总分21分满足最低要求21分，重现为不同题型（选择判断与独立书写）的合理复现，未挤占任何required_content中的知识至低于最低分值。"
+    },
+    {
+      "issue_id": "q11-science",
+      "question_ids": [
+        "q11"
+      ],
+      "dimension": "science",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC7",
+      "evidence": "facts：独立验证：硫酸铁应为Fe₂(SO₄)₃、氢氧化铁应为Fe(OH)₃，A组化学式错误成立；B组FeSO₄+2NaOH=Fe(OH)₂↓+Na₂SO₄正确而选项B写成Fe(OH)₃错误成立；C组NaHCO₃+NaOH=Na₂CO₃+H₂O配平正确且生成水满足复分解条件；D组Na₂CO₃+2NaOH不反应（无沉淀、气体或水），化学式互换错误，判断成立。各选项设置与题干描述一致。；solvability：独立核实：A组硫酸铁应为Fe₂(SO₄)₃、氢氧化铁应为Fe(OH)₃，化学式错误排除；B组化学式正确但所写方程式产物Fe(OH)₃错误（FeSO₄+2NaOH应生成Fe(OH)₂↓），排除；D组化学式互换错误且Na₂CO₃+2NaOH无沉淀、气体或水生成，不发生复分解，排除；C组Na₂CO₃/NaHCO₃化学式正确，NaHCO₃+NaOH=Na₂CO₃+H₂O生成水满足复分解条件，方程式正确。按'组内盐与NaOH能发生复分解反应'指所写方程式对应的盐（与'所写化学方程式是否正确'并列的语境）读法，C为唯一满足项，答案唯一。但判定标准'组内盐'未明确指代，若读作该组两种盐均须与NaOH反应，则C组Na₂CO₃不与NaOH反应，C也不满足，题将无正确项；建议改为'该组所写方程式对应的盐能与氢氧化钠溶液发生复分解反应'消除歧义。；answer：参考答案C正确。复核各排除理由：A组FeSO₄/Fe(OH)₂化学式均错误；B组方程式产物Fe(OH)₃错误；D组化学式互换且Na₂CO₃+2NaOH不反应；C组三项判定标准均满足（以'组内盐'指所写方程式对应的盐为读法，见solvability条）。评分点3分与单选分值对应。"
+    },
+    {
+      "issue_id": "q11-specification",
+      "question_ids": [
+        "q11"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干、四组内容、判定标准与设问'选出同时满足上述全部判定标准的一组'总体清楚，选项与设问一一对应；唯一瑕疵为判定标准中'组内盐与氢氧化钠溶液能发生复分解反应'的'组内盐'范围歧义（见science.solvability条），影响部分学生读题，但不改变答案唯一性，属可修补的轻微措辞缺陷。；scoring：评分点'选对得3分，选错或多选不得分'与单选题型、3分分值对应；排除理由与题面判定标准一致（本版不再引用上一版'生成水和可溶盐'的额外限定），唯一正确项C与参考答案对应，按题面作答可被正确判分。"
+    },
+    {
+      "issue_id": "q12-difficulty_cognition",
+      "question_ids": [
+        "q12"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：同skills.cognition：影响方向评估与理由核验达到应用层级。；difficulty：蓝图标medium、N1等级5。独立评估：题干直接给出四种溶液的pH范围（尤其碳酸钠pH>7这一易错点被提示），学生剩余任务仅为判断稀释对pH影响的方向并核验结论与理由，推理为单变量方向判断，四选项结构对称但干扰理由较直白；实际推理负担低于medium应有水平，与等级5'评估方案并预判局限'的行为要求相比深度偏轻。维持minor：建议删去碳酸钠pH提示或增设需学生自行比较的对比项。"
+    },
+    {
+      "issue_id": "q16-skills",
+      "question_ids": [
+        "q16"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC2",
+      "evidence": "dimension：学生必答任务为：由名称书写四个化学式(1)、按类别辨认碱(2)、书写Fe(OH)₃与盐酸反应方程式(3)，均直接落实N3'书写化学式与化学方程式、识别反应关系'，依据stem的subquestions(1)(2)(3)，非以答案解析代替必答任务；未含定量计算不构成维度偏离，属N3范围内行为，技能等级达标情况另见cognition判据。；cognition：蓝图认知为'应用'，target_level=4要求'筛选有效反应、多步定量分析'。实际(1)为名称到化学式的识记书写，(2)为单步分类辨认，仅(3)为单步方程式书写达到应用下限；无多步整合或干扰筛选，整体低于目标认知层级，维持minor。"
+    },
+    {
+      "issue_id": "q16-difficulty_cognition",
+      "question_ids": [
+        "q16"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：同skills.cognition：三问均为识记或单步符号书写，未达到蓝图'应用'层级的多步分析要求，但已完成核心书写任务，判minor。；difficulty：蓝图难度easy，题干给出四种物质名称与必要性质提示，任务量与easy定位相符。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 53.076087,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 58.195652,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 65.597826,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0"
+      ]
+    },
+    {
+      "round": 4,
+      "accepted": true,
+      "adopted_Q": 70.804348,
+      "status": "completed",
+      "candidates": [
+        "r4-p0-c0"
+      ]
+    },
+    {
+      "round": 5,
+      "accepted": true,
+      "adopted_Q": 87.173913,
+      "status": "completed",
+      "candidates": [
+        "r5-p0-c0"
+      ]
+    }
+  ]
+}

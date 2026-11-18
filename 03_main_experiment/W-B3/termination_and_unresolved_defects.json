@@ -1,0 +1,83 @@
+{
+  "运行编号": "web-ceb69dbe034f",
+  "终止状态": "quality_met",
+  "采用版本": "r3-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q6-difficulty_cognition",
+      "question_ids": [
+        "q6"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：实际思维为依据已知操作规范和指示剂性质作判断与核对，未超出理解层级；difficulty：蓝图task_requirement限定为'给出用pH试纸区分两溶液的提示步骤'，实际题面扩展为含指示剂与pH试纸的综合方案正误判断，干扰项更多、作答覆盖面略宽于蓝图设定，故判minor；但各选项仍为熟悉情境下的常规判断，未要求独立设计方案，整体仍属easy，N5二级任务条件总体满足"
+    },
+    {
+      "issue_id": "q9-skills",
+      "question_ids": [
+        "q9"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC1",
+      "evidence": "dimension：N3二级行为为'归纳某类物质的通性并写出代表性方程式'。本题学生实际行为是依据题干通性从四个方程式中选出符合通性且书写正确者（stem、options.A-D），属N3通性匹配与符号判断范畴，direct落实部分；但归纳步骤已由题干代完成（'由上述实验可以归纳出：……通性是生成新盐、水和二氧化碳'），'归纳'环节未在学生侧落实。equivalent目标行为的第一分句'归纳通性并写出代表性方程式'仅落实了代表性方程式判断部分，判minor。除目标知识点外还涉及碳酸氢钠受热分解（选项C干扰项）与碳酸不稳定分解（选项D干扰项）。；cognition：蓝图认知目标为'理解'。学生需理解通性内涵并逐项将方程式与通性、化学式、配平对应核验（如D中H2CO3的写法错误、C中反应类型不符），超出单纯识记；但跨实例归纳已由题干直接给出结论，实际认知负荷略低于完整'归纳并写出'的理解层级，判minor。"
+    },
+    {
+      "issue_id": "q11-coverage",
+      "question_ids": [
+        "q11"
+      ],
+      "dimension": "coverage",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC5",
+      "evidence": "content：蓝图knowledge_topic为“除去氢氧化钠溶液中碳酸钠杂质的试剂选择”，但题干实际考查用稀盐酸检验碳酸钠存在并判断结论，属检验而非除杂试剂选择，实际任务与蓝图知识点名称不符，需修改蓝图知识点或在题干补充除杂任务；redundancy：q11与q22重复检验任务：均以'滴加稀盐酸观察气泡'检验NaOH中碳酸钠（q22实验报告同样以碳酸钠+盐酸产气并验证CO₂为核心证据），q11未增加新必考内容。蓝图要求的'除去氢氧化钠溶液中碳酸钠杂质的试剂选择'（3分）全卷无其他题目落实（confirmed_topic_points中该知识点缺失），q11占用3分却重复q22已有任务，导致该必考知识实际低于最低分值。"
+    },
+    {
+      "issue_id": "q18-skills",
+      "question_ids": [
+        "q18"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC2",
+      "evidence": "dimension：六个空是对多个关联宏观变色现象的识别判断，属N1等级2行为，无微观解释要求，未越界；cognition：蓝图标注cognition=理解，但学生实际只需回忆并辨认指示剂变色结论（辨识操作），不涉及对变色原因的理解或关联推理；建议在评分说明或题干中补充简要理由要求（如说明氯化钠溶液呈中性故石蕊不变色）以落实理解层级"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 73.836957,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0",
+        "r1-p0-c1"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": false,
+      "adopted_Q": 73.836957,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 88.706522,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0"
+      ]
+    }
+  ]
+}

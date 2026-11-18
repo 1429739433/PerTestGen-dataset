@@ -1,0 +1,16 @@
+{
+  "状态": "evaluated",
+  "采用原因": "composite_not_improved",
+  "曾被采用": false,
+  "错误": null,
+  "综合分": 83.173913,
+  "五维分": {
+    "science": 71.956522,
+    "coverage": 88.478261,
+    "skills": 88.478261,
+    "difficulty_cognition": 95,
+    "specification": 71.956522
+  },
+  "评价完整": true,
+  "否决维度": []
+}

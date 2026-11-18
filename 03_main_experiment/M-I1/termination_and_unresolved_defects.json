@@ -1,0 +1,40 @@
+{
+  "运行编号": "web-14dd6f3823cb",
+  "终止状态": "quality_met",
+  "采用版本": "r2-p0-c0",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q17-specification",
+      "question_ids": [
+        "q17"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：题干称'未给出完整步骤，需自行推理'，但①②③已完整给出操作与现象，表述与实际不符；①'先加入足量稀盐酸'的'先'字无后续同管操作对应。均不影响学生读题、作答或判分，属表述瑕疵。；scoring：6个小采分点各1分共6分，与题目分值一致；0.5分半对规则、无依据文字不给分的细则明确，覆盖全部设问。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 69.858696,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 94.347826,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    }
+  ]
+}

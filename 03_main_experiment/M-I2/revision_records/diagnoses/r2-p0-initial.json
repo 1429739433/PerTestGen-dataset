@@ -1,0 +1,292 @@
+{
+  "D": [
+    {
+      "question_id": "q3",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "重写选项与评分点：保留A为唯一正确项；将C改为真正未配平或漏状态符号的错误式（如Cu(OH)₂+H₂SO₄=CuSO₄+H₂O），或改为不能发生复分解的组合；同步修正评分点中对C的判断依据，删除与题面不符的“H₂O前缺系数2”表述，确保逐项独立验证后仅A成立。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "限定设问范围为“上述过程中发生反应的化学方程式”，使D（Na₂CO₃与Ca(OH)₂）不再符合设问；或将D改为配平错误或状态符号错误的干扰项；评分点须对每个干扰项给出排除依据，确保答案唯一为A。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "消除题干pH=6与答案(2)“可能含HCl”的矛盾：或删除步骤③pH数据，或将(2)答案改为“一定含NaCl和HCl（据pH=6）”并重设(3)前提；将(4)中“与甲组成相同但pH恰好为7”改为“另取一份恰好完全反应只含NaCl的溶液乙”；重写(4)答案，明确酚酞不变红只证明无NaOH，无盐酸须由pH=7前提排除，删除“需排除的干扰试剂是酚酞”的自相矛盾表述；同步修改设问文字使“填试剂名称”指向明确。"
+    },
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "suggestion": "删去题干中“氯化氢在水中解离成自由移动的离子”的答案提示，改为给出盐酸导电的宏观事实，要求学生自主用微观粒子解释导电原因（如“盐酸能导电，请从微观角度说明原因”），使(2)不再复述题干原句；保持题型、分值、知识点、技能N2、等级2与easy难度不变。"
+    },
+    {
+      "question_id": "q5",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "suggestion": "在冻结的N4等级2与识记认知下重写设问：将任务改为依据反应条件规则判断NaOH与CO₂能否反应及判断依据（如“下列判断及理由正确的是”），把对照实验评价降为干扰项而非正确项核心；或保留证据分析但将正确项改为“NaOH与CO₂反应生成盐和水，虽无沉淀气体但能发生”类条件判断，使必答任务落在N4等级2行为上。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC2",
+      "suggestion": "在冻结的识记认知下降低任务要求：将设问改为直接辨认反应前后溶液中存在的主要离子（如“反应后溶液中大量存在的离子是”），或改为单步判断某离子数量是否变化，不要求同时跟踪四种离子增减并排除三个干扰项；保持N2等级2、easy与3分不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q3",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_rubric",
+      "cause": "选项C的方程式Cu(OH)₂+H₂SO₄=CuSO₄+2H₂O实际已配平且无需状态符号，与A同为正确项，导致单选答案不唯一；评分点称C“H₂O前缺系数2”与题面文本不符。",
+      "acceptance_criteria": "逐项独立验证后仅A满足“能发生复分解反应且方程式书写完全正确”；C为明确错误项（未配平或漏状态符号或不能反应）；评分点对A、B、C、D各给出与题面文本一致的判断依据；答案唯一为A，3分不变。",
+      "issue_ids": [
+        "q3-science",
+        "q3-specification",
+        "q3-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_scope_and_options",
+      "cause": "设问“下列化学方程式书写正确的是”未限定反应范围，使情境外的D（Na₂CO₃+Ca(OH)₂=CaCO₃↓+2NaOH，配平与↓标注均正确）也符合设问，与A并列正确；评分点未对D作排除说明。",
+      "acceptance_criteria": "设问限定为“上述过程中发生反应的化学方程式书写正确的是”或D改为明确错误项；逐项验证后仅A正确；评分点对B（未配平）、C（漏↓）、D给出与题面一致的排除依据；答案唯一为A，3分不变。",
+      "issue_ids": [
+        "q6-science",
+        "q6-specification",
+        "q6-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_data_and_answer",
+      "cause": "题干步骤③给出pH=6，溶液显酸性，但答案(2)将HCl列为“可能含有”，与已给测量矛盾；(4)“与甲组成相同但pH恰好为7”条件不自洽；答案(4)称酚酞不变红可证明无盐酸，与酚酞在酸性中同样不变红的事实矛盾，且“需排除的干扰试剂是酚酞”与方案自相矛盾。",
+      "acceptance_criteria": "(2)答案与题干pH数据一致（据pH=6确定含HCl，或删除pH数据后按刚褪色时刻作答）；(4)溶液乙条件自洽（改为“恰好完全反应只含NaCl”）；(4)标准答案明确酚酞不变红只证明无NaOH，无盐酸由pH=7前提排除，无自相矛盾表述；设问“填试剂名称”指向明确；各评分点与答案闭合，总分5分不变。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification",
+        "q21-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_prompt",
+      "cause": "题干已明示“氯化氢在水中解离成自由移动的离子”，(2)答案关键词在题干原句出现，学生复述即可作答，实际仅落实N2等级1的辨认行为，未落实等级2“用微观粒子解释简单宏观现象”的目标行为。",
+      "acceptance_criteria": "删去题干中直接给出答案的提示句，改为给出盐酸能导电的宏观事实并要求学生自主从微观角度解释原因；作答需调用“自由移动的离子”这一微观模型而非复述题干；题型、分值6分、知识点、技能N2、等级2、easy难度均不变。",
+      "issue_ids": [
+        "q18-skills",
+        "q18-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "root_cause": "RC1",
+      "operator": "rewrite_task_requirement",
+      "cause": "实际必答任务是对实验证据充分性作评价并指出需对照实验，对应N5的证据评估行为；N4等级2“依据反应条件规则解释或判断常见反应能否发生”仅是解题前置，目标技能维度未直接落实，且实际认知超出蓝图“识记”。",
+      "acceptance_criteria": "设问核心落在N4等级2行为上：学生须依据反应条件规则判断NaOH与CO₂能否反应并说明依据（生成盐和水，虽无沉淀气体但属非金属氧化物与碱反应）；对照实验评价仅作干扰项；认知操作与“识记”一致；题型、分值3分、技能N4、等级2、easy难度不变。",
+      "issue_ids": [
+        "q5-skills",
+        "q5-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC2",
+      "operator": "lower_task_cognitive_demand",
+      "cause": "蓝图认知为“识记”，但实际任务要求跟踪四种离子在反应中的数量增减并排除三个干扰项，属理解/应用层级，认知定位偏低。",
+      "acceptance_criteria": "设问改为识记层级的直接辨认或单步判断（如“反应后溶液中大量存在的离子是”或“某离子数量是否变化”），不要求同时跟踪四种离子并综合排除；答案唯一；题型、分值3分、技能N2、等级2、easy难度不变。",
+      "issue_ids": [
+        "q8-skills",
+        "q8-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "e1b41edc723e6193fe1af9d9b9e6e2da200767c8713fae4c87ac7a14cec69254"
+    },
+    "q5": {
+      "question_id": "q5",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "48d194d143ac7e721f5dedc99e328f1b33d43c4de698a204de5dcc2a83e9cdb7"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "34cf90b71d589352c34d196908a7f88c120c197f7f0294a59af751379a544965"
+    },
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a6e469864b8427920246f30fc29637c22b9a4901b3134174be2c02f8deb4d4cd"
+    },
+    "q3": {
+      "question_id": "q3",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "e91c27296d350a012fdb7ba7180ae6621de04cc8e28922f33e872505bc1f30a6"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a8e175834bb4c53d69793e514140d124668bfd2fcd4e683042a199e828fcfc86"
+    }
+  }
+}

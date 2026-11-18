@@ -1,0 +1,289 @@
+{
+  "D": [
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC4",
+      "suggestion": "保持题号、题型、分值、技能N2与等级5不变，重写题干与选项：不再直接给出“稀盐酸中大量存在的离子为H⁺和Cl⁻”，改为呈现盐酸电离的微观示意或中性溶液信息，使学生在选项中必须自行辨认盐酸中大量存在的离子（H⁺、Cl⁻），再评估“Cl⁻也参加了反应”的观点；确保选出正确项必须调用该知识点，而非仅凭题干已知条件。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC6",
+      "suggestion": "保持题号、题型、分值6分、知识点与认知综合不变，修正答案与评分点：(2)反应后溶液总质量150g，NaCl 5.85g，质量分数为5.85/150=3.9%，参考答案与采分点均改为3.9%；(3)在盐酸用量固定（50g 7.3%）的模型下，NaCl质量恒为5.85g，含Na₂CO₃时CO₂逸出使溶液总质量小于150g，质量分数应“偏大”，参考答案、采分点方向与理由同步改为“偏大”，理由改为“NaCl质量由HCl用量决定不变，CO₂逸出使溶液总质量减小，故质量分数偏大”；同时明确第(3)问比较基准为同一盐酸用量，删除与题设矛盾的“等质量碳酸钠生成氯化钠更少”理由。"
+    },
+    {
+      "question_id": "q4",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "suggestion": "保持题号、题型、分值、知识点与N3等级4不变，将任务从四组常规方程式正误核对升级为含干扰条件的多步分析：例如给出含杂质的盐与酸、碱反应体系，要求先筛选能发生的反应、写出方程式，再依据生成物判断反应能否发生并说明依据，使选出正确项必须完成筛选与多关系整合，落实等级4行为。"
+    },
+    {
+      "question_id": "q3",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "保持题号、题型、分值3分、知识点与N3等级4不变，重写题干与选项：删除“若选C，请写出……化学方程式”这一与单选提交规则冲突的附加要求，评分点改为“选出C得3分”；同时将任务升级为含干扰情境的多步判断（如给出易混物质的名称、俗称、化学式及与盐酸反应信息，要求筛选配对并判断反应），使选出正确项必须完成筛选与方程式书写推理，落实等级4；选项保持唯一正确项C，其余三项各含明确错误。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "保持题号、题型、分值3分、知识点与N1等级5不变，重写选项消除双正确项：改写C项，删除“无法准确判断氯化钠溶液与中性环境下的其他物质”这一含混表述，使其成为明确错误项（如声称仅用石蕊无法区分三种溶液）；保留D为唯一正确项，并修正D中“酚酞极少致NaOH未变红则后续步骤失效”的错误论断，改为“酚酞极少致NaOH未变红时，该溶液落入不变色组，续加石蕊变蓝仍可与盐酸、氯化钠区分，但会增加判断步骤”；评分点围绕唯一正确项D重写。"
+    },
+    {
+      "question_id": "q10",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "保持题号、题型、分值3分、知识点与N4等级5不变，重写选项消除B、D双正确项：将B改为明确错误项（如声称“产生气泡即可直接比较任意两种金属的活动性”），保留D为唯一正确项；评分点改为“选出D得3分”，解析保留对结论适用范围与局限的说明。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q9",
+      "root_cause": "RC4",
+      "operator": "重写题干与选项，使盐酸电离离子辨认成为必答任务",
+      "cause": "题干直接给出“稀盐酸中大量存在的离子为H⁺和Cl⁻”，task_requirement中“选出盐酸溶液中大量存在的离子种类”未被实际考查，目标知识点仅作已知条件出现",
+      "acceptance_criteria": "题干不再直接给出盐酸中大量存在的离子；四个选项中至少有一项需学生自行辨认H⁺、Cl⁻才能判断；选出正确项必须调用“盐酸在水溶液中电离出的离子种类”知识；题号、题型、分值3分、技能N2、等级5、认知理解均不变",
+      "issue_ids": [
+        "q9-coverage",
+        "missing-盐酸在水溶液中电离出的离子种类"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC6",
+      "operator": "修正答案、评分点与第(3)问比较基准",
+      "cause": "(2)参考答案5.8%计算错误，正确为5.85/150=3.9%；(3)在盐酸用量固定模型下NaCl质量不变、CO₂逸出使溶液总质量减小，质量分数应偏大，参考答案判偏小且理由与题设矛盾",
+      "acceptance_criteria": "(2)参考答案与采分点均为3.9%（5.85g/150g）；(3)参考答案为“偏大”，理由为“NaCl质量由HCl用量决定不变，CO₂逸出使溶液总质量减小”；题干明确第(3)问比较基准为同一盐酸用量；评分点与6分分值对应，无错误数值或方向；题号、题型、分值、知识点、认知综合均不变",
+      "issue_ids": [
+        "q20-science",
+        "q20-specification",
+        "q20-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q4",
+      "root_cause": "RC1",
+      "operator": "升级必答任务为含干扰条件的多步筛选与方程式书写",
+      "cause": "实际任务仅为四组常规方程式与依据的正误核对，属N3低等级判断，未落实等级4“复杂情境筛选有效反应并多步分析”行为",
+      "acceptance_criteria": "题干提供含杂质或干扰条件的反应体系；学生须先筛选能发生的反应、书写方程式，再依据生成物判断反应能否发生；选出正确项必须完成筛选与多关系整合；题号、题型、分值3分、知识点、技能N3、等级4、认知应用均不变",
+      "issue_ids": [
+        "q4-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q3",
+      "root_cause": "RC7",
+      "operator": "删除冲突附加要求并升级任务，修正评分点",
+      "cause": "题干“若选C，请写出化学方程式”与单选只提交选项字母、选对得全分的规则冲突；评分点拆为1分+2分与单选给分规则冲突；实际任务仅达N3等级2—3辨识，未落实等级4多步分析",
+      "acceptance_criteria": "删除“若选C，请写出……”附加要求；评分点改为“选出C得3分”；任务升级为含干扰情境的多步判断，选出正确项须完成筛选与方程式书写推理；选项唯一正确项为C，其余三项各含明确错误；题号、题型、分值3分、知识点、技能N3、等级4、认知应用均不变",
+      "issue_ids": [
+        "q3-science",
+        "q3-skills",
+        "q3-difficulty_cognition",
+        "q3-specification",
+        "q3-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC7",
+      "operator": "重写选项消除双正确项并修正错误论断",
+      "cause": "C项与D项均构成对方案可行性及局限的正确评估，题面不能确定唯一正确项；D项“酚酞极少致NaOH未变红则后续步骤失效”与指示剂变色事实不符",
+      "acceptance_criteria": "C项改写为明确错误项，删除含混表述；D项为唯一正确项，其用量局限表述改为“酚酞极少致NaOH未变红时该溶液落入不变色组，续加石蕊变蓝仍可区分，但增加判断步骤”；评分点围绕唯一正确项D重写；题号、题型、分值3分、知识点、技能N1、等级5、认知应用均不变",
+      "issue_ids": [
+        "q8-science",
+        "q8-specification",
+        "q8-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q10",
+      "root_cause": "RC7",
+      "operator": "重写选项消除B、D双正确项",
+      "cause": "B项与D项在化学上均成立且均符合设问，题面不能确定唯一正确项",
+      "acceptance_criteria": "B项改写为明确错误项（如声称产生气泡即可直接比较任意两种金属活动性）；D项为唯一正确项；评分点改为“选出D得3分”并保留解析；题号、题型、分值3分、知识点、技能N4、等级5、认知应用均不变",
+      "issue_ids": [
+        "q10-science",
+        "q10-specification",
+        "q10-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "d30da15de0f2f05e360bfc91a5c06563b1e40da5ef0cfb966b32b54599260bb4"
+    },
+    "q3": {
+      "question_id": "q3",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "5f4a78365e3450e45ccb595114a375b200daa6013544cac2d3e72990569a8447"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "38b2d68d864f3ede1a86e0c93b90ebf50f2fcd8eab76aa17cb4f392f88fd4fb5"
+    },
+    "q10": {
+      "question_id": "q10",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "69beb626b681eaa5a1a0cf5aad1d93c25ecd4892fc4a25f2f97efea772e678da"
+    },
+    "q4": {
+      "question_id": "q4",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "8de7e5f707855a620e2d5a667d7f59dd190829db0f1331c9b414994c043c9168"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7324bfdddc3f79c1d599e76e1fb707a20e16a8751fc135e58bece35f5cc23b62"
+    }
+  }
+}

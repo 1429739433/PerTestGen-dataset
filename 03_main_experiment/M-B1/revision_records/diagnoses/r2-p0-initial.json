@@ -1,0 +1,280 @@
+{
+  "D": [
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "root_cause_detail": "逐滴向碳酸钠溶液中加稀盐酸时，HCl先与CO₃²⁻结合生成HCO₃⁻不放气，待CO₃²⁻耗尽后HCO₃⁻才与H⁺反应放出CO₂；本题n(Na₂CO₃)≈0.0545 mol，前20 g盐酸含HCl≈0.0548 mol，恰好将全部Na₂CO₃转化为NaHCO₃，按真实分步机理前20 g盐酸几乎不应逸出CO₂，但表格设定20 g时已减少1.2 g，与逐滴加料的分步机理矛盾，且与本卷q10、q17的两阶段逻辑不一致。",
+      "suggestion": "保持题号、题型、分值、知识点、技能、等级与认知难度不变，修改题干加料方式或数据点：可删去20 g一列仅保留40 g与60 g数据判断完全反应，或将碳酸钠溶液逐滴加入足量稀盐酸中并相应调整设问；同步修正答案第(2)问中依赖20 g点1.2 g的判断依据。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "N5等级3要求不给出完整步骤、自主选择试剂和方法完成两步以上鉴别或除杂；本题四组操作步骤均已完整给出供正误判断，学生仅需与教材规范逐一比对，实际处于N5等级1-2的规范识记与辨认，未落实等级3行为，认知层级亦低于蓝图标注的‘应用’。",
+      "suggestion": "保持单选3分、知识点与N5等级3不变，将题干改为不给出完整步骤的自主选择任务：如给出待测溶液与试剂清单，要求自主选择试剂并设计两步以上操作判断pH测定或稀释操作是否规范、说明错误操作后果；选项改为不同方案组合，使正确项需经自主选择与两步连接才能确定。"
+    },
+    {
+      "question_id": "q18",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC6",
+      "root_cause_detail": "题干实际有8个空（①—⑥及末尾两个归纳空），参考答案也给出8个答案，但评分要点仅6项各1分、合计6分，未为末尾两个归纳空单列评分点，学生完成归纳设问却无对应得分依据，分值分配与设问数量不对应。",
+      "suggestion": "保持填空6分、知识点与N1等级3不变，在授权字段内修订评分点：为‘石蕊遇碱性溶液变蓝’与‘酚酞遇酸性或中性溶液不变色’两个归纳空各设1分，并将6个现象空合并为4分（如每空按0.5分或合并计分），使评分点合计6分且逐空覆盖；或删去两个归纳空、将设问改为仅填6个现象空，使设问与评分点一一对应。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "root_cause_detail": "第(1)问要求判断‘恰好完全反应’并以‘溶液由红色恰好变为无色，此时即为恰好完全反应’给分；酚酞变色范围约pH8.2-10，褪色点偏碱性，不等于精确等当点，不能据此精确断定pH=7或恰好完全中和，答案与评分点1、2均以精确断定表述给分。另评分点1限定‘正确选择指示剂（无色酚酞试液）’，但题干允许自主选择，用石蕊判断终点的合理方案在(1)处失分。",
+      "suggestion": "保持实验题5分、知识点与N5等级3不变，修改设问与答案：将(1)结论改为‘可初步判断反应基本完成/接近终点’，或增加pH试纸独立证据支持终点判断；评分点1改为‘选择酚酞或石蕊并给出相应可行方案’，评分点2相应改为‘描述现象并得出反应基本完成的结论’，使评分与题干自主选择要求一致。"
+    },
+    {
+      "question_id": "q4",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 15,
+      "root_cause": "RC1",
+      "root_cause_detail": "本题实际任务仅是给定名称回忆并核对化学式，属N3等级1的识别/对应行为；未落实等级3‘自主判断并书写复分解反应方程式或选择反应路径两步计算’的行为，蓝图task_requirement中‘说明错误化学式的问题所在’在单选形式下也无法落实，实际认知层级为识记/直接对应，低于蓝图标注的‘应用’。",
+      "suggestion": "保持单选3分、知识点与N3等级3不变，将题干改为需自主判断并书写的任务：如给出若干物质名称或俗名，要求判断化学式正误并说明依据化合价与原子个数比的判断过程，选项改为不同判断与依据的组合，使正确项需经化合价规则运用与两步连接才能确定。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC4",
+      "root_cause_detail": "蓝图task_requirement明确要求‘给出盐酸与氢氧化钠溶液反应的微观示意图’，实际题干未提供示意图，仅以文字列出离子种类，微观可视化呈现缺失；因文字已给出完成作答所需的全部离子信息，作答不受阻，但与task_requirement的呈现形式不符。",
+      "suggestion": "保持填空6分、知识点与N2等级3不变，在题干中补充盐酸与氢氧化钠溶液反应的微观示意图（标注H⁺、Cl⁻、Na⁺、OH⁻及反应后H₂O），设问与评分点不变；或在不改蓝图的前提下将题干明确为‘根据下列微观粒子信息’并保留现有文字描述，使呈现形式与task_requirement一致。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "修改题干加料方式或数据点并同步修正答案",
+      "cause": "逐滴向碳酸钠溶液中加稀盐酸时前段先生成NaHCO₃不放气，20 g点1.2 g的质量差与分步机理矛盾，答案第(2)问依赖该缺陷数据作判断依据。",
+      "acceptance_criteria": "保持题号、题型、分值10分、知识点‘酸碱盐反应方程式与溶质质量分数计算’、N3等级3与medium难度不变；修改后数据表与‘逐滴加入’的加料方式在分步机理下自洽（如删去20 g一列，仅保留40 g与60 g数据，40 g与60 g逸出CO₂均为2.4 g），答案与评分点同步修正且合计仍为10分，学生可据修改后数据唯一判断完全反应并计算质量分数≈11.6%。",
+      "issue_ids": [
+        "q23-science",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC1",
+      "operator": "重写题干与选项为自主选择试剂并设计两步以上操作的判断任务",
+      "cause": "四组操作步骤均已完整给出供正误判断，学生仅需与教材规范比对，未落实N5等级3‘不给出完整步骤、自主选择试剂和方法完成两步以上操作’的行为，认知层级低于‘应用’。",
+      "acceptance_criteria": "保持单选3分、知识点‘pH试纸与浓硫酸稀释的实验操作’、N5等级3与easy难度不变；修改后题干不给出完整操作步骤，学生须自主选择试剂并连接两步以上操作才能确定唯一正确项，选项为不同方案组合，正确项经逐项独立验证唯一，评分点与答案对应。",
+      "issue_ids": [
+        "q6-skills",
+        "q6-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q18",
+      "root_cause": "RC6",
+      "operator": "修订评分点使逐空覆盖或删去未计分的归纳空",
+      "cause": "题干8个空、参考答案8项，但评分要点仅6项各1分，末尾两个归纳空无对应得分依据，分值分配与设问数量不对应。",
+      "acceptance_criteria": "保持填空6分、知识点‘酸碱指示剂遇酸碱的颜色变化’与N1等级3不变；修改后评分点合计6分且逐空覆盖全部设问（或设问与评分点数量一致），参考答案与评分点一一对应，学生完成每个设问均有对应得分依据。",
+      "issue_ids": [
+        "q18-science",
+        "q18-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "修改设问结论表述与评分点，使终点判断与指示剂变色范围相符",
+      "cause": "酚酞褪色点偏碱性，不等于精确等当点，答案与评分点以‘恰好完全反应’精确断定给分；评分点1限定酚酞，与题干允许自主选择石蕊的要求不一致。",
+      "acceptance_criteria": "保持实验题5分、知识点‘酸碱中和反应的实验操作与现象分析’与N5等级3不变；修改后设问与答案不再以指示剂褪色精确断定pH=7或恰好完全中和，改为‘反应基本完成/接近终点’或增加pH试纸独立证据；评分点1接受酚酞或石蕊的可行方案，评分点合计仍为5分且与设问对应。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q4",
+      "root_cause": "RC1",
+      "operator": "重写题干与选项为需自主判断并说明依据的任务",
+      "cause": "本题实际任务为俗名回忆与化学式直接核对，属N3等级1识别行为，未落实等级3自主判断并书写方程式或选择反应路径的行为，认知层级低于‘应用’。",
+      "acceptance_criteria": "保持单选3分、知识点‘常见酸碱盐的化学式书写判断’、N3等级3与easy难度不变；修改后学生须运用化合价与原子个数比规则自主判断并说明依据，选项为不同判断与依据的组合，正确项经逐项独立验证唯一，评分点与答案对应。",
+      "issue_ids": [
+        "q4-skills",
+        "q4-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC4",
+      "operator": "补充微观示意图或明确呈现形式",
+      "cause": "蓝图task_requirement要求给出盐酸与氢氧化钠溶液反应的微观示意图，实际题干仅以文字列出离子种类，微观可视化呈现缺失。",
+      "acceptance_criteria": "保持填空6分、知识点‘中和反应的微观实质’与N2等级3不变；修改后题干提供标注H⁺、Cl⁻、Na⁺、OH⁻及反应后H₂O的微观示意图，或明确以‘根据下列微观粒子信息’呈现，设问与6个评分点不变且逐空对应。",
+      "issue_ids": [
+        "q16-coverage"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "c62337441aac05bcc73a9a8e6cd8c4efd9f44e8684973d97929d61aa226669ee"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "053649b8e8b048579008612747f729eaab88bfe4047396fabc8bf0876dee6816"
+    },
+    "q18": {
+      "question_id": "q18",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "aa06db008721361a0199c3e027d2598eb1c6f0fcc2cd9589b859e1fa5af48aa2"
+    },
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "e752ae461b671a0d809ad8fff24bcdfb17d0ff0f2044811fff6d3e848f0b8278"
+    },
+    "q4": {
+      "question_id": "q4",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7611f94388b32cecfd33f77c309abc9f9f3eb27c8a361ca8399b6952724edda8"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6a14334e82304b403d5a78fc9da6f8f703f4ce8f9c7ded2b1c7f79c01a4603a2"
+    }
+  }
+}

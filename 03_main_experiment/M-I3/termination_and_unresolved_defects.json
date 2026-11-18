@@ -1,0 +1,117 @@
+{
+  "运行编号": "web-fc80ee0e58de",
+  "终止状态": "quality_met",
+  "采用版本": "r3-p0-c1",
+  "达标": true,
+  "遗留问题": [
+    {
+      "issue_id": "q8-skills",
+      "question_ids": [
+        "q8"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC1",
+      "evidence": "dimension：主体任务是在题干给出潮解、溶解放热两条关键提示下，判断质量变化与温度变化两个关联宏观现象，符合N1二级行为'在提示下判断多个关联的宏观现象'；但正确项C的因果链需理解质量分数对单位质量放热量的稀释效应，含轻度定量比较，略超N1边界'限于肉眼可见或仪器直接显示的宏观现象，不涉及复杂推理'。属轻度越界，非前置或不同技能。；cognition：蓝图标'识记'，实际需在给定提示下作对比与因果判断，实际认知略高于目标但未脱离提示下的常规任务"
+    },
+    {
+      "issue_id": "q8-difficulty_cognition",
+      "question_ids": [
+        "q8"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：实际为提示下的因果分析（理解层级），略高于蓝图'识记'，因关键关系已在题干给出，偏差有限；difficulty：关键关系（潮解、溶解放热）已在题干完整提示，四个选项干扰明确，整体仍属easy偏上，与N1二级任务条件基本匹配"
+    },
+    {
+      "issue_id": "q8-specification",
+      "question_ids": [
+        "q8"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：C项首句'敞口放置的固体质量比密封保存的固体大'陈述的是瓶内固体总量（潮解吸水后增大），而题干实验操作为各取等质量少量固体；学生需自行区分瓶内总量与取样质量才能理顺C项内部逻辑。表述可更清晰，但该区分本身恰是考查点的一部分，不影响唯一作答。；scoring：单选3分，评分要点'选出正确选项C得3分，选其他选项不得分'与分值和题型对应；判断依据（质量增大、等质量取样下质量分数降低、单位质量放热减少）与题干设问及C项表述一致，判分可执行。"
+    },
+    {
+      "issue_id": "q12-difficulty_cognition",
+      "question_ids": [
+        "q12"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：蓝图task_requirement还要求'推断反应后溶液中剩余的主要离子，并说明排除不反应组合的理由'，实际选项未涉及剩余离子（Na⁺、Cl⁻）的推断，排除理由也只需内心完成，任务略低于目标三级'连接两个相关步骤'的完整要求，但不影响单选作答；difficulty：四个错误项均为明显的事实性错误（NaH、NaCl沉淀、HCl逸出），配合easy难度和学生N4=4的shift=-1定位，实际难度与目标一致"
+    },
+    {
+      "issue_id": "q14-coverage",
+      "question_ids": [
+        "q14"
+      ],
+      "dimension": "coverage",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC5",
+      "evidence": "content：蓝图knowledge_topic为‘除去氢氧化钠溶液中碳酸钠杂质的试剂选择’，但实际任务（题干与选项）是检验是否含碳酸钠，对应知识点应为‘检验氢氧化钠是否变质的试剂选择’；该差异是规划理由中明确说明的有意调整，知识点仍落实氯化钡与碳酸钠反应这一核心内容，但与蓝图标准名称不一致；redundancy：q14与q9均实际考查‘检验氢氧化钠是否变质的试剂选择’（q9以稀盐酸产气检验变质，q14以氯化钡沉淀检验变质），而required_content中‘除去氢氧化钠溶液中碳酸钠杂质的试剂选择’要求6分，全卷仅q5落实3分，q14因蓝图标签调整未承担除杂任务，导致该必考知识实际分值低于最低要求3分。"
+    },
+    {
+      "issue_id": "q21-specification",
+      "question_ids": [
+        "q21"
+      ],
+      "dimension": "specification",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "clarity：步骤②③内嵌填空与设问(2)(3)重复同一任务，且设问(1)指'步骤②中不断搅拌'与步骤②原文'并不断搅拌'一致（此前'步骤①'笔误已修复，本次改动支持分级变化）。学生读题无歧义，仅表述冗余，不影响作答与判分，按规范可精简。；scoring：scoring_points 1+2+1+1=5，与points 5对应；各采分点逐一对应设问(1)(2)(3)，(2)说明部分明确'表述合理即可，不要求断言恰好完全中和'，与科学性边界一致，无遗漏采分点"
+    },
+    {
+      "issue_id": "q22-science",
+      "question_ids": [
+        "q22"
+      ],
+      "dimension": "science",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC6",
+      "evidence": "facts：已知信息独立核验成立：2NaOH+CO2=Na2CO3+H2O；BaCl2+Na2CO3=BaCO3↓+2NaCl，BaCl2溶液呈中性、不引入碱性干扰；酚酞遇碱变红、遇中性或酸性不变色与题给规则一致。加料顺序合理：先足量BaCl2除尽CO3^2-并静置，再取上层清液滴酚酞，比较对象是除碳酸钠后的清液，逻辑上排除了Na2CO3显碱性对检验的干扰，方案化学上可行。；solvability：题干给出两步操作提示和三条已知信息，条件自洽、信息充分。设问(2)（沉淀+变红）唯一推出部分变质，设问(3)（沉淀+不变红）唯一推出全部变质（在题给酚酞判定规则框架内），(1)问意图明确，各问均可作答且无歧义。；answer：答案结构与三问对应，(2)部分变质推理链（沉淀→含Na2CO3；变红→含NaOH）正确，(1)答'完全除去碳酸钠、防止其碱性干扰'正确，评分点2+4+4=10分与points一致。缺陷：答案(3)由酚酞不变红直接断言'样品中不含氢氧化钠'。酚酞在约pH8.2附近即呈无色，若残留极少量NaOH清液也可能不变红，故严格讲不变红只能说明碱性低于指示剂变色范围，不能精确证明NaOH耗尽；此断言无独立pH或定量证据支持，且设问未要求学生质疑该局限。依据边界条件，不得以初中近似把该精确断言评为通过。因(3)的评分点'酚酞不变红说明无氢氧化钠'据此计2分，判minor；建议在答案或题干中补充'在初中定性检验精度内'或改述为'清液不呈碱性，可认为不含（足量）氢氧化钠'。"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": false,
+      "adopted_Q": 54.021739,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0",
+        "r1-p0-c1"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 81.086957,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 85.771739,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0",
+        "r3-p0-c1"
+      ]
+    }
+  ]
+}

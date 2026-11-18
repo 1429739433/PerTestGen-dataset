@@ -1,0 +1,158 @@
+{
+  "运行编号": "web-640dd6444ac7",
+  "终止状态": "iteration_limit",
+  "采用版本": "r5-p0-c1",
+  "达标": false,
+  "遗留问题": [
+    {
+      "issue_id": "q9-difficulty_cognition",
+      "question_ids": [
+        "q9"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：实际思维为多步筛选与方程式核对，与蓝图认知'理解'相符。；difficulty：题干情境信息量较大（三步试剂、过量问题），对4级学生单题3分而言实际负荷略高于'easy'定位，但单选形式可控，不影响作答。"
+    },
+    {
+      "issue_id": "q14-coverage",
+      "question_ids": [
+        "q14"
+      ],
+      "dimension": "coverage",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC4",
+      "evidence": "content：C项核验Na₂CO₃+CaCl₂=CaCO₃↓+2NaCl及D项HCl与H₂SO₄化学式辨析直接落实蓝图知识点'常见酸碱盐的化学式书写判断'；但任务重心还包含除杂顺序推理（Na₂CO₃须在BaCl₂之后加入）及复分解产物判断等辅助内容，实际考查范围略宽于主题名单一名称，属蓝图task_requirement已声明的综合任务，覆盖偏宽为轻微缺陷，不构成与目标不符。；redundancy：q4与q14为不同任务要求（书写判断综合除杂顺序），确认知识点合计6分满足最低6分。"
+    },
+    {
+      "issue_id": "q15-skills",
+      "question_ids": [
+        "q15"
+      ],
+      "dimension": "skills",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC1",
+      "evidence": "dimension：题干实际要求评估'探究CO₂与NaOH是否反应'实验证据的充分性并辨析检验方案（options.B、D），对应N5实验操作探究level 5的行为示例，而非N4'反应条件推理'level 4的'在复杂混合体系中综合多种反应条件推理反应进程及产物'；目标技能未按蓝图落实，需改设为混合体系反应进程推理或更换技能标签；cognition：选项辨析需整合对照实验设计、反应类别、试剂用量与产物检验多条关系并检查结论成立条件，实际思维强度达到'综合'层级；只是综合对象为实验证据而非蓝图预期的反应条件推理，认知层级本身基本达标"
+    },
+    {
+      "issue_id": "q18-difficulty_cognition",
+      "question_ids": [
+        "q18"
+      ],
+      "dimension": "difficulty_cognition",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC3",
+      "evidence": "cognition：实际认知为多步辨识与条件检查（由气泡推杂质、由褪色限制结论），与蓝图综合层级一致。；difficulty：蓝图difficulty为easy，但(4)要求理解酚酞变色范围与碳酸钠反应进程的关系，推理要求高于典型易题；提示信息（题干未给变色范围资料）进一步加重(4)。整体仍可作答，仅难度标签偏低。"
+    },
+    {
+      "issue_id": "q19-science",
+      "question_ids": [
+        "q19"
+      ],
+      "dimension": "science",
+      "severity": "major",
+      "penalty": 10,
+      "root_cause": "RC7",
+      "evidence": "facts：题干明示盐酸含H⁺、Cl⁻，NaOH溶液含Na⁺、OH⁻，与教材B2/B4一致；(1)H⁺使石蕊变红、(2)H⁺与OH⁻结合生成水、(4)pH=7时阴离子为Cl⁻、pH<7时阳离子为Na⁺和H⁺，均经独立验证正确。加料基准核对：(3)烧杯内OH⁻被H⁺消耗故减少，Na⁺为旁观离子不参与反应且原溶液中Na⁺总量固定，故'数目不变'成立；加入试剂带入的Cl⁻未被问及数目变化，答案未涉及错误断言。；solvability：(3)第三空'请据此说明导电性如何变化'，但题面仅给出的依据是OH⁻数目减少、Na⁺数目不变。仅由离子数目推不出'先减弱（至pH=7时最弱）'：烧杯内OH⁻减少的同时，加入的盐酸带入等量Cl⁻（每消耗1个OH⁻带入1个Cl⁻），溶液中自由离子总数在恰好中和点附近并未减少；真实电导率先降后升主要依赖H⁺/OH⁻的高迁移率，属初中边界外知识。题干未给出离子浓度或迁移率信息，学生无法由所给条件严格推出参考答案'先减弱至pH=7最弱'，该结论需依赖题面未给的假设才能成立。；answer：逐空核对：共7空，答案(1)H⁺、(2)H⁺和OH⁻、(3)减少/不变/先减弱后增强、(4)Cl⁻、Na⁺和H⁺均齐备；scoring_points 1+1+1+2+1=6与points=6一致，每空均有对应采分点。缺陷：'先减弱（至pH=7时最弱）'这一采分结论不能由题面'OH⁻减少、Na⁺不变'推出（见science.solvability证据），按所给条件可推出的仅是离子总数大体不变或Cl⁻随加料增多，参考答案把依赖未给假设的结论作为2分采分点，可能造成依据充分的学生答'变化不大/Cl⁻增多'而失分。其余各空答案正确。"
+    },
+    {
+      "issue_id": "q19-skills",
+      "question_ids": [
+        "q19"
+      ],
+      "dimension": "skills",
+      "severity": "minor",
+      "penalty": 5,
+      "root_cause": "RC2",
+      "evidence": "dimension：学生必答任务（stem(1)-(4)）要求写出H⁺符号、说明H⁺与OH⁻结合生成水的微观实质、追踪滴加过程中OH⁻/Na⁺数目变化并解释导电性、判断各pH阶段大量存在的离子，属N2定义中的电离与中和反应微观过程分析；(3)(4)结合pH三阶段分析离子变化对应level 4'分析复杂反应体系中的离子变化'，非仅识记或现象辨认。其他涉及知识点：溶液酸碱性与pH的关系（(4)）、中和反应的微观实质（(2)），不改变主维度判断。；cognition：蓝图cognition为\"综合\"：(1)(2)为直接辨认，(3)(4)需结合pH阶段整合离子变化，含一定整合成分，但情境无干扰信息、筛选要求低于task_condition\"自主筛选条件、含干扰\"的完整要求，综合程度略低于目标，属轻微。"
+    },
+    {
+      "issue_id": "q20-science",
+      "question_ids": [
+        "q20"
+      ],
+      "dimension": "science",
+      "severity": "major",
+      "penalty": 20,
+      "root_cause": "RC7",
+      "evidence": "facts：题干设定步骤①加入\"过量铁粉\"：过量铁必然将稀盐酸消耗完（Fe+2HCl=FeCl₂+H₂↑），故滤液甲中不含盐酸，溶质只能为FeCl₂（题干仅说\"可能混入\"氯化铜，CuCl₂也不一定存在）。因此(2)设问\"锌先与滤液甲中的____反应，后与____反应\"预设的两个反应对象（氯化铜、稀盐酸）在滤液甲中不存在或不确定，题面化学设定与设问矛盾，构成已证实的学科设定错误。；solvability：按题面严格推理：(1)滤渣乙中\"一定含有的金属\"只有Fe；Cu仅在确有氯化铜时才存在，题干\"可能混入少量氯化铜\"使\"一定含Cu\"无法确定。(2)滤液甲中只含FeCl₂（盐酸已被过量铁耗尽），无法按设问答出\"先氯化铜、后稀盐酸\"两个对象，设问不可解。；answer：参考答案(1)\"Fe、Cu\"错误——题干\"可能混入\"使Cu非一定存在；(2)\"先与氯化铜、后与稀盐酸\"与滤液甲实际成分（无HCl）矛盾；(3)滤液丙ZnCl₂、滤渣丁Fe、Cu虽在\"氯化铜确实存在且盐酸被耗尽\"的补设下可推出，但整体答案建立在题面未成立的成分假设上，答案与题面条件不对应。"
+    },
+    {
+      "issue_id": "q20-specification",
+      "question_ids": [
+        "q20"
+      ],
+      "dimension": "specification",
+      "severity": "major",
+      "penalty": 20,
+      "root_cause": "RC6",
+      "evidence": "clarity：(2)设问\"锌先与滤液甲中的____（填物质名称）反应，后与____反应\"预设滤液甲含两种可反应物，但题面条件（铁粉过量耗尽盐酸、氯化铜仅为\"可能混入\"）使该设问对象不明，学生按题面推理无法作答；提示设问需修改。；scoring：scoring_points第1点规定(1)答Fe、Cu得2分且\"漏写或多写均不得分\"，与题面\"可能混入氯化铜\"条件矛盾——严格按题面答Fe（只写一定存在者）反而不得分，评分规则与题面条件不对应；第2点预设的\"先氯化铜后稀盐酸\"采分点同样对应不成立的反应序列。"
+    },
+    {
+      "issue_id": "q20-science-veto",
+      "question_ids": [
+        "q20"
+      ],
+      "dimension": "science",
+      "severity": "critical",
+      "root_cause": "RC7",
+      "penalty": 0,
+      "evidence": "已核实科学性否决：factual_error,unsolvable_answer"
+    }
+  ],
+  "待核项": [],
+  "修订轨迹": [
+    {
+      "round": 1,
+      "accepted": true,
+      "adopted_Q": 52.521739,
+      "status": "completed",
+      "candidates": [
+        "r1-p0-c0"
+      ]
+    },
+    {
+      "round": 2,
+      "accepted": true,
+      "adopted_Q": 62.858696,
+      "status": "completed",
+      "candidates": [
+        "r2-p0-c0"
+      ]
+    },
+    {
+      "round": 3,
+      "accepted": true,
+      "adopted_Q": 64.815218,
+      "status": "completed",
+      "candidates": [
+        "r3-p0-c0",
+        "r3-p0-c1"
+      ]
+    },
+    {
+      "round": 4,
+      "accepted": true,
+      "adopted_Q": 64.815218,
+      "status": "completed",
+      "candidates": [
+        "r4-p0-c0",
+        "r4-p0-c1"
+      ]
+    },
+    {
+      "round": 5,
+      "accepted": true,
+      "adopted_Q": 68.25,
+      "status": "completed",
+      "candidates": [
+        "r5-p0-c0",
+        "r5-p0-c1"
+      ]
+    }
+  ]
+}

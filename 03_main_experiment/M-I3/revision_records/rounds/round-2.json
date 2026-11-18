@@ -1,0 +1,138 @@
+{
+  "round": 2,
+  "status": "completed",
+  "parent_ids": [
+    "initial"
+  ],
+  "candidate_ids": [
+    "r2-p0-c0"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 5,
+    "remaining_question_slots": 24,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q8",
+      "q5",
+      "q15",
+      "q21",
+      "q23",
+      "q1"
+    ],
+    "contributions": {
+      "q7": 0.5,
+      "q11": 0.5,
+      "q8": 8.75,
+      "q14": 0.75,
+      "q22": 1.5,
+      "q12": 1.0,
+      "q5": 0.75,
+      "q1": 1.0,
+      "q10": 2.5,
+      "q21": 4.25,
+      "q23": 10.0,
+      "q15": 11.75
+    },
+    "selected_mass": 0.8439306358381503,
+    "weighted_penalty_total": 43.25,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q10",
+      "q15",
+      "q21",
+      "q23",
+      "q8"
+    ],
+    "authorized_issue_ids": [
+      "q1-difficulty_cognition",
+      "q5-coverage",
+      "q8-science",
+      "q8-skills",
+      "q8-difficulty_cognition",
+      "q8-specification",
+      "q8-science-veto",
+      "q15-science",
+      "q15-coverage",
+      "q15-skills",
+      "q15-difficulty_cognition",
+      "q15-specification",
+      "q15-science-veto",
+      "q21-science",
+      "q21-skills",
+      "q21-science-veto",
+      "q23-science",
+      "q23-difficulty_cognition",
+      "q23-specification",
+      "q23-science-veto"
+    ],
+    "priority_dimensions": [
+      "coverage",
+      "difficulty_cognition",
+      "science",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": [
+      "q7",
+      "q10",
+      "q11",
+      "q12",
+      "q14",
+      "q22"
+    ],
+    "stalled_question_attempts": {
+      "q23": 4,
+      "q8": 1,
+      "q22": 2,
+      "q10": 2,
+      "q21": 2,
+      "q15": 2
+    },
+    "repair_dimension_candidates": {
+      "coverage": [
+        "q5",
+        "q14",
+        "q15"
+      ],
+      "difficulty_cognition": [
+        "q1",
+        "q8",
+        "q12",
+        "q15",
+        "q23"
+      ],
+      "science": [
+        "q8",
+        "q15",
+        "q21",
+        "q22",
+        "q23"
+      ],
+      "skills": [
+        "q8",
+        "q10",
+        "q15",
+        "q21"
+      ],
+      "specification": [
+        "q7",
+        "q8",
+        "q11",
+        "q15",
+        "q23"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r2-p0-c0"
+  ]
+}

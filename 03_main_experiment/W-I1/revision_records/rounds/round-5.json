@@ -1,0 +1,61 @@
+{
+  "round": 5,
+  "status": "completed",
+  "parent_ids": [
+    "r3-p0-c0"
+  ],
+  "candidate_ids": [
+    "r5-p0-c0"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 1,
+    "remaining_question_slots": 6,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q13"
+    ],
+    "contributions": {
+      "q13": 0.75
+    },
+    "selected_mass": 1.0,
+    "weighted_penalty_total": 0.75,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q13"
+    ],
+    "authorized_issue_ids": [
+      "q13-coverage",
+      "missing-pH试纸与浓硫酸稀释的实验操作"
+    ],
+    "priority_dimensions": [
+      "coverage"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": [],
+    "stalled_question_attempts": {
+      "q21": 3,
+      "q16": 3,
+      "q13": 4,
+      "q7": 1,
+      "q8": 1,
+      "q5": 1,
+      "q10": 1
+    },
+    "repair_dimension_candidates": {
+      "coverage": [
+        "q13"
+      ]
+    }
+  },
+  "accepted": false,
+  "queue_ids": [
+    "r3-p0-c0"
+  ]
+}

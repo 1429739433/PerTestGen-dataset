@@ -1,0 +1,107 @@
+{
+  "D": [
+    {
+      "question_id": "q4",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC2",
+      "root_cause_detail": "实际必答任务只是按已知化合价规则辨认给定化学式正误，属于规则辨认；未达到蓝图cognition“应用”及N3等级3所要求的“自主选择适用关系并连接两个相关步骤、说明结论依据”，认知层级偏低。",
+      "suggestion": "保持题型、分值、知识点、技能N3、等级3、easy与“应用”不变，提升设问：要求判断俗名与化学式对应正误后，对错误选项写出正确化学式并说明化合价与原子个数比的依据；或将四个选项改为需自主书写/纠正化学式的判断任务，使必答行为达到应用层级。"
+    },
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "coverage",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 25,
+      "root_cause": "RC4",
+      "root_cause_detail": "蓝图task_requirement要求给出碳酸钠与稀盐酸、硫酸铜与氢氧化钠两个反应的文字描述并选择正确方程式，实际题干只含碳酸钠与稀盐酸及CO₂与石灰水，缺少硫酸铜与氢氧化钠反应，任务要求未完全落实；同时题干给出相对原子质量但无计算任务，信息冗余。",
+      "suggestion": "保持题型、分值、知识点、技能N3、等级3、easy与“应用”不变，按蓝图task_requirement补入硫酸铜与氢氧化钠反应的文字描述及对应方程式选项，删除与设问无关的相对原子质量数据；选项须覆盖配平错误、产物错误、气体/沉淀符号缺失等典型错误，并保持答案唯一。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q4",
+      "root_cause": "RC2",
+      "operator": "rewrite_stem_and_options",
+      "cause": "实际任务仅辨认化学式正误，未落实N3等级3“自主选择适用关系并连接两个相关步骤、说明结论依据”的应用行为；需在冻结的题号、题型、分值、知识点、技能、等级与认知难度内提升必答任务。",
+      "acceptance_criteria": "1) 仍为单选3分，知识点为常见酸碱盐的化学式书写判断，技能N3、等级3、easy、cognition应用不变；2) 学生须先判断俗名与化学式对应正误，再对至少一个错误选项写出正确化学式并依据化合价与原子个数比说明理由；3) 四个选项相互独立、答案唯一，正确项与评分点一致；4) 评分点覆盖判断与依据说明，总分3分。",
+      "issue_ids": [
+        "q4-skills",
+        "q4-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "root_cause": "RC4",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题干未按蓝图task_requirement给出硫酸铜与氢氧化钠反应的文字描述，覆盖缺口需重写必答任务；同时相对原子质量数据与无计算任务不匹配，属规范缺陷。",
+      "acceptance_criteria": "1) 仍为单选3分，知识点为常见盐与酸、碱反应的化学方程式书写，技能N3、等级3、easy、cognition应用不变；2) 题干同时给出碳酸钠与稀盐酸、硫酸铜与氢氧化钠两个反应的文字描述，学生须自主选择正确方程式并指出配平或产物错误；3) 删除与设问无关的相对原子质量数据；4) 四个选项独立可判、答案唯一，评分点与正确项及错误分析一致，总分3分。",
+      "issue_ids": [
+        "q9-coverage",
+        "q9-skills",
+        "q9-difficulty_cognition",
+        "q9-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content",
+        "skills.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "dd1614f4a863d2afaa7915eaa2a5829493163a8a68a4d4e4510340003531e3ff"
+    },
+    "q4": {
+      "question_id": "q4",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "571035d9aa44e0271ef0ed1c9bbb6dabf6b94d6af617c42bd33e495437dc8fb6"
+    }
+  }
+}

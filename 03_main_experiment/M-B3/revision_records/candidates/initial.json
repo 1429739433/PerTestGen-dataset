@@ -1,0 +1,18 @@
+{
+  "状态": "evaluated",
+  "采用原因": null,
+  "曾被采用": true,
+  "错误": null,
+  "综合分": 44.565217,
+  "五维分": {
+    "science": 40.0,
+    "coverage": 70.434783,
+    "skills": 40,
+    "difficulty_cognition": 40,
+    "specification": 40
+  },
+  "评价完整": true,
+  "否决维度": [
+    "science"
+  ]
+}

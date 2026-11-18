@@ -1,0 +1,308 @@
+{
+  "D": [
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC4",
+      "root_cause_label": "覆盖缺口",
+      "root_cause_evidence": "题干图例与排布已直接给出稀盐酸中粒子为H⁺（○）和Cl⁻（●）（'○ ● ○ ● ○ ●（H⁺与Cl⁻数目相等）'），且选项A、B均将'稀盐酸中同时含有/大量存在H⁺和Cl⁻'作为已述内容，学生无需独立辨认盐酸电离出的离子种类即可作答。区分A与B的实际落点是判断Cl⁻是否参加反应、反应实质为H⁺与OH⁻结合生成H₂O（Cl⁻、Na⁺为旁观离子），即'中和反应的微观实质'，另涉及'复分解反应前后离子种类的变化'。task_requirement中'选出盐酸溶液中大量存在的离子种类'这一必答子任务未独立落实，目标知识点'盐酸在水溶液中电离出的离子种类'仅以已知信息与选项陈述形式出现，未被考查；题目仍考查同单元相关微观内容，故判moderate而非severe。",
+      "suggestion": "重写题干与选项，使'盐酸在水溶液中电离出的离子种类'成为学生必须独立判断的必答任务：删除题干中'○ ● ○ ● ○ ●（H⁺与Cl⁻数目相等）'及'稀盐酸中大量存在的离子为H⁺和Cl⁻'等直接给出答案的表述，改为只给出粒子图例（○、●、◇、◆分别代表何种离子）与反应前后粒子排布，要求学生在选项中先辨认稀盐酸中大量存在的离子，再评估'Cl⁻参加反应'观点；保持单选、3分、N2等级5、理解、medium不变。"
+    },
+    {
+      "question_id": "q11",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 60,
+      "root_cause": "RC7",
+      "root_cause_label": "科学性错误",
+      "root_cause_evidence": "facts：四个选项的化学式正误判断与化合价规则一致；题干附加设问中碳酸钠与氢氧化钠混合确不反应（无沉淀、气体或水生成，不符合复分解发生条件），参考评分要点判断正确。；solvability：题面不能确定唯一正确项；明确成立选项：C。A 硫酸铁应为Fe₂(SO₄)₃，FeSO₄是硫酸亚铁；氢氧化铁应为Fe(OH)₃，Fe(OH)₂是氢氧化亚铁。不满足设问；B 硫酸亚铁应为FeSO₄；氢氧化亚铁应为Fe(OH)₂，两项均与A互为对调错误。不满足设问；C 碳酸钠Na₂CO₃、碳酸氢钠NaHCO₃名称与化学式均正确，符合化合价规则。满足设问；D 两种盐的名称与化学式交叉错配，与C互为对调。不满足设问；answer：题面不能确定唯一正确项；明确成立选项：C。A 硫酸铁应为Fe₂(SO₄)₃，FeSO₄是硫酸亚铁；氢氧化铁应为Fe(OH)₃，Fe(OH)₂是氢氧化亚铁。不满足设问；B 硫酸亚铁应为FeSO₄；氢氧化亚铁应为Fe(OH)₂，两项均与A互为对调错误。不满足设问；C 碳酸钠Na₂CO₃、碳酸氢钠NaHCO₃名称与化学式均正确，符合化合价规则。满足设问；D 两种盐的名称与化学式交叉错配，与C互为对调。不满足设问",
+      "suggestion": "在保持单选、3分、N3、easy、知识点'常见酸碱盐的化学式书写判断'不变的前提下重写整题：删除题干中'写出方程式或说明理由'等单选无法提交的文字作答要求，改为纯选项判断；四个选项须使唯一正确项成立且其余三项各含可辨识的化学式错误（如Fe²⁺/Fe³⁺、OH⁻数目、CO₃²⁻/HCO₃⁻错配），不得出现两项均正确或交叉对调后仍成立的情形；评分点改为'选出唯一正确项得3分，选错不得分'。同时提升必答任务至N3等级4行为：可在选项中设置需依据化合价规则与复分解条件两步判断的干扰项（如给出某盐与NaOH混合的产物化学式正误），使学生在含干扰情境中筛选并核对化学式与反应关系，落实'应用'认知层级。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "science",
+        "coverage",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "root_cause_label": "科学性错误",
+      "root_cause_evidence": "facts：BaCl₂+Na₂SO₄、2NaOH+MgCl₂、Na₂CO₃+CaCl₂、HCl+NaOH、2HCl+Na₂CO₃各方程式均配平、状态符号正确，复分解产物成立；C错在'仅用于'忽略Na₂CO₃同时除去过量Ba²⁺，属流程逻辑错误而非事实错误。；solvability：题面不能确定唯一正确项；明确成立选项：A,B,D。A BaCl₂除SO₄²⁻目的正确，BaCl₂+Na₂SO₄=BaSO₄↓+2NaCl配平、符号正确；题干未限定杂质盐写法，初中默认Na₂SO₄成立。满足设问。；B NaOH除Mg²⁺目的正确，2NaOH+MgCl₂=Mg(OH)₂↓+2NaCl配平、符号正确（初中默认杂质写法）。满足设问。；C '仅用于除去Ca²⁺'错误：流程中Na₂CO₃在BaCl₂之后加入，还须除去过量Ba²⁺（Na₂CO₃+BaCl₂=BaCO₃↓+2NaCl）。不满足设问。；D 盐酸除过量NaOH和Na₂CO₃目的正确，HCl+NaOH=NaCl+H₂O、2HCl+Na₂CO₃=2NaCl+H₂O+CO₂↑均正确。满足设问。；answer：题面不能确定唯一正确项；明确成立选项：A,B,D。A BaCl₂除SO₄²⁻目的正确，BaCl₂+Na₂SO₄=BaSO₄↓+2NaCl配平、符号正确；题干未限定杂质盐写法，初中默认Na₂SO₄成立。满足设问。；B NaOH除Mg²⁺目的正确，2NaOH+MgCl₂=Mg(OH)₂↓+2NaCl配平、符号正确（初中默认杂质写法）。满足设问。；C '仅用于除去Ca²⁺'错误：流程中Na₂CO₃在BaCl₂之后加入，还须除去过量Ba²⁺（Na₂CO₃+BaCl₂=BaCO₃↓+2NaCl）。不满足设问。；D 盐酸除过量NaOH和Na₂CO₃目的正确，HCl+NaOH=NaCl+H₂O、2HCl+Na₂CO₃=2NaCl+H₂O+CO₂↑均正确。满足设问。",
+      "suggestion": "保持单选、3分、N3、easy、应用不变，重写题干与选项使唯一正确项成立：题干明确杂质均以钠盐形式存在（消除A、B反应物写法争议），并保留分步加料与过滤条件；四个选项中仅一项'试剂作用+化学方程式'完全正确，其余三项各设一处可辨识错误（如方程式未配平、'仅用于'遗漏Na₂CO₃除过量Ba²⁺、BaCl₂过量后声称不必处理Ba²⁺），不得出现两项及以上同时成立；评分点改为'选出唯一正确项得3分，选错不得分'，删除自认A、B亦正确的草稿式说明。同时按蓝图知识点'常见酸碱盐的化学式书写判断'修正覆盖：可在选项中嵌入名称—化学式对应判断（如BaCl₂、Na₂CO₃、Mg(OH)₂的化学式正误），使该知识点被直接考查；若维持除杂流程主题，则须同步修正蓝图知识点标注，二者择一，不得以标签掩盖缺陷。"
+    },
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_label": "科学性错误",
+      "root_cause_evidence": "facts：A：Na₂CO₃+2HCl=2NaCl+H₂O+CO₂↑正确；B：BaCl₂与NaOH不反应（Ba(OH)₂可溶、无沉淀气体水），且Ba(OH)₂标↓属事实错误，选项本为干扰项成立；C：CuSO₄+Ca(OH)₂=Cu(OH)₂↓+CaSO₄反应可发生（复分解生成沉淀）；D：CaCO₃与稀硫酸因CaSO₄微溶覆盖表面难以持续反应，作干扰项成立。；solvability：题面不能确定唯一正确项；明确成立选项：A。A Na₂CO₃与稀盐酸反应生成CO₂，复分解成立；方程式配平、'↑'符号正确。满足设问。；B BaCl₂与NaOH混合无沉淀、气体或水生成，不发生复分解反应；且Ba(OH)₂可溶，标'↓'错误。不满足设问。；C 反应能发生（生成Cu(OH)₂沉淀，即波尔多液原理），方程式配平；但CaSO₄为微溶物，未标状态符号是否算'书写完全正确'依赖题干未给出的判卷基准。；D CaCO₃与稀硫酸生成的CaSO₄微溶覆盖于固体表面使反应难以持续，按初中判断'能发生反应'不成立；方程式未体现反应实际不可行。不满足设问。；answer：题面不能确定唯一正确项；明确成立选项：A。A Na₂CO₃与稀盐酸反应生成CO₂，复分解成立；方程式配平、'↑'符号正确。满足设问。；B BaCl₂与NaOH混合无沉淀、气体或水生成，不发生复分解反应；且Ba(OH)₂可溶，标'↓'错误。不满足设问。；C 反应能发生（生成Cu(OH)₂沉淀，即波尔多液原理），方程式配平；但CaSO₄为微溶物，未标状态符号是否算'书写完全正确'依赖题干未给出的判卷基准。；D CaCO₃与稀硫酸生成的CaSO₄微溶覆盖于固体表面使反应难以持续，按初中判断'能发生反应'不成立；方程式未体现反应实际不可行。不满足设问。",
+      "suggestion": "保持单选、3分、N3、easy、应用不变，重写选项消除C项歧义：将C项改为明确不能发生或方程式确有错误的组合（如CuSO₄与NaOH写成CuSO₄+NaOH=Cu(OH)₂↓+Na₂SO₄未配平，或改用BaCl₂与Na₂SO₄等生成明确沉淀且符号规范的反应），使A为唯一'能发生且方程式完全正确'项；B项保留Ba(OH)₂可溶却标↓的错误，D项保留CaSO₄微溶覆盖致反应难以持续的判断；评分点改为'选出唯一正确项A得3分，选错不得分'，删除'正确项不唯一'的说明。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "root_cause_label": "科学性错误",
+      "root_cause_evidence": "facts：独立复核边界条件：加料均为向溶液中滴入稀盐酸。Na₂CO₃+2HCl=2NaCl+H₂O+CO₂↑，产生气泡，正确；NaOH+HCl=NaCl+H₂O，放热无明显外观现象，正确；③CuSO₄与HCl混合无沉淀/气体/水生成，不发生复分解反应，正确；④BaCl₂与HCl混合无沉淀/气体/水生成，不发生复分解反应，正确。(4)三条件为沉淀、气体、水，正确。；solvability：题干(3)'不能与稀盐酸发生复分解反应的是______（填序号）'采用单数设问且未提示可填多项，但③CuSO₄和④BaCl₂均不与盐酸反应，学生无法确定应填一个还是两个，需修改设问（如'不能……的是______（填序号，可能不止一组）'）；answer：逐空核对：(1)答案①及方程式Na₂CO₃+2HCl=2NaCl+H₂O+CO₂↑（配平、↑均正确）存在；(2)答案②及NaOH+HCl=NaCl+H₂O存在；(3)最终结论'③（或④）；无沉淀、气体或水生成'存在且化学上正确；(4)沉淀、气体、水三空均存在。4个采分点2+2+1+1=6分与总分一致。缺陷：参考答案(3)夹带大段推理性文字（'注：……''考虑到题目通常设计一个明显干扰项……'），不符合标准答案应整洁呈现的要求，且暴露命题时对③④均不反应的设问歧义未解决，应精简为'③（或④）；混合后无沉淀、气体或水生成'并配合题干修改；此外若学生同时填③④两个序号，采分点未给出对应给分规则。其余各空答案对应设问、化学正确。",
+      "suggestion": "保持填空、6分、N3、easy、综合不变，修改(3)设问为'不能与稀盐酸发生复分解反应的是______（填序号，可能不止一组）'，并明确若填两个序号须分别对应原因；参考答案精简为'③④（或③、④）；混合后均无沉淀、气体或水生成，不符合复分解反应发生条件'，删除草稿式自问自答；评分点(3)改为'正确指出③和④（或其中任一且理由对应）得1分'，并补充同时填③④时的给分规则；(1)(2)(4)答案与评分点保持不变。"
+    },
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC6",
+      "root_cause_label": "规范缺陷",
+      "root_cause_evidence": "facts：Na2CO3+2HCl=2NaCl+H2O+CO2↑配平正确；50+40-87.8=2.2 g CO2，106:44得Na2CO3 5.3 g，5.3/50=10.6%，数值自洽。边界条件独立核实：加料方向为向碳酸钠溶液逐滴加盐酸并加至'恰好完全反应'，碳酸钠全部转化后累计放出的CO2仅由Na2CO3决定，题干已声明CO2全部逸出、不计水蒸气，题设中间产物阶段不影响按总反应式以最终产气量计算，结论可由已知条件推出，无科学错误。；solvability：(1)(2)条件充分：溶液质量50 g、耗酸40 g、反应后总质量87.8 g，差量法可解且数据整简；(3)已限定'利用生成气体质量计算'的方法，可作分析，信息充分可解。；answer：answer字段不是规范的参考答案，而是包含大量自我辩驳的推理草稿（'等等，这里需要仔细逻辑判断'、'如果必须回答偏大或偏小'等），未给出与题干设问一致的明确结论；评分点第5条才给出正确结论'无影响（或准确）'。题干(3)强制二选一（偏大/偏小），而科学上正确结论是'不变/无影响'，设问与答案方向冲突，需将(3)改为'偏大、偏小还是不变'或修改答案方向。",
+      "suggestion": "保持计算题、10分、N3、medium、综合不变，修改(3)设问为'计算结果会偏大、偏小还是不变？请简要说明理由'，使'不变/无影响'成为可选项；参考答案重写为规范表述：(1)Na₂CO₃+2HCl=2NaCl+H₂O+CO₂↑；(2)CO₂=50+40−87.8=2.2 g，Na₂CO₃=2.2×106/44=5.3 g，质量分数=5.3/50×100%=10.6%；(3)不变，NaCl不与盐酸反应也不产生气体，CO₂仅由Na₂CO₃生成，气体法算出的Na₂CO₃质量及质量分数均为真实值。删除answer中全部推演草稿文字；评分点第5条改为'判断为不变（无影响）并说明CO₂仅来自Na₂CO₃、NaCl不反应不产气得1分'，其余评分点2+2+3+2保持不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q9",
+      "root_cause": "RC4",
+      "operator": "重写题干与选项，使目标知识点成为独立必答任务",
+      "cause": "题干图例与排布已直接给出稀盐酸中粒子为H⁺和Cl⁻，选项A、B亦将'稀盐酸中同时含有/大量存在H⁺和Cl⁻'作为已述内容，学生无需独立辨认盐酸电离出的离子种类即可作答；实际区分A与B的落点是'中和反应的微观实质'与'复分解反应前后离子种类的变化'，目标知识点'盐酸在水溶液中电离出的离子种类'仅以已知信息出现，未被考查。",
+      "acceptance_criteria": "1）题干不再直接写出'稀盐酸中大量存在的离子为H⁺和Cl⁻'或'○ ● ○ ● ○ ●（H⁺与Cl⁻数目相等）'等给出答案的表述，只给出粒子图例与反应前后排布；2）学生须在选项中先辨认稀盐酸中大量存在的离子种类，再评估'Cl⁻参加反应'观点，两项均为必答；3）四个选项中仅一项对'离子种类辨认+反应实质评价'均正确，其余三项各含可辨识错误；4）保持单选、3分、N2、target_level 5、理解、medium不变；5）评分点为'选出唯一正确项得3分，选错不得分'。",
+      "issue_ids": [
+        "q9-coverage",
+        "missing-盐酸在水溶液中电离出的离子种类"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "root_cause": "RC7",
+      "operator": "重写整题为纯单选并提升必答任务至N3等级4行为",
+      "cause": "题干在单选设问外追加'写出方程式或说明理由'的文字作答要求，与单选只提交选项字母的作答规则冲突，3分中2分依赖无法提交的文字作答；同时实际任务仅为识记化学式与单步判断碳酸钠与氢氧化钠不反应，未落实N3等级4'在含干扰情境中筛选有效反应并进行多步定量分析'的行为，认知层级低于蓝图'应用'。",
+      "acceptance_criteria": "1）题干不含任何要求提交文字、方程式或理由的设问，学生仅通过选择选项作答；2）四个选项中唯一正确项成立，其余三项各含可辨识的化学式错误（Fe²⁺/Fe³⁺、OH⁻数目、CO₃²⁻/HCO₃⁻错配），不得出现两项均正确或交叉对调后仍成立；3）至少一项干扰项需学生依据化合价规则与复分解条件两步判断，落实'应用'认知层级；4）保持单选、3分、N3、easy、知识点'常见酸碱盐的化学式书写判断'不变；5）评分点为'选出唯一正确项得3分，选错不得分'。",
+      "issue_ids": [
+        "q11-science",
+        "q11-skills",
+        "q11-difficulty_cognition",
+        "q11-specification",
+        "q11-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC7",
+      "operator": "重写题干与选项使唯一正确项成立，并修正覆盖与评分点",
+      "cause": "题面不能确定唯一正确项，A、B、D三项均满足'试剂作用+化学方程式正确'的设问，单选失效；同时蓝图知识点为'常见酸碱盐的化学式书写判断'，实际任务为除杂流程中试剂作用与方程式正误判断，名称—化学式对应判断未被落实；评分点含自认A、B亦正确的草稿式说明，与3分单选全对全错规则不自洽。",
+      "acceptance_criteria": "1）题干明确杂质均以钠盐形式存在，保留分步加料与过滤条件；2）四个选项中仅一项'试剂作用+化学方程式'完全正确，其余三项各设一处可辨识错误（未配平、'仅用于'遗漏Na₂CO₃除过量Ba²⁺、BaCl₂过量后声称不必处理Ba²⁺等），不得出现两项及以上同时成立；3）若维持除杂流程主题，须在选项中嵌入名称—化学式对应判断使'常见酸碱盐的化学式书写判断'被直接考查，或同步修正蓝图知识点标注，二者择一；4）保持单选、3分、N3、easy、应用不变；5）评分点改为'选出唯一正确项得3分，选错不得分'，删除草稿式说明。",
+      "issue_ids": [
+        "q1-science",
+        "q1-coverage",
+        "q1-difficulty_cognition",
+        "q1-specification",
+        "q1-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "root_cause": "RC7",
+      "operator": "重写C项消除歧义，使A为唯一正确项",
+      "cause": "C项CuSO₄+Ca(OH)₂=Cu(OH)₂↓+CaSO₄反应能发生且方程式配平，但CaSO₄为微溶物未标状态符号，是否算'书写完全正确'依赖题干未给出的判卷基准，导致正确项不唯一或判分基准不明；B项Ba(OH)₂可溶却标↓、D项CaSO₄微溶覆盖致反应难以持续，作为干扰项成立。",
+      "acceptance_criteria": "1）C项改为明确不能发生或方程式确有错误的组合（如未配平或改用生成明确沉淀且符号规范的反应），使A为唯一'能发生且方程式完全正确'项；2）B项保留Ba(OH)₂可溶却标↓的错误，D项保留CaSO₄微溶覆盖致反应难以持续的判断；3）四个选项中仅A同时满足'能发生反应'与'方程式书写完全正确'；4）保持单选、3分、N3、easy、应用不变；5）评分点为'选出唯一正确项A得3分，选错不得分'，删除'正确项不唯一'的说明。",
+      "issue_ids": [
+        "q2-science",
+        "q2-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC7",
+      "operator": "修改(3)设问与参考答案，补充多填给分规则",
+      "cause": "(3)设问'不能与稀盐酸发生复分解反应的是______（填序号）'采用单数设问且未提示可填多项，但③CuSO₄和④BaCl₂均不与盐酸反应，学生无法确定应填一个还是两个；参考答案(3)夹带大段推理性文字，未精简为规范答案，且未给出同时填③④时的给分规则。",
+      "acceptance_criteria": "1）(3)设问改为'不能与稀盐酸发生复分解反应的是______（填序号，可能不止一组）'，并明确若填两个序号须分别对应原因；2）参考答案精简为'③④（或③、④）；混合后均无沉淀、气体或水生成，不符合复分解反应发生条件'，删除草稿式自问自答；3）评分点(3)改为'正确指出③和④（或其中任一且理由对应）得1分'，并补充同时填③④时的给分规则；4）(1)(2)(4)答案与评分点保持不变；5）保持填空、6分、N3、easy、综合不变。",
+      "issue_ids": [
+        "q19-science",
+        "q19-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC6",
+      "operator": "修改(3)设问为三选一并重写规范参考答案",
+      "cause": "题干(3)强制二选一（偏大/偏小），而按题给气体质量法NaCl不反应不产气，科学结论为'不变/无影响'，设问预设了不成立的前提；answer字段为大量自我辩驳的推理草稿，未给出与设问一致的明确结论，评分点第5条才给出正确结论，设问与答案方向冲突。",
+      "acceptance_criteria": "1）(3)设问改为'计算结果会偏大、偏小还是不变？请简要说明理由'，使'不变/无影响'成为可选项；2）参考答案重写为规范表述：(1)Na₂CO₃+2HCl=2NaCl+H₂O+CO₂↑；(2)CO₂=50+40−87.8=2.2 g，Na₂CO₃=2.2×106/44=5.3 g，质量分数=5.3/50×100%=10.6%；(3)不变，NaCl不与盐酸反应也不产生气体，CO₂仅由Na₂CO₃生成，气体法算出的Na₂CO₃质量及质量分数均为真实值；3）删除answer中全部推演草稿文字；4）评分点第5条改为'判断为不变（无影响）并说明CO₂仅来自Na₂CO₃、NaCl不反应不产气得1分'，其余评分点2+2+3+2保持不变；5）保持计算题、10分、N3、medium、综合不变。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "options",
+        "scoring_points",
+        "stem",
+        "subquestions"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2f82232b0c9b915ef37a2925e1d1530e2005268b74d4a71cdadb5f415fe3bb3b"
+    },
+    "q11": {
+      "question_id": "q11",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "5050e926167a2a12497026fd24351805ea11dbca540757129da8ec072f999b19"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "600c70a724ac77b743928f6fe2468e42f0a9d0945d3f628ed58c427152a9fc5d"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "de5e41a19e98932185fde5323706ad0dc307147db570397dfe79e38a2f5bf633"
+    },
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "b3d00bf1b7387b7580849ded0b4a1010de6a2c85109a5ee08ce56fac693dfda6"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "answer",
+        "options",
+        "scoring_points",
+        "stem",
+        "subquestions"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "58de8e65740398e02f1834fff0aa20d49d0545872be1f92c7fdb4eb306baad88"
+    }
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "D": [
+    {
+      "question_id": "q5",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC7",
+      "suggestion": "保留pH表与分步现象，但把“至约20 mL时气泡不再产生”改为明确区间（如“约18～20 mL气泡逐渐停止”），并同步核对20 mL处pH=4.0与气泡终点的对应关系，使数据与现象自洽；选项与答案B不变。"
+    },
+    {
+      "question_id": "q16",
+      "dimensions": [
+        "science",
+        "skills",
+        "specification"
+      ],
+      "penalty": 35,
+      "root_cause": "RC7",
+      "suggestion": "重写第(2)问的粒子示意图与答案：使过程图明确显示OH⁻多于H⁺（如○ ○ ◇ ◇ ◆ ●），或改为给出“已加入HCl的量”作为比较基准；同步修正参考答案与采分点计数，使“碱”性判断及依据可从图中唯一推出。第(1)(3)问保留。"
+    },
+    {
+      "question_id": "q17",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "清理参考答案文本，删除“修正思考/再次修正”等内部推敲与自相矛盾的中间表述，定稿为(1)无及原因、(2)NaHCO₃+HCl=NaCl+H₂O+CO₂↑、(3)NaCl；评分点保持2+2+2。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "重写题干条件：将步骤①“足量铁粉”改为“一定量铁粉（不足，盐酸有剩余）”并明确氯化铜确实存在，使滤液甲含FeCl₂、HCl、CuCl₂；或改为“加入过量铁粉”后重新设计设问（滤液甲只含FeCl₂，锌只与FeCl₂反应）。同步重定(1)(2)(3)答案与采分点，删除“可能混入”造成的不确定表述。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "修订采分点4的解析：删除“pH>8.2变红、pH<8.2无色”的不准确表述，改为“深红色使终点颜色变化不易辨认，导致滴定过量，V1偏大”；答案与分值不变。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 5,
+      "root_cause": "RC6",
+      "suggestion": "精简第(3)问参考答案，删除“需定量或指示剂判断”等与设问关联不紧的措辞，定稿为“稀盐酸与碳酸钠反应产生气泡，但无论是否含氢氧化钠，只要有碳酸钠即产生气泡，故不能据此判断氢氧化钠是否存在”；采分点不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q5",
+      "root_cause": "RC7",
+      "operator": "modify_stem",
+      "cause": "题干“至约20 mL时气泡不再产生”与表格20 mL处pH=4.0存在张力，需明确气泡停止的体积区间，使pH数据与现象自洽。",
+      "acceptance_criteria": "修改后题干给出明确的气泡停止区间（如“约18～20 mL”），且该区间与表格pH数据不矛盾；选项A、C、D仍为错误项、B仍为唯一正确项；答案与评分点同步核对一致。",
+      "issue_ids": [
+        "q5-science"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q16",
+      "root_cause": "RC7",
+      "operator": "rewrite_subquestion",
+      "cause": "第(2)问过程图“○ ○ ◇ ◆ ●”中OH⁻与H⁺各1个，无法推出“OH⁻多于H⁺”，参考答案却称OH⁻为2个、H⁺为1个，答案与题面矛盾，该小问不可唯一作答。",
+      "acceptance_criteria": "重写后第(2)问的粒子示意图能唯一支持“碱”性判断（如显示OH⁻数目多于H⁺，或给出已加入HCl量的比较基准）；参考答案与采分点计数与图示一致；第(1)(3)问答案不变；总分仍为6分（3+2+1）。",
+      "issue_ids": [
+        "q16-science",
+        "q16-skills",
+        "q16-specification",
+        "q16-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q17",
+      "root_cause": "RC6",
+      "operator": "clean_answer_text",
+      "cause": "参考答案保留多轮内部推敲与自相矛盾的中间表述，可能干扰阅卷。",
+      "acceptance_criteria": "参考答案定稿为(1)无及原因、(2)NaHCO₃+HCl=NaCl+H₂O+CO₂↑、(3)NaCl，无“修正思考”等过程性文字；评分点2+2+2与题分一致。",
+      "issue_ids": [
+        "q17-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "步骤①“足量铁粉”必然耗尽HCl并置换完Cu²⁺，滤液甲只含FeCl₂，而(2)设问与答案预设滤液甲含CuCl₂和HCl，条件与设问互斥，设问不可解、答案不成立。",
+      "acceptance_criteria": "重写后题干条件与设问自洽：若保留“先与CuCl₂、后与HCl”设问，须将铁粉改为不足量并明确氯化铜确实存在；若保留“过量铁粉”，则设问改为锌与FeCl₂的反应。答案与采分点随条件重定，各空在题面条件下唯一可推；总分仍为6分。",
+      "issue_ids": [
+        "q20-science",
+        "q20-specification",
+        "q20-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "modify_scoring_explanation",
+      "cause": "采分点4解析中酚酞变色范围表述不准，且把颜色深导致的终点判断滞后与pH界限杂糅。",
+      "acceptance_criteria": "解析改为“深红色使终点颜色变化不易辨认，导致滴定过量，V1偏大”，不再出现“pH>8.2变红、pH<8.2无色”的不准确表述；答案“=”与“V1”及分值1+1+1+2=5不变。",
+      "issue_ids": [
+        "q21-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "clean_answer_text",
+      "cause": "第(3)问参考答案冗长，夹入与设问关联不紧的措辞，影响阅卷一致性。",
+      "acceptance_criteria": "第(3)问答案定稿为“稀盐酸与碳酸钠反应产生气泡，但无论是否含氢氧化钠，只要有碳酸钠即产生气泡，故不能据此判断氢氧化钠是否存在”；采分点五个各2分、合计10分不变。",
+      "issue_ids": [
+        "q22-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q16": {
+      "question_id": "q16",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "skills.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "3e60566bbb7a74742e0c1f95abff051de789c88b0f0d29601a728bc3d7951642"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "b8a036d7be00c6ff9b2c02191b3a29d2722305df7d9912201d4f4bb9d429ff23"
+    },
+    "q5": {
+      "question_id": "q5",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "82042108bc8e1171c505f912a7b7b26aabb45ea672fea7377e8b56ce47a62e80"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "18dc863793bcccadaff3c6f44b24b61f60151d478a463c7d68fcec1bcd83fb4b"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2dac78847f1aff9e065ae370f93b086c95e902e916e8cb952badb35af02914e6"
+    },
+    "q17": {
+      "question_id": "q17",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "fc5aad124a80344b0226168b31cce4f543922ed2c353aa80afe44ad0de05a439"
+    }
+  }
+}

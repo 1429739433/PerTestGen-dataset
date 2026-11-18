@@ -1,0 +1,202 @@
+{
+  "D": [
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 45,
+      "root_cause": "RC7",
+      "suggestion": "重写设问2的答案与评分点：由CO₂ 4.4 g推得Na₂CO₃ 10.6 g、NaCl 11.7 g；题干补充“杂质不溶于水、反应后过滤除去”，则溶液质量=115.6−9.4=106.2 g，质量分数=11.7/106.2×100%≈11.0%，与参考答案13.5%不符须同步改正；评分点4删除多值摇摆表述，收敛为唯一结果；同时消除杂质溶解性歧义以回到easy定位。"
+    },
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "消除单选唯一性缺陷：B项CaCO₃+H₂SO₄=CaSO₄+H₂O+CO₂↑化学式与配平无误、产物类型也符合通性，仅凭题干无法排除；须在题干补充“生成微溶硫酸钙会覆盖固体表面使反应难以持续”等判断依据，或替换B为明确不属于碳酸盐与酸反应的干扰项，使A成为唯一正确项。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "suggestion": "将scoring_points改为按选项整体给分（选B得3分），删除按①②③各1分的拆分采分点，与单选“选对得本题全分”的提交规则一致；题干与选项无需改动。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "suggestion": "修改设问(2)措辞：将“判断反应恰好完成”改为“说明溶液碱性减弱、氢氧化钠被消耗”或“判断中和反应已发生”，避免把酚酞褪色（约pH8.2越过变色范围）等同于精确恰好中和；答案与评分点同步改为限定性表述，不要求超出指示剂精度的结论。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_answer_and_scoring",
+      "cause": "参考答案设问2给13.5%，但由题干数据推得NaCl 11.7 g、溶液质量106.2 g（杂质不溶）或115.6 g（杂质可溶），质量分数分别约11.0%与10.1%，均不等于13.5%；评分点4同时列出11.0%、10.1%、18.3%多个数值且未收敛，采分点与参考答案互相矛盾，无法判分。",
+      "acceptance_criteria": "设问2参考答案唯一且可复算：杂质不溶时溶液质量=115.6−(20.0−10.6)=106.2 g，质量分数=11.7/106.2×100%≈11.0%（保留至0.1%）；评分点4只保留该唯一结果及对应列式，删除其他数值；设问1的4.4 g与设问2的11.0%在题干数据下同时成立。",
+      "issue_ids": [
+        "q23-science",
+        "q23-science-veto",
+        "q23-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q23",
+      "root_cause": "RC3",
+      "operator": "clarify_stem_condition",
+      "cause": "题干未说明杂质是否溶于水，“反应后所得溶液”组成不唯一，学生须自行判断是否扣除杂质质量，引入超出easy定位的负担。",
+      "acceptance_criteria": "题干明确写出“杂质不溶于水、不与稀盐酸反应，反应后过滤除去”，使溶液质量确定唯一，难度回到easy且与N3二级“给定关键方程式完成常规质量分数任务”一致。",
+      "issue_ids": [
+        "q23-difficulty_cognition",
+        "q23-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "revise_stem_or_option",
+      "cause": "B项CaCO₃+H₂SO₄=CaSO₄+H₂O+CO₂↑化学式与配平无误、产物类型符合碳酸盐与酸反应通性，题干未给出“生成微溶硫酸钙覆盖表面使反应难以持续”的依据，单选唯一性依赖未说明的假设。",
+      "acceptance_criteria": "修改后逐项独立验证：仅A同时满足“代表碳酸盐与酸反应通性”和“书写正确”；B被明确排除（题干补充判断依据或替换为不属于该通性的干扰项），C、D仍为盐与碱反应、受热分解的明确干扰项；答案A唯一。",
+      "issue_ids": [
+        "q9-science",
+        "q9-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC6",
+      "operator": "revise_scoring_points",
+      "cause": "scoring_points按①②③各1分拆分，但单选只提交一个字母、选对得3分，不存在分项给分机制，采分点与题型给分规则不对应。",
+      "acceptance_criteria": "scoring_points改为“选出选项B得3分”单一采分点，合计3分与题目分值一致；题干与选项不变，答案B仍逐项正确。",
+      "issue_ids": [
+        "q1-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "revise_stem_and_answer",
+      "cause": "设问(2)将“溶液由红色恰好变为无色”直接等同于“反应恰好完成”，但酚酞变色范围约pH8.2~10，褪色仅表明越过变色范围，不能精确断定恰好中和，题内无独立证据支持该精确结论。",
+      "acceptance_criteria": "设问(2)改为“溶液由红色变为无色说明什么”，参考答案限定为“碱性减弱、氢氧化钠被消耗（不能仅凭褪色断定恰好完全反应）”；评分点相应调整且2+2+1=5分不变；不再要求以褪色断定恰好完全中和。",
+      "issue_ids": [
+        "q21-science",
+        "q21-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "1e50773fd526bf2ac23023e596e7b9dda6d921bc14765bd764cb05d0f1e27aa6"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "difficulty_cognition.difficulty",
+        "specification.clarity",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "ba151140bc1a8d8db45d2484f58fd785e80fc7d8cecb6609536a6dd7c266f95c"
+    },
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6fa3326e8341cc4ed76a93a724cf92073f669cfc817f86b46a4fefbc7b5c25ca"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "507441177ee39fa8c91f6c929b99e93a9b5201f1b4851aa6078c1fc484169198"
+    }
+  }
+}

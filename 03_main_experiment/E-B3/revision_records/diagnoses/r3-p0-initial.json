@@ -1,0 +1,350 @@
+{
+  "D": [
+    {
+      "question_id": "q11",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 60,
+      "root_cause": "RC7",
+      "root_cause_detail": "选项B与C同时成立，导致答案不唯一；评分点却按“唯一正确项C”给分，采分规则与选项真值不对应。",
+      "suggestion": "在保持单选、3分、知识点“常见酸碱盐的化学式书写判断”、技能N3、等级4、认知“应用”、难度easy不变的前提下重写选项：使B项至少一处化学式或反应表述错误（如将硫酸亚铁写成Fe₂(SO₄)₃，或把FeSO₄与NaOH反应表述为不反应），确保A、B、D均不满足设问、仅C完全正确；同步核对评分点“选C得3分，选A/B/D不得分”与重写后选项真值一致。不得通过修改标签或降低等级掩盖缺陷。"
+    },
+    {
+      "question_id": "q4",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 10,
+      "root_cause": "RC5",
+      "root_cause_detail": "q4与同卷q1共用同一粗盐提纯流程（过量BaCl2→NaOH→Na2CO3→盐酸）并考查相同四个反应及发生依据，两题各3分共6分重复投入同一知识内容；q4确认计入“常见盐与酸、碱反应的化学方程式书写”（该知识点已满足最低21分），重复占用的分值本可用于“常见酸碱盐的化学式书写判断”（确认约18分，低于最低21分），致该必考知识实际分值少于最低要求约3分。",
+      "suggestion": "保持题号、题型、分值、知识点、技能N3、等级4与认知难度要求不变，重写q4题干情境，脱离粗盐提纯流程与q1的四个反应组合，改为其他含干扰的盐与酸、碱反应情境（如碳酸钠与稀盐酸、硫酸铜与氢氧化钠、氯化钡与硫酸钠等不同组合），使本题不再与q1重复投入同一知识内容；同时不得改动标签掩盖重复。"
+    },
+    {
+      "question_id": "q1",
+      "dimensions": [
+        "science",
+        "coverage",
+        "specification"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "root_cause_detail": "RC7（科学性错误）为主因：A项“BaCl₂——除去Na₂SO₄，BaCl₂+Na₂SO₄=BaSO₄↓+2NaCl”作用与方程式均成立，与D项同为正确组合，单选不唯一；B项方程式未配平、C项“仅用于”错误，均属可修订的选项缺陷。coverage维度RC4：实际必答任务为除杂试剂作用与方程式正误筛选，未落实蓝图知识点“常见酸碱盐的化学式书写判断”。specification维度RC6：评分点以“未体现Ba²⁺后续除去”排除A，与题面“试剂—作用—对应化学方程式”判断标准不对应。",
+      "suggestion": "保持题号、单选、3分、N3、easy、应用及知识点不变，重写选项使唯一正确：A项改为作用或方程式确有错误（如作用表述为“除去Ca²⁺”或方程式不配平），B项配平为2NaOH+MgCl₂=Mg(OH)₂↓+2NaCl后仍保留一处错误，C项保留“仅用于”错误，D项保持正确；或将A项改为“BaCl₂——除去Na₂SO₄，BaCl₂+Na₂SO₄=BaSO₄↓+2NaCl；过量Ba²⁺由后续Na₂CO₃除去”并调整设问为“完全正确的一组”下仅D成立。评分点同步改为逐项列出A、B、C的错误点，删除“未体现流程关系”这一非错误理由。若需落实“化学式书写判断”，可在题干或选项中增加对Na₂SO₄、MgCl₂、CaCl₂、Na₂CO₃等化学式正误的判断点，但不改知识点标签。"
+    },
+    {
+      "question_id": "q22",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC6",
+      "suggestion": "保留题号、题型、分值、知识点、技能N5与综合难度不变，重写设问(3)与参考答案(4)。(3)改为与题干情境自洽的设问，如“若先向样品溶液中滴加酚酞，再滴加足量氯化钡溶液，能否确定氢氧化钠是否完全变质？请从物质性质角度说明理由”，或“说明本实验为何必须先加入足量氯化钡溶液再加酚酞”；不得保留“仅凭酚酞变红不能确定是否完全变质”这一与题干“足量氯化钡后取上层清液”条件相矛盾的前提。参考答案(4)精简为单一标准方案加合理替代：取样溶于水，加足量氯化钡（或氯化钙）溶液，静置或过滤，向上层清液滴加硫酸铜（或氯化铁）溶液，产生蓝色（或红褐色）沉淀则含氢氧化钠、为部分变质，无明显现象则不含氢氧化钠、为完全变质；删除“若不变红则为完全变质”等与本情境已观察到变红不符的分支及自我矛盾推理。评分点(1)(2)(3)各2分、(4)4分共10分维持，仅同步修订(3)的采分表述与(4)的答案文本。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "root_cause_detail": "规范缺陷：第(1)问把“溶液由红色恰好变为无色”作为“恰好完全反应”的现象依据，与第(3)问“仅凭酚酞由红变无色不能准确判断恰好完全”的设问自相矛盾；酚酞在pH约8.2以下即褪色，褪色只能说明pH越过变色点，不能证明NaOH耗尽或pH=7。答案(3)补充方案中“石蕊不变红即说明中性或微碱性、确认接近恰好反应”的结论也超出“不变红”所能支持的范围（石蕊在弱碱性下显蓝）。",
+      "suggestion": "保持题号、题型、分值、知识点、技能N5、等级5与认知“综合”不变，修订题干与答案使前后自洽：(1)改为“判断中和反应基本完成（滴定终点）的现象依据”，答案表述为“溶液由红色恰好变为无色，说明pH已降至酚酞变色点以下，反应基本完成”；(3)的补充方案结论限定为“石蕊变红或产生气泡可排除/确认盐酸过量，pH计测定pH接近7方可确认终点”，评分点4、5相应改写为可检查的表述，不得把“褪色=恰好完全中和”判为正确。"
+    },
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "root_cause_detail": "题干开头声明“用粒子示意图研究”并给出○/●/◇/◆图例，但交付文本未附任何反应前后粒子数量示意图，属题文与图件不匹配的可证实缺陷；同时题干设问要求“结合反应前后粒子变化评估”，而粒子变化信息仅以图例形式承诺、未实际呈现，学生只能依赖文字实验现象作答。",
+      "suggestion": "在题干中补入与图例一致的粒子示意图（反应前稀盐酸中H⁺、Cl⁻，加入NaOH后Na⁺、OH⁻进入，反应后H⁺与OH⁻减少、Na⁺与Cl⁻保留），或删除“用粒子示意图研究”及图例表述、将设问改为“结合实验现象与反应实质评估甲的观点”，使题文自足；保持选项B为唯一正确项、A/C/D仍含可辨识科学错误，评分点“选B得3分，其余不得分”不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q11",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_scoring",
+      "cause": "q11-science、q11-science-veto：B项“硫酸亚铁FeSO₄；氢氧化亚铁Fe(OH)₂；FeSO₄+2NaOH=Fe(OH)₂↓+Na₂SO₄”化学式与复分解条件均正确，与C项构成双正确项，单选答案不唯一；q11-specification：评分点“选出唯一正确项C得3分”建立在B不成立的前提上，与选项真值不符，选B将误判失分。",
+      "acceptance_criteria": "1）逐项复核后仅C项完全满足“名称—化学式正确且与NaOH反应判断正确”，A、B、D各至少一处明确错误；2）参考答案仍为C且唯一；3）评分点与选项真值一一对应，选C得3分、选A/B/D不得分；4）题干、选项、答案、评分点四处表述一致，无新增科学性错误。",
+      "issue_ids": [
+        "q11-science",
+        "q11-science-veto",
+        "q11-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "root_cause": "RC1",
+      "operator": "rewrite_task_requirement",
+      "cause": "q11-skills：实际必答任务为化学式正误辨识加单一复分解条件判断，属N3低等级行为；蓝图task_requirement要求“写出其中一种盐与氢氧化钠溶液反应的化学方程式”，但单选提交规则下仅为选项内判断，N3等级4“筛选有效反应、书写方程式并进行多步定量分析”的行为整体未落实。",
+      "acceptance_criteria": "1）在单选、3分、知识点、技能N3、等级4、认知“应用”、难度easy均不变的前提下，重写题干与选项，使选出正确项必须经过“筛选有效反应＋书写/判断方程式＋整合多条关系”的多步分析，而非仅辨认化学式；2）题面与选项使该推理过程成为选出唯一正确项的必要条件；3）不另设独立书写小问，不改变题型与分值；4）修订后由复核确认目标等级行为已由选项判断实际承载。",
+      "issue_ids": [
+        "q11-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "root_cause": "RC3",
+      "operator": "raise_cognition_in_stem",
+      "cause": "q11-difficulty_cognition：蓝图cognition为“应用”，实际任务以化学式辨识和直接套用复分解条件为主，属辨识/理解层级，未达应用层级；难度easy本身与任务信息量相符，偏移在认知而非难度。",
+      "acceptance_criteria": "1）重写后题干与选项要求学生自主筛选条件、整合多条反应关系并判断结论成立条件，体现“应用”层级；2）难度仍保持easy，不通过增加计算量或信息量抬高难度；3）认知层级提升与skills修订同源一致，不出现仅改标签而任务未变的情况。",
+      "issue_ids": [
+        "q11-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q4",
+      "root_cause": "RC5",
+      "operator": "rewrite_stem_context",
+      "cause": "q4与q1情境高度重复（同一粗盐提纯流程、相同四个反应及依据判断），重复占用分值挤占“常见酸碱盐的化学式书写判断”最低分值约3分。",
+      "acceptance_criteria": "1）q4题干不再出现粗盐样品及BaCl2→NaOH→Na2CO3→盐酸提纯流程；2）q4所考查的反应组合与q1不重合，且仍为“化学方程式书写正确且反应发生依据判断无误”的单选题；3）题号、题型single_choice、分值3分、知识点“常见盐与酸、碱反应的化学方程式书写”、技能N3、目标等级4、认知“应用”、难度easy均保持不变；4）四个选项逐项独立验证，仅一个选项同时满足方程式书写正确与依据判断无误，答案唯一；5）评分点仍为选出正确选项得3分，与points=3一致。",
+      "issue_ids": [
+        "q4-coverage"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_scoring",
+      "cause": "A项与D项同时满足“试剂—作用—对应化学方程式完全正确”，单选答案不唯一；B项方程式未配平、C项“仅用于”表述错误，均属选项与评分点缺陷，可在冻结蓝图内通过改写选项和评分点修复。",
+      "acceptance_criteria": "1）逐项独立核验后仅一个选项完全正确，参考答案与该唯一正确项一致；2）A项若保留BaCl₂+Na₂SO₄=BaSO₄↓+2NaCl，则其作用表述或流程关系须含可判定的错误，或设问改为能排除A的表述；3）B项若出现NaOH+MgCl₂=Mg(OH)₂↓+NaCl须判为未配平错误，或改为配平后另设错误点；4）C项“仅用于除去CaCl₂”须判为错误并说明Na₂CO₃还须除去过量Ba²⁺；5）D项试剂作用与两个方程式均正确；6）评分点逐项给出A、B、C、D的判定依据，不再以“未体现流程关系”排除A；7）题号、题型、分值3分、N3、easy、应用层级及知识点标签不变。",
+      "issue_ids": [
+        "q1-science",
+        "q1-specification",
+        "q1-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q1",
+      "root_cause": "RC4",
+      "operator": "rewrite_task_requirement_within_frozen_topic",
+      "cause": "实际必答任务为除杂流程中试剂作用与化学方程式正误筛选，未落实蓝图知识点“常见酸碱盐的化学式书写判断”所要求的化学式书写判断，属覆盖缺口；可在保持知识点标签与题型分值不变的前提下，通过改写题干条件或选项增加化学式书写判断点来修复。",
+      "acceptance_criteria": "1）题干或选项中设置至少一处对Na₂SO₄、MgCl₂、CaCl₂、Na₂CO₃、NaCl等化学式书写正误的判断点，且该判断点影响正确选项的选出；2）学生选出正确项必须同时完成化学式书写判断与方程式正误判断；3）知识点标签仍为“常见酸碱盐的化学式书写判断”，题号、单选、3分、N3、easy、应用层级不变；4）评分点说明中体现化学式判断依据。",
+      "issue_ids": [
+        "q1-coverage"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q22",
+      "root_cause": "RC6",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "设问(3)“仅凭酚酞变红不能确定氢氧化钠是否完全变质”与题干实验过程矛盾：题干已明确加入足量氯化钡并取上层清液滴酚酞，此条件下清液中碳酸根已除尽，酚酞变红只能由OH⁻引起，恰可确定含氢氧化钠（部分变质）；该前提脱离题干给定情境，学生无法判断应就一般原理还是本题情境作答，答案(3)以“若未除尽碳酸钠”作答亦印证前提错位。参考答案(4)另含大段自相矛盾推理与“若不变红则为完全变质”的不符情境分支，易误导阅卷。",
+      "acceptance_criteria": "1) 设问(3)的前提与题干“足量氯化钡后取上层清液”条件不矛盾，学生能明确按本题情境或明确标注的一般原理作答；2) 参考答案(3)与修订后设问一一对应，采分点仍为2分且表述可判分；3) 参考答案(4)只保留操作—现象—结论完整对应的方案（足量BaCl₂/CaCl₂沉淀碳酸根后以CuSO₄蓝色沉淀、FeCl₃红褐色沉淀或pH检验OH⁻），删除“若不变红则为完全变质”等与本情境不符的分支及自我矛盾讨论；4) 评分点合计仍为2+2+2+4=10分，题号、题型experiment、分值10、知识点“氢氧化钠变质程度的多证据推断”、技能N5、等级5、认知“综合”、难度hard均不变；5) 修订后(1)(2)答案“除尽碳酸钠”“部分变质”仍由题干条件严格推出。",
+      "issue_ids": [
+        "q22-science",
+        "q22-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "rewrite_stem_and_answer_within_frozen_blueprint",
+      "cause": "第(1)问的“恰好完全反应”现象依据与第(3)问对同一判据的局限性质疑相互矛盾，且答案(3)石蕊分支结论不严谨，属可修订的规范缺陷，非上游约束冲突。",
+      "acceptance_criteria": "1) 题号q21、题型experiment、分值5、知识点KP-0f06c22fc627bc1e、技能N5、目标等级5、认知“综合”、难度hard均不变；2) 第(1)问设问不再断言褪色即恰好完全中和，答案与评分点1同步改写且与第(3)问局限分析不矛盾；3) 第(3)问补充方案结论限定在“排除盐酸过量/用pH计确认接近中性”的可支持范围，评分点4、5逐条对应且合计仍为5分；4) 全题无“仅凭酚酞褪色即可断定pH=7或恰好完全中和”的表述。",
+      "issue_ids": [
+        "q21-science"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "补全题文图件或改写设问使题文自足",
+      "cause": "题干承诺提供粒子示意图并给出图例，但交付文本无图；设问“结合反应前后粒子变化”缺少对应图件支撑，构成题文与图件不匹配的规范与科学性缺陷（q9-science、q9-specification）。",
+      "acceptance_criteria": "1) 题干含与图例○/●/◇/◆一致的粒子示意图，且图中反应前为H⁺、Cl⁻，反应后H⁺与OH⁻减少、Na⁺与Cl⁻保留；或删除示意图与图例表述并将设问改为依据实验现象与中和反应实质评估；2) 四个选项仍逐项可独立判定，B为唯一正确项，A/C/D各含明确科学错误；3) 评分点仍为“选B得3分，选A、C、D不得分”，与3分单选规则一致；4) 知识点仍为“盐酸在水溶液中电离出的离子种类”，技能N2、等级5、认知“理解”、难度medium不变。",
+      "issue_ids": [
+        "q9-science",
+        "q9-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "numeric_models": [],
+  "isolated_diagnosis_failures": [
+    {
+      "scope": "batch",
+      "question_ids": [
+        "q11",
+        "q4",
+        "q1",
+        "q22",
+        "q21",
+        "q9"
+      ],
+      "error": "deepseek：模型返回内容未通过字段检查：A5须逐项处理当前重大或关键问题，不能只重复题位标签而遗漏问题：q11-difficulty_cognition；已保留中间结果，未补造评价分数"
+    }
+  ],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a7bb130684bfcf0bd480e31400dd1b7c07c3a4536cc4d55335ccecbf9c337b76"
+    },
+    "q11": {
+      "question_id": "q11",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "37659284e6008ff313c3ff940fa3cd04b8ef6eca569c5b2db67d8d97493475fd"
+    },
+    "q22": {
+      "question_id": "q22",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "82b3cd1fd903f03a9951208cdbb9ecdef53aba674db3aac1e35e1f2f89e0d56c"
+    },
+    "q1": {
+      "question_id": "q1",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "coverage.content",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "8270e9e5f55932b96fdc1b6bc7b6ae075287147ecbb5a3f6ec19c6b857722e4d"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "fd8d5159e7160103cbc80a380b404be2a0674d4dcb248ef98337ec34c087bcb5"
+    },
+    "q4": {
+      "question_id": "q4",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.redundancy"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "37c6dc46d73674e63cfd2d48401ab5b0f5b768c39602a47a2645206c5799b83d"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "round": 2,
+  "status": "completed",
+  "parent_ids": [
+    "r1-p0-c0"
+  ],
+  "candidate_ids": [
+    "r2-p0-c0",
+    "r2-p0-c1"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 4,
+    "remaining_question_slots": 24,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q8",
+      "q15",
+      "q19",
+      "q16",
+      "q11",
+      "q1"
+    ],
+    "contributions": {
+      "q11": 2.25,
+      "q8": 6.25,
+      "q16": 1.0,
+      "q1": 1.25,
+      "q19": 2.5,
+      "q15": 2.5,
+      "q20": 1.0
+    },
+    "selected_mass": 0.9402985074626866,
+    "weighted_penalty_total": 16.75,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q15",
+      "q16",
+      "q19",
+      "q8"
+    ],
+    "authorized_issue_ids": [
+      "q1-skills",
+      "q8-coverage",
+      "q8-skills",
+      "q8-difficulty_cognition",
+      "q8-specification",
+      "q11-skills",
+      "q11-difficulty_cognition",
+      "q15-skills",
+      "q16-specification",
+      "q19-skills",
+      "missing-pH试纸与浓硫酸稀释的实验操作"
+    ],
+    "priority_dimensions": [
+      "coverage",
+      "difficulty_cognition",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": [
+      "q20"
+    ],
+    "stalled_question_attempts": {},
+    "repair_dimension_candidates": {
+      "coverage": [
+        "q8"
+      ],
+      "difficulty_cognition": [
+        "q8",
+        "q11",
+        "q20"
+      ],
+      "skills": [
+        "q1",
+        "q8",
+        "q11",
+        "q15",
+        "q19"
+      ],
+      "specification": [
+        "q8",
+        "q16"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r2-p0-c1"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "D": [
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "suggestion": "修正流程条件自洽性：将第一步改为“滴加稀盐酸至恰好不再产生气泡（碳酸钠恰好耗尽、盐酸不过量）”，使溶液甲只含NaCl，第二步加氢氧化钙不再产生沉淀，则C项“溶液甲只含氯化钠”成立，与答案B冲突；因此须同步改写C项（如改为“溶液甲中除NaCl外还含过量HCl”）或改写第二步现象，使仅B为真。同时把D项比较基准明确为“溶液甲与滤液乙”，并保留“Na⁺不参与沉淀、数目不变”的排除依据。修改后须逐项复核唯一正确项为B，评分要点与选项一一对应。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "suggestion": "补齐评分点覆盖全部设问：为(3)第三空“改用氢氧化钙造成干扰的原因（生成NaOH引入OH⁻）”单列采分点；为(2)补充“不能确定盐酸恰好完全反应（盐酸可能过量）”的采分内容；并统一(3)首句“判断中和反应终点”与末空“判断氢氧化钠的存在”的表述对象。调整后各采分点分值合计仍为5分，与points一致。"
+    },
+    {
+      "question_id": "q19",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 10,
+      "root_cause": "RC6",
+      "suggestion": "修正答案键结构：将answer改为与题干空位一一对应的键（如\"(1)第一空\":\"Na⁺\"、\"(1)第二空\":\"CO₃²⁻\"、\"(2)\":\"OH⁻\"），与scoring_points三条各2分对应；并在题干三处空位后明确标注“（填离子符号）”，与同卷q17、q18口径一致，避免学生填“钠离子”“碳酸根离子”等正确表述无法按采分点判分。"
+    },
+    {
+      "question_id": "q2",
+      "dimensions": [
+        "science",
+        "difficulty_cognition"
+      ],
+      "penalty": 10,
+      "root_cause": "RC7",
+      "suggestion": "修正“红色恰好褪去”与pH=7的对应表述：酚酞褪色约在pH8.2—10，褪色先于pH=7出现。可将③阶段改为“溶液红色已褪去，pH由9.0降至7.0并保持，气泡停止”，使C项判定依据落在pH计实测中性数据而非“恰好褪去”；同时将难度标注与等级4干扰排除任务对齐（或补充更明确的提示以支撑easy），确保结论C仍唯一成立。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q9",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_option",
+      "cause": "题干第一步为“足量稀盐酸”，碳酸钠应完全耗尽且溶液甲含过量HCl并显酸性，再滴加氢氧化钙应先中和过量盐酸，不会立即出现“产生白色沉淀”，流程图现象与“足量”限定矛盾；且按题面条件D项所述Na₂CO₃+Ca(OH)₂反应在溶液甲中无从发生。该条件缺陷影响读题与选项真值判定。",
+      "acceptance_criteria": "1) 题干流程条件自洽：明确稀盐酸用量（适量至恰好不再产生气泡或足量），并使后续“产生白色沉淀”现象与溶液甲成分一致；2) 逐项复核仅B为真：A未配平、C与溶液甲成分矛盾、D钠离子数目不变；3) 评分要点“选B得3分，A、C、D不得分”与选项真值一一对应；4) 保持题号q9、题型single_choice、分值3、知识点“常见盐与酸、碱反应的化学方程式书写”、技能N3、等级4、认知“理解”、难度easy不变。",
+      "issue_ids": [
+        "q9-science",
+        "q9-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC6",
+      "operator": "revise_scoring_points",
+      "cause": "scoring_points共5分，但(3)第三空“改用氢氧化钙造成干扰的原因”无对应采分点；(2)采分点仅覆盖“不能证明不含碳酸钠”，未覆盖参考答案中“不能确定盐酸恰好完全反应（盐酸可能过量）”；且(3)首句“判断中和反应终点”与末空“判断氢氧化钠的存在”表述对象不一致。",
+      "acceptance_criteria": "1) 每个设问空位均有对应采分点，采分点分值合计等于5分；2) (3)第三空单列采分点，内容为“氢氧化钙与碳酸钠反应生成NaOH、引入OH⁻，干扰对氢氧化钠的检验和终点判断”；3) (2)采分点补充“不能确定盐酸恰好完全反应（盐酸可能过量）”；4) (3)首句与末空表述对象统一；5) 保持题号q21、题型experiment、分值5、知识点“酸碱中和反应的实验操作与现象分析”、技能N5、等级4、认知“综合”、难度medium不变。",
+      "issue_ids": [
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q19",
+      "root_cause": "RC6",
+      "operator": "revise_answer_and_stem",
+      "cause": "answer键值结构“(1)/(2)/(3)”与题干编号不符——题干(1)含两个空（应分别为Na⁺和CO₃²⁻），(2)才是OH⁻；且题干未注明“填离子符号”，与同卷q17、q18口径不一致，学生填“钠离子”等正确表述无法按采分点判分。",
+      "acceptance_criteria": "1) answer键与题干空位一一对应（(1)第一空Na⁺、(1)第二空CO₃²⁻、(2)OH⁻）；2) 题干三处空位后明确标注“（填离子符号）”；3) scoring_points三条各2分、合计6分，与points一致；4) 保持题号q19、题型fill_blank、分值6、知识点“碳酸钠溶液导电的微观原因”、技能N2、等级2、认知“理解”、难度easy不变。",
+      "issue_ids": [
+        "q19-science",
+        "q19-specification"
+      ],
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q2",
+      "root_cause": "RC7",
+      "operator": "revise_stem_wording",
+      "cause": "题干将“红色恰好褪去”与pH由9.0降至7.0对应，而酚酞褪色范围约在pH8.2—10，褪色先于pH=7出现，表述略欠精确；虽不影响答案唯一性，但可能误导学生对指示剂终点与pH关系的理解。",
+      "acceptance_criteria": "1) ③阶段表述改为“溶液红色已褪去，pH由9.0降至7.0并保持，气泡停止”，使C项判定依据落在pH计实测中性数据；2) 逐项复核仅C为真：A无气泡不能排除碳酸钠、B气泡只说明NaOH耗尽、D pH下降为碱性减弱；3) 评分要点“选C得3分，A、B、D不得分”不变；4) 保持题号q2、题型single_choice、分值3、知识点“溶液酸碱性与pH的关系判断”、技能N1、等级4、认知“应用”、难度easy不变。",
+      "issue_ids": [
+        "q2-science",
+        "q2-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q19": {
+      "question_id": "q19",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "e608abc9744de5b406b731e322a6893e5bcefc2754f01db4c26bdac1cd278e2a"
+    },
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "field_limited_revision",
+      "question_fingerprint": "d6fbf31403fbd9ef20810d1dd1305085bb5330740e7756af92d224d5e714d98c"
+    },
+    "q2": {
+      "question_id": "q2",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "216cf129dfa159419ffcb06b94cab72574aa0ab0043c8d3b6ca1079b69f2d363"
+    },
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0ce071b1a4eb800c8c0e34f69b5203ff9f254473d49a31cbe8bdf438818f0670"
+    }
+  }
+}

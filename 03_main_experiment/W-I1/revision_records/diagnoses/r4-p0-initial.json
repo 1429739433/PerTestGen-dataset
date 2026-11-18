@@ -1,0 +1,65 @@
+{
+  "D": [
+    {
+      "question_id": "q13",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 5,
+      "root_cause": "RC4",
+      "suggestion": "保持q13的题型、3分、N5、等级3、medium与认知“应用”不变，重写题干与选项，使正确作答必须同时落实“pH试纸规范使用”与“浓硫酸稀释操作”两个子内容：例如题干给出用pH试纸测定稀硫酸pH、稀释浓硫酸并测稀释后pH的两步操作情境，要求自主选择用品并判断两步操作与结论均正确的一项；正确项须包含玻璃棒蘸取滴在干燥pH试纸中部、与标准比色卡对照，以及将浓硫酸沿器壁缓慢注入水中并搅拌，错误项分别设置湿润pH试纸、将水注入浓硫酸、把试纸浸入溶液等典型错误。同时保留“两步递进区分/两步操作均须成立”的限定，避免仅凭单一判据排除全部干扰项。若本卷其他题已正面落实该知识点，可在解析中说明分工，但不得仅改标签。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q13",
+      "root_cause": "RC4",
+      "operator": "rewrite_stem_and_options",
+      "cause": "蓝图knowledge_topic为“pH试纸与浓硫酸稀释的实验操作”，但当前题干的必答路径只用酚酞与石蕊的变色现象完成两步鉴别；pH试纸仅作为干扰项情境出现，浓硫酸稀释完全未涉及。干扰项B、C、D均可仅凭“每一步必须把尚未区分开的溶液进一步分开”这一判据排除，学生正确作答无需判定pH试纸操作正误，也无需调用浓硫酸稀释知识，导致该必考知识点的两个子内容均未落实（issue q13-coverage、missing-pH试纸与浓硫酸稀释的实验操作）。",
+      "acceptance_criteria": "1. 题干与选项使选出正确项必须判定pH试纸的规范使用（玻璃棒蘸取、滴在试纸中部、与标准比色卡对照、不得用湿润试纸测酸碱性、不得将试纸浸入溶液），且至少一个干扰项因pH试纸操作错误而被排除。\n2. 题干与选项使选出正确项必须判定浓硫酸稀释操作（将浓硫酸沿器壁缓慢注入水中并不断搅拌，不得将水注入浓硫酸），且至少一个干扰项因稀释操作错误而被排除。\n3. 正确项唯一，且不能仅凭“每一步须区分出新溶液”或任一单一步骤判据排除全部干扰项；逐项独立验证后仅一项满足全部限定。\n4. 保持question_type=single_choice、points=3、skill_id=N5、target_level=3、difficulty=medium、cognition=应用不变；评分点仍为选对得3分，并写明正确项在pH试纸操作与浓硫酸稀释操作两方面的依据。\n5. 题干不得出现“恰好完全中和即pH=7”等精确断定；不得以湿润pH试纸测酸碱性为正确操作。",
+      "issue_ids": [
+        "q13-coverage",
+        "missing-pH试纸与浓硫酸稀释的实验操作"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "format_repairs": [
+    {
+      "field": "ES.0.acceptance_criteria",
+      "original": [
+        "题干与选项使选出正确项必须判定pH试纸的规范使用（玻璃棒蘸取、滴在试纸中部、与标准比色卡对照、不得用湿润试纸测酸碱性、不得将试纸浸入溶液），且至少一个干扰项因pH试纸操作错误而被排除。",
+        "题干与选项使选出正确项必须判定浓硫酸稀释操作（将浓硫酸沿器壁缓慢注入水中并不断搅拌，不得将水注入浓硫酸），且至少一个干扰项因稀释操作错误而被排除。",
+        "正确项唯一，且不能仅凭“每一步须区分出新溶液”或任一单一步骤判据排除全部干扰项；逐项独立验证后仅一项满足全部限定。",
+        "保持question_type=single_choice、points=3、skill_id=N5、target_level=3、difficulty=medium、cognition=应用不变；评分点仍为选对得3分，并写明正确项在pH试纸操作与浓硫酸稀释操作两方面的依据。",
+        "题干不得出现“恰好完全中和即pH=7”等精确断定；不得以湿润pH试纸测酸碱性为正确操作。"
+      ],
+      "operation": "join_textual_list_without_changing_requirements"
+    }
+  ],
+  "edit_scopes": {
+    "q13": {
+      "question_id": "q13",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "be6772da049d2e70657606fdcb7f7e9a91f9ed9b16fd248213ef8364261bd15a"
+    }
+  }
+}

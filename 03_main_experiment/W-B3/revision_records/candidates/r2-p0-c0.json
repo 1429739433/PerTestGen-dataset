@@ -1,0 +1,16 @@
+{
+  "状态": "evaluated",
+  "采用原因": "dimension_regression",
+  "曾被采用": false,
+  "错误": null,
+  "综合分": 86.880435,
+  "五维分": {
+    "science": 95,
+    "coverage": 60.434783,
+    "skills": 88.478261,
+    "difficulty_cognition": 88.478261,
+    "specification": 95
+  },
+  "评价完整": true,
+  "否决维度": []
+}

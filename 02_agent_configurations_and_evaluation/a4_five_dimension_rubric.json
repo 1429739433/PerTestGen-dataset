@@ -1,0 +1,63 @@
+{
+  "version": "chapter3_20261029",
+  "baseline": 60,
+  "gain_pool": 35,
+  "range": [
+    40,
+    95
+  ],
+  "penalties": {
+    "pass": 0,
+    "minor": 5,
+    "moderate": 10,
+    "severe": 20
+  },
+  "weights": {
+    "science": 0.3,
+    "coverage": 0.15,
+    "skills": 0.25,
+    "difficulty_cognition": 0.2,
+    "specification": 0.1
+  },
+  "checks": {
+    "science": {
+      "facts": "概念、性质、反应关系符合材料与化学规律",
+      "solvability": "条件自洽、信息充分、计算可解；单选答案唯一",
+      "answer": "参考答案及评分要点正确且对应全部设问"
+    },
+    "coverage": {
+      "content": "实际必答任务考查了本题目标知识点",
+      "redundancy": "重复考查未挤占其他必要知识内容"
+    },
+    "skills": {
+      "dimension": "实际知识与任务落实目标能力维度",
+      "cognition": "实际思维活动达到蓝图目标认知层级"
+    },
+    "difficulty_cognition": {
+      "cognition": "实际认知层级符合目标",
+      "difficulty": "提示、条件和推理步骤符合目标难度及目标技能等级"
+    },
+    "specification": {
+      "clarity": "题干选项单位及设问清楚完整",
+      "scoring": "答案、评分要点与本题分值对应"
+    }
+  },
+  "veto": {
+    "science": [
+      "factual_error",
+      "unsolvable_answer"
+    ],
+    "coverage": [
+      "missing_required_knowledge"
+    ],
+    "skills": [
+      "weakest_dimension_unassessed"
+    ]
+  },
+  "termination": {
+    "composite_min": 85,
+    "each_dimension_min": 80,
+    "max_rounds": 5
+  },
+  "notice": "先查结构；每题每维按最严重条目计一次扣分，增益为35×通过率。模型不直接给整卷分。"
+}

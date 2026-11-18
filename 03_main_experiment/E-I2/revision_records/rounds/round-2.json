@@ -1,0 +1,118 @@
+{
+  "round": 2,
+  "status": "completed",
+  "parent_ids": [
+    "r1-p0-c0"
+  ],
+  "candidate_ids": [
+    "r2-p0-c0"
+  ],
+  "repair_capacity": {
+    "remaining_major_questions": 5,
+    "remaining_question_slots": 24,
+    "warning": "题位预算只表示可尝试修改的题数，不保证每次修订成功；重复失败会占用后续轮次。"
+  },
+  "selection": {
+    "question_ids": [
+      "q9",
+      "q3",
+      "q10",
+      "q21",
+      "q22",
+      "q16"
+    ],
+    "contributions": {
+      "q9": 10.25,
+      "q3": 10.0,
+      "q16": 3.25,
+      "q22": 3.0,
+      "q2": 2.5,
+      "q5": 1.25,
+      "q10": 6.0,
+      "q19": 2.0,
+      "q21": 2.5
+    },
+    "selected_mass": 0.8588957055214724,
+    "weighted_penalty_total": 40.75,
+    "policy": "balance_confirmed_repairs_across_all_shortfalls",
+    "mandatory_major_question_ids": [
+      "q10",
+      "q21",
+      "q22",
+      "q3",
+      "q9"
+    ],
+    "authorized_issue_ids": [
+      "q3-science",
+      "q3-difficulty_cognition",
+      "q3-specification",
+      "q3-science-veto",
+      "q9-science",
+      "q9-skills",
+      "q9-difficulty_cognition",
+      "q9-specification",
+      "q9-science-veto",
+      "q10-science",
+      "q10-science-veto",
+      "q16-science",
+      "q16-skills",
+      "q16-specification",
+      "q21-science",
+      "q21-specification",
+      "q22-science"
+    ],
+    "priority_dimensions": [
+      "difficulty_cognition",
+      "science",
+      "skills",
+      "specification"
+    ],
+    "composite_only": false,
+    "priority_severities": [
+      "critical",
+      "major"
+    ],
+    "supplemental_major_question_ids": [],
+    "deferred_question_ids": [
+      "q2",
+      "q5",
+      "q19"
+    ],
+    "stalled_question_attempts": {
+      "q23": 2
+    },
+    "repair_dimension_candidates": {
+      "difficulty_cognition": [
+        "q2",
+        "q3",
+        "q9"
+      ],
+      "science": [
+        "q2",
+        "q3",
+        "q9",
+        "q10",
+        "q16",
+        "q19",
+        "q21",
+        "q22"
+      ],
+      "skills": [
+        "q5",
+        "q9",
+        "q16"
+      ],
+      "specification": [
+        "q3",
+        "q9",
+        "q16",
+        "q19",
+        "q21"
+      ]
+    }
+  },
+  "accepted": true,
+  "queue_ids": [
+    "r2-p0-c0"
+  ]
+}

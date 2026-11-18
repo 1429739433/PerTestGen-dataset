@@ -1,0 +1,141 @@
+{
+  "D": [
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "root_cause_detail": "题干已完整给出两步鉴别的试剂选择（pH试纸、酚酞）与各步现象结果，学生只需判断方案与操作说法正误，未落实N5三级“不给出完整步骤、自主选择试剂和方法完成两步以上鉴别”的必答行为，实际要求接近二级；同时题干给出完整步骤与现象，提示程度高于三级task_condition，难度低于目标等级。",
+      "suggestion": "保持题号、单选、3分、知识点“pH试纸与浓硫酸稀释的实验操作”、N5、理解、easy不变，改写题干：只给出三种待测液与可选试剂（pH试纸、酚酞、石蕊等），要求学生自主选择试剂并设计两步以上鉴别方案，说明各步现象与结论，同时判断测定pH与稀释浓硫酸的操作要点及错误后果；选项围绕学生自主方案中的关键判断设置，正确项须依赖自主设计的两步鉴别与操作规范判断才能选出。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "difficulty_cognition"
+      ],
+      "penalty": 5,
+      "root_cause": "RC3",
+      "root_cause_detail": "题干已明示“过量铁粉”，使(1)(2)(3)的推理弱化：(2)的气泡现象本应用来验证铁剩余，但因“过量”已在题干给出，学生不经气泡推理也可答出“铁”，实际难度略低于蓝图medium的多步推理定位。",
+      "suggestion": "保持题号、填空、6分、知识点“金属与稀盐酸能否反应的判断”、N4、应用、medium不变，将题干改为不直接给出“过量”，而由后续现象（如向滤渣中加稀盐酸有气泡）反推铁过量，使(1)(2)(3)均需依据现象推理；或保留“过量”但增设需由现象推断滤液中是否含CuCl₂、HCl的设问，恢复多步推理难度。"
+    },
+    {
+      "question_id": "q15",
+      "dimensions": [
+        "skills"
+      ],
+      "penalty": 10,
+      "root_cause": "RC1",
+      "root_cause_detail": "蓝图task_requirement要求CO₂分别通入NaOH溶液与等体积水的对照实验，依据压强变化与产物检验推理反应并说明对照作用；当前题干仍为单一反应情境中依据证据判断反应是否发生（A/B对照仅排除溶解干扰），未落实N4三级“在多物质体系中推理反应能否发生或共存”的必答行为，三级必答行为落空。",
+      "suggestion": "保持题号、单选、3分、知识点“碱与非金属氧化物反应及证据分析”、N4、应用、medium不变，改写题干为多物质体系情境：如将CO₂分别通入NaOH溶液、等体积水及另一碱性溶液（或含NaOH与Na₂CO₃的混合吸收液）的对照实验，要求学生依据压强变化与产物检验证据，推理CO₂与哪种物质发生反应、体系中各成分能否共存，并说明对照实验作用及排除水溶解干扰的思路；选项须依赖多物质体系中的反应与共存推理才能选出。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q8",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题干完整给出两步鉴别方案与各步现象，学生仅需判断正误，未落实N5三级自主选择试剂完成两步以上鉴别的必答行为；同时步骤提示过全导致难度低于目标等级。",
+      "acceptance_criteria": "改写后题干只给出三种待测液与可选试剂，不给出完整步骤与现象；学生须自主选择试剂并设计两步以上鉴别方案，说明各步现象与结论，并判断测定pH与稀释浓硫酸的操作要点及错误后果；正确选项须依赖自主设计的两步鉴别与操作规范判断才能选出，错误选项分别对应润湿pH试纸、以酚酞变红断定身份、水入酸等典型错误；题号、单选、3分、知识点、N5、理解、easy不变。",
+      "issue_ids": [
+        "q8-skills",
+        "q8-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC3",
+      "operator": "rewrite_stem_conditions",
+      "cause": "题干直接给出“过量铁粉”，使滤渣含铁等结论无需经气泡现象推理即可得出，实际难度低于蓝图medium的多步推理定位。",
+      "acceptance_criteria": "改写后题干不直接给出“过量”，而由向滤渣中加稀盐酸有气泡等现象反推铁过量，使(1)(2)(3)均需依据现象与金属活动性顺序推理；或保留“过量”但增设需由现象推断滤液中是否含CuCl₂、HCl的设问；题号、填空、6分、知识点、N4、应用、medium不变，答案与评分点同步修订且总分仍为6分。",
+      "issue_ids": [
+        "q20-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q15",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_options",
+      "cause": "题干仍为单一反应情境中依据证据判断反应是否发生，未落实N4三级“在多物质体系中推理反应能否发生或共存”的必答行为。",
+      "acceptance_criteria": "改写后题干为多物质体系情境（如CO₂分别通入NaOH溶液、等体积水及另一碱性溶液或含NaOH与Na₂CO₃的混合吸收液的对照实验），学生须依据压强变化与产物检验证据推理CO₂与哪种物质发生反应、体系中各成分能否共存，并说明对照实验作用及排除水溶解干扰的思路；正确选项须依赖多物质体系中的反应与共存推理才能选出；题号、单选、3分、知识点、N4、应用、medium不变。",
+      "issue_ids": [
+        "q15-skills"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "14fe41300e16d8bfa1f2f6cd661d16af04eaede62f8e3688af5f3ec6e29c9072"
+    },
+    "q15": {
+      "question_id": "q15",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "a4278891502e4f0b48bf4b967171599435cba5b292d1680c4f7cb2955d58fe28"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "7bde4cf02a1237113d5e616baab6bd12db838b2444413a0aebd0b1fb522e4494"
+    }
+  }
+}

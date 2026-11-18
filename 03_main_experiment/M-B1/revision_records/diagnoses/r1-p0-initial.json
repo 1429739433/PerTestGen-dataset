@@ -1,0 +1,296 @@
+{
+  "D": [
+    {
+      "question_id": "q23",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 25,
+      "root_cause": "RC7",
+      "suggestion": "保持计算题题型、10分、知识点与N3等级3不变，重写题干数据与答案：将20g盐酸对应总质量改为48.8g（失重1.2g），使产气自始按化学计量进行；参考答案(2)更正为约5.8%（2.89g/50g），评分点保留1.2g CO₂→106/44比例→2.9g→5.8%链条，并在评分点中说明完全反应点判断依据。"
+    },
+    {
+      "question_id": "q5",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 55,
+      "root_cause": "RC7",
+      "suggestion": "保持单选3分、知识点与N4等级3不变，重写选项与设问：将C项改为含'一定不含氯化亚铁'等错误表述，或把设问改为'下列说法错误的是'并调整选项，使唯一正确项成立；同时在题干中明确铁粉加入后与盐酸、氯化铜反应的先后条件，避免'一定质量'歧义，评分点与唯一答案对应。"
+    },
+    {
+      "question_id": "q11",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 25,
+      "root_cause": "RC7",
+      "suggestion": "保持单选3分、除杂知识点与N5等级3不变，重写选项：将D项改为'加入适量氢氧化钡溶液，充分反应后过滤，所得溶液可直接使用'并明确比较基准（如成本/是否引入新杂质），或把D项替换为明确引入新杂质的试剂（如硝酸钡），使C为唯一最合理项；题干可补充'从试剂成本和操作简便角度考虑'以消除歧义。"
+    },
+    {
+      "question_id": "q9",
+      "dimensions": [
+        "coverage"
+      ],
+      "penalty": 5,
+      "root_cause": "RC4",
+      "suggestion": "保持单选3分、知识点'常见盐与酸、碱反应的化学方程式书写'与N3等级3不变，重写题干：不直接给出方程式①②，改为给出碳酸钠与稀盐酸、硫酸铜与氢氧化钠反应的文字描述，要求学生在选项中自主判断并选择正确的化学方程式（含配平或产物错误项），再衔接两步质量计算，以落实'书写'子内容。"
+    },
+    {
+      "question_id": "q14",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition",
+        "specification"
+      ],
+      "penalty": 25,
+      "root_cause": "RC1",
+      "suggestion": "保持单选3分、知识点与N3等级3不变，重写设问与选项：要求依据化合价与原子个数比判断化学式书写是否正确，例如给出'纯碱Na₂CO₃''熟石灰Ca(OH)₂'等并让学生指出某项错误原因，或设置需自主书写化学式的选项，使任务达到N3等级3的'自主判断并书写'行为，而非单纯俗名-化学式辨认。"
+    },
+    {
+      "question_id": "q20",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 20,
+      "root_cause": "RC1",
+      "suggestion": "保持填空6分、知识点'金属与稀盐酸能否反应的判断'与N4等级3不变，重写设问：去掉'氢/氧'二选一提示，改为在多金属与稀盐酸体系中自主推理反应进程或共存问题（如加入铁粉后滤渣滤液成分推断），并要求说明判断依据，使任务落实N4等级3的'多物质体系中连接多个关系推理'行为。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q23",
+      "root_cause": "RC7",
+      "operator": "rewrite_stem_and_answer",
+      "cause": "题干20g盐酸数据点失重0.4g与化学计量矛盾（应约1.2g），且参考答案10.6%与评分点5.8%冲突，属数据与答案双重科学错误。",
+      "acceptance_criteria": "修订后20g、40g、60g三点失重均与化学计量一致（各约1.2g）；参考答案为约5.8%；评分点链条1.2g CO₂→106/44→2.9g→5.8%完整且与答案一致；题型、10分、知识点、N3等级3不变。",
+      "issue_ids": [
+        "q23-science",
+        "q23-specification",
+        "q23-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_stem_condition",
+      "cause": "C、D两项均成立导致单选不唯一，且题干未明确分步加料条件，评分点仅对应D无法判分。",
+      "acceptance_criteria": "修订后逐项独立验证仅一个选项成立；题干明确铁粉与盐酸、氯化铜反应的先后条件；评分点与唯一答案对应；题型、3分、知识点、N4等级3不变。",
+      "issue_ids": [
+        "q5-science",
+        "q5-skills",
+        "q5-difficulty_cognition",
+        "q5-specification",
+        "q5-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "root_cause": "RC7",
+      "operator": "rewrite_options_and_comparison_basis",
+      "cause": "D项在'适量'条件下化学原理与C同样成立，题干'最合理'缺乏明确比较基准，单选唯一性不足。",
+      "acceptance_criteria": "修订后仅C项满足'不引入新杂质且操作可行'；D项明确引入新杂质或题干给出成本/操作比较基准；评分点与唯一答案对应；题型、3分、知识点、N5等级3不变。",
+      "issue_ids": [
+        "q11-science",
+        "q11-specification",
+        "q11-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q9",
+      "root_cause": "RC4",
+      "operator": "rewrite_stem_task",
+      "cause": "题干直接给出方程式①②，学生无需书写，'常见盐与酸、碱反应的化学方程式书写'的书写子内容未落实。",
+      "acceptance_criteria": "修订后学生须自主判断并选择正确化学方程式（含配平或产物错误项），再衔接两步质量计算；题型、3分、知识点、N3等级3不变。",
+      "issue_ids": [
+        "q9-coverage",
+        "missing-常见盐与酸、碱反应的化学方程式书写"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q14",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_and_options",
+      "cause": "实际任务为俗名-化学式-类别的事实辨认，属N3等级3的前置识记行为，未落实'自主判断并书写化学式'的等级行为。",
+      "acceptance_criteria": "修订后学生须依据化合价与原子个数比判断化学式书写正误或自主书写化学式，任务达到N3等级3行为；题型、3分、知识点不变。",
+      "issue_ids": [
+        "q14-skills",
+        "q14-difficulty_cognition",
+        "q14-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q20",
+      "root_cause": "RC1",
+      "operator": "rewrite_stem_task",
+      "cause": "设问为单步判断金属能否与酸反应并给出'氢/氧'二选一提示，属N4等级1前置行为，未落实等级3的多物质体系推理。",
+      "acceptance_criteria": "修订后学生须在多金属与稀盐酸体系中自主连接多个关系推理反应进程或共存，并说明判断依据；去掉二选一提示；题型、6分、知识点、N4等级3不变。",
+      "issue_ids": [
+        "q20-skills",
+        "q20-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q9": {
+      "question_id": "q9",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "coverage.content"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "608dabef4e7bce6e44b2e00c4f1f5ec1ad2ece3c1b82de127651866852b6e2f8"
+    },
+    "q20": {
+      "question_id": "q20",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "2b3a47a8092e31f9012a6cf68c375372fdcfbf30eeb2fff5e65dd2f1f05ff710"
+    },
+    "q11": {
+      "question_id": "q11",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "c8f30e472646e77b299be2fdb440449205ce76224d40f671b6a7fc4cd470ded1"
+    },
+    "q5": {
+      "question_id": "q5",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.cognition",
+        "difficulty_cognition.cognition",
+        "difficulty_cognition.difficulty",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "f6e79bd3896dfd24e0e7edd09906e56a6ccfb338c8fa387f479a5ee569ef56ad"
+    },
+    "q14": {
+      "question_id": "q14",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "difficulty_cognition.cognition",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "6b7cb8cd8a1ee88aae36fc239a981e725dae31be731cdec3ebcb113427e4ca08"
+    },
+    "q23": {
+      "question_id": "q23",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.facts",
+        "science.solvability",
+        "science.answer",
+        "specification.scoring"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "9282d897bb8e5ecefb561af64dabe785af8a4feb935b82cbb7e221aacd513818"
+    }
+  }
+}

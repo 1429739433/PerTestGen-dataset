@@ -1,0 +1,258 @@
+{
+  "D": [
+    {
+      "question_id": "q5",
+      "dimensions": [
+        "science",
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 40,
+      "root_cause": "RC7",
+      "suggestion": "重写选项使唯一正确项成立：保留C为正确项（碱与非金属氧化物反应，无沉淀气体但能发生）；将B改为明确错误表述（如“变瘪说明CO₂被NaOH完全吸收，故NaOH已耗尽”），使B不再与C同时成立；A、D维持错误归因。题干设问保持“对该现象的解释及判断正确的是”，在N4二级“依据反应条件规则解释常见反应能否发生”范围内作答，不要求超出识记层级的证据链辨析。"
+    },
+    {
+      "question_id": "q8",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 25,
+      "root_cause": "RC7",
+      "suggestion": "消除“足量”歧义：将题干改为“滴加稀盐酸至恰好不再产生气泡（碳酸钠恰好完全反应）”，使反应后溶液只含Na⁺、Cl⁻，C唯一成立；或改为“滴加过量稀盐酸”并把正确项改为A（Na⁺、Cl⁻、H⁺），同步修改答案与评分点。二者择一，保证单选唯一。"
+    },
+    {
+      "question_id": "q21",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 20,
+      "root_cause": "RC7",
+      "suggestion": "修改第(4)问前提：将“恰好完全反应，得到只含NaCl的溶液乙”改为“逐滴加入稀盐酸至酚酞恰好褪色，得到溶液乙”，再设问“检验溶液乙中是否残留氢氧化钠”，使设问与前提自洽；答案与评分点同步改为“先确认溶液为中性（pH=7）再用酚酞检验，排除盐酸干扰”。(1)(2)(3)问及评分点保持不变。"
+    },
+    {
+      "question_id": "q11",
+      "dimensions": [
+        "science",
+        "specification"
+      ],
+      "penalty": 15,
+      "root_cause": "RC7",
+      "suggestion": "消除A项歧义：在设问中明确“在三瓶溶液已限定的条件下，下列对鉴别方案及结论的评价正确的是”，并将A项改为明确错误表述（如“pH可区分所有中性溶液”）；同时精简C项冗长含混表述为清晰陈述句，使D唯一成立。"
+    },
+    {
+      "question_id": "q6",
+      "dimensions": [
+        "skills",
+        "difficulty_cognition"
+      ],
+      "penalty": 15,
+      "root_cause": "RC1",
+      "suggestion": "将任务提升至N3三级“自主判断并书写方程式”：把选项改为只给反应物与部分生成物（或给出未配平、缺符号的候选式），要求学生自主判断生成物并检查配平与↑↓符号；或改为“下列反应中化学方程式书写正确的是”并加入需自主判断产物类别的干扰项，使辨认配平不再是唯一作答路径。题型、分值、知识点、难度不变。"
+    }
+  ],
+  "ES": [
+    {
+      "question_id": "q5",
+      "root_cause": "RC7",
+      "operator": "rewrite_options",
+      "cause": "B项“变瘪只能说明CO₂减少，不能据此证明NaOH与CO₂反应”科学正确，与参考答案C同时成立，单选唯一性被破坏（q5-science、q5-science-veto）。",
+      "acceptance_criteria": "四个选项中恰有一个正确项且为C；B项改为明确错误表述（如“变瘪说明CO₂被NaOH完全吸收，故NaOH已耗尽”）；A、D维持错误归因；逐项独立核验后true_options仅含C；评分点仍为3分且与C内容一致。",
+      "issue_ids": [
+        "q5-science",
+        "q5-science-veto"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q5",
+      "root_cause": "RC2",
+      "operator": "align_task_to_level",
+      "cause": "蓝图cognition为“识记”，但A、B项要求辨析“现象—证据—结论”逻辑链，超出识记层级（q5-skills、q5-difficulty_cognition）。",
+      "acceptance_criteria": "题干设问收敛为“依据反应条件规则判断NaOH与CO₂能否反应及现象解释”，不要求排除溶解干扰的证据链推理；N4二级行为（解释常见反应能否发生）在正确项中可观察；蓝图cognition字段保持冻结不改。",
+      "issue_ids": [
+        "q5-skills",
+        "q5-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q8",
+      "root_cause": "RC7",
+      "operator": "clarify_stem_condition",
+      "cause": "“足量稀盐酸”未明确是恰好完全反应还是过量，若理解为过量则A（Na⁺、Cl⁻、H⁺）也成立，单选唯一性被破坏（q8-science、q8-science-veto、q8-specification）。",
+      "acceptance_criteria": "题干明确“恰好完全反应”或“过量”之一；若为恰好完全反应，true_options仅含C；若为过量，正确项改为A并同步修改答案与评分点；逐项核验后unique_and_matches为true。",
+      "issue_ids": [
+        "q8-science",
+        "q8-science-veto",
+        "q8-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q21",
+      "root_cause": "RC7",
+      "operator": "rewrite_subquestion",
+      "cause": "第(4)问前提“恰好完全反应，得到只含NaCl的溶液乙”与设问“检验是否残留氢氧化钠”自相矛盾，答案干扰讨论“溶液乙中若含盐酸”亦与前提冲突（q21-science、q21-specification）。",
+      "acceptance_criteria": "第(4)问前提改为“逐滴加入稀盐酸至酚酞恰好褪色，得到溶液乙”；设问、答案与评分点自洽，答案须包含“先确认溶液为中性（pH=7）再用酚酞检验，排除盐酸干扰”；(1)(2)(3)问及评分点不变，总分仍为5分。",
+      "issue_ids": [
+        "q21-science",
+        "q21-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q11",
+      "root_cause": "RC7",
+      "operator": "clarify_stem_and_option",
+      "cause": "题干限定A、B、C为三种给定溶液之一，A项“仅凭pH数据即可完全确定成分”在字面上可读作成立，D的唯一性依赖对“完全确定”的特定解读；C项表述冗长含混（q11-science、q11-specification）。",
+      "acceptance_criteria": "设问明确“在三瓶溶液已限定的条件下，对鉴别方案及结论的评价”；A项改为明确错误表述（如“pH可区分所有中性溶液”）；C项精简为清晰陈述句；逐项核验后true_options仅含D，评分点1+2=3分与D内容一致。",
+      "issue_ids": [
+        "q11-science",
+        "q11-specification"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    },
+    {
+      "question_id": "q6",
+      "root_cause": "RC1",
+      "operator": "rewrite_task",
+      "cause": "N3三级要求“不给出完整步骤，自主判断并书写方程式”，但四个选项已给出完整方程式，学生仅比对配平与状态符号即可作答，目标行为未落实（q6-skills、q6-difficulty_cognition）。",
+      "acceptance_criteria": "选项不再直接给出完整正确方程式，学生须自主判断生成物并检查配平与↑↓符号；或加入需自主判断产物类别的干扰项；题型、分值3分、知识点、难度easy不变；评分点与正确项一致。",
+      "issue_ids": [
+        "q6-skills",
+        "q6-difficulty_cognition"
+      ],
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ]
+    }
+  ],
+  "blocking_conflicts": [],
+  "edit_scopes": {
+    "q21": {
+      "question_id": "q21",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "0035ffca848f0878b4b1209c468da530ddb18e215c8307ccc25a90c3c4433e16"
+    },
+    "q11": {
+      "question_id": "q11",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "43582ff73dd020e36d01bf3314d8e71da586008284086b31c660f2cb3e93b9d0"
+    },
+    "q5": {
+      "question_id": "q5",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "skills.cognition",
+        "difficulty_cognition.cognition"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "bd80e80d2050097ec57ba59b2f4a8cf2002e7f4696dde53cc4b86e4bb796ee1e"
+    },
+    "q6": {
+      "question_id": "q6",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "skills.dimension",
+        "difficulty_cognition.difficulty"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "dc15c554ff9e6eadc3dd61cb2b933e47a41fed21ca0c1abdda02263e53b97abb"
+    },
+    "q8": {
+      "question_id": "q8",
+      "allowed_fields": [
+        "stem",
+        "options",
+        "subquestions",
+        "answer",
+        "scoring_points"
+      ],
+      "basis_checks": [
+        "science.solvability",
+        "science.answer",
+        "specification.clarity"
+      ],
+      "stem_defect_quotes": [],
+      "policy": "task_preserving_revision",
+      "question_fingerprint": "77b761ea2b978aa3f212d2626001efe17f266421ea575a8e321cf710ccff291e"
+    }
+  }
+}
